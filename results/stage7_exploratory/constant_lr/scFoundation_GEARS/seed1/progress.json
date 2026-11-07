@@ -1,0 +1,10 @@
+{
+  "model": "scFoundation_GEARS",
+  "seed": 1,
+  "epoch": 2,
+  "phase": "training",
+  "rows_processed": 24,
+  "training_rows": 44158,
+  "epoch_elapsed_seconds": 0.2366182804107666,
+  "time_unix": 1794051907.3252785
+}

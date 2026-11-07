@@ -1,0 +1,37 @@
+{
+  "target_index": 10,
+  "target": "neutrophil",
+  "completed_utc": "2026-11-07T07:17:16.436765+00:00",
+  "seconds": 3.1094131629215553,
+  "timing_scope": "assembly_after_shared_GPU_paths",
+  "metrics": [
+    {
+      "target": "neutrophil",
+      "model": "Lasso_min",
+      "R2": 0.5466064410816946,
+      "RMSE": 0.29544369299854173,
+      "Pearson": 0.7396861728833906,
+      "Spearman": 0.6027902990941212
+    },
+    {
+      "target": "neutrophil",
+      "model": "Lasso_1se",
+      "R2": 0.5334843474357585,
+      "RMSE": 0.2996885566836003,
+      "Pearson": 0.7304691465594665,
+      "Spearman": 0.5880067852843305
+    },
+    {
+      "target": "neutrophil",
+      "model": "Mean_baseline",
+      "R2": -0.00013893625453031966,
+      "RMSE": 0.43880060508653923,
+      "Pearson": -0.015715968407374076,
+      "Spearman": -0.006834433096744683
+    }
+  ],
+  "n_fits": 960,
+  "n_retried": 0,
+  "all_converged": true,
+  "input_sha256": "37afe6e27bcb80676f6ae2e92bd0ec77d1acd4480f1eabc1100f8cbee18175be"
+}

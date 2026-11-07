@@ -1,0 +1,10 @@
+﻿annotation_class,construct_status,n
+TF,no_MUT_label,291
+noncoding_RNA,MUT_label,7
+noncoding_RNA,no_MUT_label,179
+other_locus,no_MUT_label,7
+other_protein_coding,MUT_label,2
+other_protein_coding,no_MUT_label,1908
+pseudogene,no_MUT_label,3
+unresolved,MUT_label,3
+unresolved,no_MUT_label,317

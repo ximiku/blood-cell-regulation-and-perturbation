@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "command": [
+        "/Applications/ChatGPT.app/Contents/Resources/tectonic/tectonic",
+        "-X",
+        "compile",
+        "--outdir",
+        "/path/to/user/Desktop/CourseData/26_fall/Statistical_analysis_of_genomics_data/HW2/solution/manuscript/build",
+        "--outfmt",
+        "pdf",
+        "--print",
+        "--untrusted",
+        "main.tex"
+      ],
+      "compiler": "tectonic",
+      "exitCode": 101,
+      "log": "note: \"version 2\" Tectonic command-line interface activated\n\nthread 'main' (4459165) panicked at src/config.rs:154:18:\ncalled `Result::unwrap()` on an `Err` value: failed to create directory `/path/to/user/Library/Caches/TectonicProject.Tectonic/bundles/hashes` or one of its parents\n\nCaused by:\n    Operation not permitted (os error 1)\nnote: run with `RUST_BACKTRACE=1` environment variable to display a backtrace\n",
+      "pdfExists": false,
+      "pdfPath": "/path/to/user/Desktop/CourseData/26_fall/Statistical_analysis_of_genomics_data/HW2/solution/manuscript/build/main.pdf"
+    }
+  ],
+  "command": null,
+  "compiler": null,
+  "exitCode": 1,
+  "log": "note: \"version 2\" Tectonic command-line interface activated\n\nthread 'main' (4459165) panicked at src/config.rs:154:18:\ncalled `Result::unwrap()` on an `Err` value: failed to create directory `/path/to/user/Library/Caches/TectonicProject.Tectonic/bundles/hashes` or one of its parents\n\nCaused by:\n    Operation not permitted (os error 1)\nnote: run with `RUST_BACKTRACE=1` environment variable to display a backtrace\n",
+  "pdfExists": false,
+  "pdfPath": "/path/to/user/Desktop/CourseData/26_fall/Statistical_analysis_of_genomics_data/HW2/solution/manuscript/build/main.pdf",
+  "rootFile": "/path/to/user/Desktop/CourseData/26_fall/Statistical_analysis_of_genomics_data/HW2/solution/manuscript/main.tex",
+  "tectonic": {
+    "checked": [
+      {
+        "path": "/Applications/ChatGPT.app/Contents/Resources/tectonic/tectonic",
+        "source": "app"
+      }
+    ],
+    "path": "/Applications/ChatGPT.app/Contents/Resources/tectonic/tectonic",
+    "reason": "Tectonic executable is available.",
+    "source": "app",
+    "status": "available",
+    "version": "Tectonic 0.17.0"
+  },
+  "tectonicSuitability": {
+    "reasons": [
+      "/path/to/user/Desktop/CourseData/26_fall/Statistical_analysis_of_genomics_data/HW2/solution/manuscript/main.tex: TeX program directive asks for xelatex"
+    ],
+    "scannedFiles": [
+      "/path/to/user/Desktop/CourseData/26_fall/Statistical_analysis_of_genomics_data/HW2/solution/manuscript/main.tex",
+      "/path/to/user/Desktop/CourseData/26_fall/Statistical_analysis_of_genomics_data/HW2/solution/manuscript/appendices.tex",
+      "/path/to/user/Desktop/CourseData/26_fall/Statistical_analysis_of_genomics_data/HW2/solution/manuscript/references.tex"
+    ],
+    "suitable": false
+  },
+  "texliveDetection": null
+}

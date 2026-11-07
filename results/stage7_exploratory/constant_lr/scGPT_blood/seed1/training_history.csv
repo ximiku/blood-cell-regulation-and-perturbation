@@ -1,0 +1,2 @@
+epoch,mean_training_batch_loss,validation_condition_equal_MSE,training_seconds,validation_seconds,best_epoch,best_validation_MSE,training_rows_seen,max_gradient_norm
+1,0.04879386919564095,0.0019217312373414571,287.96682143211365,185.7880301475525,1,0.0019217312373414571,44158,1.728447675704956

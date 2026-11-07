@@ -1,0 +1,18 @@
+{
+  "id": "self_readout/exclude_HOXB5",
+  "name": "exclude_HOXB5",
+  "kind": "self_readout",
+  "dataset": "raw",
+  "tolerance": 1e-06,
+  "n_train": 11921,
+  "n_validation": 0,
+  "parameters": {},
+  "initialization": "zero",
+  "seconds": 2.0686293890466914,
+  "model_path_seconds_excluding_shared_preprocessing": {
+    "Lasso": 1.9599945480003953
+  },
+  "device": 2,
+  "all_converged": true,
+  "completed_utc": "2026-11-07T08:16:44.408116+00:00"
+}

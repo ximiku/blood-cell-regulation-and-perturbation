@@ -1,0 +1,212 @@
+<?xml version='1.0' encoding='utf-8'?>
+<GraphPadPrismFile PrismXMLVersion="5.00">
+  <Created>
+    <OriginalVersion CreatedByProgram="HW2 lossless data export" CreatedByVersion="1.0" DateTime="2026-11-07T09:45:57.455205+00:00" />
+  </Created>
+  <TableSequence Selected="1">
+    <Ref ID="Table0" Selected="1" />
+    <Ref ID="Table1" Selected="0" />
+    <Ref ID="Table2" Selected="0" />
+    <Ref ID="Table3" Selected="0" />
+  </TableSequence>
+  <Table ID="Table0" XFormat="none" YFormat="replicates" TableType="TwoWay" EVFormat="AsteriskAfterNumber" Replicates="1">
+    <Title>B cell</Title>
+    <RowTitlesColumn Width="130">
+      <Subcolumn>
+        <d>Mean baseline</d>
+        <d>PCR</d>
+        <d>PLS</d>
+        <d>Ridge</d>
+        <d>Nonnegative Lasso</d>
+        <d>Lasso</d>
+        <d>Elastic Net</d>
+      </Subcolumn>
+    </RowTitlesColumn>
+    <YColumn Width="100" Decimals="8" Subcolumns="1">
+      <Title>1-SE</Title>
+      <Subcolumn>
+        <d />
+        <d>0.13844285680276491</d>
+        <d>0.39348775729887941</d>
+        <d>0.41835684088597608</d>
+        <d>0.1325864912767763</d>
+        <d>0.3974111141150497</d>
+        <d>0.40407454621371069</d>
+      </Subcolumn>
+    </YColumn>
+    <YColumn Width="100" Decimals="8" Subcolumns="1">
+      <Title>baseline</Title>
+      <Subcolumn>
+        <d>-3.9970534928768231e-05</d>
+        <d />
+        <d />
+        <d />
+        <d />
+        <d />
+        <d />
+      </Subcolumn>
+    </YColumn>
+    <YColumn Width="100" Decimals="8" Subcolumns="1">
+      <Title>Minimum MSE</Title>
+      <Subcolumn>
+        <d />
+        <d>0.15134204956363509</d>
+        <d>0.41422148203239562</d>
+        <d>0.43502078866597532</d>
+        <d>0.1686005739804011</d>
+        <d>0.42709634271481939</d>
+        <d>0.4309208437518009</d>
+      </Subcolumn>
+    </YColumn>
+  </Table>
+  <Table ID="Table1" XFormat="none" YFormat="replicates" TableType="TwoWay" EVFormat="AsteriskAfterNumber" Replicates="1">
+    <Title>Plasma cell</Title>
+    <RowTitlesColumn Width="130">
+      <Subcolumn>
+        <d>Mean baseline</d>
+        <d>PCR</d>
+        <d>PLS</d>
+        <d>Ridge</d>
+        <d>Nonnegative Lasso</d>
+        <d>Lasso</d>
+        <d>Elastic Net</d>
+      </Subcolumn>
+    </RowTitlesColumn>
+    <YColumn Width="100" Decimals="8" Subcolumns="1">
+      <Title>1-SE</Title>
+      <Subcolumn>
+        <d />
+        <d>0.10975477378233919</d>
+        <d>0.4026185357082338</d>
+        <d>0.4217191432580556</d>
+        <d>0.078361710582461205</d>
+        <d>0.3928585065803718</d>
+        <d>0.40099153233882018</d>
+      </Subcolumn>
+    </YColumn>
+    <YColumn Width="100" Decimals="8" Subcolumns="1">
+      <Title>baseline</Title>
+      <Subcolumn>
+        <d>-0.00017111530900489999</d>
+        <d />
+        <d />
+        <d />
+        <d />
+        <d />
+        <d />
+      </Subcolumn>
+    </YColumn>
+    <YColumn Width="100" Decimals="8" Subcolumns="1">
+      <Title>Minimum MSE</Title>
+      <Subcolumn>
+        <d />
+        <d>0.13618470311616121</d>
+        <d>0.41948399200548819</d>
+        <d>0.44286580976083612</d>
+        <d>0.12694156560283379</d>
+        <d>0.42892492704202068</d>
+        <d>0.43590859003816351</d>
+      </Subcolumn>
+    </YColumn>
+  </Table>
+  <Table ID="Table2" XFormat="none" YFormat="replicates" TableType="TwoWay" EVFormat="AsteriskAfterNumber" Replicates="1">
+    <Title>Monocyte</Title>
+    <RowTitlesColumn Width="130">
+      <Subcolumn>
+        <d>Mean baseline</d>
+        <d>PCR</d>
+        <d>PLS</d>
+        <d>Ridge</d>
+        <d>Nonnegative Lasso</d>
+        <d>Lasso</d>
+        <d>Elastic Net</d>
+      </Subcolumn>
+    </RowTitlesColumn>
+    <YColumn Width="100" Decimals="8" Subcolumns="1">
+      <Title>1-SE</Title>
+      <Subcolumn>
+        <d />
+        <d>0.21610291466733869</d>
+        <d>0.4412749996234181</d>
+        <d>0.47824994488444261</d>
+        <d>0.1516910614572104</d>
+        <d>0.44483540532533972</d>
+        <d>0.44951312137025867</d>
+      </Subcolumn>
+    </YColumn>
+    <YColumn Width="100" Decimals="8" Subcolumns="1">
+      <Title>baseline</Title>
+      <Subcolumn>
+        <d>-0.00024320105040050001</d>
+        <d />
+        <d />
+        <d />
+        <d />
+        <d />
+        <d />
+      </Subcolumn>
+    </YColumn>
+    <YColumn Width="100" Decimals="8" Subcolumns="1">
+      <Title>Minimum MSE</Title>
+      <Subcolumn>
+        <d />
+        <d>0.23192713790449279</d>
+        <d>0.47555922895183911</d>
+        <d>0.4958167707572167</d>
+        <d>0.1978724089785398</d>
+        <d>0.48349760822117571</d>
+        <d>0.48743020044098379</d>
+      </Subcolumn>
+    </YColumn>
+  </Table>
+  <Table ID="Table3" XFormat="none" YFormat="replicates" TableType="TwoWay" EVFormat="AsteriskAfterNumber" Replicates="1">
+    <Title>Erythrocyte</Title>
+    <RowTitlesColumn Width="130">
+      <Subcolumn>
+        <d>Mean baseline</d>
+        <d>PCR</d>
+        <d>PLS</d>
+        <d>Ridge</d>
+        <d>Nonnegative Lasso</d>
+        <d>Lasso</d>
+        <d>Elastic Net</d>
+      </Subcolumn>
+    </RowTitlesColumn>
+    <YColumn Width="100" Decimals="8" Subcolumns="1">
+      <Title>1-SE</Title>
+      <Subcolumn>
+        <d />
+        <d>0.37199216034039878</d>
+        <d>0.57303878340874981</d>
+        <d>0.58706304206845628</d>
+        <d>0.29771819159810747</d>
+        <d>0.56849170124548842</d>
+        <d>0.57247015902028353</d>
+      </Subcolumn>
+    </YColumn>
+    <YColumn Width="100" Decimals="8" Subcolumns="1">
+      <Title>baseline</Title>
+      <Subcolumn>
+        <d>-0.0001054567035141</d>
+        <d />
+        <d />
+        <d />
+        <d />
+        <d />
+        <d />
+      </Subcolumn>
+    </YColumn>
+    <YColumn Width="100" Decimals="8" Subcolumns="1">
+      <Title>Minimum MSE</Title>
+      <Subcolumn>
+        <d />
+        <d>0.38965626114069751</d>
+        <d>0.59920694413812714</d>
+        <d>0.61480577937340986</d>
+        <d>0.3356966585537372</d>
+        <d>0.60927642731098874</d>
+        <d>0.61337012619389408</d>
+      </Subcolumn>
+    </YColumn>
+  </Table>
+</GraphPadPrismFile>

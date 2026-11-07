@@ -1,0 +1,24 @@
+{"check": "frozen_input_shared_splits_and_100_draws", "passed": true, "detail": {"jobs": 172, "landmark": 965, "sample_size": 9537}}
+{"check": "fold_preprocessing_all_validation_MSE_and_certificates", "passed": true, "detail": {"n_saved_certificates": 29312, "n_independent_direct_certificates": 2240, "max_MSE_error": 2.1760371282653068e-14, "max_gap_error": 5.923872503643679e-13, "max_iterations": 7075}}
+{"check": "all_minimum_and_one_SE_choices", "passed": true, "detail": {"pairs": 168}}
+Traceback (most recent call last):
+  File "/root/HW2_20261107/solution/scripts/verify_stage4.py", line 195, in <module>
+    else:numeric()
+  File "/root/HW2_20261107/solution/scripts/verify_stage4.py", line 122, in numeric
+    close(row[['R2','RMSE','Pearson','Spearman']].to_numpy(float),calc);metrics_rows+=1
+  File "/root/HW2_20261107/solution/scripts/verify_stage4.py", line 14, in close
+    def close(a,b,atol=2e-9):np.testing.assert_allclose(a,b,atol=atol,rtol=2e-8,equal_nan=True)
+  File "/root/HW2_20261107/envs/statistics/lib/python3.10/site-packages/numpy/testing/_private/utils.py", line 1504, in assert_allclose
+    assert_array_compare(compare, actual, desired, err_msg=str(err_msg),
+  File "/usr/lib/python3.10/contextlib.py", line 79, in inner
+    return func(*args, **kwds)
+  File "/root/HW2_20261107/envs/statistics/lib/python3.10/site-packages/numpy/testing/_private/utils.py", line 797, in assert_array_compare
+    raise AssertionError(msg)
+AssertionError: 
+Not equal to tolerance rtol=2e-08, atol=2e-09
+
+Mismatched elements: 1 / 4 (25%)
+Max absolute difference: 1.33870073e-08
+Max relative difference: 4.70953894e-08
+ x: array([0.078362, 0.205741, 0.305316, 0.284253])
+ y: array([0.078362, 0.205741, 0.305316, 0.284253])

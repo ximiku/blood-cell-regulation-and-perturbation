@@ -1,0 +1,219 @@
+<?xml version='1.0' encoding='utf-8'?>
+<GraphPadPrismFile PrismXMLVersion="5.00">
+  <Created>
+    <OriginalVersion CreatedByProgram="HW2 lossless data export" CreatedByVersion="1.0" DateTime="2026-11-07T09:45:57.073946+00:00" />
+  </Created>
+  <TableSequence Selected="1">
+    <Ref ID="Table0" Selected="1" />
+  </TableSequence>
+  <Table ID="Table0" XFormat="numbers" YFormat="replicates" TableType="XY" EVFormat="AsteriskAfterNumber" Replicates="1">
+    <Title>PCA PC1 vs PC2</Title>
+    <RowTitlesColumn Width="130">
+      <Subcolumn>
+        <d>HSC</d>
+        <d>CMP</d>
+        <d>Erythrocyte</d>
+        <d>Platelet</d>
+        <d>Macrophage</d>
+        <d>B cell</d>
+        <d>Monocyte</d>
+        <d>NK cell</d>
+        <d>CD4 T</d>
+        <d>CD8 T</d>
+        <d>Basophil</d>
+        <d>Neutrophil</d>
+        <d>pDC</d>
+        <d>Plasma cell</d>
+        <d>NK T</d>
+        <d>Treg</d>
+        <d>Classical mono.</d>
+        <d>Non-classical mono.</d>
+        <d>Naive CD4 T</d>
+        <d>Intermediate mono.</d>
+        <d>Precursor</d>
+      </Subcolumn>
+    </RowTitlesColumn>
+    <XColumn Width="100" Decimals="8" Subcolumns="1">
+      <Title>PC1 (28.9%)</Title>
+      <Subcolumn>
+        <d>-11.442781801400001</d>
+        <d>-10.1839916957</d>
+        <d>-22.461699256700001</d>
+        <d>-17.934820207800001</d>
+        <d>22.5070434561</d>
+        <d>-8.5243748404699993</d>
+        <d>19.5393092891</d>
+        <d>-5.9990813332400004</d>
+        <d>-13.218309770199999</d>
+        <d>-6.0878381068099996</d>
+        <d>13.237670956900001</d>
+        <d>29.8911095767</d>
+        <d>-1.89806990395</d>
+        <d>-9.9742718933599992</d>
+        <d>-7.6914105854799999</d>
+        <d>-12.778237943700001</d>
+        <d>24.302371759500002</d>
+        <d>19.3994442103</d>
+        <d>-14.222848812000001</d>
+        <d>27.513440365299999</d>
+        <d>-13.9726534631</d>
+      </Subcolumn>
+    </XColumn>
+    <YColumn Width="100" Decimals="8" Subcolumns="1">
+      <Title>HSC</Title>
+      <Subcolumn>
+        <d>7.5260844066999999</d>
+        <d />
+        <d />
+        <d />
+        <d />
+        <d />
+        <d />
+        <d />
+        <d />
+        <d />
+        <d />
+        <d />
+        <d />
+        <d />
+        <d />
+        <d />
+        <d />
+        <d />
+        <d />
+        <d />
+        <d />
+      </Subcolumn>
+    </YColumn>
+    <YColumn Width="100" Decimals="8" Subcolumns="1">
+      <Title>B cell</Title>
+      <Subcolumn>
+        <d />
+        <d />
+        <d />
+        <d />
+        <d />
+        <d>9.9118134794999992</d>
+        <d />
+        <d />
+        <d />
+        <d />
+        <d />
+        <d />
+        <d />
+        <d />
+        <d />
+        <d />
+        <d />
+        <d />
+        <d />
+        <d />
+        <d />
+      </Subcolumn>
+    </YColumn>
+    <YColumn Width="100" Decimals="8" Subcolumns="1">
+      <Title>Plasma cell</Title>
+      <Subcolumn>
+        <d />
+        <d />
+        <d />
+        <d />
+        <d />
+        <d />
+        <d />
+        <d />
+        <d />
+        <d />
+        <d />
+        <d />
+        <d />
+        <d>1.3003668806199999</d>
+        <d />
+        <d />
+        <d />
+        <d />
+        <d />
+        <d />
+        <d />
+      </Subcolumn>
+    </YColumn>
+    <YColumn Width="100" Decimals="8" Subcolumns="1">
+      <Title>Monocyte</Title>
+      <Subcolumn>
+        <d />
+        <d />
+        <d />
+        <d />
+        <d />
+        <d />
+        <d>-1.6494501883499999</d>
+        <d />
+        <d />
+        <d />
+        <d />
+        <d />
+        <d />
+        <d />
+        <d />
+        <d />
+        <d />
+        <d />
+        <d />
+        <d />
+        <d />
+      </Subcolumn>
+    </YColumn>
+    <YColumn Width="100" Decimals="8" Subcolumns="1">
+      <Title>Erythrocyte</Title>
+      <Subcolumn>
+        <d />
+        <d />
+        <d>-32.681657190899998</d>
+        <d />
+        <d />
+        <d />
+        <d />
+        <d />
+        <d />
+        <d />
+        <d />
+        <d />
+        <d />
+        <d />
+        <d />
+        <d />
+        <d />
+        <d />
+        <d />
+        <d />
+        <d />
+      </Subcolumn>
+    </YColumn>
+    <YColumn Width="100" Decimals="8" Subcolumns="1">
+      <Title>Other cell types</Title>
+      <Subcolumn>
+        <d />
+        <d>10.206017728000001</d>
+        <d />
+        <d>-44.692150909399999</d>
+        <d>-2.8153357521700002</d>
+        <d />
+        <d />
+        <d>9.2638453442199999</d>
+        <d>8.9629255161099994</d>
+        <d>10.300875831200001</d>
+        <d>-5.9169745010500003</d>
+        <d>-18.539486938900001</d>
+        <d>10.288244735299999</d>
+        <d />
+        <d>12.166431381400001</d>
+        <d>9.1194767817199995</d>
+        <d>-0.64241189883799998</d>
+        <d>3.4737817889799998</d>
+        <d>13.3546858128</d>
+        <d>2.3956533034</d>
+        <d>-1.3327356104500001</d>
+      </Subcolumn>
+    </YColumn>
+  </Table>
+</GraphPadPrismFile>

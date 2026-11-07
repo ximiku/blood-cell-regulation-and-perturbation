@@ -1,0 +1,18 @@
+{
+  "id": "self_readout/exclude_TCF7L2",
+  "name": "exclude_TCF7L2",
+  "kind": "self_readout",
+  "dataset": "raw",
+  "tolerance": 1e-06,
+  "n_train": 11921,
+  "n_validation": 0,
+  "parameters": {},
+  "initialization": "zero",
+  "seconds": 1.680797339999117,
+  "model_path_seconds_excluding_shared_preprocessing": {
+    "Lasso": 1.5767966270213947
+  },
+  "device": 1,
+  "all_converged": true,
+  "completed_utc": "2026-11-07T08:16:48.843035+00:00"
+}

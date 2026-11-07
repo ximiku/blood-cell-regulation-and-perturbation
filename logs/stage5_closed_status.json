@@ -1,0 +1,28 @@
+{
+  "stage": 5,
+  "status": "user_approved",
+  "started_utc": "2026-11-07T09:18:14.959969+00:00",
+  "previous_stage_user_approved": true,
+  "independent_review_required": true,
+  "next_stage": 6,
+  "next_stage_started": false,
+  "pending_items": [
+    {
+      "item": "User-authorized Prism migration of core and major supplementary figures",
+      "status": "inputs_reviewed; model_comparison_exported; remaining_graphs_blocked_by_disabled_Prism_commands",
+      "data_pack": "prism/migration/figure_specs.json",
+      "authorization_requested": "AppleScript activate Prism and open task-specific .pzc; CUA restriction on alternate control",
+      "AppleScript_authorization": "user_granted: activate Prism and open task-specific native .pzc for save/export",
+      "recovery_log": "prism/migration/GUI_RECOVERY_LOG.md"
+    },
+    {
+      "item": "20 retuned resamples per target",
+      "status": "planned_after_core_report; not_started"
+    }
+  ],
+  "independent_review": "core_science_passed; expanded_Prism_figure_review_pending",
+  "independent_review_path": "reports/05_independent_review.md",
+  "new_model_fits": 0,
+  "Prism_migration": "cancelled_by_user",
+  "completed_utc": "2026-11-07T10:03:14.594353+00:00"
+}

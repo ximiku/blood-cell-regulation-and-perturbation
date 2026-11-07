@@ -1,0 +1,12 @@
+{
+  "frozen_parameters": 119251772,
+  "cache_check_max_abs_difference": 0.0,
+  "train_batch_size": 24,
+  "evaluation_batch_size": 12,
+  "train_cells": 44158,
+  "learning_rate": 0.001,
+  "reference_pool_size": 64,
+  "TF32": true,
+  "initialization": "fresh public pretraining or random, no pilot checkpoint",
+  "train_graph_seed": 1
+}

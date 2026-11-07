@@ -1,0 +1,37 @@
+{
+  "target_index": 20,
+  "target": "hematopoietic precursor cell",
+  "completed_utc": "2026-11-07T07:17:25.559702+00:00",
+  "seconds": 3.0215125320246443,
+  "timing_scope": "assembly_after_shared_GPU_paths",
+  "metrics": [
+    {
+      "target": "hematopoietic precursor cell",
+      "model": "Lasso_min",
+      "R2": 0.31236042305963563,
+      "RMSE": 0.08980734457881955,
+      "Pearson": 0.559852719360339,
+      "Spearman": 0.5288117544880004
+    },
+    {
+      "target": "hematopoietic precursor cell",
+      "model": "Lasso_1se",
+      "R2": 0.28373635339226955,
+      "RMSE": 0.09165747264302668,
+      "Pearson": 0.5331890034496475,
+      "Spearman": 0.5158980205159882
+    },
+    {
+      "target": "hematopoietic precursor cell",
+      "model": "Mean_baseline",
+      "R2": -0.00022872655300831823,
+      "RMSE": 0.10831312468243141,
+      "Pearson": -0.02016639397877014,
+      "Spearman": -0.016506959728724114
+    }
+  ],
+  "n_fits": 960,
+  "n_retried": 0,
+  "all_converged": true,
+  "input_sha256": "37afe6e27bcb80676f6ae2e92bd0ec77d1acd4480f1eabc1100f8cbee18175be"
+}

@@ -1,0 +1,205 @@
+note: "version 2" Tectonic command-line interface activated
+note: Running TeX ...
+(main.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-02-24> (ctexart.cls (ctexbackend.cfg) (expl3.sty
+(l3backend-xetex.def))
+Document Class: ctexart 2021/12/12 v2.5.8 Chinese adapter for class article (CT
+EX)
+(xparse.sty) (l3keys2e.sty) (ctexhook.sty) (ctexpatch.sty) (fix-cm.sty
+(ts1enc.def)) (ctexopts.cfg) (article.cls
+Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
+(size11.clo)) (ctex-engine-xetex.def (xeCJK.sty (xtemplate.sty) (fontspec.sty
+(fontspec-xetex.sty (fontenc.sty) (fontspec.cfg))) (xeCJK.cfg))) (zhnumber.sty
+(zhnumber-utf8.cfg)) (ctex-scheme-chinese-article.def (ctex-name-utf8.cfg))
+(ctex-fontset-fandol.def)) (ctex.cfg) (geometry.sty (keyval.sty) (ifvtex.sty
+(iftex.sty))) (amsmath.sty
+For additional information on amsmath, use the `?' option.
+(amstext.sty (amsgen.sty)) (amsbsy.sty) (amsopn.sty)) (amssymb.sty
+(amsfonts.sty)) (graphicx.sty (graphics.sty (trig.sty) (graphics.cfg)
+(xetex.def))) (booktabs.sty) (longtable.sty) (array.sty) (tabularx.sty)note: downloading multirow.sty
+warning: failure fetching "multirow.sty" from network (1/3)
+caused by: error sending request for url (https://relay.fullyjustified.net/default_bundle_v33.tar)
+caused by: operation timed out
+
+(multirow.sty)note: downloading caption.sty
+ (caption.stynote: downloading caption3.sty
+ (caption3.sty)note: downloading ltcaption.sty
+ (ltcaption.sty))note: downloading float.sty
+ (float.sty)note: downloading enumitem.sty
+
+(enumitem.sty)note: downloading xcolor.sty
+ (xcolor.stynote: downloading color.cfg
+ (color.cfg)) (hyperref.stynote: downloading ltxcmds.sty
+ (ltxcmds.sty)note: downloading pdftexcmds.sty
+
+(pdftexcmds.stynote: downloading infwarerr.sty
+ (infwarerr.sty))note: downloading kvsetkeys.sty
+ (kvsetkeys.sty)note: downloading kvdefinekeys.sty
+ (kvdefinekeys.sty)note: downloading pdfescape.sty
+
+(pdfescape.sty)note: downloading hycolor.sty
+ (hycolor.sty)note: downloading letltxmacro.sty
+ (letltxmacro.sty)note: downloading auxhook.sty
+ (auxhook.sty)note: downloading kvoptions.sty
+ (kvoptions.sty)note: downloading pd1enc.def
+
+(pd1enc.def)note: downloading intcalc.sty
+ (intcalc.sty)note: downloading etexcmds.sty
+ (etexcmds.sty)note: downloading puenc.def
+ (puenc.def)note: downloading url.sty
+ (url.sty)note: downloading pzdr.tfm
+note: downloading bitset.sty
+ (bitset.stynote: downloading bigintcalc.sty
+
+(bigintcalc.sty)) (atbegshi-ltx.sty))note: downloading hxetex.def
+ (hxetex.defnote: downloading stringenc.sty
+ (stringenc.sty)note: downloading rerunfilecheck.sty
+
+(rerunfilecheck.sty (atveryend-ltx.sty)note: downloading uniquecounter.sty
+ (uniquecounter.sty)))note: downloading fancyhdr.sty
+ (fancyhdr.sty)
+No file main.aux.
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+note: downloading color.sty
+note: downloading nameref.sty
+(nameref.stynote: downloading refcount.sty
+ (refcount.sty)note: downloading gettitlestring.sty
+ (gettitlestring.sty))
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
+note: downloading lmroman17-regular.otf
+note: downloading lmroman12-bold.otf
+note: downloading lmroman12-regular.otf
+note: downloading lmroman8-regular.otf
+note: downloading lmroman6-regular.otf
+note: downloading cmmi8.tfm
+note: downloading cmmi6.tfm
+note: downloading cmsy8.tfm
+note: downloading cmsy6.tfm
+note: downloading cmex8.tfm
+note: downloading cmex7.tfm
+note: downloading umsa.fd
+(umsa.fd)note: downloading msam10.tfm
+note: downloading msam7.tfm
+note: downloading umsb.fd
+ (umsb.fd)note: downloading msbm10.tfm
+note: downloading msbm7.tfm
+note: downloading cmr8.tfm
+note: downloading cmr6.tfm
+note: downloading lmroman7-regular.otf
+note: downloading lmroman5-regular.otf
+note: downloading msam5.tfm
+note: downloading msbm5.tfm
+ [1]
+
+LaTeX Warning: Citation `R01' on page 2 undefined on input line 39.
+
+
+LaTeX Warning: Citation `R02' on page 2 undefined on input line 39.
+
+
+LaTeX Warning: Reference `fig:1' on page 2 undefined on input line 41.
+
+
+LaTeX Warning: Reference `fig:1' on page 2 undefined on input line 44.
+
+
+LaTeX Warning: Reference `app:A' on page 2 undefined on input line 44.
+
+[2] [3]
+
+LaTeX Warning: Reference `fig:2' on page 4 undefined on input line 50.
+
+[4]
+
+LaTeX Warning: Reference `fig:3' on page 5 undefined on input line 55.
+
+[5]
+
+LaTeX Warning: Reference `fig:4' on page 6 undefined on input line 60.
+
+[6]
+
+LaTeX Warning: Citation `R11' on page 7 undefined on input line 67.
+
+
+LaTeX Warning: Reference `fig:5' on page 7 undefined on input line 67.
+
+[7]
+
+LaTeX Warning: Reference `fig:6' on page 8 undefined on input line 74.
+
+[8]
+
+LaTeX Warning: Citation `R03' on page 9 undefined on input line 82.
+
+
+LaTeX Warning: Citation `R04' on page 9 undefined on input line 82.
+
+
+LaTeX Warning: Citation `R05' on page 9 undefined on input line 86.
+
+
+LaTeX Warning: Citation `R08' on page 9 undefined on input line 88.
+
+
+LaTeX Warning: Citation `R06' on page 9 undefined on input line 90.
+
+
+LaTeX Warning: Citation `R07' on page 9 undefined on input line 90.
+
+[9]
+
+LaTeX Warning: Citation `R09' on page 10 undefined on input line 100.
+
+
+LaTeX Warning: Citation `R10' on page 10 undefined on input line 102.
+
+
+LaTeX Warning: Citation `R12' on page 10 undefined on input line 104.
+
+
+LaTeX Warning: Citation `R13' on page 10 undefined on input line 104.
+
+
+LaTeX Warning: Citation `R14' on page 10 undefined on input line 104.
+
+
+LaTeX Warning: Citation `R15' on page 10 undefined on input line 106.
+
+
+LaTeX Warning: Citation `R16' on page 10 undefined on input line 106.
+
+[10]
+
+LaTeX Warning: Citation `R02' on page 11 undefined on input line 113.
+
+[11]
+
+LaTeX Warning: Citation `R11' on page 12 undefined on input line 134.
+
+[12] [13] (references.texnote: downloading FandolFang-Regular.otf
+note: downloading lmmono10-regular.otf
+
+Missing character: There is no β (U+03B2) in font [lmroman10-regular]:mapping=t
+warning: references.tex:10: 
+Missing character: There is no �� (U+03B2) in font [lmroman10-regular]:mapping=tex-text;!
+ex-text;!
+warning: could not represent character "β" (0x3b2) in font "[lmroman10-regular]:mapping=tex-text;"
+warning:   you may need to load the `fontspec` package and use (e.g.) \setmainfont to
+warning:   choose a different font that covers the unrepresentable character(s)
+error: references.tex:18: Too many }'s
+! Too many }'s.
+<recently read> }
+                 
+l.18 \end{thebibliography}aphy}
+                               
+Output written on main.xdv (13 pages, 173620 bytes).
+Transcript written on main.log.
+note: Writing `build/main.log` (27.4130859375 KiB)
+error: something bad happened inside XeTeX, but no output was logged
+error: the XeTeX engine had an unrecoverable error
+caused by: halted on potentially-recoverable error as specified

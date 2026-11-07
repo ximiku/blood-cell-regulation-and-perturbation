@@ -1,0 +1,7 @@
+Compute applications:
+
+GPU state:
+0, 0 %, 0 MiB
+1, 0 %, 0 MiB
+2, 0 %, 0 MiB
+3, 0 %, 0 MiB

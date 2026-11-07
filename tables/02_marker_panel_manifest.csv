@@ -1,0 +1,30 @@
+﻿group,gene_symbol,available_variable,selection
+HSC / progenitor,CD34,True,prespecified_reference_panel
+HSC / progenitor,KIT,True,prespecified_reference_panel
+HSC / progenitor,HLF,True,prespecified_reference_panel
+HSC / progenitor,GATA2,True,prespecified_reference_panel
+B cell,MS4A1,True,prespecified_reference_panel
+B cell,CD79A,True,prespecified_reference_panel
+B cell,CD79B,True,prespecified_reference_panel
+B cell,CD74,True,prespecified_reference_panel
+B cell,HLA-DRA,True,prespecified_reference_panel
+Plasma cell,MZB1,True,prespecified_reference_panel
+Plasma cell,SDC1,True,prespecified_reference_panel
+Plasma cell,JCHAIN,True,prespecified_reference_panel
+Plasma cell,PRDM1,True,prespecified_reference_panel
+Plasma cell,XBP1,True,prespecified_reference_panel
+Plasma cell,DERL3,True,prespecified_reference_panel
+Monocyte,LYZ,True,prespecified_reference_panel
+Monocyte,LST1,True,prespecified_reference_panel
+Monocyte,FCN1,True,prespecified_reference_panel
+Monocyte,S100A8,True,prespecified_reference_panel
+Monocyte,S100A9,True,prespecified_reference_panel
+Monocyte,CTSS,True,prespecified_reference_panel
+Erythroid,GYPA,True,prespecified_reference_panel
+Erythroid,HBA1,True,prespecified_reference_panel
+Erythroid,HBA2,True,prespecified_reference_panel
+Erythroid,HBB,True,prespecified_reference_panel
+Erythroid,ALAS2,True,prespecified_reference_panel
+Erythroid,AHSP,True,prespecified_reference_panel
+Erythroid,KLF1,True,prespecified_reference_panel
+Erythroid,GATA1,True,prespecified_reference_panel

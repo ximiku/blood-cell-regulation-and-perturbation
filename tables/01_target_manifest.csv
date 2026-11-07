@@ -1,0 +1,22 @@
+﻿cell_type,role,focus
+common myeloid progenitor,main_target,False
+erythrocyte,main_target,True
+platelet,main_target,False
+macrophage,main_target,False
+B cell,main_target,True
+monocyte,main_target,True
+natural killer cell,main_target,False
+"CD4-positive, alpha-beta T cell",main_target,False
+"CD8-positive, alpha-beta T cell",main_target,False
+basophil,main_target,False
+neutrophil,main_target,False
+myeloid dendritic cell,supplementary_target,False
+plasmacytoid dendritic cell,main_target,False
+plasma cell,main_target,True
+mature NK T cell,main_target,False
+regulatory T cell,main_target,False
+classical monocyte,main_target,False
+non-classical monocyte,main_target,False
+"naive thymus-derived CD4-positive, alpha-beta T cell",main_target,False
+intermediate monocyte,main_target,False
+hematopoietic precursor cell,main_target,False

@@ -1,0 +1,18 @@
+{
+  "status": "completed",
+  "model": "GEARS",
+  "seed": 2,
+  "epochs": 10,
+  "best_epoch": 5,
+  "best_validation_MSE": 0.001838606759964815,
+  "test_condition_equal_MSE": 0.002293017011486692,
+  "test_conditions": 93,
+  "test_seconds": 2.810353994369507,
+  "total_seconds": 1045.3082914352417,
+  "peak_allocated_GiB": 6.087316513061523,
+  "peak_reserved_GiB": 7.525390625,
+  "all_predictions_finite": true,
+  "train_cells": 45661,
+  "training_reference_pool_size": 64,
+  "frozen_cache": false
+}

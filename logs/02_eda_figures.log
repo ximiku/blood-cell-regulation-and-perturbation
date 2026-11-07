@@ -1,0 +1,40 @@
+{
+  "main_cell_types": 21,
+  "supplementary_cell": "myeloid dendritic cell",
+  "blood_genes": 19994,
+  "pca_HVG": 1000,
+  "pca_variance_ratio_first3": [
+    0.28926647855761134,
+    0.22616137002088393,
+    0.12123252807682385
+  ],
+  "pca_first2_cumulative": 0.5154278485784953,
+  "pca_first3_cumulative": 0.6366603766553192,
+  "focus_rms_all_genes": {
+    "B cell": 0.18356121502104666,
+    "plasma cell": 0.18292134618241251,
+    "monocyte": 0.2239070967989685,
+    "erythrocyte": 0.3700407941927731
+  },
+  "HVG100_ribosomal_prefix_count": 52,
+  "HVG100_HGNC_ribosomal_count": 56,
+  "HVG100_globin_count": 3,
+  "marker_panel_requested": 29,
+  "marker_panel_available": 29,
+  "marker_missing": [],
+  "hsc_nearest": {
+    "cell_type": "hematopoietic stem cell",
+    "euclidean_nearest": "hematopoietic precursor cell",
+    "euclidean_distance": 15.316310687072887,
+    "correlation_nearest": "hematopoietic precursor cell",
+    "correlation": 0.7907455587775987
+  },
+  "pca_all22_variance_first3": [
+    0.2531073522570647,
+    0.22361200462340583,
+    0.15117008405119353
+  ],
+  "figure_count": 7,
+  "training_started": false,
+  "generated_utc": "2026-11-07T06:29:26.206578+00:00"
+}

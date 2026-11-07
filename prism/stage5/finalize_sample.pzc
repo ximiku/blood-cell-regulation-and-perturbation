@@ -1,0 +1,11 @@
+CreateLog
+Open "/path/to/user/Desktop/CourseData/26_fall/Statistical_analysis_of_genomics_data/HW2/solution/prism/stage5/05_Prism_model_comparison.pzfx"
+GoTo G,1
+SetAxisTitle Y "Out-of-fold R2"
+SetGraphTitle "Model performance"
+ExportPDF "/path/to/user/Desktop/CourseData/26_fall/Statistical_analysis_of_genomics_data/HW2/solution/figures/05_Prism_model_comparison.pdf" RGB
+ExportTIF "/path/to/user/Desktop/CourseData/26_fall/Statistical_analysis_of_genomics_data/HW2/solution/figures/05_Prism_model_comparison.tiff" 600 RGBhi compress
+Save
+OpenOutput "/path/to/user/Desktop/CourseData/26_fall/Statistical_analysis_of_genomics_data/HW2/solution/prism/stage5/script_done.txt"
+WText "done"
+CloseOutput

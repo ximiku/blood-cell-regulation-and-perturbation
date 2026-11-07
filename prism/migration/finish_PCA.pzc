@@ -1,0 +1,17 @@
+// Run with the corresponding native graph project active.
+GoTo G, 1
+SetGraphTitle "Cell-state variation"
+SetAxisTitle X, "PC1 (28.9%)"
+SetAxisTitle Y, "PC2 (22.6%)"
+ExportPDF "/path/to/user/Desktop/CourseData/26_fall/Statistical_analysis_of_genomics_data/HW2/solution/figures/05_Prism_PCA_panel1.pdf"
+ExportTIF "/path/to/user/Desktop/CourseData/26_fall/Statistical_analysis_of_genomics_data/HW2/solution/figures/05_Prism_PCA_panel1.tif", 600, RGBhi, LZW
+GoTo G, 2
+SetGraphTitle "Cell-state variation"
+SetAxisTitle X, "PC1 (28.9%)"
+SetAxisTitle Y, "PC3 (12.1%)"
+ExportPDF "/path/to/user/Desktop/CourseData/26_fall/Statistical_analysis_of_genomics_data/HW2/solution/figures/05_Prism_PCA_panel2.pdf"
+ExportTIF "/path/to/user/Desktop/CourseData/26_fall/Statistical_analysis_of_genomics_data/HW2/solution/figures/05_Prism_PCA_panel2.tif", 600, RGBhi, LZW
+Save "/path/to/user/Desktop/CourseData/26_fall/Statistical_analysis_of_genomics_data/HW2/solution/prism/migration/native/05_Prism_PCA.pzfx"
+OpenOutput "/path/to/user/Desktop/CourseData/26_fall/Statistical_analysis_of_genomics_data/HW2/solution/prism/migration/PCA_done.txt"
+WText "done"
+CloseOutput

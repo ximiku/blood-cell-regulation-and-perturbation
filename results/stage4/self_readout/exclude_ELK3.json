@@ -1,0 +1,18 @@
+{
+  "id": "self_readout/exclude_ELK3",
+  "name": "exclude_ELK3",
+  "kind": "self_readout",
+  "dataset": "raw",
+  "tolerance": 1e-06,
+  "n_train": 11921,
+  "n_validation": 0,
+  "parameters": {},
+  "initialization": "zero",
+  "seconds": 1.4258677599718794,
+  "model_path_seconds_excluding_shared_preprocessing": {
+    "Lasso": 1.3234016500646248
+  },
+  "device": 1,
+  "all_converged": true,
+  "completed_utc": "2026-11-07T08:16:51.794190+00:00"
+}

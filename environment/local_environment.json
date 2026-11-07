@@ -1,0 +1,16 @@
+{
+  "python_executable": "/opt/anaconda3/envs/base_clone1/bin/python",
+  "python_version": "3.12.7",
+  "platform": "macOS-14.5-arm64-arm-64bit",
+  "packages": {
+    "numpy": "1.26.4",
+    "pandas": "2.2.2",
+    "scipy": "1.13.1",
+    "scikit-learn": "1.5.1",
+    "h5py": "3.11.0",
+    "tables": "3.10.1",
+    "matplotlib": "3.9.2",
+    "seaborn": "0.13.2"
+  },
+  "strategy": "reuse_verified_runtime_pin_dependencies_no_system_environment_mutation"
+}

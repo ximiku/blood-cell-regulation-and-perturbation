@@ -1,0 +1,16 @@
+{
+  "id": "stability/repeat_075",
+  "name": "repeat_075",
+  "kind": "stability",
+  "dataset": "raw",
+  "n_train": 9537,
+  "n_validation": 0,
+  "parameters": {},
+  "seconds": 0.8231928719906136,
+  "model_path_seconds_excluding_shared_preprocessing": {
+    "Lasso": 0.720963099040091
+  },
+  "device": 2,
+  "all_converged": true,
+  "completed_utc": "2026-11-07T08:11:57.724886+00:00"
+}

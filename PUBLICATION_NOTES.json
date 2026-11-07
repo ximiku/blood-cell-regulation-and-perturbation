@@ -1,0 +1,42 @@
+{
+  "source_unchanged": true,
+  "changes": [
+    ".DS_Store [omit Finder metadata]",
+    "data/input_manifest.json",
+    "environment/README.md",
+    "environment/remote_inventory.json",
+    "logs/01_prepare_attempt1.log",
+    "logs/stage3_artifact_manifest.json",
+    "logs/stage4_artifact_manifest.json",
+    "logs/stage5_artifact_manifest.json",
+    "manuscript/compile_attempt1.json",
+    "manuscript/compile_attempt2.json",
+    "manuscript/generator_warnings.log",
+    "manuscript/upload_files.json",
+    "prism/.DS_Store [omit Finder metadata]",
+    "prism/migration/activate_and_open_script.applescript",
+    "prism/migration/activate_test.applescript",
+    "prism/migration/activation_test.pzc",
+    "prism/migration/finish_Models.pzc",
+    "prism/migration/finish_OOF.pzc",
+    "prism/migration/finish_PCA.pzc",
+    "prism/migration/finish_TF.pzc",
+    "prism/migration/open_pca.pzc",
+    "prism/migration/test_script.pzc",
+    "prism/stage5/finalize_sample.pzc",
+    "reports/08_archive_handoff.md",
+    "scripts/inspect_remote.py",
+    "scripts/stage8_incremental_sync.py",
+    "submission/.DS_Store [omit Finder metadata]",
+    "submission/工作记录.md"
+  ],
+  "credential_pattern_alert_paths": [],
+  "policy": "Replace local user paths and historical GPU connection endpoint in upload copy, omit Finder metadata; preserve scientific data and results.",
+  "original_checksums_note": "Historical manifests retain their original meaning; use release manifests for uploaded copy checksums.",
+  "reviewed_false_positives": [
+    {
+      "path": "environment/remote_wheels/scipy-1.13.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl!scipy/optimize/_highs/_highs_wrapper.cpython-310-x86_64-linux-gnu.so",
+      "reason": "C++ mangled HiGHS splay function symbols inside official SciPy wheel, not credentials."
+    }
+  ]
+}

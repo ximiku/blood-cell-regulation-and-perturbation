@@ -1,0 +1,27 @@
+{
+  "model": "scFoundation_GEARS",
+  "status": "passed",
+  "device": "cuda:2",
+  "gpu_name": "NVIDIA A100-SXM4-80GB",
+  "optimizer_steps": 4,
+  "training_cells": 8,
+  "prediction_cells": 14,
+  "shared_output_genes": 18977,
+  "data_loading_and_model_init_seconds": 12.6252920627594,
+  "training_seconds": 2.127100706100464,
+  "prediction_seconds": 2.6747517585754395,
+  "total_seconds": 17.86704421043396,
+  "peak_allocated_GiB": 7.089354038238525,
+  "peak_reserved_GiB": 12.478515625,
+  "parameters_total": 191834879,
+  "parameters_trainable": 72583107,
+  "parameter_update_verified": true,
+  "frozen_gradient_check": true,
+  "predictions_finite": true,
+  "checkpoint": "pilot_final.pt",
+  "checkpoint_role": "four-step pilot, not formal trained/best model",
+  "metadata": {
+    "frozen_parameters": 119251772,
+    "loading_adaptation": "Official encoder class, CPU checkpoint load with explicit weights_only=False; unrelated optional imports omitted"
+  }
+}

@@ -1,0 +1,361 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "check": "shared_reference_pool_recomputed",
+      "passed": true
+    },
+    {
+      "check": "reference_controls_train_all_splits",
+      "passed": true
+    },
+    {
+      "check": "condition_means_recomputed",
+      "passed": true
+    },
+    {
+      "check": "seed1_partition",
+      "passed": true
+    },
+    {
+      "check": "zero_change_seed1_prediction_alignment",
+      "passed": true
+    },
+    {
+      "check": "zero_change_seed1_MSE_recomputed",
+      "passed": true
+    },
+    {
+      "check": "zero_seed1_definition",
+      "passed": true
+    },
+    {
+      "check": "training_condition_mean_seed1_prediction_alignment",
+      "passed": true
+    },
+    {
+      "check": "training_condition_mean_seed1_MSE_recomputed",
+      "passed": true
+    },
+    {
+      "check": "mean_seed1_condition_weighting",
+      "passed": true
+    },
+    {
+      "check": "Ridge_additive_seed1_prediction_alignment",
+      "passed": true
+    },
+    {
+      "check": "Ridge_additive_seed1_MSE_recomputed",
+      "passed": true
+    },
+    {
+      "check": "ridge_seed1_validation_selection",
+      "passed": true
+    },
+    {
+      "check": "direct_single_additive_seed1_prediction_alignment",
+      "passed": true
+    },
+    {
+      "check": "direct_single_additive_seed1_MSE_recomputed",
+      "passed": true
+    },
+    {
+      "check": "additive_seed1_eligibility",
+      "passed": true
+    },
+    {
+      "check": "GEARS_seed1_prediction_alignment",
+      "passed": true
+    },
+    {
+      "check": "GEARS_seed1_MSE_recomputed",
+      "passed": true
+    },
+    {
+      "check": "GEARS_seed1_best_validation_selection",
+      "passed": true
+    },
+    {
+      "check": "GEARS_seed1_training_and_early_stop",
+      "passed": true
+    },
+    {
+      "check": "GEARS_seed1_loss_equivalence",
+      "passed": true
+    },
+    {
+      "check": "scGPT_blood_seed1_prediction_alignment",
+      "passed": true
+    },
+    {
+      "check": "scGPT_blood_seed1_MSE_recomputed",
+      "passed": true
+    },
+    {
+      "check": "scGPT_blood_seed1_best_validation_selection",
+      "passed": true
+    },
+    {
+      "check": "scGPT_blood_seed1_training_and_early_stop",
+      "passed": true
+    },
+    {
+      "check": "scFoundation_GEARS_seed1_prediction_alignment",
+      "passed": true
+    },
+    {
+      "check": "scFoundation_GEARS_seed1_MSE_recomputed",
+      "passed": true
+    },
+    {
+      "check": "scFoundation_GEARS_seed1_best_validation_selection",
+      "passed": true
+    },
+    {
+      "check": "scFoundation_GEARS_seed1_training_and_early_stop",
+      "passed": true
+    },
+    {
+      "check": "scFoundation_GEARS_seed1_loss_equivalence",
+      "passed": true
+    },
+    {
+      "check": "scFoundation_GEARS_seed1_frozen_cache",
+      "passed": true
+    },
+    {
+      "check": "seed2_partition",
+      "passed": true
+    },
+    {
+      "check": "zero_change_seed2_prediction_alignment",
+      "passed": true
+    },
+    {
+      "check": "zero_change_seed2_MSE_recomputed",
+      "passed": true
+    },
+    {
+      "check": "zero_seed2_definition",
+      "passed": true
+    },
+    {
+      "check": "training_condition_mean_seed2_prediction_alignment",
+      "passed": true
+    },
+    {
+      "check": "training_condition_mean_seed2_MSE_recomputed",
+      "passed": true
+    },
+    {
+      "check": "mean_seed2_condition_weighting",
+      "passed": true
+    },
+    {
+      "check": "Ridge_additive_seed2_prediction_alignment",
+      "passed": true
+    },
+    {
+      "check": "Ridge_additive_seed2_MSE_recomputed",
+      "passed": true
+    },
+    {
+      "check": "ridge_seed2_validation_selection",
+      "passed": true
+    },
+    {
+      "check": "direct_single_additive_seed2_prediction_alignment",
+      "passed": true
+    },
+    {
+      "check": "direct_single_additive_seed2_MSE_recomputed",
+      "passed": true
+    },
+    {
+      "check": "additive_seed2_eligibility",
+      "passed": true
+    },
+    {
+      "check": "GEARS_seed2_prediction_alignment",
+      "passed": true
+    },
+    {
+      "check": "GEARS_seed2_MSE_recomputed",
+      "passed": true
+    },
+    {
+      "check": "GEARS_seed2_best_validation_selection",
+      "passed": true
+    },
+    {
+      "check": "GEARS_seed2_training_and_early_stop",
+      "passed": true
+    },
+    {
+      "check": "GEARS_seed2_loss_equivalence",
+      "passed": true
+    },
+    {
+      "check": "scGPT_blood_seed2_prediction_alignment",
+      "passed": true
+    },
+    {
+      "check": "scGPT_blood_seed2_MSE_recomputed",
+      "passed": true
+    },
+    {
+      "check": "scGPT_blood_seed2_best_validation_selection",
+      "passed": true
+    },
+    {
+      "check": "scGPT_blood_seed2_training_and_early_stop",
+      "passed": true
+    },
+    {
+      "check": "scFoundation_GEARS_seed2_prediction_alignment",
+      "passed": true
+    },
+    {
+      "check": "scFoundation_GEARS_seed2_MSE_recomputed",
+      "passed": true
+    },
+    {
+      "check": "scFoundation_GEARS_seed2_best_validation_selection",
+      "passed": true
+    },
+    {
+      "check": "scFoundation_GEARS_seed2_training_and_early_stop",
+      "passed": true
+    },
+    {
+      "check": "scFoundation_GEARS_seed2_loss_equivalence",
+      "passed": true
+    },
+    {
+      "check": "scFoundation_GEARS_seed2_frozen_cache",
+      "passed": true
+    },
+    {
+      "check": "seed3_partition",
+      "passed": true
+    },
+    {
+      "check": "zero_change_seed3_prediction_alignment",
+      "passed": true
+    },
+    {
+      "check": "zero_change_seed3_MSE_recomputed",
+      "passed": true
+    },
+    {
+      "check": "zero_seed3_definition",
+      "passed": true
+    },
+    {
+      "check": "training_condition_mean_seed3_prediction_alignment",
+      "passed": true
+    },
+    {
+      "check": "training_condition_mean_seed3_MSE_recomputed",
+      "passed": true
+    },
+    {
+      "check": "mean_seed3_condition_weighting",
+      "passed": true
+    },
+    {
+      "check": "Ridge_additive_seed3_prediction_alignment",
+      "passed": true
+    },
+    {
+      "check": "Ridge_additive_seed3_MSE_recomputed",
+      "passed": true
+    },
+    {
+      "check": "ridge_seed3_validation_selection",
+      "passed": true
+    },
+    {
+      "check": "direct_single_additive_seed3_prediction_alignment",
+      "passed": true
+    },
+    {
+      "check": "direct_single_additive_seed3_MSE_recomputed",
+      "passed": true
+    },
+    {
+      "check": "additive_seed3_eligibility",
+      "passed": true
+    },
+    {
+      "check": "GEARS_seed3_prediction_alignment",
+      "passed": true
+    },
+    {
+      "check": "GEARS_seed3_MSE_recomputed",
+      "passed": true
+    },
+    {
+      "check": "GEARS_seed3_best_validation_selection",
+      "passed": true
+    },
+    {
+      "check": "GEARS_seed3_training_and_early_stop",
+      "passed": true
+    },
+    {
+      "check": "GEARS_seed3_loss_equivalence",
+      "passed": true
+    },
+    {
+      "check": "scGPT_blood_seed3_prediction_alignment",
+      "passed": true
+    },
+    {
+      "check": "scGPT_blood_seed3_MSE_recomputed",
+      "passed": true
+    },
+    {
+      "check": "scGPT_blood_seed3_best_validation_selection",
+      "passed": true
+    },
+    {
+      "check": "scGPT_blood_seed3_training_and_early_stop",
+      "passed": true
+    },
+    {
+      "check": "scFoundation_GEARS_seed3_prediction_alignment",
+      "passed": true
+    },
+    {
+      "check": "scFoundation_GEARS_seed3_MSE_recomputed",
+      "passed": true
+    },
+    {
+      "check": "scFoundation_GEARS_seed3_best_validation_selection",
+      "passed": true
+    },
+    {
+      "check": "scFoundation_GEARS_seed3_training_and_early_stop",
+      "passed": true
+    },
+    {
+      "check": "scFoundation_GEARS_seed3_loss_equivalence",
+      "passed": true
+    },
+    {
+      "check": "scFoundation_GEARS_seed3_frozen_cache",
+      "passed": true
+    },
+    {
+      "check": "all_condition_equal_aggregate_MSE",
+      "passed": true,
+      "rows": 468
+    }
+  ],
+  "check_count": 88,
+  "elapsed_seconds": 6.196099042892456,
+  "review_mode": "self_checks_only_user_requested"
+}

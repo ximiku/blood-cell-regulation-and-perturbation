@@ -1,0 +1,4 @@
+target,model,R2,RMSE,Pearson,Spearman
+"naive thymus-derived CD4-positive, alpha-beta T cell",Lasso_min,0.40100834723608,0.15387013193152,0.63361189083314,0.59206882823652
+"naive thymus-derived CD4-positive, alpha-beta T cell",Lasso_1se,0.36876792849889,0.15795685173188,0.60864728258092,0.57005098639326
+"naive thymus-derived CD4-positive, alpha-beta T cell",Mean_baseline,-0.00015055073732961,0.19882758165505,-0.016360404171626,-0.0086347785192788

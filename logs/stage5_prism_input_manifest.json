@@ -1,0 +1,126 @@
+{
+  "generated_utc": "2026-11-07T09:45:57.473965+00:00",
+  "new_model_fits": 0,
+  "files": [
+    {
+      "path": "prism/migration/01_PCA_PC2.tsv",
+      "bytes": 1153,
+      "sha256": "5a2de2a198d2c1007a33d4e8831d10425ef8a84ed7f1c36670b264a8da56c58a"
+    },
+    {
+      "path": "prism/migration/01_PCA_PC3.tsv",
+      "bytes": 1147,
+      "sha256": "fd8ec63cf984e3a4cb1ee15a59ee9eb937c7cd69b949ac444ed005315e180788"
+    },
+    {
+      "path": "prism/migration/01_PCA_data.pzfx",
+      "bytes": 9604,
+      "sha256": "faf95b92d28f09d4df173a1cb7ab9c014705ffa85bb1c30cb0752e82de0add31"
+    },
+    {
+      "path": "prism/migration/02_HVG100_heatmap.tsv",
+      "bytes": 40942,
+      "sha256": "2ad8a9d061f51cc2faaf10f3248c903c42ba37d89fb0940f4d617feaafcef83a"
+    },
+    {
+      "path": "prism/migration/02_HVG100_heatmap_data.pzfx",
+      "bytes": 77256,
+      "sha256": "2fd8963cdba66b46568e0f479b19d7753eda523b4187a65fa9a5b1eb56dbc846"
+    },
+    {
+      "path": "prism/migration/03_OOF_1.tsv",
+      "bytes": 541109,
+      "sha256": "6340515367a4b57096a1ce2f93a3f67c2e490a5eebb43ced36f6d1893656f4e3"
+    },
+    {
+      "path": "prism/migration/03_OOF_2.tsv",
+      "bytes": 533867,
+      "sha256": "bd5011820150bfd0c15c1dca59eca51f528fab690f5ad2d892a785169d04e65e"
+    },
+    {
+      "path": "prism/migration/03_OOF_3.tsv",
+      "bytes": 549798,
+      "sha256": "ec290f2d062f3faf9117033b3257d10902a791bdb1517d43475cef967a626ea6"
+    },
+    {
+      "path": "prism/migration/03_OOF_4.tsv",
+      "bytes": 530358,
+      "sha256": "5e9412574d819111e2def3685f9c22beb5d5e3a0cb7540dd5faf0b7824ac0b9a"
+    },
+    {
+      "path": "prism/migration/03_OOF_data.pzfx",
+      "bytes": 4303544,
+      "sha256": "48aa9327260ed66cd59c520ffb0a67ae5f5ef704c057eeb612fa12ec90dca251"
+    },
+    {
+      "path": "prism/migration/04_TF_1.tsv",
+      "bytes": 786,
+      "sha256": "0d9f52a5e5c8f5416cd53dad37f832b1d4f8d6d7f81bb5383af64efc169f9bd2"
+    },
+    {
+      "path": "prism/migration/04_TF_2.tsv",
+      "bytes": 797,
+      "sha256": "6c355bfcea7c5783f790dbe419c0344a5d7892951268fa8728f37f4873785e5c"
+    },
+    {
+      "path": "prism/migration/04_TF_3.tsv",
+      "bytes": 788,
+      "sha256": "70dce2206680a6f5db0a5d5599e5f75c71205575d444df8fcc353294d2d26755"
+    },
+    {
+      "path": "prism/migration/04_TF_4.tsv",
+      "bytes": 780,
+      "sha256": "bd86a2481748d35770fe86c90b786e0fb067abfe933ccb213de605db61af8d1b"
+    },
+    {
+      "path": "prism/migration/04_TF_stability_data.pzfx",
+      "bytes": 7519,
+      "sha256": "c2fceee07ae5e788e0853541ae9f38fdeb3122edb8c4756b491d1a1921a72500"
+    },
+    {
+      "path": "prism/migration/05_All_models_data.pzfx",
+      "bytes": 6061,
+      "sha256": "dfd5f0c243754e1411502b92f9fb065162f28ab89a5d36ed6b81ec1eb5298ed7"
+    },
+    {
+      "path": "prism/migration/05_Models_1.tsv",
+      "bytes": 364,
+      "sha256": "97f775b1a6d02b42181f427d3603a92104b98103947a86029831a09f239ba6a9"
+    },
+    {
+      "path": "prism/migration/05_Models_2.tsv",
+      "bytes": 366,
+      "sha256": "b271da64a005350700255da600cc559926f886b973caf056b903d526de69f3fa"
+    },
+    {
+      "path": "prism/migration/05_Models_3.tsv",
+      "bytes": 364,
+      "sha256": "f6682a871a1a9bf72b2cca484e4f9851dc6b6dfe1f1aac7afbb3d6462e9b369f"
+    },
+    {
+      "path": "prism/migration/05_Models_4.tsv",
+      "bytes": 363,
+      "sha256": "d6a657a1fa8fd24ac5e9296b9bf54213492f993f2c74f625e409391c4594fac4"
+    },
+    {
+      "path": "prism/migration/06_Cross_target_heatmap.tsv",
+      "bytes": 892,
+      "sha256": "7bc73f967aa475287c7dc81cbe9b99d97f9f7269a7f0cae740d11f3b2adc9bb5"
+    },
+    {
+      "path": "prism/migration/06_Cross_target_heatmap_data.pzfx",
+      "bytes": 4532,
+      "sha256": "e45a79f88dfb6dfd39f4c0c3d44bcdfcaae6de5918da9133325b2dbaf5be2977"
+    },
+    {
+      "path": "prism/migration/README.md",
+      "bytes": 729,
+      "sha256": "042c1e18ef51dd000861053d90c98c238f560f5493f786a2a604bc186857729b"
+    },
+    {
+      "path": "prism/migration/figure_specs.json",
+      "bytes": 2835,
+      "sha256": "95ae7f5e1e41a93170e0ff9cbac459e1477a3dbee92ddb757f895d368cbb15c8"
+    }
+  ]
+}

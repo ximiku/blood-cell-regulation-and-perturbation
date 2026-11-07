@@ -1,0 +1,18 @@
+{
+  "id": "self_readout/exclude_KLF3",
+  "name": "exclude_KLF3",
+  "kind": "self_readout",
+  "dataset": "raw",
+  "tolerance": 1e-06,
+  "n_train": 11921,
+  "n_validation": 0,
+  "parameters": {},
+  "initialization": "zero",
+  "seconds": 1.7623065779916942,
+  "model_path_seconds_excluding_shared_preprocessing": {
+    "Lasso": 1.6553262539673597
+  },
+  "device": 1,
+  "all_converged": true,
+  "completed_utc": "2026-11-07T08:16:44.145208+00:00"
+}

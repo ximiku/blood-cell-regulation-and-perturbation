@@ -1,0 +1,22 @@
+﻿catalog_symbol,approved_symbol,mapping_method,DBD,TF_assessment,in_blood_readout,in_model_readout,available_perturbation_count,eligible_perturbation_count,perturbation_labels
+EBF1,EBF1,approved_exact,EBF1,Known motif,True,False,1,1,EBF1
+PRDM1,PRDM1,approved_exact,C2H2 ZF,Known motif,True,True,1,1,PRDM1
+BCL6,BCL6,approved_exact,C2H2 ZF,Known motif,True,True,1,1,BCL6
+GATA2,GATA2,approved_exact,GATA,Known motif,True,True,1,1,GATA2
+GATA3,GATA3,approved_exact,GATA,Known motif,True,True,1,1,GATA3
+FOXP3,FOXP3,approved_exact,Forkhead,Known motif,True,True,1,1,FOXP3
+MYB,MYB,approved_exact,Myb/SANT,Known motif,True,True,1,1,MYB
+FLI1,FLI1,approved_exact,Ets,Known motif,True,True,1,1,FLI1
+STAT5A,STAT5A,approved_exact,STAT,Known motif,True,True,1,1,STAT5A
+GATA1,GATA1,approved_exact,GATA,Known motif,True,True,0,0,
+KLF1,KLF1,approved_exact,C2H2 ZF,Known motif,True,True,0,0,
+TAL1,TAL1,approved_exact,bHLH,Known motif,True,True,0,0,
+SPI1,SPI1,approved_exact,Ets,Known motif,True,True,0,0,
+CEBPA,CEBPA,approved_exact,bZIP,Known motif,True,True,0,0,
+CEBPB,CEBPB,approved_exact,bZIP,Known motif,True,True,0,0,
+PAX5,PAX5,approved_exact,Paired box,Known motif,True,True,0,0,
+XBP1,XBP1,approved_exact,bZIP,Known motif,True,True,0,0,
+IRF4,IRF4,approved_exact,IRF,Known motif,True,True,0,0,
+IRF8,IRF8,approved_exact,IRF,Known motif,True,True,0,0,
+RUNX1,RUNX1,approved_exact,Runt,Known motif,True,True,0,0,
+IKZF1,IKZF1,approved_exact,C2H2 ZF,Known motif,True,True,0,0,

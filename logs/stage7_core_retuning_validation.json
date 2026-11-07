@@ -1,0 +1,90 @@
+{
+  "passed": true,
+  "resamples": 20,
+  "targets": 4,
+  "inner_folds": 3,
+  "checks": [
+    {
+      "repeat": 1,
+      "split_selection_and_all_certificates_passed": true
+    },
+    {
+      "repeat": 2,
+      "split_selection_and_all_certificates_passed": true
+    },
+    {
+      "repeat": 3,
+      "split_selection_and_all_certificates_passed": true
+    },
+    {
+      "repeat": 4,
+      "split_selection_and_all_certificates_passed": true
+    },
+    {
+      "repeat": 5,
+      "split_selection_and_all_certificates_passed": true
+    },
+    {
+      "repeat": 6,
+      "split_selection_and_all_certificates_passed": true
+    },
+    {
+      "repeat": 7,
+      "split_selection_and_all_certificates_passed": true
+    },
+    {
+      "repeat": 8,
+      "split_selection_and_all_certificates_passed": true
+    },
+    {
+      "repeat": 9,
+      "split_selection_and_all_certificates_passed": true
+    },
+    {
+      "repeat": 10,
+      "split_selection_and_all_certificates_passed": true
+    },
+    {
+      "repeat": 11,
+      "split_selection_and_all_certificates_passed": true
+    },
+    {
+      "repeat": 12,
+      "split_selection_and_all_certificates_passed": true
+    },
+    {
+      "repeat": 13,
+      "split_selection_and_all_certificates_passed": true
+    },
+    {
+      "repeat": 14,
+      "split_selection_and_all_certificates_passed": true
+    },
+    {
+      "repeat": 15,
+      "split_selection_and_all_certificates_passed": true
+    },
+    {
+      "repeat": 16,
+      "split_selection_and_all_certificates_passed": true
+    },
+    {
+      "repeat": 17,
+      "split_selection_and_all_certificates_passed": true
+    },
+    {
+      "repeat": 18,
+      "split_selection_and_all_certificates_passed": true
+    },
+    {
+      "repeat": 19,
+      "split_selection_and_all_certificates_passed": true
+    },
+    {
+      "repeat": 20,
+      "split_selection_and_all_certificates_passed": true
+    }
+  ],
+  "display_top40_min_retuned_frequency": 0.9,
+  "display_top40_same_median_sign": 40
+}

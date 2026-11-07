@@ -1,0 +1,15 @@
+{"event": "job_done", "id": "size_matched_01/outer_01_fit", "seconds": 83.03200749901589}
+{"event": "job_done", "id": "size_matched_01/outer_02_fit", "seconds": 81.17667498195078}
+{"event": "job_done", "id": "size_matched_01/outer_03_fit", "seconds": 79.0141949900426}
+{"event": "job_done", "id": "size_matched_01/outer_04_fit", "seconds": 72.7302316519199}
+{"event": "job_done", "id": "size_matched_01/outer_05_fit", "seconds": 74.71081559802406}
+{"event": "job_done", "id": "size_matched_02/outer_01_fit", "seconds": 81.064561733976}
+{"event": "job_done", "id": "size_matched_02/outer_02_fit", "seconds": 81.29903403902426}
+{"event": "job_done", "id": "size_matched_02/outer_03_fit", "seconds": 78.54892986104824}
+{"event": "job_done", "id": "size_matched_02/outer_04_fit", "seconds": 84.6438707599882}
+{"event": "job_done", "id": "size_matched_02/outer_05_fit", "seconds": 80.2068495999556}
+{"event": "job_done", "id": "size_matched_03/outer_01_fit", "seconds": 60.407810215023346}
+{"event": "job_done", "id": "size_matched_03/outer_02_fit", "seconds": 63.98065341101028}
+{"event": "job_done", "id": "size_matched_03/outer_03_fit", "seconds": 65.21961299295072}
+{"event": "job_done", "id": "size_matched_03/outer_04_fit", "seconds": 63.79447587905452}
+{"event": "job_done", "id": "size_matched_03/outer_05_fit", "seconds": 60.09152247395832}

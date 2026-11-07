@@ -1,0 +1,18 @@
+{
+  "id": "self_readout/exclude_PAX8",
+  "name": "exclude_PAX8",
+  "kind": "self_readout",
+  "dataset": "raw",
+  "tolerance": 1e-06,
+  "n_train": 11921,
+  "n_validation": 0,
+  "parameters": {},
+  "initialization": "zero",
+  "seconds": 1.4276294290320948,
+  "model_path_seconds_excluding_shared_preprocessing": {
+    "Lasso": 1.3233802769100294
+  },
+  "device": 3,
+  "all_converged": true,
+  "completed_utc": "2026-11-07T08:16:47.033079+00:00"
+}

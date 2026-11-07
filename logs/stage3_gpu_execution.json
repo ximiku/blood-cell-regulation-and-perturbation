@@ -1,0 +1,38 @@
+{
+  "completed_utc": "2026-11-07T07:17:01.833917+00:00",
+  "parallel_path_wall_seconds": 274.25345804099925,
+  "contexts": [
+    "full_fit",
+    "full_inner_01",
+    "full_inner_02",
+    "full_inner_03",
+    "outer_01_fit",
+    "outer_01_inner_01",
+    "outer_01_inner_02",
+    "outer_01_inner_03",
+    "outer_02_fit",
+    "outer_02_inner_01",
+    "outer_02_inner_02",
+    "outer_02_inner_03",
+    "outer_03_fit",
+    "outer_03_inner_01",
+    "outer_03_inner_02",
+    "outer_03_inner_03",
+    "outer_04_fit",
+    "outer_04_inner_01",
+    "outer_04_inner_02",
+    "outer_04_inner_03",
+    "outer_05_fit",
+    "outer_05_inner_01",
+    "outer_05_inner_02",
+    "outer_05_inner_03"
+  ],
+  "n_contexts": 24,
+  "devices": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "first_context_separate_log": "03_gpu_first_context.log"
+}

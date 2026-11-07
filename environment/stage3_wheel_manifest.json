@@ -1,0 +1,89 @@
+{
+  "files": [
+    {
+      "file": "remote_wheels/celer-0.7.4-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "bytes": 4493968,
+      "sha256": "d3fd8882c3c4861f21a1597379dcf97a830e40aa51d8e0ea01b09ab564dd647e"
+    },
+    {
+      "file": "remote_wheels/h5py-3.11.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "bytes": 5306122,
+      "sha256": "77b19a40788e3e362b54af4dcf9e6fde59ca016db2c61360aa30b47c7b7cef00"
+    },
+    {
+      "file": "remote_wheels/joblib-1.4.2-py3-none-any.whl",
+      "bytes": 301817,
+      "sha256": "06d478d5674cbc267e7496a410ee875abd68e4340feff4490bcb7afb88060ae6"
+    },
+    {
+      "file": "remote_wheels/numpy-1.26.4-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "bytes": 18240889,
+      "sha256": "ffa75af20b44f8dba823498024771d5ac50620e6915abac414251bd971b4529f"
+    },
+    {
+      "file": "remote_wheels/pandas-2.2.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "bytes": 13032214,
+      "sha256": "8635c16bf3d99040fdf3ca3db669a7250ddf49c55dc4aa8fe0ae0fa8d6dcc1f0"
+    },
+    {
+      "file": "remote_wheels/pip-24.3.1-py3-none-any.whl",
+      "bytes": 1822182,
+      "sha256": "3790624780082365f47549d032f3770eeb2b1e8bd1f7b2e02dace1afa361b4ed"
+    },
+    {
+      "file": "remote_wheels/python_dateutil-3.0.0-py2.py3-none-any.whl",
+      "bytes": 94659,
+      "sha256": "3c79630202e4152c6add678446984236efe4f57e84d8e892aab0637bab82e9fd"
+    },
+    {
+      "file": "remote_wheels/pytz-2026.6-py2.py3-none-any.whl",
+      "bytes": 506321,
+      "sha256": "7fed3fee8fd6bd4a2b7b75a8d56021d0624127bf69bd5691f115db929ac570b3"
+    },
+    {
+      "file": "remote_wheels/scikit_learn-1.5.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "bytes": 13352348,
+      "sha256": "161808750c267b77b4a9603cf9c93579c7a74ba8486b1336034c2f1579546d21"
+    },
+    {
+      "file": "remote_wheels/scipy-1.13.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "bytes": 38577335,
+      "sha256": "f26264b282b9da0952a024ae34710c2aff7d27480ee91a2e82b7b7073c24722f"
+    },
+    {
+      "file": "remote_wheels/six-1.17.0-py2.py3-none-any.whl",
+      "bytes": 11050,
+      "sha256": "4721f391ed90541fddacab5acf947aa0d3dc7d27b2e1e8eda2be8970586c3274"
+    },
+    {
+      "file": "remote_wheels/threadpoolctl-3.5.0-py3-none-any.whl",
+      "bytes": 18414,
+      "sha256": "56c1e26c150397e58c4926da8eeee87533b1e32bef131bd4bf6a2f45f3185467"
+    },
+    {
+      "file": "remote_wheels/tzdata-2026.6-py2.py3-none-any.whl",
+      "bytes": 348210,
+      "sha256": "0a10eec6e13ef16b627fabed9a5f2ba61a62b1c67f327305f4e7e412a70b4aec"
+    },
+    {
+      "file": "local_wheels/celer-0.7.4-cp312-cp312-macosx_11_0_arm64.whl",
+      "bytes": 819522,
+      "sha256": "2d91b3e7ba5e9753a70a63d994c8ace07154ad9ec5ac01ac59c15c44fb923f61"
+    },
+    {
+      "file": "gpu_solver_wheels/cuda_pathfinder-1.8.3-py3-none-any.whl",
+      "bytes": 62561,
+      "sha256": "e29e59829c297a7a5233bd9cc71094fc5bddbd076951482670178f9eade39b1f"
+    },
+    {
+      "file": "gpu_solver_wheels/cupy_cuda13x-14.1.1-cp310-cp310-manylinux2014_x86_64.whl",
+      "bytes": 68695025,
+      "sha256": "223a9e1e6db911002ca5b94c348a3ed5c1d7869ba4dd6524ab3d0263123b2248"
+    },
+    {
+      "file": "gpu_solver_wheels/numpy-2.2.6-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "bytes": 16801050,
+      "sha256": "fc7b73d02efb0e18c000e9ad8b83480dfcd5dfd11065997ed4c6747470ae8915"
+    }
+  ]
+}

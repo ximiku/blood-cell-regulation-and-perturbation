@@ -1,0 +1,21 @@
+{
+  "status": "completed",
+  "model": "scGPT_blood",
+  "seed": 1,
+  "epochs": 8,
+  "best_epoch": 8,
+  "best_validation_MSE": 0.0013151116951441468,
+  "test_condition_equal_MSE": 0.0023770923202179805,
+  "test_conditions": 109,
+  "test_seconds": 1124.6952817440033,
+  "total_seconds": 5456.8936676979065,
+  "max_epochs_requested": 8,
+  "selection_max_epochs": 8,
+  "prechange_extra_epochs": 0,
+  "peak_allocated_GiB": 5.305142879486084,
+  "peak_reserved_GiB": 6.283203125,
+  "all_predictions_finite": true,
+  "train_cells": 44158,
+  "training_reference_pool_size": 64,
+  "frozen_cache": false
+}

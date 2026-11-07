@@ -1,0 +1,1116 @@
+{
+  "generated_utc": "2026-11-07T07:21:34.530938+00:00",
+  "targets": 21,
+  "focus_targets": [
+    "B cell",
+    "plasma cell",
+    "monocyte",
+    "erythrocyte"
+  ],
+  "main_targets": 20,
+  "supplementary_target": "myeloid dendritic cell",
+  "metrics": [
+    {
+      "target": "common myeloid progenitor",
+      "model": "Lasso_min",
+      "R2": 0.12682806922173,
+      "RMSE": 0.16011936855085,
+      "Pearson": 0.35688537662681,
+      "Spearman": 0.28615460238249,
+      "analysis_role": "main"
+    },
+    {
+      "target": "common myeloid progenitor",
+      "model": "Lasso_1se",
+      "R2": 0.085184115680367,
+      "RMSE": 0.16389316193298,
+      "Pearson": 0.30033590412047,
+      "Spearman": 0.23997109853196,
+      "analysis_role": "main"
+    },
+    {
+      "target": "common myeloid progenitor",
+      "model": "Mean_baseline",
+      "R2": -0.0001614908638629,
+      "RMSE": 0.17136773241077,
+      "Pearson": -0.016945742510675,
+      "Spearman": -0.012440338317736,
+      "analysis_role": "main"
+    },
+    {
+      "target": "erythrocyte",
+      "model": "Lasso_min",
+      "R2": 0.60927642731099,
+      "RMSE": 0.24130264307823,
+      "Pearson": 0.78091196209658,
+      "Spearman": 0.69529742073002,
+      "analysis_role": "main"
+    },
+    {
+      "target": "erythrocyte",
+      "model": "Lasso_1se",
+      "R2": 0.56849170124549,
+      "RMSE": 0.25358400023943,
+      "Pearson": 0.75447988652293,
+      "Spearman": 0.67454515579182,
+      "analysis_role": "main"
+    },
+    {
+      "target": "erythrocyte",
+      "model": "Mean_baseline",
+      "R2": -0.0001054567035141,
+      "RMSE": 0.38605587920142,
+      "Pearson": -0.013693718649375,
+      "Spearman": -7.6773557596012e-05,
+      "analysis_role": "main"
+    },
+    {
+      "target": "platelet",
+      "model": "Lasso_min",
+      "R2": 0.43696035888888,
+      "RMSE": 0.32509361615972,
+      "Pearson": 0.66202264254724,
+      "Spearman": 0.54640117357244,
+      "analysis_role": "main"
+    },
+    {
+      "target": "platelet",
+      "model": "Lasso_1se",
+      "R2": 0.40586162846397,
+      "RMSE": 0.33395100579074,
+      "Pearson": 0.63738656572102,
+      "Spearman": 0.53378257633731,
+      "analysis_role": "main"
+    },
+    {
+      "target": "platelet",
+      "model": "Mean_baseline",
+      "R2": -0.0002057284864445,
+      "RMSE": 0.43329494640921,
+      "Pearson": -0.01912455576921,
+      "Spearman": -0.013374694102194,
+      "analysis_role": "main"
+    },
+    {
+      "target": "macrophage",
+      "model": "Lasso_min",
+      "R2": 0.53773166039012,
+      "RMSE": 0.19785874686092,
+      "Pearson": 0.73372996943454,
+      "Spearman": 0.63079820981153,
+      "analysis_role": "main"
+    },
+    {
+      "target": "macrophage",
+      "model": "Lasso_1se",
+      "R2": 0.5156839059046,
+      "RMSE": 0.20252219684814,
+      "Pearson": 0.71843594914714,
+      "Spearman": 0.6110384863187,
+      "analysis_role": "main"
+    },
+    {
+      "target": "macrophage",
+      "model": "Mean_baseline",
+      "R2": -0.0001306667346772,
+      "RMSE": 0.29102919044073,
+      "Pearson": -0.015240501472747,
+      "Spearman": -0.0053865184022169,
+      "analysis_role": "main"
+    },
+    {
+      "target": "B cell",
+      "model": "Lasso_min",
+      "R2": 0.42709634271482,
+      "RMSE": 0.15951359739195,
+      "Pearson": 0.65403933195049,
+      "Spearman": 0.61066951140958,
+      "analysis_role": "main"
+    },
+    {
+      "target": "B cell",
+      "model": "Lasso_1se",
+      "R2": 0.39741111411505,
+      "RMSE": 0.16359403744296,
+      "Pearson": 0.63114972155135,
+      "Spearman": 0.59431467348619,
+      "analysis_role": "main"
+    },
+    {
+      "target": "B cell",
+      "model": "Mean_baseline",
+      "R2": -3.997053492899e-05,
+      "RMSE": 0.21074903341258,
+      "Pearson": -0.0084304399103817,
+      "Spearman": -0.0043443652377511,
+      "analysis_role": "main"
+    },
+    {
+      "target": "monocyte",
+      "model": "Lasso_min",
+      "R2": 0.48349760822118,
+      "RMSE": 0.19267047925939,
+      "Pearson": 0.69596255937729,
+      "Spearman": 0.62847317937079,
+      "analysis_role": "main"
+    },
+    {
+      "target": "monocyte",
+      "model": "Lasso_1se",
+      "R2": 0.44483540532534,
+      "RMSE": 0.19975142670745,
+      "Pearson": 0.66849984349353,
+      "Spearman": 0.60536304227727,
+      "analysis_role": "main"
+    },
+    {
+      "target": "monocyte",
+      "model": "Mean_baseline",
+      "R2": -0.0002432010504005,
+      "RMSE": 0.26812160670002,
+      "Pearson": -0.02079300149031,
+      "Spearman": -0.0079758778846028,
+      "analysis_role": "main"
+    },
+    {
+      "target": "natural killer cell",
+      "model": "Lasso_min",
+      "R2": 0.47015049619981,
+      "RMSE": 0.17569390538331,
+      "Pearson": 0.68647483143204,
+      "Spearman": 0.58011808971869,
+      "analysis_role": "main"
+    },
+    {
+      "target": "natural killer cell",
+      "model": "Lasso_1se",
+      "R2": 0.4472027642491,
+      "RMSE": 0.17945822255108,
+      "Pearson": 0.66894039716309,
+      "Spearman": 0.56442090154901,
+      "analysis_role": "main"
+    },
+    {
+      "target": "natural killer cell",
+      "model": "Mean_baseline",
+      "R2": -0.000110219001522,
+      "RMSE": 0.241381711912,
+      "Pearson": -0.013998834861502,
+      "Spearman": -0.010691319856243,
+      "analysis_role": "main"
+    },
+    {
+      "target": "CD4-positive, alpha-beta T cell",
+      "model": "Lasso_min",
+      "R2": 0.46380131491461,
+      "RMSE": 0.14016829593303,
+      "Pearson": 0.68129393384458,
+      "Spearman": 0.62744136885247,
+      "analysis_role": "main"
+    },
+    {
+      "target": "CD4-positive, alpha-beta T cell",
+      "model": "Lasso_1se",
+      "R2": 0.43458869849008,
+      "RMSE": 0.14393591193315,
+      "Pearson": 0.65987961239643,
+      "Spearman": 0.60720255827517,
+      "analysis_role": "main"
+    },
+    {
+      "target": "CD4-positive, alpha-beta T cell",
+      "model": "Mean_baseline",
+      "R2": -0.0001030651404971,
+      "RMSE": 0.19142969190446,
+      "Pearson": -0.013536740932371,
+      "Spearman": -0.0078347754655271,
+      "analysis_role": "main"
+    },
+    {
+      "target": "CD8-positive, alpha-beta T cell",
+      "model": "Lasso_min",
+      "R2": 0.48610758369598,
+      "RMSE": 0.16301985440332,
+      "Pearson": 0.69792767512419,
+      "Spearman": 0.60620008501315,
+      "analysis_role": "main"
+    },
+    {
+      "target": "CD8-positive, alpha-beta T cell",
+      "model": "Lasso_1se",
+      "R2": 0.46280843905813,
+      "RMSE": 0.16667443334921,
+      "Pearson": 0.680618278016,
+      "Spearman": 0.58969476893339,
+      "analysis_role": "main"
+    },
+    {
+      "target": "CD8-positive, alpha-beta T cell",
+      "model": "Mean_baseline",
+      "R2": -9.6331604160227e-05,
+      "RMSE": 0.22741825022546,
+      "Pearson": -0.013087142956837,
+      "Spearman": -0.010404164869932,
+      "analysis_role": "main"
+    },
+    {
+      "target": "basophil",
+      "model": "Lasso_min",
+      "R2": 0.42979565451827,
+      "RMSE": 0.2416465869686,
+      "Pearson": 0.65610820233782,
+      "Spearman": 0.51233084442662,
+      "analysis_role": "main"
+    },
+    {
+      "target": "basophil",
+      "model": "Lasso_1se",
+      "R2": 0.40561940560671,
+      "RMSE": 0.24671622718213,
+      "Pearson": 0.63735171049162,
+      "Spearman": 0.48742356809762,
+      "analysis_role": "main"
+    },
+    {
+      "target": "basophil",
+      "model": "Mean_baseline",
+      "R2": -0.0001531750966012,
+      "RMSE": 0.32003587432928,
+      "Pearson": -0.016501624894904,
+      "Spearman": -0.0080533487191739,
+      "analysis_role": "main"
+    },
+    {
+      "target": "neutrophil",
+      "model": "Lasso_min",
+      "R2": 0.54660644108169,
+      "RMSE": 0.29544369299854,
+      "Pearson": 0.73968617288339,
+      "Spearman": 0.60279029909412,
+      "analysis_role": "main"
+    },
+    {
+      "target": "neutrophil",
+      "model": "Lasso_1se",
+      "R2": 0.53348434743576,
+      "RMSE": 0.2996885566836,
+      "Pearson": 0.73046914655947,
+      "Spearman": 0.58800678528433,
+      "analysis_role": "main"
+    },
+    {
+      "target": "neutrophil",
+      "model": "Mean_baseline",
+      "R2": -0.0001389362545303,
+      "RMSE": 0.43880060508654,
+      "Pearson": -0.015715968407374,
+      "Spearman": -0.0068344330967447,
+      "analysis_role": "main"
+    },
+    {
+      "target": "myeloid dendritic cell",
+      "model": "Lasso_min",
+      "R2": 0.17131832560829,
+      "RMSE": 0.46539613117168,
+      "Pearson": 0.4139155036927,
+      "Spearman": 0.47839531274777,
+      "analysis_role": "supplementary"
+    },
+    {
+      "target": "myeloid dendritic cell",
+      "model": "Lasso_1se",
+      "R2": 0.10789743379342,
+      "RMSE": 0.48287675053422,
+      "Pearson": 0.33916408468751,
+      "Spearman": 0.46145196745193,
+      "analysis_role": "supplementary"
+    },
+    {
+      "target": "myeloid dendritic cell",
+      "model": "Mean_baseline",
+      "R2": -0.0001663736784496,
+      "RMSE": 0.51128732415296,
+      "Pearson": -0.017197350106283,
+      "Spearman": -0.0043405326053073,
+      "analysis_role": "supplementary"
+    },
+    {
+      "target": "plasmacytoid dendritic cell",
+      "model": "Lasso_min",
+      "R2": 0.39302539215002,
+      "RMSE": 0.1475167525299,
+      "Pearson": 0.62818573933773,
+      "Spearman": 0.54704161903376,
+      "analysis_role": "main"
+    },
+    {
+      "target": "plasmacytoid dendritic cell",
+      "model": "Lasso_1se",
+      "R2": 0.36494656363411,
+      "RMSE": 0.15089026343081,
+      "Pearson": 0.60447845899656,
+      "Spearman": 0.52310068167911,
+      "analysis_role": "main"
+    },
+    {
+      "target": "plasmacytoid dendritic cell",
+      "model": "Mean_baseline",
+      "R2": -0.0001761530071937,
+      "RMSE": 0.18936265292348,
+      "Pearson": -0.017693545900505,
+      "Spearman": -0.016349451415154,
+      "analysis_role": "main"
+    },
+    {
+      "target": "plasma cell",
+      "model": "Lasso_min",
+      "R2": 0.42892492704202,
+      "RMSE": 0.16195224864143,
+      "Pearson": 0.65548242487798,
+      "Spearman": 0.58293791203869,
+      "analysis_role": "main"
+    },
+    {
+      "target": "plasma cell",
+      "model": "Lasso_1se",
+      "R2": 0.39285850658037,
+      "RMSE": 0.16698802863458,
+      "Pearson": 0.62791618054419,
+      "Spearman": 0.556569596588,
+      "analysis_role": "main"
+    },
+    {
+      "target": "plasma cell",
+      "model": "Mean_baseline",
+      "R2": -0.0001711153090049,
+      "RMSE": 0.21432732049257,
+      "Pearson": -0.017439196773308,
+      "Spearman": -0.017695214465337,
+      "analysis_role": "main"
+    },
+    {
+      "target": "mature NK T cell",
+      "model": "Lasso_min",
+      "R2": 0.40901496003648,
+      "RMSE": 0.16566778768774,
+      "Pearson": 0.64028440226415,
+      "Spearman": 0.55689718373759,
+      "analysis_role": "main"
+    },
+    {
+      "target": "mature NK T cell",
+      "model": "Lasso_1se",
+      "R2": 0.39109204464063,
+      "RMSE": 0.16816114396899,
+      "Pearson": 0.6256124512026,
+      "Spearman": 0.54558065018676,
+      "analysis_role": "main"
+    },
+    {
+      "target": "mature NK T cell",
+      "model": "Mean_baseline",
+      "R2": -0.0002078592520338,
+      "RMSE": 0.21552366339483,
+      "Pearson": -0.019224285514172,
+      "Spearman": -0.015993440149668,
+      "analysis_role": "main"
+    },
+    {
+      "target": "regulatory T cell",
+      "model": "Lasso_min",
+      "R2": 0.39994928496312,
+      "RMSE": 0.1879062937539,
+      "Pearson": 0.63274417044475,
+      "Spearman": 0.53962389962453,
+      "analysis_role": "main"
+    },
+    {
+      "target": "regulatory T cell",
+      "model": "Lasso_1se",
+      "R2": 0.37095170594177,
+      "RMSE": 0.19239303350202,
+      "Pearson": 0.61006524115299,
+      "Spearman": 0.52504543583547,
+      "analysis_role": "main"
+    },
+    {
+      "target": "regulatory T cell",
+      "model": "Mean_baseline",
+      "R2": -8.7554993257077e-05,
+      "RMSE": 0.24258634959695,
+      "Pearson": -0.012475226367321,
+      "Spearman": -0.0076905434374067,
+      "analysis_role": "main"
+    },
+    {
+      "target": "classical monocyte",
+      "model": "Lasso_min",
+      "R2": 0.49438279766055,
+      "RMSE": 0.20188547946978,
+      "Pearson": 0.70374310033931,
+      "Spearman": 0.63361680335104,
+      "analysis_role": "main"
+    },
+    {
+      "target": "classical monocyte",
+      "model": "Lasso_1se",
+      "R2": 0.46020020909204,
+      "RMSE": 0.20859818194033,
+      "Pearson": 0.67948937630824,
+      "Spearman": 0.61074098631904,
+      "analysis_role": "main"
+    },
+    {
+      "target": "classical monocyte",
+      "model": "Mean_baseline",
+      "R2": -0.0001878610482837,
+      "RMSE": 0.28394547536425,
+      "Pearson": -0.01827449464017,
+      "Spearman": -0.0052739410665306,
+      "analysis_role": "main"
+    },
+    {
+      "target": "non-classical monocyte",
+      "model": "Lasso_min",
+      "R2": 0.47248205461187,
+      "RMSE": 0.19459675493669,
+      "Pearson": 0.68804714967406,
+      "Spearman": 0.60470703374702,
+      "analysis_role": "main"
+    },
+    {
+      "target": "non-classical monocyte",
+      "model": "Lasso_1se",
+      "R2": 0.45060452432873,
+      "RMSE": 0.19859097770934,
+      "Pearson": 0.67156251303139,
+      "Spearman": 0.59206988853202,
+      "analysis_role": "main"
+    },
+    {
+      "target": "non-classical monocyte",
+      "model": "Mean_baseline",
+      "R2": -0.0001704653678547,
+      "RMSE": 0.26795013954686,
+      "Pearson": -0.017407742997362,
+      "Spearman": -0.0017247869184209,
+      "analysis_role": "main"
+    },
+    {
+      "target": "naive thymus-derived CD4-positive, alpha-beta T cell",
+      "model": "Lasso_min",
+      "R2": 0.40100834723608,
+      "RMSE": 0.15387013193152,
+      "Pearson": 0.63361189083314,
+      "Spearman": 0.59206882823652,
+      "analysis_role": "main"
+    },
+    {
+      "target": "naive thymus-derived CD4-positive, alpha-beta T cell",
+      "model": "Lasso_1se",
+      "R2": 0.36876792849889,
+      "RMSE": 0.15795685173188,
+      "Pearson": 0.60864728258092,
+      "Spearman": 0.57005098639326,
+      "analysis_role": "main"
+    },
+    {
+      "target": "naive thymus-derived CD4-positive, alpha-beta T cell",
+      "model": "Mean_baseline",
+      "R2": -0.0001505507373296,
+      "RMSE": 0.19882758165505,
+      "Pearson": -0.016360404171626,
+      "Spearman": -0.0086347785192788,
+      "analysis_role": "main"
+    },
+    {
+      "target": "intermediate monocyte",
+      "model": "Lasso_min",
+      "R2": 0.50378409789859,
+      "RMSE": 0.20783338506502,
+      "Pearson": 0.71023172339708,
+      "Spearman": 0.63544649140896,
+      "analysis_role": "main"
+    },
+    {
+      "target": "intermediate monocyte",
+      "model": "Lasso_1se",
+      "R2": 0.4753425674459,
+      "RMSE": 0.21370657647898,
+      "Pearson": 0.69031096340249,
+      "Spearman": 0.61351271447155,
+      "analysis_role": "main"
+    },
+    {
+      "target": "intermediate monocyte",
+      "model": "Mean_baseline",
+      "R2": -0.0002137613797641,
+      "RMSE": 0.29507090248433,
+      "Pearson": -0.019493510845124,
+      "Spearman": -0.0095096052840916,
+      "analysis_role": "main"
+    },
+    {
+      "target": "hematopoietic precursor cell",
+      "model": "Lasso_min",
+      "R2": 0.31236042305964,
+      "RMSE": 0.08980734457882,
+      "Pearson": 0.55985271936034,
+      "Spearman": 0.528811754488,
+      "analysis_role": "main"
+    },
+    {
+      "target": "hematopoietic precursor cell",
+      "model": "Lasso_1se",
+      "R2": 0.28373635339227,
+      "RMSE": 0.091657472643027,
+      "Pearson": 0.53318900344965,
+      "Spearman": 0.51589802051599,
+      "analysis_role": "main"
+    },
+    {
+      "target": "hematopoietic precursor cell",
+      "model": "Mean_baseline",
+      "R2": -0.0002287265530083,
+      "RMSE": 0.10831312468243,
+      "Pearson": -0.02016639397877,
+      "Spearman": -0.016506959728724,
+      "analysis_role": "main"
+    }
+  ],
+  "runtime": [
+    {
+      "target": "common myeloid progenitor",
+      "seconds": 3.110195170971565,
+      "n_fits": 960,
+      "n_retried": 0,
+      "all_converged": true
+    },
+    {
+      "target": "erythrocyte",
+      "seconds": 3.465907781966962,
+      "n_fits": 960,
+      "n_retried": 0,
+      "all_converged": true
+    },
+    {
+      "target": "platelet",
+      "seconds": 3.3064618490170687,
+      "n_fits": 960,
+      "n_retried": 0,
+      "all_converged": true
+    },
+    {
+      "target": "macrophage",
+      "seconds": 3.3715463030384853,
+      "n_fits": 960,
+      "n_retried": 0,
+      "all_converged": true
+    },
+    {
+      "target": "B cell",
+      "seconds": 3.0620850269915536,
+      "n_fits": 960,
+      "n_retried": 0,
+      "all_converged": true
+    },
+    {
+      "target": "monocyte",
+      "seconds": 3.0487470360239968,
+      "n_fits": 960,
+      "n_retried": 0,
+      "all_converged": true
+    },
+    {
+      "target": "natural killer cell",
+      "seconds": 3.0874629550380632,
+      "n_fits": 960,
+      "n_retried": 0,
+      "all_converged": true
+    },
+    {
+      "target": "CD4-positive, alpha-beta T cell",
+      "seconds": 3.10024551092647,
+      "n_fits": 960,
+      "n_retried": 0,
+      "all_converged": true
+    },
+    {
+      "target": "CD8-positive, alpha-beta T cell",
+      "seconds": 3.0488149729790166,
+      "n_fits": 960,
+      "n_retried": 0,
+      "all_converged": true
+    },
+    {
+      "target": "basophil",
+      "seconds": 3.098364590900019,
+      "n_fits": 960,
+      "n_retried": 0,
+      "all_converged": true
+    },
+    {
+      "target": "neutrophil",
+      "seconds": 3.1094131629215553,
+      "n_fits": 960,
+      "n_retried": 0,
+      "all_converged": true
+    },
+    {
+      "target": "myeloid dendritic cell",
+      "seconds": 3.1106961369514465,
+      "n_fits": 960,
+      "n_retried": 0,
+      "all_converged": true
+    },
+    {
+      "target": "plasmacytoid dendritic cell",
+      "seconds": 3.333579343976453,
+      "n_fits": 960,
+      "n_retried": 0,
+      "all_converged": true
+    },
+    {
+      "target": "plasma cell",
+      "seconds": 3.113899827003479,
+      "n_fits": 960,
+      "n_retried": 0,
+      "all_converged": true
+    },
+    {
+      "target": "mature NK T cell",
+      "seconds": 3.111460912041366,
+      "n_fits": 960,
+      "n_retried": 0,
+      "all_converged": true
+    },
+    {
+      "target": "regulatory T cell",
+      "seconds": 3.1407480320194736,
+      "n_fits": 960,
+      "n_retried": 0,
+      "all_converged": true
+    },
+    {
+      "target": "classical monocyte",
+      "seconds": 3.085097672068514,
+      "n_fits": 960,
+      "n_retried": 0,
+      "all_converged": true
+    },
+    {
+      "target": "non-classical monocyte",
+      "seconds": 3.1060505859786645,
+      "n_fits": 960,
+      "n_retried": 0,
+      "all_converged": true
+    },
+    {
+      "target": "naive thymus-derived CD4-positive, alpha-beta T cell",
+      "seconds": 3.0878146330360323,
+      "n_fits": 960,
+      "n_retried": 0,
+      "all_converged": true
+    },
+    {
+      "target": "intermediate monocyte",
+      "seconds": 3.09419508499559,
+      "n_fits": 960,
+      "n_retried": 0,
+      "all_converged": true
+    },
+    {
+      "target": "hematopoietic precursor cell",
+      "seconds": 3.0215125320246443,
+      "n_fits": 960,
+      "n_retried": 0,
+      "all_converged": true
+    }
+  ],
+  "n_solver_fits": 20160,
+  "n_nonconverged": 0,
+  "n_retried": 0,
+  "n_low_alpha_boundary_selected": 0,
+  "full_data_model_sizes": [
+    {
+      "target": "common myeloid progenitor",
+      "scope": "full",
+      "model": "Lasso_min",
+      "relative_alpha": 0.044984326689694,
+      "alpha": 0.005099807083134,
+      "n_active_gt_1e_6": 580,
+      "selection_at_lowest_alpha": false
+    },
+    {
+      "target": "common myeloid progenitor",
+      "scope": "full",
+      "model": "Lasso_1se",
+      "relative_alpha": 0.13894954943731,
+      "alpha": 0.015752506452009,
+      "n_active_gt_1e_6": 204,
+      "selection_at_lowest_alpha": false
+    },
+    {
+      "target": "erythrocyte",
+      "scope": "full",
+      "model": "Lasso_min",
+      "relative_alpha": 0.0040949150623804,
+      "alpha": 0.0013166234218326,
+      "n_active_gt_1e_6": 1142,
+      "selection_at_lowest_alpha": false
+    },
+    {
+      "target": "erythrocyte",
+      "scope": "full",
+      "model": "Lasso_1se",
+      "relative_alpha": 0.019306977288833,
+      "alpha": 0.0062077034849386,
+      "n_active_gt_1e_6": 593,
+      "selection_at_lowest_alpha": false
+    },
+    {
+      "target": "platelet",
+      "scope": "full",
+      "model": "Lasso_min",
+      "relative_alpha": 0.010985411419876,
+      "alpha": 0.0021315641387934,
+      "n_active_gt_1e_6": 974,
+      "selection_at_lowest_alpha": false
+    },
+    {
+      "target": "platelet",
+      "scope": "full",
+      "model": "Lasso_1se",
+      "relative_alpha": 0.019306977288833,
+      "alpha": 0.0037462466214889,
+      "n_active_gt_1e_6": 798,
+      "selection_at_lowest_alpha": false
+    },
+    {
+      "target": "macrophage",
+      "scope": "full",
+      "model": "Lasso_min",
+      "relative_alpha": 0.0071968567300115,
+      "alpha": 0.0017318505537849,
+      "n_active_gt_1e_6": 1019,
+      "selection_at_lowest_alpha": false
+    },
+    {
+      "target": "macrophage",
+      "scope": "full",
+      "model": "Lasso_1se",
+      "relative_alpha": 0.012648552168553,
+      "alpha": 0.0030437457489376,
+      "n_active_gt_1e_6": 824,
+      "selection_at_lowest_alpha": false
+    },
+    {
+      "target": "B cell",
+      "scope": "full",
+      "model": "Lasso_min",
+      "relative_alpha": 0.0082864277285468,
+      "alpha": 0.0017290976608503,
+      "n_active_gt_1e_6": 1089,
+      "selection_at_lowest_alpha": false
+    },
+    {
+      "target": "B cell",
+      "scope": "full",
+      "model": "Lasso_1se",
+      "relative_alpha": 0.025595479226995,
+      "alpha": 0.0053409122374017,
+      "n_active_gt_1e_6": 656,
+      "selection_at_lowest_alpha": false
+    },
+    {
+      "target": "monocyte",
+      "scope": "full",
+      "model": "Lasso_min",
+      "relative_alpha": 0.0095409547634999,
+      "alpha": 0.0017885475742082,
+      "n_active_gt_1e_6": 1054,
+      "selection_at_lowest_alpha": false
+    },
+    {
+      "target": "monocyte",
+      "scope": "full",
+      "model": "Lasso_1se",
+      "relative_alpha": 0.025595479226995,
+      "alpha": 0.0047981290569862,
+      "n_active_gt_1e_6": 683,
+      "selection_at_lowest_alpha": false
+    },
+    {
+      "target": "natural killer cell",
+      "scope": "full",
+      "model": "Lasso_min",
+      "relative_alpha": 0.0082864277285468,
+      "alpha": 0.0016006478438234,
+      "n_active_gt_1e_6": 1102,
+      "selection_at_lowest_alpha": false
+    },
+    {
+      "target": "natural killer cell",
+      "scope": "full",
+      "model": "Lasso_1se",
+      "relative_alpha": 0.01676832936811,
+      "alpha": 0.0032390544064145,
+      "n_active_gt_1e_6": 842,
+      "selection_at_lowest_alpha": false
+    },
+    {
+      "target": "CD4-positive, alpha-beta T cell",
+      "scope": "full",
+      "model": "Lasso_min",
+      "relative_alpha": 0.0095409547634999,
+      "alpha": 0.0017221928198104,
+      "n_active_gt_1e_6": 1099,
+      "selection_at_lowest_alpha": false
+    },
+    {
+      "target": "CD4-positive, alpha-beta T cell",
+      "scope": "full",
+      "model": "Lasso_1se",
+      "relative_alpha": 0.029470517025518,
+      "alpha": 0.0053195842633707,
+      "n_active_gt_1e_6": 677,
+      "selection_at_lowest_alpha": false
+    },
+    {
+      "target": "CD8-positive, alpha-beta T cell",
+      "scope": "full",
+      "model": "Lasso_min",
+      "relative_alpha": 0.0082864277285468,
+      "alpha": 0.0016315375706036,
+      "n_active_gt_1e_6": 1117,
+      "selection_at_lowest_alpha": false
+    },
+    {
+      "target": "CD8-positive, alpha-beta T cell",
+      "scope": "full",
+      "model": "Lasso_1se",
+      "relative_alpha": 0.014563484775012,
+      "alpha": 0.0028674446151856,
+      "n_active_gt_1e_6": 890,
+      "selection_at_lowest_alpha": false
+    },
+    {
+      "target": "basophil",
+      "scope": "full",
+      "model": "Lasso_min",
+      "relative_alpha": 0.010985411419876,
+      "alpha": 0.0026041712538506,
+      "n_active_gt_1e_6": 838,
+      "selection_at_lowest_alpha": false
+    },
+    {
+      "target": "basophil",
+      "scope": "full",
+      "model": "Lasso_1se",
+      "relative_alpha": 0.019306977288833,
+      "alpha": 0.0045768586475839,
+      "n_active_gt_1e_6": 652,
+      "selection_at_lowest_alpha": false
+    },
+    {
+      "target": "neutrophil",
+      "scope": "full",
+      "model": "Lasso_min",
+      "relative_alpha": 0.0071968567300115,
+      "alpha": 0.0017890914313886,
+      "n_active_gt_1e_6": 991,
+      "selection_at_lowest_alpha": false
+    },
+    {
+      "target": "neutrophil",
+      "scope": "full",
+      "model": "Lasso_1se",
+      "relative_alpha": 0.01676832936811,
+      "alpha": 0.0041684968197415,
+      "n_active_gt_1e_6": 708,
+      "selection_at_lowest_alpha": false
+    },
+    {
+      "target": "myeloid dendritic cell",
+      "scope": "full",
+      "model": "Lasso_min",
+      "relative_alpha": 0.039069399370546,
+      "alpha": 0.007099786933953,
+      "n_active_gt_1e_6": 435,
+      "selection_at_lowest_alpha": false
+    },
+    {
+      "target": "myeloid dendritic cell",
+      "scope": "full",
+      "model": "Lasso_1se",
+      "relative_alpha": 0.091029817799152,
+      "alpha": 0.016542161421037,
+      "n_active_gt_1e_6": 226,
+      "selection_at_lowest_alpha": false
+    },
+    {
+      "target": "plasmacytoid dendritic cell",
+      "scope": "full",
+      "model": "Lasso_min",
+      "relative_alpha": 0.01676832936811,
+      "alpha": 0.0020097237093039,
+      "n_active_gt_1e_6": 1043,
+      "selection_at_lowest_alpha": false
+    },
+    {
+      "target": "plasmacytoid dendritic cell",
+      "scope": "full",
+      "model": "Lasso_1se",
+      "relative_alpha": 0.033932217718953,
+      "alpha": 0.0040668560929351,
+      "n_active_gt_1e_6": 803,
+      "selection_at_lowest_alpha": false
+    },
+    {
+      "target": "plasma cell",
+      "scope": "full",
+      "model": "Lasso_min",
+      "relative_alpha": 0.012648552168553,
+      "alpha": 0.0016706144778189,
+      "n_active_gt_1e_6": 1111,
+      "selection_at_lowest_alpha": false
+    },
+    {
+      "target": "plasma cell",
+      "scope": "full",
+      "model": "Lasso_1se",
+      "relative_alpha": 0.029470517025518,
+      "alpha": 0.0038924512272673,
+      "n_active_gt_1e_6": 784,
+      "selection_at_lowest_alpha": false
+    },
+    {
+      "target": "mature NK T cell",
+      "scope": "full",
+      "model": "Lasso_min",
+      "relative_alpha": 0.012648552168553,
+      "alpha": 0.0021809550322064,
+      "n_active_gt_1e_6": 976,
+      "selection_at_lowest_alpha": false
+    },
+    {
+      "target": "mature NK T cell",
+      "scope": "full",
+      "model": "Lasso_1se",
+      "relative_alpha": 0.029470517025518,
+      "alpha": 0.005081520125942,
+      "n_active_gt_1e_6": 681,
+      "selection_at_lowest_alpha": false
+    },
+    {
+      "target": "regulatory T cell",
+      "scope": "full",
+      "model": "Lasso_min",
+      "relative_alpha": 0.014563484775012,
+      "alpha": 0.0020452523121878,
+      "n_active_gt_1e_6": 1011,
+      "selection_at_lowest_alpha": false
+    },
+    {
+      "target": "regulatory T cell",
+      "scope": "full",
+      "model": "Lasso_1se",
+      "relative_alpha": 0.051794746792312,
+      "alpha": 0.0072738995695533,
+      "n_active_gt_1e_6": 558,
+      "selection_at_lowest_alpha": false
+    },
+    {
+      "target": "classical monocyte",
+      "scope": "full",
+      "model": "Lasso_min",
+      "relative_alpha": 0.0095409547634999,
+      "alpha": 0.0017977244023812,
+      "n_active_gt_1e_6": 1041,
+      "selection_at_lowest_alpha": false
+    },
+    {
+      "target": "classical monocyte",
+      "scope": "full",
+      "model": "Lasso_1se",
+      "relative_alpha": 0.022229964825262,
+      "alpha": 0.0041886112261358,
+      "n_active_gt_1e_6": 733,
+      "selection_at_lowest_alpha": false
+    },
+    {
+      "target": "non-classical monocyte",
+      "scope": "full",
+      "model": "Lasso_min",
+      "relative_alpha": 0.0095409547634999,
+      "alpha": 0.0016447273029273,
+      "n_active_gt_1e_6": 1108,
+      "selection_at_lowest_alpha": false
+    },
+    {
+      "target": "non-classical monocyte",
+      "scope": "full",
+      "model": "Lasso_1se",
+      "relative_alpha": 0.022229964825262,
+      "alpha": 0.0038321353572595,
+      "n_active_gt_1e_6": 768,
+      "selection_at_lowest_alpha": false
+    },
+    {
+      "target": "naive thymus-derived CD4-positive, alpha-beta T cell",
+      "scope": "full",
+      "model": "Lasso_min",
+      "relative_alpha": 0.012648552168553,
+      "alpha": 0.0019481810016204,
+      "n_active_gt_1e_6": 1051,
+      "selection_at_lowest_alpha": false
+    },
+    {
+      "target": "naive thymus-derived CD4-positive, alpha-beta T cell",
+      "scope": "full",
+      "model": "Lasso_1se",
+      "relative_alpha": 0.044984326689694,
+      "alpha": 0.0069286673652209,
+      "n_active_gt_1e_6": 612,
+      "selection_at_lowest_alpha": false
+    },
+    {
+      "target": "intermediate monocyte",
+      "scope": "full",
+      "model": "Lasso_min",
+      "relative_alpha": 0.0095409547634999,
+      "alpha": 0.0017640451323326,
+      "n_active_gt_1e_6": 1038,
+      "selection_at_lowest_alpha": false
+    },
+    {
+      "target": "intermediate monocyte",
+      "scope": "full",
+      "model": "Lasso_1se",
+      "relative_alpha": 0.019306977288833,
+      "alpha": 0.0035697034679082,
+      "n_active_gt_1e_6": 787,
+      "selection_at_lowest_alpha": false
+    },
+    {
+      "target": "hematopoietic precursor cell",
+      "scope": "full",
+      "model": "Lasso_min",
+      "relative_alpha": 0.01676832936811,
+      "alpha": 0.0024395702280522,
+      "n_active_gt_1e_6": 953,
+      "selection_at_lowest_alpha": false
+    },
+    {
+      "target": "hematopoietic precursor cell",
+      "scope": "full",
+      "model": "Lasso_1se",
+      "relative_alpha": 0.033932217718953,
+      "alpha": 0.0049366890583849,
+      "n_active_gt_1e_6": 653,
+      "selection_at_lowest_alpha": false
+    }
+  ],
+  "figure_count": 5,
+  "stability_analysis_started": false
+}

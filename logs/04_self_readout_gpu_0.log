@@ -1,0 +1,7 @@
+{"event": "job_done", "id": "self_readout/baseline", "seconds": 2.042640119907446}
+{"event": "job_done", "id": "self_readout/exclude_STAT4", "seconds": 1.7489037020131946}
+{"event": "job_done", "id": "self_readout/exclude_OVOL2", "seconds": 1.7286343380110338}
+{"event": "job_done", "id": "self_readout/exclude_CLOCK", "seconds": 1.3874168000184}
+{"event": "job_done", "id": "self_readout/exclude_KLF6", "seconds": 1.413865434937179}
+{"event": "job_done", "id": "self_readout/exclude_PRDM1", "seconds": 1.4191911779344082}
+{"event": "job_done", "id": "self_readout/exclude_PREB", "seconds": 1.394403408979997}

@@ -1,0 +1,9 @@
+{
+  "source": "https://huggingface.co/genbio-ai/scFoundation",
+  "revision": "cb434153a1acfacd215eefc956ea445f7cc39cc3",
+  "bytes": 1432587886,
+  "sha256": "9f40bf324d3d0084c4b288d06f5af4fddd12206e2a3f022551d12e89e33a0ea9",
+  "provider": "genbio-ai public mirror",
+  "matches_hosted_LFS_sha256": true,
+  "bytewise_comparison_with_original_publisher": false
+}

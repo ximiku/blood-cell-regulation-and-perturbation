@@ -1,0 +1,13 @@
+{
+  "all_arrays_identical": true,
+  "arrays": {
+    "focus_targets": true,
+    "focus_indices": true,
+    "landmark_indices": true,
+    "gene_response_scale": true,
+    "scale_cell_types": true,
+    "genes": true,
+    "perturbations": true
+  },
+  "action": "adopt byte-identical remote NPZ archive after confirming all arrays equal"
+}

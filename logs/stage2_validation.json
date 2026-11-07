@@ -1,0 +1,51 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "check": "frozen_inputs_unchanged",
+      "passed": true,
+      "detail": "HDF5 and four original input files match the stage-1 SHA-256 records."
+    },
+    {
+      "check": "HVG_selection_and_scaling",
+      "passed": true,
+      "detail": "All 100/500/1000 gene lists, variances and displayed z-scores match direct recomputation."
+    },
+    {
+      "check": "PCA",
+      "passed": true,
+      "detail": "Independent NumPy SVD agrees with saved explained variance and 10-dimensional sample geometry."
+    },
+    {
+      "check": "HSC_differences",
+      "passed": true,
+      "detail": "All-gene/model-gene RMS, full focus differences and all 29 marker values agree with frozen inputs."
+    },
+    {
+      "check": "distances_and_nearest_neighbors",
+      "passed": true,
+      "detail": "Full Euclidean/correlation matrices and HSC nearest neighbor agree."
+    },
+    {
+      "check": "clustering_sensitivity",
+      "passed": true,
+      "detail": "All 30 method/k combinations and 630 cell assignments agree with independent tree reconstruction."
+    },
+    {
+      "check": "Prism_data_only",
+      "passed": true,
+      "detail": "XML/TSV values agree with RMS; this checks data, not native Prism rendering or schema compliance."
+    },
+    {
+      "check": "figure_outputs",
+      "passed": true,
+      "detail": "All 21 PDF/SVG/PNG files exist and parse; every PNG has 450 dpi metadata and >1000 px on each side."
+    },
+    {
+      "check": "stage_scope",
+      "passed": true,
+      "detail": "Stage-2 summary records no training; stage 3 requires user approval."
+    }
+  ],
+  "generated_utc": "2026-11-07T06:32:58.159578+00:00"
+}

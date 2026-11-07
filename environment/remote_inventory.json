@@ -1,0 +1,85 @@
+{
+  "host_platform": "Linux-5.15.0-105-generic-x86_64-with-glibc2.35",
+  "python": "3.10.12",
+  "cpu_count": 128,
+  "cwd": "/root",
+  "paths": {
+    "/root": {
+      "total_bytes": 32212254720,
+      "free_bytes": 32211230720,
+      "top_level_entries": [
+        ".bashrc",
+        ".cache",
+        ".conda",
+        ".condarc",
+        ".config",
+        ".ipython",
+        ".local",
+        ".profile",
+        ".ssh",
+        ".vnc",
+        ".wget-hsts"
+      ]
+    },
+    "/tmp": {
+      "total_bytes": 32212254720,
+      "free_bytes": 32211230720,
+      "top_level_entries": []
+    },
+    "/app": {
+      "total_bytes": 468157972480,
+      "free_bytes": 385282068480,
+      "top_level_entries": [
+        "vnc"
+      ]
+    },
+    "/mnt": {
+      "total_bytes": 32212254720,
+      "free_bytes": 32211230720,
+      "top_level_entries": []
+    }
+  },
+  "memory_kb": {
+    "MemTotal": "1056435384 kB",
+    "MemAvailable": "1015869520 kB"
+  },
+  "cgroup_limits": {
+    "memory.max": "515396075520",
+    "cpu.max": "5200000 100000",
+    "cpuset.cpus.effective": "4-29,68-93"
+  },
+  "packages": {
+    "torch": null,
+    "numpy": null,
+    "pandas": null,
+    "scipy": null,
+    "scikit-learn": null,
+    "h5py": null,
+    "anndata": null,
+    "scanpy": null,
+    "scgpt": null,
+    "cell-gears": null,
+    "pip": null
+  },
+  "gpus": {
+    "returncode": 0,
+    "stdout": "NVIDIA A100-SXM4-80GB, 81920 MiB, 81153 MiB, 580.95.05\nNVIDIA A100-SXM4-80GB, 81920 MiB, 81153 MiB, 580.95.05\nNVIDIA A100-SXM4-80GB, 81920 MiB, 81153 MiB, 580.95.05\nNVIDIA A100-SXM4-80GB, 81920 MiB, 81153 MiB, 580.95.05\n",
+    "stderr": ""
+  },
+  "filesystems": {
+    "returncode": 0,
+    "stdout": "Filesystem                         Size  Used Avail Use% Mounted on\noverlay                             30G 1000K   30G   1% /\n/dev/mapper/ubuntu--vg-ubuntu--lv  437G   55G  359G  14% /app\ntmpfs                               64M     0   64M   0% /dev\ntmpfs                               10G     0   10G   0% /dev/shm\n/dev/nvme0n1                       3.5T  1.7T  1.9T  48% /etc/hostname\ntmpfs                              481G   16K  481G   1% /root/.ssh\ntmpfs                              481G  4.0K  481G   1% /root/.ssh/authorized_keys\ntmpfs                              481G   12K  481G   1% /run/secrets/kubernetes.io/serviceaccount\ntmpfs                              504G   12K  504G   1% /proc/driver/nvidia\ntmpfs                              504G  4.0K  504G   1% /etc/nvidia/nvidia-application-profiles-rc.d\ntmpfs                              101G  7.2M  101G   1% /run/nvidia-persistenced/socket\ntmpfs                              504G     0  504G   0% /proc/acpi\ntmpfs                              504G     0  504G   0% /proc/scsi\ntmpfs                              504G     0  504G   0% /sys/firmware\n",
+    "stderr": ""
+  },
+  "tools": {
+    "returncode": 0,
+    "stdout": "/usr/bin/python3\n/usr/bin/rsync\n/usr/bin/git\n",
+    "stderr": ""
+  },
+  "inspected_utc": "2026-11-07T04:04:34.867451+00:00",
+  "connection": {
+    "host": "gpu.example.org",
+    "port": 22,
+    "user": "root"
+  }
+}

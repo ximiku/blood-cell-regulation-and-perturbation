@@ -1,0 +1,7 @@
+GoTo G, 1
+SetGraphTitle "Out-of-fold R2"
+SetAxisTitle Y, ""
+ExportPDF "/path/to/user/Desktop/CourseData/26_fall/Statistical_analysis_of_genomics_data/HW2/solution/prism/migration/test_script_output.pdf"
+OpenOutput "/path/to/user/Desktop/CourseData/26_fall/Statistical_analysis_of_genomics_data/HW2/solution/prism/migration/test_script_done.txt"
+WText "done"
+CloseOutput

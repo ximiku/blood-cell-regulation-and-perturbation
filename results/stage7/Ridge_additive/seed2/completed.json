@@ -1,0 +1,12 @@
+{
+  "model": "Ridge_additive",
+  "seed": 2,
+  "status": "completed",
+  "test_conditions": 93,
+  "eligible_conditions": 93,
+  "training_conditions_equal_weight": 103,
+  "controls_excluded_from_training_mean": true,
+  "alpha": 0.1,
+  "validation_MSE": 0.001129463544538725,
+  "fit_intercept": false
+}

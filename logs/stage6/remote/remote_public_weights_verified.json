@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "files": [
+    {
+      "model": "scGPT_blood",
+      "path": "models/stage6/scGPT_blood/args.json",
+      "bytes": 902,
+      "sha256": "8db3c600fec669fcba2619dad82810267d1f1490f64b1d2375ca0c814586a936"
+    },
+    {
+      "model": "scGPT_blood",
+      "path": "models/stage6/scGPT_blood/best_model.pt",
+      "bytes": 155981354,
+      "sha256": "56e68896b1b4e8c708b695f1a60bb7560e08952ea76842f695109737beaeeb41"
+    },
+    {
+      "model": "scGPT_blood",
+      "path": "models/stage6/scGPT_blood/vocab.json",
+      "bytes": 761427,
+      "sha256": "9b8df99caf1da1d58f0b7c7f871c64b75f2c5fba256d1f18fe14b29c4529e64c"
+    },
+    {
+      "model": "scFoundation",
+      "path": "models/stage6/scFoundation/MODEL_LICENSE",
+      "bytes": 2310,
+      "sha256": "bdcd01b3213efb813f4461ef60c2a30d56cf07b63446d234283d8c0547ee3cbb"
+    },
+    {
+      "model": "scFoundation",
+      "path": "models/stage6/scFoundation/models.ckpt",
+      "bytes": 1432587886,
+      "sha256": "9f40bf324d3d0084c4b288d06f5af4fddd12206e2a3f022551d12e89e33a0ea9"
+    }
+  ]
+}

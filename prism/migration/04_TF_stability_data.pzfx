@@ -1,0 +1,236 @@
+<?xml version='1.0' encoding='utf-8'?>
+<GraphPadPrismFile PrismXMLVersion="5.00">
+  <Created>
+    <OriginalVersion CreatedByProgram="HW2 lossless data export" CreatedByVersion="1.0" DateTime="2026-11-07T09:45:57.447517+00:00" />
+  </Created>
+  <TableSequence Selected="1">
+    <Ref ID="Table0" Selected="1" />
+    <Ref ID="Table1" Selected="0" />
+    <Ref ID="Table2" Selected="0" />
+    <Ref ID="Table3" Selected="0" />
+  </TableSequence>
+  <Table ID="Table0" XFormat="none" YFormat="upper-lower-limits" TableType="TwoWay" EVFormat="AsteriskAfterNumber">
+    <Title>B cell</Title>
+    <RowTitlesColumn Width="130">
+      <Subcolumn>
+        <d>ZNF22</d>
+        <d>DLX3</d>
+        <d>RORC</d>
+        <d>ZNF174</d>
+        <d>STAT4</d>
+        <d>ZNF296</d>
+        <d>KLF3</d>
+        <d>HOXB5</d>
+        <d>NFYB</d>
+        <d>ZNF114</d>
+      </Subcolumn>
+    </RowTitlesColumn>
+    <YColumn Width="240" Decimals="8" Subcolumns="3">
+      <Title>Median and 2.5-97.5 percentiles</Title>
+      <Subcolumn>
+        <d>0.067543028284726303</d>
+        <d>0.038919209235356897</d>
+        <d>0.038655497564277101</d>
+        <d>-0.037290982340270701</d>
+        <d>0.036676313497259</d>
+        <d>0.035725898536104098</d>
+        <d>0.033929539413693303</d>
+        <d>-0.032612041376013201</d>
+        <d>-0.031689797022073501</d>
+        <d>0.031514814363356</d>
+      </Subcolumn>
+      <Subcolumn>
+        <d>0.090086559905678806</d>
+        <d>0.066819274630189496</d>
+        <d>0.058847523100682898</d>
+        <d>-0.0186844834219889</d>
+        <d>0.057671905706587499</d>
+        <d>0.058530520220810699</d>
+        <d>0.066663892912569994</d>
+        <d>-0.015001475755495699</d>
+        <d>-0.0096497172876035004</d>
+        <d>0.0522871032765823</d>
+      </Subcolumn>
+      <Subcolumn>
+        <d>0.041288908688756801</d>
+        <d>0.0180219269337803</d>
+        <d>0.020496464497145098</d>
+        <d>-0.050966248181090898</d>
+        <d>0.014934982011127</d>
+        <d>0.0095592487108044008</d>
+        <d>0.0108318190898011</d>
+        <d>-0.048339417313169</d>
+        <d>-0.053156801663799401</d>
+        <d>0.017880241755817899</d>
+      </Subcolumn>
+    </YColumn>
+  </Table>
+  <Table ID="Table1" XFormat="none" YFormat="upper-lower-limits" TableType="TwoWay" EVFormat="AsteriskAfterNumber">
+    <Title>Plasma cell</Title>
+    <RowTitlesColumn Width="130">
+      <Subcolumn>
+        <d>OVOL2</d>
+        <d>NCOA3</d>
+        <d>ZNF653</d>
+        <d>(DDIT3)</d>
+        <d>LHX8</d>
+        <d>ERF</d>
+        <d>CLOCK</d>
+        <d>ZNF558</d>
+        <d>TFAP2A</d>
+        <d>TP53</d>
+      </Subcolumn>
+    </RowTitlesColumn>
+    <YColumn Width="240" Decimals="8" Subcolumns="3">
+      <Title>Median and 2.5-97.5 percentiles</Title>
+      <Subcolumn>
+        <d>0.065368735714752102</d>
+        <d>-0.064667700700872494</d>
+        <d>0.062823748485988401</d>
+        <d>0.056659188718314997</d>
+        <d>-0.047430494866974399</d>
+        <d>0.046482724111123301</d>
+        <d>-0.0405837284518724</d>
+        <d>0.039478209101118399</d>
+        <d>0.038387204930359901</d>
+        <d>-0.037431443619678997</d>
+      </Subcolumn>
+      <Subcolumn>
+        <d>0.0873861606990608</d>
+        <d>-0.046386783368089601</d>
+        <d>0.083102586622348401</d>
+        <d>0.0804946899756913</d>
+        <d>-0.0262867702515658</d>
+        <d>0.072006858338218099</d>
+        <d>-0.028756525861284198</d>
+        <d>0.058311316835060398</d>
+        <d>0.064244443001873194</d>
+        <d>-0.013614691718701799</d>
+      </Subcolumn>
+      <Subcolumn>
+        <d>0.047062341822954101</d>
+        <d>-0.086734531873708207</d>
+        <d>0.040396476093575898</d>
+        <d>0.037499984046600397</d>
+        <d>-0.068932820274965098</d>
+        <d>0.021710362704859602</d>
+        <d>-0.061285568034001203</d>
+        <d>0.0178220145148856</d>
+        <d>0.0170466824318086</d>
+        <d>-0.064066918216975605</d>
+      </Subcolumn>
+    </YColumn>
+  </Table>
+  <Table ID="Table2" XFormat="none" YFormat="upper-lower-limits" TableType="TwoWay" EVFormat="AsteriskAfterNumber">
+    <Title>Monocyte</Title>
+    <RowTitlesColumn Width="130">
+      <Subcolumn>
+        <d>PAX8</d>
+        <d>KLF6</d>
+        <d>TCF7L2</d>
+        <d>TFAP2A</d>
+        <d>OVOL2</d>
+        <d>IRF3</d>
+        <d>HIF1A</d>
+        <d>PRDM1</d>
+        <d>SIM2</d>
+        <d>SATB2</d>
+      </Subcolumn>
+    </RowTitlesColumn>
+    <YColumn Width="240" Decimals="8" Subcolumns="3">
+      <Title>Median and 2.5-97.5 percentiles</Title>
+      <Subcolumn>
+        <d>0.086963245546949203</d>
+        <d>0.081956826992809095</d>
+        <d>0.065266716811798298</d>
+        <d>0.0643971941875464</d>
+        <d>0.059712364606777597</d>
+        <d>0.056658307082314903</d>
+        <d>0.055271177119096099</d>
+        <d>0.050914387523670501</d>
+        <d>-0.049282119309032597</d>
+        <d>0.043154304160203903</d>
+      </Subcolumn>
+      <Subcolumn>
+        <d>0.1096855185049212</d>
+        <d>0.097818940738441107</d>
+        <d>0.079266385435805997</d>
+        <d>0.086569243499421994</d>
+        <d>0.076697690635121302</d>
+        <d>0.0798441230649031</d>
+        <d>0.071630744210939706</d>
+        <d>0.069686044235541006</d>
+        <d>-0.032198586922332198</d>
+        <d>0.065079335750636097</d>
+      </Subcolumn>
+      <Subcolumn>
+        <d>0.053392463172989298</d>
+        <d>0.063585385144652298</d>
+        <d>0.049979941323697499</d>
+        <d>0.042455536390239398</d>
+        <d>0.038594925585495599</d>
+        <d>0.0365947622967326</d>
+        <d>0.0402483707418144</d>
+        <d>0.031321841600322399</d>
+        <d>-0.069750835621497406</d>
+        <d>0.0061045418614765002</d>
+      </Subcolumn>
+    </YColumn>
+  </Table>
+  <Table ID="Table3" XFormat="none" YFormat="upper-lower-limits" TableType="TwoWay" EVFormat="AsteriskAfterNumber">
+    <Title>Erythrocyte</Title>
+    <RowTitlesColumn Width="130">
+      <Subcolumn>
+        <d>MYB</d>
+        <d>IRF3</d>
+        <d>NFYB</d>
+        <d>PREB</d>
+        <d>ELK3</d>
+        <d>NCOA3</d>
+        <d>CREB3</d>
+        <d>RARA</d>
+        <d>OVOL2</d>
+        <d>KLF6</d>
+      </Subcolumn>
+    </RowTitlesColumn>
+    <YColumn Width="240" Decimals="8" Subcolumns="3">
+      <Title>Median and 2.5-97.5 percentiles</Title>
+      <Subcolumn>
+        <d>0.071406263866674397</d>
+        <d>0.051850885742005498</d>
+        <d>-0.0517879648201552</d>
+        <d>0.046965946604030799</d>
+        <d>0.043823212065591199</d>
+        <d>-0.038532165104572802</d>
+        <d>0.038087420656200098</d>
+        <d>-0.036723977286504401</d>
+        <d>0.0324255987418023</d>
+        <d>0.031861679289480797</d>
+      </Subcolumn>
+      <Subcolumn>
+        <d>0.097276116362729398</d>
+        <d>0.072691816544279905</d>
+        <d>-0.026319832684364702</d>
+        <d>0.059821393817876503</d>
+        <d>0.057931545703271102</d>
+        <d>-0.024651872778951402</d>
+        <d>0.050622698343127798</d>
+        <d>-0.010168032900941299</d>
+        <d>0.046468905611019698</d>
+        <d>0.0443494405831358</d>
+      </Subcolumn>
+      <Subcolumn>
+        <d>0.038116327568463601</d>
+        <d>0.011127407070095</d>
+        <d>-0.070218969282134794</d>
+        <d>0.0336934466248991</d>
+        <d>0.0186616044362658</d>
+        <d>-0.057748888705411297</d>
+        <d>0.0139759978446065</d>
+        <d>-0.053151066425192198</d>
+        <d>0.0137372600589166</d>
+        <d>0.018789149173513001</d>
+      </Subcolumn>
+    </YColumn>
+  </Table>
+</GraphPadPrismFile>

@@ -1,0 +1,121 @@
+﻿dataset,target,scope,selection,parameter_index,relative_alpha,l1_ratio
+size_matched_01,B cell,outer_01,min,9,0.28117686979742307,1
+size_matched_01,B cell,outer_01,1se,0,1,1
+size_matched_01,plasma cell,outer_01,min,11,0.2120950887920191,1
+size_matched_01,plasma cell,outer_01,1se,0,1,1
+size_matched_01,monocyte,outer_01,min,13,0.15998587196060582,1
+size_matched_01,monocyte,outer_01,1se,8,0.32374575428176439,1
+size_matched_01,erythrocyte,outer_01,min,20,0.059636233165946427,1
+size_matched_01,erythrocyte,outer_01,1se,12,0.18420699693267165,1
+size_matched_01,B cell,outer_02,min,10,0.2442053094548651,1
+size_matched_01,B cell,outer_02,1se,0,1,1
+size_matched_01,plasma cell,outer_02,min,8,0.32374575428176439,1
+size_matched_01,plasma cell,outer_02,1se,0,1,1
+size_matched_01,monocyte,outer_02,min,13,0.15998587196060582,1
+size_matched_01,monocyte,outer_02,1se,7,0.37275937203149406,1
+size_matched_01,erythrocyte,outer_02,min,19,0.068664884500430012,1
+size_matched_01,erythrocyte,outer_02,1se,10,0.2442053094548651,1
+size_matched_01,B cell,outer_03,min,11,0.2120950887920191,1
+size_matched_01,B cell,outer_03,1se,0,1,1
+size_matched_01,plasma cell,outer_03,min,6,0.4291934260128778,1
+size_matched_01,plasma cell,outer_03,1se,0,1,1
+size_matched_01,monocyte,outer_03,min,13,0.15998587196060582,1
+size_matched_01,monocyte,outer_03,1se,0,1,1
+size_matched_01,erythrocyte,outer_03,min,20,0.059636233165946427,1
+size_matched_01,erythrocyte,outer_03,1se,11,0.2120950887920191,1
+size_matched_01,B cell,outer_04,min,9,0.28117686979742307,1
+size_matched_01,B cell,outer_04,1se,0,1,1
+size_matched_01,plasma cell,outer_04,min,9,0.28117686979742307,1
+size_matched_01,plasma cell,outer_04,1se,0,1,1
+size_matched_01,monocyte,outer_04,min,11,0.2120950887920191,1
+size_matched_01,monocyte,outer_04,1se,4,0.56898660290182967,1
+size_matched_01,erythrocyte,outer_04,min,19,0.068664884500430012,1
+size_matched_01,erythrocyte,outer_04,1se,15,0.12067926406393285,1
+size_matched_01,B cell,outer_05,min,10,0.2442053094548651,1
+size_matched_01,B cell,outer_05,1se,0,1,1
+size_matched_01,plasma cell,outer_05,min,10,0.2442053094548651,1
+size_matched_01,plasma cell,outer_05,1se,1,0.86851137375135257,1
+size_matched_01,monocyte,outer_05,min,12,0.18420699693267165,1
+size_matched_01,monocyte,outer_05,1se,3,0.65512855685955096,1
+size_matched_01,erythrocyte,outer_05,min,19,0.068664884500430012,1
+size_matched_01,erythrocyte,outer_05,1se,15,0.12067926406393285,1
+size_matched_02,B cell,outer_01,min,12,0.18420699693267165,1
+size_matched_02,B cell,outer_01,1se,0,1,1
+size_matched_02,plasma cell,outer_01,min,11,0.2120950887920191,1
+size_matched_02,plasma cell,outer_01,1se,5,0.49417133613238345,1
+size_matched_02,monocyte,outer_01,min,14,0.13894954943731377,1
+size_matched_02,monocyte,outer_01,1se,6,0.4291934260128778,1
+size_matched_02,erythrocyte,outer_01,min,21,0.051794746792312128,1
+size_matched_02,erythrocyte,outer_01,1se,15,0.12067926406393285,1
+size_matched_02,B cell,outer_02,min,7,0.37275937203149406,1
+size_matched_02,B cell,outer_02,1se,0,1,1
+size_matched_02,plasma cell,outer_02,min,12,0.18420699693267165,1
+size_matched_02,plasma cell,outer_02,1se,1,0.86851137375135257,1
+size_matched_02,monocyte,outer_02,min,12,0.18420699693267165,1
+size_matched_02,monocyte,outer_02,1se,7,0.37275937203149406,1
+size_matched_02,erythrocyte,outer_02,min,15,0.12067926406393285,1
+size_matched_02,erythrocyte,outer_02,1se,8,0.32374575428176439,1
+size_matched_02,B cell,outer_03,min,13,0.15998587196060582,1
+size_matched_02,B cell,outer_03,1se,2,0.75431200633546169,1
+size_matched_02,plasma cell,outer_03,min,10,0.2442053094548651,1
+size_matched_02,plasma cell,outer_03,1se,6,0.4291934260128778,1
+size_matched_02,monocyte,outer_03,min,12,0.18420699693267165,1
+size_matched_02,monocyte,outer_03,1se,3,0.65512855685955096,1
+size_matched_02,erythrocyte,outer_03,min,18,0.079060432109077011,1
+size_matched_02,erythrocyte,outer_03,1se,13,0.15998587196060582,1
+size_matched_02,B cell,outer_04,min,9,0.28117686979742307,1
+size_matched_02,B cell,outer_04,1se,0,1,1
+size_matched_02,plasma cell,outer_04,min,13,0.15998587196060582,1
+size_matched_02,plasma cell,outer_04,1se,8,0.32374575428176439,1
+size_matched_02,monocyte,outer_04,min,11,0.2120950887920191,1
+size_matched_02,monocyte,outer_04,1se,4,0.56898660290182967,1
+size_matched_02,erythrocyte,outer_04,min,19,0.068664884500430012,1
+size_matched_02,erythrocyte,outer_04,1se,10,0.2442053094548651,1
+size_matched_02,B cell,outer_05,min,8,0.32374575428176439,1
+size_matched_02,B cell,outer_05,1se,2,0.75431200633546169,1
+size_matched_02,plasma cell,outer_05,min,12,0.18420699693267165,1
+size_matched_02,plasma cell,outer_05,1se,4,0.56898660290182967,1
+size_matched_02,monocyte,outer_05,min,12,0.18420699693267165,1
+size_matched_02,monocyte,outer_05,1se,4,0.56898660290182967,1
+size_matched_02,erythrocyte,outer_05,min,17,0.091029817799152174,1
+size_matched_02,erythrocyte,outer_05,1se,7,0.37275937203149406,1
+size_matched_03,B cell,outer_01,min,14,0.13894954943731377,1
+size_matched_03,B cell,outer_01,1se,3,0.65512855685955096,1
+size_matched_03,plasma cell,outer_01,min,13,0.15998587196060582,1
+size_matched_03,plasma cell,outer_01,1se,8,0.32374575428176439,1
+size_matched_03,monocyte,outer_01,min,15,0.12067926406393285,1
+size_matched_03,monocyte,outer_01,1se,10,0.2442053094548651,1
+size_matched_03,erythrocyte,outer_01,min,19,0.068664884500430012,1
+size_matched_03,erythrocyte,outer_01,1se,15,0.12067926406393285,1
+size_matched_03,B cell,outer_02,min,12,0.18420699693267165,1
+size_matched_03,B cell,outer_02,1se,4,0.56898660290182967,1
+size_matched_03,plasma cell,outer_02,min,10,0.2442053094548651,1
+size_matched_03,plasma cell,outer_02,1se,0,1,1
+size_matched_03,monocyte,outer_02,min,14,0.13894954943731377,1
+size_matched_03,monocyte,outer_02,1se,5,0.49417133613238345,1
+size_matched_03,erythrocyte,outer_02,min,21,0.051794746792312128,1
+size_matched_03,erythrocyte,outer_02,1se,14,0.13894954943731377,1
+size_matched_03,B cell,outer_03,min,10,0.2442053094548651,1
+size_matched_03,B cell,outer_03,1se,0,1,1
+size_matched_03,plasma cell,outer_03,min,13,0.15998587196060582,1
+size_matched_03,plasma cell,outer_03,1se,3,0.65512855685955096,1
+size_matched_03,monocyte,outer_03,min,13,0.15998587196060582,1
+size_matched_03,monocyte,outer_03,1se,4,0.56898660290182967,1
+size_matched_03,erythrocyte,outer_03,min,18,0.079060432109077011,1
+size_matched_03,erythrocyte,outer_03,1se,8,0.32374575428176439,1
+size_matched_03,B cell,outer_04,min,14,0.13894954943731377,1
+size_matched_03,B cell,outer_04,1se,5,0.49417133613238345,1
+size_matched_03,plasma cell,outer_04,min,13,0.15998587196060582,1
+size_matched_03,plasma cell,outer_04,1se,4,0.56898660290182967,1
+size_matched_03,monocyte,outer_04,min,14,0.13894954943731377,1
+size_matched_03,monocyte,outer_04,1se,10,0.2442053094548651,1
+size_matched_03,erythrocyte,outer_04,min,19,0.068664884500430012,1
+size_matched_03,erythrocyte,outer_04,1se,11,0.2120950887920191,1
+size_matched_03,B cell,outer_05,min,9,0.28117686979742307,1
+size_matched_03,B cell,outer_05,1se,5,0.49417133613238345,1
+size_matched_03,plasma cell,outer_05,min,13,0.15998587196060582,1
+size_matched_03,plasma cell,outer_05,1se,8,0.32374575428176439,1
+size_matched_03,monocyte,outer_05,min,14,0.13894954943731377,1
+size_matched_03,monocyte,outer_05,1se,7,0.37275937203149406,1
+size_matched_03,erythrocyte,outer_05,min,19,0.068664884500430012,1
+size_matched_03,erythrocyte,outer_05,1se,13,0.15998587196060582,1

@@ -1,0 +1,18 @@
+{
+  "id": "self_readout/exclude_RORC",
+  "name": "exclude_RORC",
+  "kind": "self_readout",
+  "dataset": "raw",
+  "tolerance": 1e-06,
+  "n_train": 11921,
+  "n_validation": 0,
+  "parameters": {},
+  "initialization": "zero",
+  "seconds": 2.072800469934009,
+  "model_path_seconds_excluding_shared_preprocessing": {
+    "Lasso": 1.748341988073662
+  },
+  "device": 2,
+  "all_converged": true,
+  "completed_utc": "2026-11-07T08:16:42.338588+00:00"
+}

@@ -1,0 +1,9 @@
+{"check": "frozen_input_shared_splits_and_100_draws", "passed": true, "detail": {"jobs": 172, "landmark": 965, "sample_size": 9537}}
+{"check": "fold_preprocessing_all_validation_MSE_and_certificates", "passed": true, "detail": {"n_saved_certificates": 29312, "n_independent_direct_certificates": 2240, "max_MSE_error": 2.1760371282653068e-14, "max_gap_error": 5.923872503643679e-13, "max_iterations": 7075}}
+{"check": "all_minimum_and_one_SE_choices", "passed": true, "detail": {"pairs": 168}}
+{"check": "all_pooled_metrics_and_original_row_outer_predictions", "passed": true, "detail": {"metric_rows": 76}}
+{"check": "every_outer_fold_metric", "passed": true, "detail": {"rows": 320}}
+{"check": "all_stability_frequencies_signs_ranking_and_eligibility", "passed": true, "detail": {"coefficient_count": 1086800, "candidate_rows": 10868}}
+{"check": "TF_identity_and_top10_rule", "passed": true, "detail": {"displayed_TF_entries": 40}}
+{"check": "own_readout_identity_matching_and_coefficient_changes", "passed": true, "detail": {"candidates": 40}}
+{"check": "independent_CPU_model_references", "passed": true, "detail": {"record": "logs/stage4_solver_crosscheck.json"}}

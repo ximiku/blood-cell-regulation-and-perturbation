@@ -1,0 +1,37 @@
+{
+  "target_index": 0,
+  "target": "common myeloid progenitor",
+  "completed_utc": "2026-11-07T07:17:09.955230+00:00",
+  "seconds": 3.110195170971565,
+  "timing_scope": "assembly_after_shared_GPU_paths",
+  "metrics": [
+    {
+      "target": "common myeloid progenitor",
+      "model": "Lasso_min",
+      "R2": 0.12682806922173484,
+      "RMSE": 0.16011936855085482,
+      "Pearson": 0.3568853766268051,
+      "Spearman": 0.2861546023824885
+    },
+    {
+      "target": "common myeloid progenitor",
+      "model": "Lasso_1se",
+      "R2": 0.08518411568036666,
+      "RMSE": 0.16389316193298184,
+      "Pearson": 0.3003359041204656,
+      "Spearman": 0.23997109853196166
+    },
+    {
+      "target": "common myeloid progenitor",
+      "model": "Mean_baseline",
+      "R2": -0.00016149086386296752,
+      "RMSE": 0.17136773241077202,
+      "Pearson": -0.016945742510675425,
+      "Spearman": -0.012440338317736395
+    }
+  ],
+  "n_fits": 960,
+  "n_retried": 0,
+  "all_converged": true,
+  "input_sha256": "37afe6e27bcb80676f6ae2e92bd0ec77d1acd4480f1eabc1100f8cbee18175be"
+}

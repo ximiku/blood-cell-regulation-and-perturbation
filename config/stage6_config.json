@@ -1,0 +1,53 @@
+{
+  "status": "executed_and_self_checked",
+  "random_seed": 20261107,
+  "split_seed": 1,
+  "source_dataset": "Norman 2019 GSE133344, scFoundation Figshare processed release with total_count",
+  "retained_cells": 84143,
+  "conditions_including_control": 225,
+  "input_genes": 19264,
+  "common_output_genes": 18977,
+  "expression_scale": "publisher log1p normalized, retained without re-normalization",
+  "pilot_pairs": "data/splits/stage6/pilot_pairs.csv",
+  "batch_size": 2,
+  "optimizer_steps": 4,
+  "training_cells": 8,
+  "heldout_prediction_cells": 14,
+  "gradient_clip_norm": 1.0,
+  "models": {
+    "GEARS": {
+      "hidden_size": 64,
+      "decoder_hidden_size": 16,
+      "learning_rate": 0.001,
+      "loss": "upstream power4 + direction",
+      "precision": "float32"
+    },
+    "scGPT_blood": {
+      "learning_rate": 0.0001,
+      "loss": "MSE",
+      "train_sequence_length": 1536,
+      "prediction_genes": 18977,
+      "always_include_perturbed_genes": true,
+      "precision": "bfloat16 autocast",
+      "pretrained_encoder_verified": true
+    },
+    "scFoundation_GEARS": {
+      "hidden_size": 512,
+      "decoder_hidden_size": 16,
+      "learning_rate": 0.001,
+      "loss": "upstream power4 + direction",
+      "mode": "v1",
+      "highres": 0,
+      "precision": "float32",
+      "encoder_frozen": true,
+      "encoder_eval_mode": true,
+      "append_original_total_count": true
+    }
+  },
+  "graphs": {
+    "GO": "100 declared targets; Jaccard >0.1; top21 incoming including self",
+    "coexpression": "seed1 training controls and single perturbations only; absolute Pearson >0.4; top21 incoming"
+  },
+  "review_mode": "self_checks_only_user_requested",
+  "Prism": "cancelled_by_user"
+}

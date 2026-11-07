@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "seed": 20261107,
+  "reference_cell": "hematopoietic stem cell",
+  "focus_targets": [
+    "B cell",
+    "plasma cell",
+    "monocyte",
+    "erythrocyte"
+  ],
+  "supplementary_target": "myeloid dendritic cell",
+  "deduplicate": "first_in_original_order",
+  "gene_order": "blood_first_occurrence",
+  "gene_mapping_for_matrices": "exact_original_symbol",
+  "drop_shared_genes_zero_in_all_blood_types": true,
+  "response": "input_scale_target_minus_HSC",
+  "X_transform": "training_fold_column_standardization",
+  "y_transform": "training_fold_standardization_with_original_scale_evaluation",
+  "outer_folds": 5,
+  "inner_folds": 3,
+  "lasso_relative_alpha": {
+    "maximum": 1.0,
+    "minimum": 0.001,
+    "count": 50
+  },
+  "elastic_net_l1_ratio": [
+    0.1,
+    0.5,
+    0.9
+  ],
+  "ridge_mean_loss_lambda": {
+    "minimum": 1e-05,
+    "maximum": 1000.0,
+    "count": 17,
+    "sklearn_alpha": "n_train * lambda"
+  },
+  "pcr_components": [
+    2,
+    5,
+    10,
+    20,
+    50,
+    100
+  ],
+  "pls_components": [
+    2,
+    5,
+    10,
+    20
+  ],
+  "solver": {
+    "dtype": "float64",
+    "tol": 0.0001,
+    "max_iter": 10000,
+    "retry_max_iter": 50000,
+    "lasso_engine": "gpu_fista",
+    "celer_version": "0.7.4",
+    "celer_max_working_set_iterations": 100,
+    "iteration_note": "GPU: proximal-gradient steps, 10000 normal / 50000 total cap; Celer fallback: working-set iterations and coordinate epochs.",
+    "gpu_precision": "float64",
+    "gpu_algorithm": "accelerated proximal gradient with adaptive restart and per-target primal-dual gap certificate"
+  },
+  "prediction_selection": "inner_minimum_original_scale_MSE",
+  "candidate_selection": "one_standard_error_rule",
+  "stability": {
+    "repetitions": 100,
+    "fraction_without_replacement": 0.8,
+    "retune": false,
+    "frequency_threshold": 0.8,
+    "sign_consistency_threshold": 0.9,
+    "nonzero_threshold_standardized": 1e-06
+  },
+  "extended_stability": {
+    "repetitions": 20,
+    "fraction_without_replacement": 0.8,
+    "retune": true,
+    "after_core_report": true
+  },
+  "eda": {
+    "heatmap_hvg": 100,
+    "pca_hvg": 1000,
+    "primary_cluster": "gene_zscore_euclidean_ward",
+    "comparison_cluster": "correlation_average"
+  },
+  "gpu_extension": {
+    "accession": "GSE133344",
+    "dataset": "Norman_2019_K562_CRISPRa",
+    "models": [
+      "GEARS",
+      "scGPT_blood",
+      "scFoundation_plus_GEARS"
+    ],
+    "scfoundation_requires_input_consistency_gate": true,
+    "split": "GEARS_simulation",
+    "seeds": [
+      1,
+      2,
+      3
+    ],
+    "train_gene_set_size": 0.75,
+    "combo_seen2_train_frac": 0.75,
+    "maximum_epochs": 20,
+    "early_stopping_patience": 5,
+    "evaluation_unit": "perturbation_condition",
+    "evaluation_gene_spaces": [
+      "shared_output_genes",
+      "training_HVG1000"
+    ]
+  },
+  "execution": {
+    "review_after_each_stage": true,
+    "current_authorized_stage": 8,
+    "next_stage_requires_user_review": true,
+    "remote_shutdown": "user_after_local_archive_verification",
+    "independent_subagent_review_after_each_stage": false,
+    "Prism_sample_deferral_user_approved": true,
+    "Prism_cancelled_by_user": true,
+    "authorized_stages_in_current_run": [
+      7,
+      8
+    ],
+    "completed_stage": 8,
+    "remote_training_active": false,
+    "local_archive_verified": true
+  }
+}

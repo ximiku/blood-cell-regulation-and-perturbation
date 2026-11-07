@@ -1,0 +1,37 @@
+{
+  "target_index": 3,
+  "target": "macrophage",
+  "completed_utc": "2026-11-07T07:17:10.217197+00:00",
+  "seconds": 3.3715463030384853,
+  "timing_scope": "assembly_after_shared_GPU_paths",
+  "metrics": [
+    {
+      "target": "macrophage",
+      "model": "Lasso_min",
+      "R2": 0.5377316603901163,
+      "RMSE": 0.1978587468609157,
+      "Pearson": 0.7337299694345385,
+      "Spearman": 0.6307982098115317
+    },
+    {
+      "target": "macrophage",
+      "model": "Lasso_1se",
+      "R2": 0.5156839059046028,
+      "RMSE": 0.20252219684814454,
+      "Pearson": 0.71843594914714,
+      "Spearman": 0.6110384863187008
+    },
+    {
+      "target": "macrophage",
+      "model": "Mean_baseline",
+      "R2": -0.00013066673467720946,
+      "RMSE": 0.29102919044073394,
+      "Pearson": -0.015240501472746772,
+      "Spearman": -0.00538651840221692
+    }
+  ],
+  "n_fits": 960,
+  "n_retried": 0,
+  "all_converged": true,
+  "input_sha256": "37afe6e27bcb80676f6ae2e92bd0ec77d1acd4480f1eabc1100f8cbee18175be"
+}

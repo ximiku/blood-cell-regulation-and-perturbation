@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<GraphPadPrismFile PrismXMLVersion="5.00">
+  <Created>
+    <OriginalVersion CreatedByProgram="HW2 data export" CreatedByVersion="1.0" DateTime="2026-11-07T06:29:24.515784+00:00" />
+  </Created>
+  <TableSequence Selected="1">
+    <Ref ID="Table0" Selected="1" />
+  </TableSequence>
+  <Table ID="Table0" XFormat="none" YFormat="replicates" Replicates="1" TableType="OneWay" EVFormat="AsteriskAfterNumber">
+    <Title>RMS expression difference vs HSC</Title>
+    <YColumn Width="100" Decimals="5" Subcolumns="1">
+      <Title>B cell</Title>
+      <Subcolumn>
+        <d>0.183561215021</d>
+      </Subcolumn>
+    </YColumn>
+    <YColumn Width="100" Decimals="5" Subcolumns="1">
+      <Title>Plasma cell</Title>
+      <Subcolumn>
+        <d>0.182921346182</d>
+      </Subcolumn>
+    </YColumn>
+    <YColumn Width="100" Decimals="5" Subcolumns="1">
+      <Title>Monocyte</Title>
+      <Subcolumn>
+        <d>0.223907096799</d>
+      </Subcolumn>
+    </YColumn>
+    <YColumn Width="100" Decimals="5" Subcolumns="1">
+      <Title>Erythrocyte</Title>
+      <Subcolumn>
+        <d>0.370040794193</d>
+      </Subcolumn>
+    </YColumn>
+  </Table>
+</GraphPadPrismFile>

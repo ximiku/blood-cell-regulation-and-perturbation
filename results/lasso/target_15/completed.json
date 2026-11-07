@@ -1,0 +1,37 @@
+{
+  "target_index": 15,
+  "target": "regulatory T cell",
+  "completed_utc": "2026-11-07T07:17:19.697796+00:00",
+  "seconds": 3.1407480320194736,
+  "timing_scope": "assembly_after_shared_GPU_paths",
+  "metrics": [
+    {
+      "target": "regulatory T cell",
+      "model": "Lasso_min",
+      "R2": 0.399949284963121,
+      "RMSE": 0.18790629375389836,
+      "Pearson": 0.6327441704447486,
+      "Spearman": 0.5396238996245283
+    },
+    {
+      "target": "regulatory T cell",
+      "model": "Lasso_1se",
+      "R2": 0.3709517059417651,
+      "RMSE": 0.19239303350202475,
+      "Pearson": 0.6100652411529904,
+      "Spearman": 0.525045435835471
+    },
+    {
+      "target": "regulatory T cell",
+      "model": "Mean_baseline",
+      "R2": -8.755499325707738e-05,
+      "RMSE": 0.24258634959695266,
+      "Pearson": -0.012475226367320716,
+      "Spearman": -0.007690543437406712
+    }
+  ],
+  "n_fits": 960,
+  "n_retried": 0,
+  "all_converged": true,
+  "input_sha256": "37afe6e27bcb80676f6ae2e92bd0ec77d1acd4480f1eabc1100f8cbee18175be"
+}

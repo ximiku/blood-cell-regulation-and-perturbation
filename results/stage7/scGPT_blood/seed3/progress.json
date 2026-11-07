@@ -1,0 +1,16 @@
+{
+  "model": "scGPT_blood",
+  "seed": 3,
+  "epoch": 8,
+  "phase": "epoch_completed",
+  "learning_rate": 4.782969000000002e-05,
+  "mean_training_batch_loss": 0.045530415434880754,
+  "validation_condition_equal_MSE": 0.0020243394292332757,
+  "training_seconds": 297.0300045013428,
+  "validation_seconds": 247.45479130744934,
+  "best_epoch": 6,
+  "best_validation_MSE": 0.0016774599835657157,
+  "training_rows_seen": 45696,
+  "max_gradient_norm": 0.10855704545974731,
+  "time_unix": 1794060712.9484217
+}

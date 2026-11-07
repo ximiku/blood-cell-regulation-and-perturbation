@@ -1,0 +1,37 @@
+{
+  "target_index": 13,
+  "target": "plasma cell",
+  "completed_utc": "2026-11-07T07:17:19.445824+00:00",
+  "seconds": 3.113899827003479,
+  "timing_scope": "assembly_after_shared_GPU_paths",
+  "metrics": [
+    {
+      "target": "plasma cell",
+      "model": "Lasso_min",
+      "R2": 0.42892492704202057,
+      "RMSE": 0.16195224864142516,
+      "Pearson": 0.655482424877981,
+      "Spearman": 0.5829379120386883
+    },
+    {
+      "target": "plasma cell",
+      "model": "Lasso_1se",
+      "R2": 0.3928585065803718,
+      "RMSE": 0.1669880286345805,
+      "Pearson": 0.6279161805441853,
+      "Spearman": 0.5565695965879972
+    },
+    {
+      "target": "plasma cell",
+      "model": "Mean_baseline",
+      "R2": -0.00017111530900493221,
+      "RMSE": 0.21432732049256667,
+      "Pearson": -0.01743919677330831,
+      "Spearman": -0.01769521446533704
+    }
+  ],
+  "n_fits": 960,
+  "n_retried": 0,
+  "all_converged": true,
+  "input_sha256": "37afe6e27bcb80676f6ae2e92bd0ec77d1acd4480f1eabc1100f8cbee18175be"
+}

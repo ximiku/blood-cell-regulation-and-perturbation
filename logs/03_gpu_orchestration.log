@@ -1,0 +1,5 @@
+{"event": "device_done", "device": 0, "exit_code": 0, "contexts": ["full_fit", "outer_01_fit", "outer_02_inner_01", "outer_03_inner_01", "outer_04_inner_01", "outer_05_inner_01"]}
+{"event": "device_done", "device": 1, "exit_code": 0, "contexts": ["full_inner_01", "outer_01_inner_02", "outer_02_inner_02", "outer_03_inner_02", "outer_04_inner_02", "outer_05_inner_02"]}
+{"event": "device_done", "device": 2, "exit_code": 0, "contexts": ["full_inner_02", "outer_01_inner_03", "outer_02_inner_03", "outer_03_inner_03", "outer_04_inner_03", "outer_05_inner_03"]}
+{"event": "device_done", "device": 3, "exit_code": 0, "contexts": ["full_inner_03", "outer_02_fit", "outer_03_fit", "outer_04_fit", "outer_05_fit"]}
+All paths and target outputs completed.

@@ -1,0 +1,19 @@
+# Full versions of these files are included in the Release archive.
+.cache/
+.deps/
+data/
+environment/*wheels/
+*.pt
+*.pth
+*.npy
+*.npz
+*.h5
+*.h5ad
+*.whl
+manuscript/build/
+manuscript/review/
+manuscript/review_native/
+manuscript/review_final/
+.DS_Store
+__pycache__/
+*.pyc

@@ -1,0 +1,18 @@
+{
+  "python": "3.12.13 | packaged by conda-forge | (main, Mar  5 2026, 16:50:00) [GCC 14.3.0]",
+  "executable": "/root/HW2_20261107/envs/perturbation_sys/bin/python",
+  "packages": {
+    "torch": "2.12.0+cu130",
+    "numpy": "1.26.4",
+    "scipy": "1.13.1",
+    "pandas": "2.2.2",
+    "scanpy": "1.10.2",
+    "anndata": "0.10.8",
+    "h5py": "3.11.0",
+    "torch-geometric": "2.5.3",
+    "einops": "0.8.2",
+    "local-attention": "1.11.2"
+  },
+  "CUDA_VISIBLE_DEVICES": "all 4; trials on cuda:0,1,2",
+  "inherited_torch": "/opt/conda with system-site-packages; isolated additional dependencies"
+}

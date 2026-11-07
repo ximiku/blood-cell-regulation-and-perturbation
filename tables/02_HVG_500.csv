@@ -1,0 +1,501 @@
+﻿gene_symbol,variance_21_cells,rank,ribosomal_prefix,globin_gene,HGNC_gene_group,HGNC_ribosomal_annotation
+HBB,3.64221917,1,False,True,Hemoglobin subunits,False
+S100A9,3.21817271698,2,False,False,S100 calcium binding proteins|EF-hand domain containing,False
+S100A8,2.95283340878,3,False,False,S100 calcium binding proteins|EF-hand domain containing,False
+HBA2,2.2497957381,4,False,True,Hemoglobin subunits|Proteins encoded by multiple genes,False
+HBA1,2.05363503015,5,False,True,Hemoglobin subunits|Proteins encoded by multiple genes,False
+LYZ,1.95060526697,6,False,False,"Lysozymes, c-type",False
+RPS18,1.71693519179,7,True,False,S ribosomal proteins,True
+VCAN,1.62664379988,8,False,False,Hyalectan proteoglycans|V-set domain containing|Sushi domain containing|C-type lectin domain containing,False
+EEF1A1,1.54105939909,9,False,False,Translational GTPases,False
+RPL13,1.52328202406,10,True,False,L ribosomal proteins|Small nucleolar RNA protein coding host genes,True
+RPS23,1.51992952779,11,True,False,S ribosomal proteins,True
+RPS8,1.50772274732,12,True,False,S ribosomal proteins|Small nucleolar RNA protein coding host genes,True
+GNLY,1.48100729228,13,False,False,Saposin B type domain containing,False
+RPS2,1.48004743111,14,True,False,S ribosomal proteins|Small nucleolar RNA protein coding host genes,True
+RPL3,1.44878807105,15,True,False,L ribosomal proteins|Small nucleolar RNA protein coding host genes,True
+RPS19,1.42252046403,16,True,False,S ribosomal proteins|MicroRNA protein coding host genes,True
+RPL10,1.41940149927,17,True,False,L ribosomal proteins|Small nucleolar RNA protein coding host genes,True
+RPS4X,1.39743679104,18,True,False,S ribosomal proteins,True
+RPS6,1.37586989249,19,True,False,S ribosomal proteins,True
+PPBP,1.36432531285,20,False,False,Receptor ligands,False
+RPS12,1.34817941346,21,True,False,S ribosomal proteins|Small nucleolar RNA protein coding host genes,True
+RPS3A,1.31309611537,22,True,False,S ribosomal proteins|Small nucleolar RNA protein coding host genes,True
+RPS27,1.31129298569,23,True,False,S ribosomal proteins,True
+RPS3,1.29651565871,24,True,False,S ribosomal proteins|Small nucleolar RNA protein coding host genes|DNA-(apurinic or apyrimidinic site) lyases,True
+RPL18A,1.286262607,25,True,False,L ribosomal proteins|Small nucleolar RNA protein coding host genes,True
+RPL32,1.28029925917,26,True,False,L ribosomal proteins|Small nucleolar RNA protein coding host genes,True
+RPL19,1.26764237173,27,True,False,L ribosomal proteins,True
+RPL34,1.26468133477,28,True,False,L ribosomal proteins,True
+CTSS,1.26252152373,29,False,False,Cathepsins|Elastases,False
+RPL11,1.22902969335,30,True,False,L ribosomal proteins,True
+RPL5,1.1987047698,31,True,False,Protein phosphatase 1 regulatory subunits|L ribosomal proteins|Small nucleolar RNA protein coding host genes,True
+RPLP1,1.16670947719,32,False,False,L ribosomal proteins,True
+RPS27A,1.16354427181,33,True,False,S ribosomal proteins|Ubiquitins,True
+RPL7A,1.1583893326,34,True,False,L ribosomal proteins|Small nucleolar RNA protein coding host genes,True
+NAMPT,1.14719841784,35,False,False,Phosphoribosyltransferases,False
+RPL18,1.13596561164,36,True,False,L ribosomal proteins,True
+RPS28,1.13480730023,37,True,False,S ribosomal proteins,True
+RPS14,1.130522216,38,True,False,S ribosomal proteins,True
+GPX1,1.13033055472,39,False,False,Selenoproteins|Glutathione peroxidase family,False
+RPS21,1.11790171332,40,True,False,S ribosomal proteins,True
+RPL37,1.11176939121,41,True,False,L ribosomal proteins|Small nucleolar RNA protein coding host genes,True
+RPS13,1.11172146346,42,True,False,S ribosomal proteins|Small nucleolar RNA protein coding host genes,True
+TMSB4X,1.10466013779,43,False,False,Thymosin beta family,False
+SLC8A1,1.08941924233,44,False,False,Solute carrier family 8,False
+RPS15A,1.08927754621,45,True,False,S ribosomal proteins,True
+RPS24,1.08431341643,46,True,False,S ribosomal proteins,True
+S100A6,1.07873265686,47,False,False,S100 calcium binding proteins|EF-hand domain containing,False
+RPL14,1.07736599257,48,True,False,L ribosomal proteins,True
+RPL12,1.07600261759,49,True,False,L ribosomal proteins|Small nucleolar RNA protein coding host genes,True
+S100A4,1.06888061844,50,False,False,S100 calcium binding proteins|EF-hand domain containing,False
+CD74,1.06828702958,51,False,False,CD molecules,False
+RPS29,1.06528938646,52,True,False,S ribosomal proteins,True
+RPL10A,1.0652265486,53,True,False,L ribosomal proteins|MicroRNA protein coding host genes,True
+DPYD,1.0649747443,54,False,False,Flavoproteins|Oxidoreductases,False
+RPL13A,1.06316016381,55,True,False,L ribosomal proteins,True
+TMSB10,1.04319715081,56,False,False,Thymosin beta family,False
+RPL26,1.0426346081,57,True,False,L ribosomal proteins,True
+S100A11,1.03948449126,58,False,False,S100 calcium binding proteins|EF-hand domain containing,False
+RPL30,1.03611641738,59,True,False,L ribosomal proteins|Small nucleolar RNA protein coding host genes,True
+RPL37A,1.02760189542,60,True,False,L ribosomal proteins|Small nucleolar RNA protein coding host genes,True
+ZEB2,1.02692888209,61,False,False,Zinc fingers C2H2-type|ZF class homeoboxes and pseudogenes,False
+TYROBP,1.02178211216,62,False,False,,False
+RPL39,1.01986058464,63,True,False,L ribosomal proteins|Small nucleolar RNA protein coding host genes,True
+RPLP0,1.0083252139,64,False,False,L ribosomal proteins,True
+TXNIP,0.999051773874,65,False,False,Alpha arrestins,False
+RPS7,0.991693197665,66,True,False,S ribosomal proteins,True
+RPSA,0.988144346145,67,False,False,S ribosomal proteins|Small nucleolar RNA protein coding host genes,True
+RPS5,0.985664276018,68,True,False,S ribosomal proteins,True
+RPL29,0.982974425685,69,True,False,L ribosomal proteins,True
+RPL28,0.974848861195,70,True,False,L ribosomal proteins|MicroRNA protein coding host genes,True
+SAT1,0.974308600211,71,False,False,GCN5 related N-acetyltransferases,False
+AIF1,0.969415828675,72,False,False,EF-hand domain containing,False
+RPL23A,0.966811415365,73,True,False,L ribosomal proteins|Small nucleolar RNA protein coding host genes,True
+PLXDC2,0.965123716018,74,False,False,,False
+CST3,0.962836131407,75,False,False,"Cystatins, type 2",False
+NKG7,0.959289425401,76,False,False,,False
+RPL9,0.959031193596,77,True,False,L ribosomal proteins,True
+RPL6,0.954332956564,78,True,False,L ribosomal proteins,True
+RPL36,0.953529669072,79,True,False,L ribosomal proteins,True
+SKAP1,0.948778143145,80,False,False,Pleckstrin homology domain containing|MicroRNA protein coding host genes|SH3 domain containing,False
+HLA-DRA,0.947032189675,81,False,False,Histocompatibility complex|C1-set domain containing,False
+CD247,0.938980782952,82,False,False,CD molecules|CD3 subunits of T-cell receptor complex,False
+IL1R2,0.938924206094,83,False,False,CD molecules|Immunoglobulin like domain containing|Interleukin receptors,False
+RPL15,0.927775599112,84,True,False,L ribosomal proteins,True
+RPS16,0.923558560678,85,True,False,S ribosomal proteins,True
+RPL8,0.910035320947,86,True,False,L ribosomal proteins|MicroRNA protein coding host genes,True
+RPLP2,0.905958787039,87,False,False,L ribosomal proteins|Small nucleolar RNA protein coding host genes,True
+RPS15,0.897029183668,88,True,False,S ribosomal proteins,True
+ACSL1,0.89556568713,89,False,False,Acyl-CoA synthetase family,False
+RACK1,0.88969790407,90,False,False,WD repeat domain containing|SSU processome|Small nucleolar RNA protein coding host genes,False
+MNDA,0.879484194547,91,False,False,Pyrin domain containing|Pyrin and HIN domain family,False
+EEF1B2,0.874797137777,92,False,False,Small nucleolar RNA protein coding host genes,False
+LYN,0.858860247187,93,False,False,SH2 domain containing|Src family tyrosine kinases|SH3 domain containing,False
+RPL41,0.857185429052,94,True,False,L ribosomal proteins,True
+AOAH,0.855625674901,95,False,False,Saposin B type domain containing,False
+RBM47,0.850672757235,96,False,False,RNA binding motif containing|MicroRNA protein coding host genes,False
+IRAK3,0.849713526019,97,False,False,Pseudokinases|MicroRNA protein coding host genes|Interleukin 1 receptor associated kinase family,False
+NRGN,0.849557525993,98,False,False,,False
+SRGN,0.842502885502,99,False,False,Proteoglycans,False
+MT-ATP6,0.838915929011,100,False,False,Mitochondrial complex V: ATP synthase subunits|Mitochondrially encoded protein coding genes,False
+RPL24,0.837267310139,101,True,False,L ribosomal proteins,True
+RPS25,0.835413321928,102,True,False,S ribosomal proteins,True
+ARHGAP26,0.831727123993,103,False,False,AH/BAR family Rho GTPase activating proteins|SH3 domain containing,False
+MT-CO2,0.827700765397,104,False,False,Mitochondrial complex IV: cytochrome c oxidase subunits|Mitochondrially encoded protein coding genes|Cupredoxin superfamily,False
+FTL,0.813340717637,105,False,False,Ferritin chains,False
+IL32,0.809614627484,106,False,False,Interleukins,False
+SH3BGRL3,0.808946928949,107,False,False,,False
+RPS9,0.808445786612,108,True,False,S ribosomal proteins,True
+RPL35,0.807086968954,109,True,False,L ribosomal proteins,True
+MT-CO3,0.80584011531,110,False,False,Mitochondrial complex IV: cytochrome c oxidase subunits|Mitochondrially encoded protein coding genes,False
+BTG1,0.795161455449,111,False,False,BTG/Tob family,False
+JCHAIN,0.793474606881,112,False,False,,False
+VIM,0.790584744978,113,False,False,Intermediate filaments Type III,False
+RPL35A,0.783133353086,114,True,False,L ribosomal proteins,True
+TUBB1,0.782239639764,115,False,False,Tubulin beta family,False
+RPL21,0.776823117767,116,True,False,L ribosomal proteins|Small nucleolar RNA protein coding host genes,True
+GAB2,0.765285853756,117,False,False,Pleckstrin homology domain containing,False
+FCN1,0.760939668426,118,False,False,Fibrinogen C domain containing|Complement system activation components|Ficolin family,False
+PTMA,0.760649614578,119,False,False,MicroRNA protein coding host genes,False
+GNAQ,0.759579217144,120,False,False,"G protein subunits alpha, group q",False
+S100A12,0.758626379456,121,False,False,S100 calcium binding proteins|EF-hand domain containing,False
+MT-CYB,0.758323399488,122,False,False,Mitochondrial complex III: ubiquinol-cytochrome c reductase complex subunits|Mitochondrially encoded protein coding genes,False
+FCER1G,0.757965401147,123,False,False,Fc receptors,False
+NPM1,0.757164647255,124,False,False,,False
+RPL23,0.756979390982,125,True,False,L ribosomal proteins|Small nucleolar RNA protein coding host genes,True
+COTL1,0.751650417827,126,False,False,Coactosin like F-actin binding protein family,False
+RPL27A,0.750668693237,127,True,False,L ribosomal proteins|Small nucleolar RNA protein coding host genes,True
+LST1,0.746650157829,128,False,False,,False
+CCL5,0.745670561104,129,False,False,Chemokine ligands,False
+CD69,0.741215475399,130,False,False,CD molecules|C-type lectin domain containing,False
+AFF3,0.737010524164,131,False,False,AF4/FMR2 family|Super elongation complex,False
+CD52,0.736819476132,132,False,False,CD molecules,False
+MT-CO1,0.724136840613,133,False,False,Mitochondrial complex IV: cytochrome c oxidase subunits|Mitochondrially encoded protein coding genes,False
+TBXAS1,0.721804162361,134,False,False,Cytochrome P450 family 5|Hydroperoxy icosatetraenoate dehydratases,False
+VMP1,0.720132712735,135,False,False,MicroRNA protein coding host genes,False
+PTPRC,0.711543147661,136,False,False,CD molecules|Fibronectin type III domain containing|Protein tyrosine phosphatases receptor type,False
+CAVIN2,0.703173410399,137,False,False,Cavins,False
+RGS18,0.702716405063,138,False,False,Regulators of G-protein signaling,False
+B2M,0.691901300124,139,False,False,C1-set domain containing,False
+MT-ND3,0.689343738253,140,False,False,NADH:ubiquinone oxidoreductase core subunits|Mitochondrially encoded protein coding genes,False
+ETS1,0.687304240826,141,False,False,ETS transcription factor family,False
+ARHGAP24,0.686286033302,142,False,False,Pleckstrin homology domain containing|Rho GTPase activating proteins|MicroRNA protein coding host genes,False
+FTH1,0.679881213272,143,False,False,Ferritin chains|Ferritin ferroxidases,False
+PSAP,0.676395956795,144,False,False,Receptor ligands|Saposin B type domain containing,False
+CSF3R,0.674570207399,145,False,False,CD molecules|Fibronectin type III domain containing,False
+S100A10,0.674455437082,146,False,False,S100 calcium binding proteins,False
+MYO1F,0.67418538313,147,False,False,"Myosin heavy chains, class I|SH3 domain containing",False
+NACA,0.672608048929,148,False,False,,False
+MT-ND4,0.663669759098,149,False,False,NADH:ubiquinone oxidoreductase core subunits|Mitochondrially encoded protein coding genes,False
+IL7R,0.66315101018,150,False,False,CD molecules|Fibronectin type III domain containing|Interleukin receptors,False
+RPS20,0.662860567972,151,True,False,S ribosomal proteins|Small nucleolar RNA protein coding host genes,True
+RPL7,0.662339516836,152,True,False,L ribosomal proteins,True
+GNG11,0.652840848113,153,False,False,G protein subunits gamma,False
+LGALS1,0.647411459664,154,False,False,Receptor ligands|Galectins,False
+ACTB,0.642745428536,155,False,False,Actins|BAF complex subunits|PBAF complex subunits|GBAF complex subunits,False
+RNF149,0.642515197407,156,False,False,Ring finger proteins|RING finger E3 ubiquitin protein ligases,False
+FKBP5,0.641857072168,157,False,False,Tetratricopeptide repeat domain containing|FKBP prolyl isomerase family|MicroRNA protein coding host genes,False
+RPL27,0.631548258642,158,True,False,L ribosomal proteins,True
+SLC25A37,0.627185124823,159,False,False,Solute carrier family 25,False
+ZNF385D,0.613897384775,160,False,False,Zinc fingers matrin-type,False
+IFITM2,0.609778391233,161,False,False,Interferon induced transmembrane protein family|Dispanins,False
+SAMHD1,0.60514368983,162,False,False,Sterile alpha motif domain containing,False
+CD163,0.59988970421,163,False,False,CD molecules|Scavenger receptors|Scavenger receptor cysteine rich domain containing,False
+MAML3,0.599500783489,164,False,False,Mastermind like transcriptional coactivator family,False
+PARP8,0.594859974343,165,False,False,Poly(ADP-ribose) polymerases,False
+TAGLN2,0.592084844922,166,False,False,Transgelin family,False
+RPL38,0.592032950629,167,True,False,L ribosomal proteins,True
+MARCHF1,0.589902370063,168,False,False,Ring finger proteins|Membrane associated ring-CH-type fingers,False
+RUNX1,0.588962943652,169,False,False,Runt-related transcription factors,False
+OAZ1,0.588312740043,170,False,False,Ornithine decarboxylase antizyme family,False
+RNF130,0.587333166895,171,False,False,Ring finger proteins|MicroRNA protein coding host genes|RING finger E3 ubiquitin protein ligases,False
+RPS11,0.586180739876,172,True,False,S ribosomal proteins|Small nucleolar RNA protein coding host genes,True
+MED13L,0.584486732465,173,False,False,Mediator complex|MicroRNA protein coding host genes,False
+RPS10,0.584386518867,174,True,False,S ribosomal proteins,True
+ARHGAP15,0.58412881314,175,False,False,Pleckstrin homology domain containing|Rho GTPase activating proteins,False
+ITGA2B,0.581135627178,176,False,False,CD molecules|Protein phosphatase 1 regulatory subunits|Integrin alpha subunits|Human platelet antigens,False
+TPT1,0.581080795052,177,False,False,Small nucleolar RNA protein coding host genes,False
+RPL22,0.580676235938,178,True,False,L ribosomal proteins,True
+GAPDH,0.578221698693,179,False,False,Glyceraldehyde-3-phosphate dehydrogenase family,False
+SYNE2,0.575021264581,180,False,False,Spectrin repeat containing nuclear envelope family|KASH domain containing,False
+RPL31,0.574969094513,181,True,False,L ribosomal proteins,True
+SLC11A1,0.573994271451,182,False,False,Solute carrier family 11,False
+FYB1,0.572403256008,183,False,False,SH3 domain containing,False
+KLRD1,0.571950362978,184,False,False,CD molecules|Killer cell lectin like receptors|C-type lectin domain containing,False
+LRMDA,0.569274537275,185,False,False,MicroRNA protein coding host genes,False
+PRKCH,0.568596760667,186,False,False,C2 domain containing protein kinases|Protein kinase C family,False
+SERPINA1,0.567502113643,187,False,False,Serpin peptidase inhibitors,False
+JARID2,0.565980780805,188,False,False,AT-rich interaction domain containing|Iron (II) and 2-oxoglutarate dependent oxygenases,False
+FOS,0.565508716819,189,False,False,Fos transcription factor family,False
+SMAP2,0.558470046826,190,False,False,ArfGAPs,False
+HNRNPA1,0.549686871234,191,False,False,RNA binding motif containing|Spliceosomal A complex|Heterogeneous nuclear ribonucleoproteins,False
+SYTL3,0.545969357881,192,False,False,Synaptotagmin like tandem C2 proteins,False
+ACTG1,0.545133140226,193,False,False,Actins,False
+SSH2,0.543702736691,194,False,False,Slingshot protein phosphatases,False
+TIMP1,0.5436084555,195,False,False,Tissue inhibitor of metallopeptidases,False
+MCTP2,0.543294964853,196,False,False,Multiple C2 and transmembrane domain containing,False
+MT-ND2,0.5425100947,197,False,False,NADH:ubiquinone oxidoreductase core subunits|Mitochondrially encoded protein coding genes,False
+CLU,0.54233198151,198,False,False,Complement system regulators and receptors|MicroRNA protein coding host genes,False
+GP9,0.53995651159,199,False,False,CD molecules,False
+KLF2,0.539466319476,200,False,False,Zinc fingers C2H2-type|KLF transcription factors,False
+MT-ND1,0.53704063403,201,False,False,NADH:ubiquinone oxidoreductase core subunits|Mitochondrially encoded protein coding genes,False
+MTSS1,0.536585290569,202,False,False,I-BAR domain containing,False
+RPL4,0.535971763471,203,True,False,L ribosomal proteins|Small nucleolar RNA protein coding host genes,True
+RAB31,0.533891577881,204,False,False,"RAB, member RAS oncogene GTPases",False
+FYN,0.533743421487,205,False,False,SH2 domain containing|Src family tyrosine kinases|SH3 domain containing,False
+UTRN,0.525881820572,206,False,False,Zinc fingers ZZ-type|Spectrin repeat containing,False
+HSP90AB1,0.520292161808,207,False,False,Heat shock 90kDa proteins,False
+HLA-B,0.517103505621,208,False,False,Histocompatibility complex|C1-set domain containing|MicroRNA protein coding host genes,False
+CDK6,0.514313802058,209,False,False,Cyclin dependent kinases,False
+H2AC6,0.513592830257,210,False,False,H2A histones,False
+ARL4C,0.510373779883,211,False,False,ARF GTPase family,False
+PICALM,0.501116655011,212,False,False,,False
+CYRIB,0.499481481966,213,False,False,MicroRNA protein coding host genes,False
+GCA,0.496537521585,214,False,False,EF-hand domain containing,False
+FNDC3B,0.49619136771,215,False,False,Fibronectin type III domain containing,False
+ITM2B,0.495900551642,216,False,False,BRICHOS domain containing,False
+HINT1,0.491689913186,217,False,False,Histidine triad superfamily|Cysteine endopeptidases,False
+FAU,0.490291325953,218,False,False,S ribosomal proteins,True
+RGS10,0.486317124693,219,False,False,Regulators of G-protein signaling,False
+TLN1,0.483614278615,220,False,False,FERM domain containing|MicroRNA protein coding host genes,False
+FGD4,0.482902078108,221,False,False,Zinc fingers FYVE-type|Pleckstrin homology domain containing|Dbl family Rho GEFs,False
+CTSB,0.482781560846,222,False,False,Cathepsins|Elastases|Cysteine endopeptidases,False
+KLF12,0.481057002456,223,False,False,Zinc fingers C2H2-type|KLF transcription factors,False
+LCP1,0.479989664941,224,False,False,EF-hand domain containing|Plastin family,False
+HLA-C,0.479237661003,225,False,False,Histocompatibility complex|C1-set domain containing,False
+ITGB3,0.479048103959,226,False,False,CD molecules|Integrin beta subunits|Human platelet antigens,False
+BACH2,0.479023907815,227,False,False,BTB domain containing|BACH transcriptional regulator family,False
+TUBA4A,0.477417189047,228,False,False,Tubulin alpha family,False
+HLA-DRB1,0.476482893584,229,False,False,Histocompatibility complex|C1-set domain containing,False
+SPI1,0.47572760452,230,False,False,ETS transcription factor family,False
+NAP1L1,0.475303714073,231,False,False,Nucleosome assembly protein 1 like family,False
+TPM4,0.474021914101,232,False,False,Tropomyosins,False
+DUSP1,0.473947928694,233,False,False,MAP kinase phosphatases,False
+SIPA1L1,0.47358252651,234,False,False,PDZ domain containing,False
+CXCR4,0.472702700966,235,False,False,CD molecules|C-X-C motif chemokine receptors,False
+HLA-DPA1,0.471958969696,236,False,False,Histocompatibility complex|C1-set domain containing,False
+ZSWIM6,0.471777452924,237,False,False,Zinc fingers SWIM-type,False
+F13A1,0.4715797615,238,False,False,Transglutaminases|MicroRNA protein coding host genes|Coagulation factors,False
+LIMS1,0.470518994715,239,False,False,LIMS zinc finger family|LIM domain containing|ILK-PINCH-Parvin complex subunits,False
+CYBA,0.467179810085,240,False,False,,False
+WDFY3,0.466956699554,241,False,False,Zinc fingers FYVE-type|WD repeat domain containing|BEACH domain containing |Armadillo like helical domain containing,False
+PTPRJ,0.464050021882,242,False,False,CD molecules|Fibronectin type III domain containing|Protein tyrosine phosphatases receptor type|MicroRNA protein coding host genes,False
+ZFP36L2,0.46380344008,243,False,False,Zinc fingers CCCH-type,False
+EEF2,0.463463441384,244,False,False,Small nucleolar RNA protein coding host genes|Translational GTPases,False
+CELF2,0.462334710097,245,False,False,RNA binding motif containing,False
+TXK,0.462318084396,246,False,False,SH2 domain containing|Tec family tyrosine kinases|SH3 domain containing,False
+AGTPBP1,0.45926140886,247,False,False,M14 carboxypeptidases|Armadillo like helical domain containing,False
+ANXA2,0.458464973071,248,False,False,Annexins,False
+SYNE1,0.458161675118,249,False,False,Spectrin repeat containing nuclear envelope family|KASH domain containing,False
+RUFY1,0.457078823711,250,False,False,Zinc fingers FYVE-type|RUN domain containing,False
+CBLB,0.456501717573,251,False,False,Ring finger proteins|Cbl proto-oncogene family,False
+RPS26,0.45604533923,252,True,False,S ribosomal proteins,True
+MYL12A,0.455146917766,253,False,False,"Myosin light chains, class 2",False
+AGFG1,0.452400312646,254,False,False,ArfGAPs|MicroRNA protein coding host genes,False
+MS4A6A,0.451160491658,255,False,False,Membrane spanning 4-domains,False
+QKI,0.450854963817,256,False,False,,False
+CAMK1D,0.448453516756,257,False,False,MicroRNA protein coding host genes|CAMK1 family,False
+SORL1,0.447672298712,258,False,False,Fibronectin type III domain containing,False
+RNF144B,0.445901342157,259,False,False,Ring finger proteins|RBR E3 ubiquitin ligases,False
+CEBPD,0.445036453451,260,False,False,CCAAT/enhancer binding proteins,False
+HCK,0.445025077117,261,False,False,SH2 domain containing|Src family tyrosine kinases|SH3 domain containing,False
+HLA-E,0.443645341868,262,False,False,Histocompatibility complex|C1-set domain containing,False
+TLR2,0.442257310022,263,False,False,CD molecules|Toll like receptors,False
+TREML1,0.44209641186,264,False,False,V-set domain containing,False
+ST6GALNAC3,0.440640928775,265,False,False,Sialyltransferases,False
+CLC,0.439650386604,266,False,False,Galectins,False
+ANKRD44,0.439144580875,267,False,False,Ankyrin repeat domain containing|Protein phosphatase 6 regulatory subunits,False
+RIPOR2,0.437990666059,268,False,False,Armadillo like helical domain containing,False
+FPR1,0.437627729735,269,False,False,Formyl peptide receptors,False
+PELI1,0.437297522971,270,False,False,Pellino E3 ubiquitin protein ligases,False
+GZMA,0.436244753524,271,False,False,Granule associated serine proteases of immune defence,False
+YWHAH,0.436134310571,272,False,False,14-3-3 phospho-serine/phospho-threonine binding proteins,False
+FMN1,0.433715212644,273,False,False,Formins,False
+STK17B,0.43290456905,274,False,False,Death associated protein kinases,False
+HSP90B1,0.43265607527,275,False,False,Heat shock 90kDa proteins|MicroRNA protein coding host genes,False
+PRKCB,0.432293288904,276,False,False,C2 domain containing protein kinases|MicroRNA protein coding host genes|Protein kinase C family,False
+LRRK2,0.431131529515,277,False,False,ROCO family|Armadillo like helical domain containing|Leucine rich repeat kinase family,False
+PRKAR2B,0.425522650049,278,False,False,Protein kinase A subunits,False
+NCF2,0.423521049772,279,False,False,Tetratricopeptide repeat domain containing|SH3 domain containing,False
+ITGB2,0.423143007234,280,False,False,CD molecules|Integrin beta subunits|Complement system regulators and receptors,False
+LAPTM5,0.422956400672,281,False,False,MicroRNA protein coding host genes|Lysosomal protein transmembrane family,False
+SAMSN1,0.422206826188,282,False,False,SAM and SH3 domain containing|Sterile alpha motif domain containing|SH3 domain containing,False
+HTR1F,0.421637442077,283,False,False,"5-hydroxytryptamine receptors, G protein-coupled",False
+OST4,0.4212123579,284,False,False,Oligosaccharyltransferase complex subunits,False
+DOCK5,0.420608315255,285,False,False,DOCK family Rho GEFs|MicroRNA protein coding host genes|SH3 domain containing,False
+IQGAP1,0.420503189763,286,False,False,IQ motif containing GTPase activating protein family,False
+ACRBP,0.420465466571,287,False,False,Armadillo like helical domain containing,False
+SNCA,0.418404960488,288,False,False,Synuclein family,False
+USP15,0.418056078937,289,False,False,Ubiquitin specific peptidases|MicroRNA protein coding host genes,False
+HLA-DPB1,0.414182862301,290,False,False,Histocompatibility complex|C1-set domain containing,False
+CMTM5,0.414159037383,291,False,False,CKLF like MARVEL transmembrane domain containing,False
+SMCHD1,0.412977111875,292,False,False,,False
+BTF3,0.412804690439,293,False,False,,False
+H3-3A,0.411987323318,294,False,False,H3 histones|Proteins encoded by multiple genes,False
+MAP2K1,0.411373560923,295,False,False,Mitogen-activated protein kinase kinases,False
+GATA2,0.410633539911,296,False,False,GATA zinc finger domain containing,False
+CD3E,0.410258174614,297,False,False,CD molecules|CD3 subunits of T-cell receptor complex,False
+CST7,0.409782724928,298,False,False,"Cystatins, type 2",False
+CYBB,0.408904155622,299,False,False,Flavoproteins|NADH oxidase family,False
+LITAF,0.407949492519,300,False,False,,False
+LTB,0.404246456953,301,False,False,Tumor necrosis factor superfamily,False
+PLCB1,0.401535144771,302,False,False,Phospholipases|C2 domain containing phospholipases,False
+CREB5,0.400597484038,303,False,False,Zinc fingers C2H2-type|Activating transcription factor 2 family,False
+MCL1,0.400563792147,304,False,False,BCL2 family,False
+FERMT3,0.399718603363,305,False,False,Fermitins|Pleckstrin homology domain containing|FERM domain containing,False
+PTEN,0.399424780331,306,False,False,C2 tensin-type domain containing|PTEN protein phosphatases|Phosphoinositide phosphatases,False
+CALM1,0.398813549034,307,False,False,Receptor ligands|EF-hand domain containing|Phosphorylase kinase subunits|UBR4 complex,False
+SPARC,0.398735786475,308,False,False,SPARC family|Secretory calcium-binding phosphoprotein family,False
+HLA-A,0.398170931217,309,False,False,Histocompatibility complex|C1-set domain containing,False
+INPP4B,0.397526469274,310,False,False,C2 domain containing|Phosphoinositide phosphatases,False
+MEGF9,0.396915810686,311,False,False,,False
+CEBPB,0.396219769692,312,False,False,CCAAT/enhancer binding proteins,False
+MPIG6B,0.395408099828,313,False,False,,False
+AKAP13,0.39503724441,314,False,False,A-kinase anchoring proteins|Pleckstrin homology domain containing|Dbl family Rho GEFs|Minor histocompatibility antigens|MicroRNA protein coding host genes,False
+PPIA,0.393941331479,315,False,False,Cyclophilin peptidylprolyl isomerases,False
+FRY,0.393872980491,316,False,False,Armadillo like helical domain containing,False
+VCL,0.392840010242,317,False,False,,False
+CTSA,0.391128435772,318,False,False,Cathepsins,False
+CLEC7A,0.390655613256,319,False,False,CD molecules|Scavenger receptors|C-type lectin domain containing|Dectin 1 cluster,False
+LDHB,0.389740762955,320,False,False,L-lactate dehydrogenase family,False
+PAG1,0.389341524709,321,False,False,,False
+AHNAK,0.387607061407,322,False,False,PDZ domain containing,False
+ETV6,0.385562419032,323,False,False,ETS transcription factor family,False
+UBE2E2,0.381560006693,324,False,False,Ubiquitin conjugating enzymes E2,False
+ISG20,0.380592955142,325,False,False,Exonucleases,False
+TSPO,0.380105443157,326,False,False,Translocator protein family,False
+PFN1,0.37964885275,327,False,False,Profilins,False
+FCHSD2,0.379545768614,328,False,False,F-BAR domain containing|SH3 domain containing,False
+MEF2C,0.378156768371,329,False,False,Myocyte enhancer factor 2 proteins|MADS box family,False
+DOCK8,0.377867143801,330,False,False,Armadillo like helical domain containing|DOCK family Rho GEFs,False
+MT-ND5,0.377282103794,331,False,False,NADH:ubiquinone oxidoreductase core subunits|Mitochondrially encoded protein coding genes,False
+GZMB,0.376544210609,332,False,False,Granule associated serine proteases of immune defence,False
+TLE5,0.376081971537,333,False,False,TLE family,False
+CALM3,0.375766891118,334,False,False,Receptor ligands|EF-hand domain containing|Phosphorylase kinase subunits,False
+AREG,0.375059619183,335,False,False,EGF ligand family,False
+C5AR1,0.374923008587,336,False,False,Complement component GPCRs|CD molecules|Complement system regulators and receptors,False
+SLC38A1,0.37475245087,337,False,False,Solute carrier family 38,False
+FCGR3A,0.374446945627,338,False,False,CD molecules|Immunoglobulin like domain containing|Fc receptors,False
+PTCRA,0.374218159765,339,False,False,,False
+HDAC9,0.374189930578,340,False,False,"Histone deacetylases, class IIA",False
+BASP1,0.373924940251,341,False,False,,False
+MPP1,0.3738339636,342,False,False,Membrane associated guanylate kinases|PDZ domain containing|SH3 domain containing,False
+SBF2,0.373820494628,343,False,False,DENN domain containing|Pleckstrin homology domain containing|Myotubularins,False
+APBB1IP,0.373518273458,344,False,False,Pleckstrin homology domain containing|MRL family adaptor proteins,False
+ANXA1,0.373444856817,345,False,False,Annexins|Receptor ligands,False
+MCTP1,0.373321309329,346,False,False,Multiple C2 and transmembrane domain containing,False
+CPPED1,0.373110855811,347,False,False,,False
+CUX1,0.372824409207,348,False,False,CUT class homeoboxes and pseudogenes|Golgins,False
+ARPC1B,0.372566578592,349,False,False,Actin related protein 2/3 complex subunits|WD repeat domain containing,False
+GRN,0.372155579736,350,False,False,,False
+ALAS2,0.371756267112,351,False,False,5'-aminolevulinate synthase family,False
+FGL2,0.371204985496,352,False,False,Fibrinogen C domain containing,False
+ZDHHC20,0.370910050109,353,False,False,Zinc fingers DHHC-type,False
+SYK,0.370808586171,354,False,False,SH2 domain containing|Syk family tyrosine kinases,False
+CYRIA,0.368998202969,355,False,False,,False
+PTK2B,0.368506054673,356,False,False,Minor histocompatibility antigens|FERM domain containing|PTK2 family tyrosine kinases|MicroRNA protein coding host genes,False
+NCALD,0.367164374555,357,False,False,EF-hand domain containing,False
+PIK3R5,0.367129065587,358,False,False,,False
+BCL2,0.366696393599,359,False,False,Protein phosphatase 1 regulatory subunits|BCL2 family,False
+TKT,0.366350297065,360,False,False,,False
+HCST,0.365772807207,361,False,False,,False
+MEF2A,0.365471389222,362,False,False,Myocyte enhancer factor 2 proteins|MADS box family,False
+YBX3,0.36466065872,363,False,False,Y-box binding proteins|Cold shock domain containing,False
+MAML2,0.364417189023,364,False,False,Mastermind like transcriptional coactivator family,False
+FOXO3,0.364344023422,365,False,False,Forkhead boxes,False
+MYL6,0.364095281223,366,False,False,"Myosin light chains, class 1",False
+SERPINB1,0.36378067198,367,False,False,Serpin peptidase inhibitors,False
+KCNQ5,0.36317017762,368,False,False,Potassium voltage-gated channels,False
+JUNB,0.362805193323,369,False,False,Jun transcription factor family,False
+CTSW,0.362464859873,370,False,False,Cathepsins|Cysteine endopeptidases,False
+SOD2,0.360569556745,371,False,False,Superoxide dismutases,False
+GLT1D1,0.360404484215,372,False,False,Glycosyl transferases group 1 domain containing,False
+CCND3,0.359779413297,373,False,False,Cyclins,False
+BANK1,0.359409980767,374,False,False,Ankyrin repeat domain containing,False
+ADGRE2,0.359340631974,375,False,False,"CD molecules|Adhesion G protein-coupled receptors, subfamily E",False
+CORO1A,0.358764949499,376,False,False,WD repeat domain containing|Coronins,False
+CTSD,0.358452918359,377,False,False,Cathepsins|Peptidase family A1,False
+VSIR,0.356998536327,378,False,False,V-set domain containing|B7 family,False
+PTPRE,0.356868898126,379,False,False,Protein tyrosine phosphatases receptor type,False
+TALDO1,0.356769042287,380,False,False,,False
+CR1,0.354847114778,381,False,False,Blood group antigens|CD molecules|Sushi domain containing|Complement system regulators and receptors,False
+RAP1B,0.352310519512,382,False,False,RAS type GTPase family,False
+PPIB,0.351761301185,383,False,False,Cyclophilin peptidylprolyl isomerases,False
+FGR,0.351740783482,384,False,False,SH2 domain containing|Src family tyrosine kinases|SH3 domain containing,False
+EEF1D,0.351173265146,385,False,False,,False
+LYST,0.350697721992,386,False,False,WD repeat domain containing|BEACH domain containing |MicroRNA protein coding host genes,False
+CSGALNACT2,0.349496461869,387,False,False,Beta 4-glycosyltransferases,False
+NUMB,0.348119255357,388,False,False,,False
+NIBAN1,0.346946056707,389,False,False,,False
+ASAH1,0.346926393759,390,False,False,,False
+PRF1,0.346224370927,391,False,False,C2 domain containing,False
+TNFRSF1B,0.344135503705,392,False,False,CD molecules|Tumor necrosis factor receptor superfamily|MicroRNA protein coding host genes,False
+TSC22D1,0.344054375607,393,False,False,TSC22 domain family,False
+UBB,0.344052395804,394,False,False,Ubiquitins,False
+GRB2,0.343980749269,395,False,False,SH2 domain containing|SH3 domain containing|Growth factor receptor bound protein 2 family,False
+VAV3,0.343670825857,396,False,False,Pleckstrin homology domain containing|Dbl family Rho GEFs|SH2 domain containing|MicroRNA protein coding host genes|SH3 domain containing,False
+CHST11,0.343438488385,397,False,False,"Sulfotransferases, membrane bound|MicroRNA protein coding host genes",False
+FLNA,0.33935574871,398,False,False,Filamin family,False
+GPX4,0.33867938337,399,False,False,Selenoproteins|Glutathione peroxidase family,False
+ZFAND3,0.337476433124,400,False,False,Zinc fingers AN1-type|Zinc fingers A20-type,False
+EIF3E,0.33711344401,401,False,False,Eukaryotic translation initiation factor 3 complex subunits,False
+PDLIM1,0.336698555174,402,False,False,LIM domain containing|PDZ domain containing,False
+EVL,0.336323805812,403,False,False,ENAH/VASPs|MicroRNA protein coding host genes,False
+PITPNC1,0.336085538798,404,False,False,Phosphatidylinositol transfer proteins|MicroRNA protein coding host genes,False
+CCDC88A,0.335857985999,405,False,False,HOOK related protein family,False
+RNF220,0.334634828995,406,False,False,Ring finger proteins|MicroRNA protein coding host genes|RING finger E3 ubiquitin protein ligases,False
+COX7C,0.333912530126,407,False,False,Mitochondrial complex IV: cytochrome c oxidase subunits|MicroRNA protein coding host genes,False
+BCL11B,0.333703645145,408,False,False,Zinc fingers C2H2-type|BAF complex subunits,False
+COP1,0.333127455379,409,False,False,Ring finger proteins|WD repeat domain containing|Cilia and flagella associated|Small nucleolar RNA protein coding host genes|RING finger E3 ubiquitin protein ligases,False
+IL17RA,0.332434411127,410,False,False,CD molecules|Interleukin receptors,False
+GAS7,0.332369290838,411,False,False,F-BAR domain containing|SH3 domain containing,False
+TPST1,0.332353341364,412,False,False,"Sulfotransferases, membrane bound",False
+MAPK14,0.332116223112,413,False,False,Mitogen-activated protein kinase 11-14 (p38) family,False
+PLXNC1,0.331835359553,414,False,False,CD molecules|Plexins|IPT domain containing,False
+BIN2,0.330822477273,415,False,False,N-BAR domain containing,False
+TGFB1,0.33026348006,416,False,False,Transforming growth factor beta family,False
+NOP53,0.33023361054,417,False,False,Ribosome biogenesis factors,False
+PKM,0.330126938021,418,False,False,Pyruvate kinase family,False
+MZB1,0.32942473368,419,False,False,,False
+CEMIP2,0.329341997879,420,False,False,Hyaluronidases,False
+RNF24,0.32879602452,421,False,False,Ring finger proteins|RING finger E3 ubiquitin protein ligases,False
+ATP8B4,0.32796338247,422,False,False,ATPase phospholipid transporting,False
+DOCK2,0.327848419392,423,False,False,Armadillo like helical domain containing|DOCK family Rho GEFs|MicroRNA protein coding host genes|SH3 domain containing,False
+CD14,0.325065384086,424,False,False,CD molecules|Scavenger receptors,False
+ZBTB20,0.324621474984,425,False,False,Zinc fingers C2H2-type|BTB domain containing|MicroRNA protein coding host genes,False
+ATP5MC2,0.323397175834,426,False,False,Mitochondrial complex V: ATP synthase subunits,False
+APLP2,0.322823894311,427,False,False,,False
+DIAPH2,0.322542292004,428,False,False,Armadillo like helical domain containing|Formins,False
+RABGAP1L,0.322512511744,429,False,False,TBC1 domain family members,False
+DDX5,0.322505764049,430,False,False,DEAD-box helicases|MicroRNA protein coding host genes,False
+PHF21A,0.321645635369,431,False,False,PHD finger proteins|CoREST complex subunits,False
+SLCO3A1,0.320913490759,432,False,False,Solute carrier organic anion transporter family,False
+ITK,0.320310329084,433,False,False,Pleckstrin homology domain containing|SH2 domain containing|Tec family tyrosine kinases|SH3 domain containing,False
+BRI3,0.319832394594,434,False,False,,False
+KLHL2,0.319713351973,435,False,False,Kelch like|BTB domain containing,False
+CD2,0.31935935472,436,False,False,CD molecules|V-set domain containing|C2-set domain containing|Ig-like cell adhesion molecule family,False
+DOCK10,0.318487445356,437,False,False,Pleckstrin homology domain containing|Armadillo like helical domain containing|DOCK family Rho GEFs|MicroRNA protein coding host genes,False
+CD96,0.318443828559,438,False,False,CD molecules|Immunoglobulin like domain containing|Ig-like cell adhesion molecule family,False
+RHOH,0.317616014702,439,False,False,Rho family GTPases,False
+ENSG00000288796,0.317608770516,440,False,False,,False
+H3-3B,0.316226663011,441,False,False,H3 histones|Proteins encoded by multiple genes,False
+GNG2,0.315807559499,442,False,False,G protein subunits gamma,False
+TMEM40,0.315542963114,443,False,False,,False
+BACH1,0.313586420704,444,False,False,BTB domain containing|BACH transcriptional regulator family,False
+EVI2B,0.312541715327,445,False,False,CD molecules,False
+AUTS2,0.311954504742,446,False,False,,False
+CARD11,0.31105323436,447,False,False,Membrane associated guanylate kinases|Caspase recruitment domain containing|PDZ domain containing|CBM complex,False
+GRK3,0.310818524925,448,False,False,Pleckstrin homology domain containing|G protein-coupled receptor kinase family,False
+IFITM3,0.309849343906,449,False,False,Interferon induced transmembrane protein family|Dispanins,False
+GSTO1,0.308349363177,450,False,False,Soluble glutathione S-transferases|Oxidoreductases,False
+MYL9,0.307809856376,451,False,False,"Myosin light chains, class 2",False
+ARHGDIB,0.305956633038,452,False,False,Receptor ligands|Minor histocompatibility antigens|Rho GDP dissociation inhibitor family,False
+DYSF,0.305923604929,453,False,False,Ferlin family,False
+PDE3B,0.305854322022,454,False,False,Phosphodiesterases,False
+USP3,0.305756500985,455,False,False,Ubiquitin specific peptidases,False
+CD3D,0.304910603657,456,False,False,CD molecules|CD3 subunits of T-cell receptor complex,False
+MACROH2A1,0.304444689065,457,False,False,Macro domain containing|H2A histones,False
+STAT4,0.304123254018,458,False,False,SH2 domain containing|Signal transducer and activator of transcription family,False
+UQCRH,0.304115589607,459,False,False,Mitochondrial complex III: ubiquinol-cytochrome c reductase complex subunits,False
+ACAP2,0.304020549137,460,False,False,ArfGAPs|Ankyrin repeat domain containing|BAR-PH domain containing,False
+ALOX5AP,0.303884380212,461,False,False,MAPEG superfamily,False
+ASAP1,0.303721719767,462,False,False,ArfGAPs|Ankyrin repeat domain containing|BAR-PH domain containing|SH3 domain containing,False
+RGS2,0.30353410196,463,False,False,Receptor ligands|Regulators of G-protein signaling,False
+CD63,0.303503461103,464,False,False,CD molecules|Tetraspanin family,False
+LEF1,0.303014458308,465,False,False,TCF/LEF transcription factor family|Wnt enhanceosome complex,False
+CFD,0.302534453092,466,False,False,Granule associated serine proteases of immune defence|Complement system activation components,False
+CSF2RB,0.3022677994,467,False,False,CD molecules|Fibronectin type III domain containing,False
+GSTP1,0.301930045207,468,False,False,Soluble glutathione S-transferases,False
+CFL1,0.301651353726,469,False,False,Cofilin family,False
+SSBP2,0.300986568353,470,False,False,Wnt enhanceosome complex,False
+KLRF1,0.300830915419,471,False,False,Killer cell lectin like receptors|C-type lectin domain containing,False
+TSC22D3,0.300784433127,472,False,False,TSC22 domain family,False
+GRAP2,0.299634693852,473,False,False,SH2 domain containing|SH3 domain containing|Growth factor receptor bound protein 2 family,False
+GYPC,0.299475182225,474,False,False,Blood group antigens|CD molecules,False
+PF4V1,0.298765417829,475,False,False,,False
+DMXL2,0.298107162419,476,False,False,WD repeat domain containing,False
+CD7,0.297876678489,477,False,False,CD molecules|V-set domain containing,False
+MED12L,0.297202125768,478,False,False,Mediator complex,False
+CA1,0.297006780286,479,False,False,Carbonic anhydrases,False
+JMJD1C,0.295955644984,480,False,False,MicroRNA protein coding host genes|Lysine demethylase 3 family,False
+LRBA,0.295203348911,481,False,False,WD repeat domain containing|BEACH domain containing |Armadillo like helical domain containing,False
+NPC2,0.294894065456,482,False,False,MicroRNA protein coding host genes|MD-2 related lipid recognition domain containing,False
+JAZF1,0.294820648453,483,False,False,Zinc fingers C2H2-type|Tip60/Nua4 histone acetyltransferase complex subunits,False
+SAMD3,0.2947440794,484,False,False,Sterile alpha motif domain containing,False
+TNRC6B,0.294116983789,485,False,False,Armadillo like helical domain containing|TNRC6 adaptor family,False
+ACTN1,0.293944747078,486,False,False,Actinins,False
+MAP3K1,0.293878317491,487,False,False,Ring finger proteins|Zinc fingers SWIM-type|Mitogen-activated protein kinase kinase kinases|STE11 kinase family|RING finger E3 ubiquitin protein ligases,False
+TCF4,0.291436622575,488,False,False,Basic helix-loop-helix proteins,False
+C1orf162,0.291005229737,489,False,False,,False
+RUNX3,0.290412657236,490,False,False,MicroRNA protein coding host genes|Runt-related transcription factors,False
+ELF2,0.290149935809,491,False,False,ETS transcription factor family,False
+TAFA2,0.290089626902,492,False,False,TAFA chemokine like family,False
+SDCBP,0.290056588153,493,False,False,PDZ domain containing,False
+ATM,0.289972339628,494,False,False,Armadillo like helical domain containing|Phosphatidylinositol 3-kinase-related kinase family|BRCA1-associated genome surveillance complex,False
+MBNL1,0.289875884125,495,False,False,Zinc fingers CCCH-type|Muscleblind like splicing regulator family,False
+MYH9,0.289601183657,496,False,False,"Myosin heavy chains, class II|MicroRNA protein coding host genes",False
+IRS2,0.289246037759,497,False,False,Pleckstrin homology domain containing|Insulin receptor substrate family,False
+LAMTOR1,0.289139566505,498,False,False,Ragulator complex,False
+CYTH1,0.288595264666,499,False,False,Pleckstrin homology domain containing|Cytohesins,False
+RPL36A,0.287909150001,500,True,False,L ribosomal proteins,True

@@ -1,0 +1,22 @@
+﻿target,seconds,n_fits,n_retried,all_converged
+common myeloid progenitor,3.11019517097,960,0,True
+erythrocyte,3.46590778197,960,0,True
+platelet,3.30646184902,960,0,True
+macrophage,3.37154630304,960,0,True
+B cell,3.06208502699,960,0,True
+monocyte,3.04874703602,960,0,True
+natural killer cell,3.08746295504,960,0,True
+"CD4-positive, alpha-beta T cell",3.10024551093,960,0,True
+"CD8-positive, alpha-beta T cell",3.04881497298,960,0,True
+basophil,3.0983645909,960,0,True
+neutrophil,3.10941316292,960,0,True
+myeloid dendritic cell,3.11069613695,960,0,True
+plasmacytoid dendritic cell,3.33357934398,960,0,True
+plasma cell,3.113899827,960,0,True
+mature NK T cell,3.11146091204,960,0,True
+regulatory T cell,3.14074803202,960,0,True
+classical monocyte,3.08509767207,960,0,True
+non-classical monocyte,3.10605058598,960,0,True
+"naive thymus-derived CD4-positive, alpha-beta T cell",3.08781463304,960,0,True
+intermediate monocyte,3.094195085,960,0,True
+hematopoietic precursor cell,3.02151253202,960,0,True

@@ -1,0 +1,49 @@
+{"event": "model_path_done", "job": "raw/outer_01_inner_03", "model": "ElasticNet", "seconds": 120.02317085699178}
+{"event": "job_done", "id": "raw/outer_01_inner_03", "seconds": 128.4069870710373}
+{"event": "model_path_done", "job": "raw/outer_02_inner_03", "model": "ElasticNet", "seconds": 114.58179626706988}
+{"event": "job_done", "id": "raw/outer_02_inner_03", "seconds": 121.81063656497281}
+{"event": "model_path_done", "job": "raw/outer_03_inner_03", "model": "ElasticNet", "seconds": 115.39262118295301}
+{"event": "job_done", "id": "raw/outer_03_inner_03", "seconds": 122.60885187599342}
+{"event": "model_path_done", "job": "raw/outer_04_inner_03", "model": "ElasticNet", "seconds": 108.05102326499764}
+{"event": "job_done", "id": "raw/outer_04_inner_03", "seconds": 115.13830346497707}
+{"event": "model_path_done", "job": "raw/outer_05_inner_03", "model": "ElasticNet", "seconds": 115.48648685007356}
+{"event": "job_done", "id": "raw/outer_05_inner_03", "seconds": 122.36979846295435}
+{"event": "model_path_done", "job": "raw/full_inner_03", "model": "ElasticNet", "seconds": 103.17648014693987}
+{"event": "job_done", "id": "raw/full_inner_03", "seconds": 110.43075269495603}
+{"event": "job_done", "id": "landmark/outer_01_inner_03", "seconds": 22.30285597895272}
+{"event": "job_done", "id": "landmark/outer_02_inner_03", "seconds": 24.976187033928}
+{"event": "job_done", "id": "landmark/outer_03_inner_03", "seconds": 23.20753950299695}
+{"event": "job_done", "id": "landmark/outer_04_inner_03", "seconds": 27.482984827947803}
+{"event": "job_done", "id": "landmark/outer_05_inner_03", "seconds": 23.831019134027883}
+{"event": "job_done", "id": "landmark/full_inner_03", "seconds": 25.642394962953404}
+{"event": "job_done", "id": "gene_scaled/outer_01_inner_03", "seconds": 39.66030846105423}
+{"event": "job_done", "id": "gene_scaled/outer_02_inner_03", "seconds": 37.967813699971884}
+{"event": "job_done", "id": "gene_scaled/outer_03_inner_03", "seconds": 39.504376601893455}
+{"event": "job_done", "id": "gene_scaled/outer_04_inner_03", "seconds": 38.22136459208559}
+{"event": "job_done", "id": "gene_scaled/outer_05_inner_03", "seconds": 40.977284297929145}
+{"event": "job_done", "id": "gene_scaled/full_inner_03", "seconds": 36.152976428042166}
+{"event": "job_done", "id": "stability/repeat_004", "seconds": 0.7952356779715046}
+{"event": "job_done", "id": "stability/repeat_008", "seconds": 0.8329226489877328}
+{"event": "job_done", "id": "stability/repeat_012", "seconds": 0.8912819670513272}
+{"event": "job_done", "id": "stability/repeat_016", "seconds": 1.3486758369253948}
+{"event": "job_done", "id": "stability/repeat_020", "seconds": 0.8563850190257654}
+{"event": "job_done", "id": "stability/repeat_024", "seconds": 0.7687309189932421}
+{"event": "job_done", "id": "stability/repeat_028", "seconds": 0.78933933400549}
+{"event": "job_done", "id": "stability/repeat_032", "seconds": 0.961840781965293}
+{"event": "job_done", "id": "stability/repeat_036", "seconds": 0.8526869890047237}
+{"event": "job_done", "id": "stability/repeat_040", "seconds": 0.7768156239762902}
+{"event": "job_done", "id": "stability/repeat_044", "seconds": 0.8460894579766318}
+{"event": "job_done", "id": "stability/repeat_048", "seconds": 0.844205764005892}
+{"event": "job_done", "id": "stability/repeat_052", "seconds": 0.8122774319490418}
+{"event": "job_done", "id": "stability/repeat_056", "seconds": 0.7751577539602295}
+{"event": "job_done", "id": "stability/repeat_060", "seconds": 0.7523614600067958}
+{"event": "job_done", "id": "stability/repeat_064", "seconds": 0.8235139049356803}
+{"event": "job_done", "id": "stability/repeat_068", "seconds": 0.809711033012718}
+{"event": "job_done", "id": "stability/repeat_072", "seconds": 0.8479553479701281}
+{"event": "job_done", "id": "stability/repeat_076", "seconds": 1.0819381090113893}
+{"event": "job_done", "id": "stability/repeat_080", "seconds": 0.8167161289602518}
+{"event": "job_done", "id": "stability/repeat_084", "seconds": 0.7688845129450783}
+{"event": "job_done", "id": "stability/repeat_088", "seconds": 0.835516495979391}
+{"event": "job_done", "id": "stability/repeat_092", "seconds": 0.8606169170234352}
+{"event": "job_done", "id": "stability/repeat_096", "seconds": 0.8647575409850106}
+{"event": "job_done", "id": "stability/repeat_100", "seconds": 0.8473942960845307}

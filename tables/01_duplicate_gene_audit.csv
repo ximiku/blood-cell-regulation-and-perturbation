@@ -1,0 +1,16 @@
+﻿dataset,gene_symbol,data_row_1based,action,max_abs_difference_from_first
+blood,MATR3,360,keep_first,0
+blood,MATR3,19561,drop_duplicate,0.23714532
+blood,MKKS,5668,keep_first,0
+blood,MKKS,19774,drop_duplicate,0.112341024
+blood,MKKS,19798,drop_duplicate,0.112341024
+blood,HERC3,7587,keep_first,0
+blood,HERC3,19877,drop_duplicate,0.0865473
+blood,POLR2J3,12092,keep_first,0
+blood,POLR2J3,19766,drop_duplicate,0.81057286
+blood,NPIPA9,14969,keep_first,0
+blood,NPIPA9,18100,drop_duplicate,0.01326176442
+blood,PINX1,18636,keep_first,0
+blood,PINX1,18857,drop_duplicate,0.086844854
+L1000,MIA2,1195,keep_first,0
+L1000,MIA2,5131,drop_duplicate,3.27363991737

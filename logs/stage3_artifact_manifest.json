@@ -1,0 +1,2048 @@
+{
+  "stage": 3,
+  "generated_utc": "2026-11-07T07:37:41.649959+00:00",
+  "local_root": "/path/to/user/Desktop/CourseData/26_fall/Statistical_analysis_of_genomics_data/HW2/solution",
+  "status": "awaiting_user_review",
+  "independent_review": "passed",
+  "excluded": "Hidden runtime/cache directories, __pycache__, and this manifest; input originals tracked by data/input_manifest.json",
+  "n_files": 407,
+  "total_bytes": 597384810,
+  "report_local_links_checked": true,
+  "files": [
+    {
+      "path": "PLAN.md",
+      "bytes": 5607,
+      "sha256": "f2bffb67afa74842ea987873e7ba5b0a5d9afb34f2e253897d1c6903c36758aa"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6106,
+      "sha256": "ef876a67e631f191fe36a20a868fbaae2377c6acb3c82471702b3a8a3db995fd"
+    },
+    {
+      "path": "WORK_LOG.md",
+      "bytes": 14825,
+      "sha256": "16fbe4cf6313d4931f52acf53d3923e4b0b82749aa210c8ab6e63bde98a48479"
+    },
+    {
+      "path": "config/analysis_config.json",
+      "bytes": 3146,
+      "sha256": "3b1e55d3dedd76596f99c23d8a7864417484c5bcfea70d2dc3c9796fd96911db"
+    },
+    {
+      "path": "data/input_manifest.json",
+      "bytes": 1111,
+      "sha256": "6357f32bc30a1f39916ab5e3487016887a23ff46514f66949c659ea2d7a5f661"
+    },
+    {
+      "path": "data/processed/analysis_matrices.h5",
+      "bytes": 126357028,
+      "sha256": "37afe6e27bcb80676f6ae2e92bd0ec77d1acd4480f1eabc1100f8cbee18175be"
+    },
+    {
+      "path": "data/references/GSE92742_Broad_LINCS_gene_info.txt.gz",
+      "bytes": 216692,
+      "sha256": "741216ccc53320119b47ab006de3bcad48963c57087c9e07f50f0d6cd088711a"
+    },
+    {
+      "path": "data/references/GSE92742_Broad_LINCS_pert_info.txt.gz",
+      "bytes": 1138509,
+      "sha256": "b1945b3fde51021865b12269929cc78ccf2665be27f53a4da9336e4ddcf4b42f"
+    },
+    {
+      "path": "data/references/HumanTFs_v1.01.csv",
+      "bytes": 2107299,
+      "sha256": "5438940ddef71b6fb8017af609e7599338159f47e2e03ca0439dc0711a8d4cc9"
+    },
+    {
+      "path": "data/references/hgnc_complete_set.txt",
+      "bytes": 16994064,
+      "sha256": "3944cdad7affce5bc2c7d63d7079d7e68762ed28ef414fc287cc0f57c4b0d78f"
+    },
+    {
+      "path": "data/references/source_manifest.json",
+      "bytes": 1906,
+      "sha256": "7b0c71bed2320c5904e8b388ff09b58c0b311941b17f60dce843942dcd95086e"
+    },
+    {
+      "path": "data/splits/gene_cv_assignments.csv",
+      "bytes": 313303,
+      "sha256": "a94ce8cd6fc8ceeda3b9f014cfe7be3c0a7046a6e356f9f25d7216f37e742a30"
+    },
+    {
+      "path": "data/splits/gene_cv_splits.json",
+      "bytes": 3929256,
+      "sha256": "a2e89f54fc5825cb9eed4ac1467bfa7f2989a4aabe218b6f8426e9e78be9980a"
+    },
+    {
+      "path": "environment/README.md",
+      "bytes": 5462,
+      "sha256": "60c7a1debc2baaad72effdfc8619b903f4f2cd8845146e4dd146558963788441"
+    },
+    {
+      "path": "environment/gpu_solver_wheels/cuda_pathfinder-1.8.3-py3-none-any.whl",
+      "bytes": 62561,
+      "sha256": "e29e59829c297a7a5233bd9cc71094fc5bddbd076951482670178f9eade39b1f"
+    },
+    {
+      "path": "environment/gpu_solver_wheels/cupy_cuda13x-14.1.1-cp310-cp310-manylinux2014_x86_64.whl",
+      "bytes": 68695025,
+      "sha256": "223a9e1e6db911002ca5b94c348a3ed5c1d7869ba4dd6524ab3d0263123b2248"
+    },
+    {
+      "path": "environment/gpu_solver_wheels/numpy-2.2.6-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "bytes": 16801050,
+      "sha256": "fc7b73d02efb0e18c000e9ad8b83480dfcd5dfd11065997ed4c6747470ae8915"
+    },
+    {
+      "path": "environment/local_environment.json",
+      "bytes": 450,
+      "sha256": "97e3f745aab4b6f79fb4336f5745415a8079d2bb555936bd5dfd4578013de81d"
+    },
+    {
+      "path": "environment/local_wheels/celer-0.7.4-cp312-cp312-macosx_11_0_arm64.whl",
+      "bytes": 819522,
+      "sha256": "2d91b3e7ba5e9753a70a63d994c8ace07154ad9ec5ac01ac59c15c44fb923f61"
+    },
+    {
+      "path": "environment/package_inventory.txt",
+      "bytes": 9397,
+      "sha256": "f749b330d5b5f3cb8dafc566b71c1a80e828d5e2661e878e77e2c48976bf02c3"
+    },
+    {
+      "path": "environment/remote_inventory.json",
+      "bytes": 3107,
+      "sha256": "bf016f91187f5e26c6cc2e759773487c65c216f011584ebe9a64abdf44b13d18"
+    },
+    {
+      "path": "environment/remote_wheel_manifest.json",
+      "bytes": 2321,
+      "sha256": "48df42b8b9a92b6b20eeb698fd2288d3f7d22da5d4fdfaac17b2e843d5a64e71"
+    },
+    {
+      "path": "environment/remote_wheels/celer-0.7.4-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "bytes": 4493968,
+      "sha256": "d3fd8882c3c4861f21a1597379dcf97a830e40aa51d8e0ea01b09ab564dd647e"
+    },
+    {
+      "path": "environment/remote_wheels/h5py-3.11.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "bytes": 5306122,
+      "sha256": "77b19a40788e3e362b54af4dcf9e6fde59ca016db2c61360aa30b47c7b7cef00"
+    },
+    {
+      "path": "environment/remote_wheels/joblib-1.4.2-py3-none-any.whl",
+      "bytes": 301817,
+      "sha256": "06d478d5674cbc267e7496a410ee875abd68e4340feff4490bcb7afb88060ae6"
+    },
+    {
+      "path": "environment/remote_wheels/numpy-1.26.4-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "bytes": 18240889,
+      "sha256": "ffa75af20b44f8dba823498024771d5ac50620e6915abac414251bd971b4529f"
+    },
+    {
+      "path": "environment/remote_wheels/pandas-2.2.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "bytes": 13032214,
+      "sha256": "8635c16bf3d99040fdf3ca3db669a7250ddf49c55dc4aa8fe0ae0fa8d6dcc1f0"
+    },
+    {
+      "path": "environment/remote_wheels/pip-24.3.1-py3-none-any.whl",
+      "bytes": 1822182,
+      "sha256": "3790624780082365f47549d032f3770eeb2b1e8bd1f7b2e02dace1afa361b4ed"
+    },
+    {
+      "path": "environment/remote_wheels/python_dateutil-3.0.0-py2.py3-none-any.whl",
+      "bytes": 94659,
+      "sha256": "3c79630202e4152c6add678446984236efe4f57e84d8e892aab0637bab82e9fd"
+    },
+    {
+      "path": "environment/remote_wheels/pytz-2026.6-py2.py3-none-any.whl",
+      "bytes": 506321,
+      "sha256": "7fed3fee8fd6bd4a2b7b75a8d56021d0624127bf69bd5691f115db929ac570b3"
+    },
+    {
+      "path": "environment/remote_wheels/scikit_learn-1.5.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "bytes": 13352348,
+      "sha256": "161808750c267b77b4a9603cf9c93579c7a74ba8486b1336034c2f1579546d21"
+    },
+    {
+      "path": "environment/remote_wheels/scipy-1.13.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "bytes": 38577335,
+      "sha256": "f26264b282b9da0952a024ae34710c2aff7d27480ee91a2e82b7b7073c24722f"
+    },
+    {
+      "path": "environment/remote_wheels/six-1.17.0-py2.py3-none-any.whl",
+      "bytes": 11050,
+      "sha256": "4721f391ed90541fddacab5acf947aa0d3dc7d27b2e1e8eda2be8970586c3274"
+    },
+    {
+      "path": "environment/remote_wheels/threadpoolctl-3.5.0-py3-none-any.whl",
+      "bytes": 18414,
+      "sha256": "56c1e26c150397e58c4926da8eeee87533b1e32bef131bd4bf6a2f45f3185467"
+    },
+    {
+      "path": "environment/remote_wheels/tzdata-2026.6-py2.py3-none-any.whl",
+      "bytes": 348210,
+      "sha256": "0a10eec6e13ef16b627fabed9a5f2ba61a62b1c67f327305f4e7e412a70b4aec"
+    },
+    {
+      "path": "environment/requirements-stage1.txt",
+      "bytes": 124,
+      "sha256": "634238e3fa6b80ad9b99591c4bb73db81b45e99f97b7354dfb01f31fa38a3d42"
+    },
+    {
+      "path": "environment/requirements-stage2.txt",
+      "bytes": 138,
+      "sha256": "584d3de98126be7aa991d128d09e6009b44d0e6a133be1e7c56e66f759e4912a"
+    },
+    {
+      "path": "environment/requirements-stage3-gpu.txt",
+      "bytes": 57,
+      "sha256": "b3c354be1e79dec107a16197d204b775b44a434b45b2535c956460e068216401"
+    },
+    {
+      "path": "environment/requirements-stage3-remote.txt",
+      "bytes": 173,
+      "sha256": "589350d256cc0b4de4d0b95ea23aa538cbd98fe64b94e91e42671d3474909e76"
+    },
+    {
+      "path": "environment/stage3_wheel_manifest.json",
+      "bytes": 3479,
+      "sha256": "5ab3f5c43b38865afd886f8c0f2d97d39301b16f45605cfa3f75e66808f4e730"
+    },
+    {
+      "path": "figures/02_F1_expression_distributions.pdf",
+      "bytes": 57664,
+      "sha256": "49fd963d527a720a6b8a1cd4a79c193388b75acab6f75aa80153e2a2ce4e8a73"
+    },
+    {
+      "path": "figures/02_F1_expression_distributions.png",
+      "bytes": 375336,
+      "sha256": "e45ed14c6c91404c84c315579ae592bfd48d1cd6633d2a5920158b96398d877f"
+    },
+    {
+      "path": "figures/02_F1_expression_distributions.svg",
+      "bytes": 77146,
+      "sha256": "ae508aeedae413a874c0ccb3b25ab3b4b6ec6c002b685945d2da52aed20c2bb1"
+    },
+    {
+      "path": "figures/02_F2_HVG100_heatmap.pdf",
+      "bytes": 94284,
+      "sha256": "7412b585fa855ca7f0d52446831d06f507ad1e40ace5bb3e33cfa0080a02c859"
+    },
+    {
+      "path": "figures/02_F2_HVG100_heatmap.png",
+      "bytes": 653998,
+      "sha256": "0089fd89cd8e3c96bc495639daa8bec576478a3f23c444658f378445ba9c43c7"
+    },
+    {
+      "path": "figures/02_F2_HVG100_heatmap.svg",
+      "bytes": 463883,
+      "sha256": "f7099fc12a273f0a21e1a27c64a484042857c1265d42dcd99c4559252dc4bb50"
+    },
+    {
+      "path": "figures/02_F3_PCA.pdf",
+      "bytes": 42107,
+      "sha256": "0a619ec1fd3c564d2f4d7b8f764a8c3fe928f0a911d27fd523168cc182c93ff5"
+    },
+    {
+      "path": "figures/02_F3_PCA.png",
+      "bytes": 272082,
+      "sha256": "45f3a6602f86e3fabe2339618743a39890051274a3664ae05406631d25d53faf"
+    },
+    {
+      "path": "figures/02_F3_PCA.svg",
+      "bytes": 42519,
+      "sha256": "a2252dd851788abaa1aed554b115e1e4712493a967d75bed0d512fc4791a2caf"
+    },
+    {
+      "path": "figures/02_F4_HSC_differences.pdf",
+      "bytes": 44527,
+      "sha256": "98f2c11df4bbde3f5ada80c10334466768cb0857d7051428119b344f94aeab24"
+    },
+    {
+      "path": "figures/02_F4_HSC_differences.png",
+      "bytes": 383011,
+      "sha256": "3baccb51a50230521ae1607581b9d5ebf904bbd0be93335cd69af2756c9baa24"
+    },
+    {
+      "path": "figures/02_F4_HSC_differences.svg",
+      "bytes": 59062,
+      "sha256": "e3a57032162fbff931fa28c811de2f6f4e7c41c99a91b89153b2494331964236"
+    },
+    {
+      "path": "figures/02_F5_clustering_comparison.pdf",
+      "bytes": 39130,
+      "sha256": "6f37f3ea6f59dbb654a29d3b08964d791168695f5b78e61d1ff1a1c664cf5f58"
+    },
+    {
+      "path": "figures/02_F5_clustering_comparison.png",
+      "bytes": 276978,
+      "sha256": "07416e8c7b640e835223182fcbc36c401e93af6274aa44783994672b3aa73949"
+    },
+    {
+      "path": "figures/02_F5_clustering_comparison.svg",
+      "bytes": 25198,
+      "sha256": "ec9a7b33980a2c4542ff2b4d5932bf0f1e4cb07ba9fe6ad1c7ba9d511d7d2ad4"
+    },
+    {
+      "path": "figures/02_S1_mDC_sensitivity.pdf",
+      "bytes": 42855,
+      "sha256": "9ed76dc0259e93e45a2400037de78527e43832d1fece42b38a53206194d9a738"
+    },
+    {
+      "path": "figures/02_S1_mDC_sensitivity.png",
+      "bytes": 225179,
+      "sha256": "43a81a2d3f9fa67d503e0747b27fe71a8119d91aa9b658d45a0d984fbd99bfc1"
+    },
+    {
+      "path": "figures/02_S1_mDC_sensitivity.svg",
+      "bytes": 33184,
+      "sha256": "4425c1a7db92745ebb94335736033e83865760b448d55c60bd37b38bc90439c7"
+    },
+    {
+      "path": "figures/02_S2_clustering_sensitivity.pdf",
+      "bytes": 26742,
+      "sha256": "1b88e8901b14393f87eb1cd632df2fd4a63a8dd4cb0bf58e0d16fe5c8626bde3"
+    },
+    {
+      "path": "figures/02_S2_clustering_sensitivity.png",
+      "bytes": 222000,
+      "sha256": "45500b9b4bb371e782ed94070530f0c8d1f027ac60374233e65555f193992bca"
+    },
+    {
+      "path": "figures/02_S2_clustering_sensitivity.svg",
+      "bytes": 22030,
+      "sha256": "7104e31538d1a0e31581f298f65c8edd49af0d5ae4b298e9d8b579dba71b5000"
+    },
+    {
+      "path": "figures/03_F1_target_screen.pdf",
+      "bytes": 38294,
+      "sha256": "d945eaca7478497f437b7d7309ea699095e9cefee352c3dbf276de91bcf234f6"
+    },
+    {
+      "path": "figures/03_F1_target_screen.png",
+      "bytes": 270380,
+      "sha256": "7cca9faae8d7601f8100b919902370c2f8db62cb51c727f45281bb0974acd246"
+    },
+    {
+      "path": "figures/03_F1_target_screen.svg",
+      "bytes": 35328,
+      "sha256": "fc205b1a3fb00d99a51008d377b4f2c4603ab598be0eb0b1f8c3ff50708a7c4e"
+    },
+    {
+      "path": "figures/03_F2_focus_OOF_predictions.pdf",
+      "bytes": 193642,
+      "sha256": "4814c729d9cf4b00149d9e7eeda221d558db73778a757ab71b43b7342580bfb3"
+    },
+    {
+      "path": "figures/03_F2_focus_OOF_predictions.png",
+      "bytes": 574298,
+      "sha256": "bf9b4bb7eba1799505ca46d45291a24f09f2f61b2e831d9df8110dbe167592e5"
+    },
+    {
+      "path": "figures/03_F2_focus_OOF_predictions.svg",
+      "bytes": 302659,
+      "sha256": "f30f6c538110c9c0a8ac1845c3f5623c978705e9ce79e80d1a441afd2e240989"
+    },
+    {
+      "path": "figures/03_F3_tuning_curves.pdf",
+      "bytes": 40172,
+      "sha256": "710cedeee7237f1d0c6fbcc6855e19a22e9b5bd093f213d7fa9a9d7c7dd3bd7f"
+    },
+    {
+      "path": "figures/03_F3_tuning_curves.png",
+      "bytes": 396000,
+      "sha256": "71e45f68fa29e167a57d462e60620ba26331ecd8c7c5a92026625a575ec26ef3"
+    },
+    {
+      "path": "figures/03_F3_tuning_curves.svg",
+      "bytes": 63850,
+      "sha256": "50126865580beb990342c88d6de5083bf6acbb0875728312c5ba800270b5589b"
+    },
+    {
+      "path": "figures/03_F4_coefficient_paths.pdf",
+      "bytes": 57584,
+      "sha256": "68f733e084457ee33dc35671b63a4783674e74e656d539a1135acb391363cee2"
+    },
+    {
+      "path": "figures/03_F4_coefficient_paths.png",
+      "bytes": 875802,
+      "sha256": "9ba82b27332618ffd52f6ca5a21e4e0a5f4bf4b48dd8a86c91bb90d64e379675"
+    },
+    {
+      "path": "figures/03_F4_coefficient_paths.svg",
+      "bytes": 130355,
+      "sha256": "9b43ce305f301b8d718ca0d400438a5517e13fadbdd3041f4d8b4f942cf662d9"
+    },
+    {
+      "path": "figures/03_F5_initial_TF_candidates.pdf",
+      "bytes": 38073,
+      "sha256": "0b3fd5bb05fc230bec46834a82e90de7e744f351fb1c7d2dbcc5442f8ca8504b"
+    },
+    {
+      "path": "figures/03_F5_initial_TF_candidates.png",
+      "bytes": 252772,
+      "sha256": "d0651046d290f909a2cafb99ccc98990b1ee7e68550d561935ebcfbebd69595b"
+    },
+    {
+      "path": "figures/03_F5_initial_TF_candidates.svg",
+      "bytes": 40242,
+      "sha256": "71e7c6f5046a336a182a3a0bfe5937f86e7511fdaf1def8ffefe1be31666238b"
+    },
+    {
+      "path": "figures/03_figure_manifest.json",
+      "bytes": 2444,
+      "sha256": "504a445b1db35f97158fcb27d415203411f60c48daa126fe8e983552c11e9810"
+    },
+    {
+      "path": "figures/figure_manifest.json",
+      "bytes": 3144,
+      "sha256": "db6feaa8196928ab15f158968a02d294d57c329d05b9ead6329e661a30d08d8a"
+    },
+    {
+      "path": "logs/01_prepare_attempt1.log",
+      "bytes": 549,
+      "sha256": "1b31b9d408919f76dcfa6e3d31f94a912960afb6a604e0e2c5f117e4b2d59a61"
+    },
+    {
+      "path": "logs/01_prepare_data.log",
+      "bytes": 1373,
+      "sha256": "8266ecebad2b1ddda33d8572f4117039ff30617c38b91213dff9a99d25d6e73b"
+    },
+    {
+      "path": "logs/02_eda_figures.log",
+      "bytes": 1184,
+      "sha256": "707a228fab449781dc213560c8006cb8fbfd668a4ff1f616b027d984e981f822"
+    },
+    {
+      "path": "logs/02_validation.log",
+      "bytes": 1688,
+      "sha256": "1436353ed5026518696878cae1a2bd9bee9d0560754c5712001b9d0dee23194e"
+    },
+    {
+      "path": "logs/03_B_cell_celer.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "logs/03_B_cell_celer_local.log",
+      "bytes": 3041,
+      "sha256": "ca89f18fbf108cfd9ce2b8378e062ac2fe1c832909a1e8e6ed7f4cf4395d8a76"
+    },
+    {
+      "path": "logs/03_celer_local_stop.txt",
+      "bytes": 84,
+      "sha256": "c456dadd3bb8ba1133ad357bcd9080158c237bff14a089181bb80fc0e4c43062"
+    },
+    {
+      "path": "logs/03_celer_remote_stop.txt",
+      "bytes": 88,
+      "sha256": "78865dc50203d52a656deaf208c23bfb01a8682f91d145b3a37406b813a83fa9"
+    },
+    {
+      "path": "logs/03_figures.log",
+      "bytes": 407,
+      "sha256": "ba135dc55fd58bba5b7a73ab6ebce981aabb679b313e65aa5283ea2741ec4a79"
+    },
+    {
+      "path": "logs/03_gpu_device_0.log",
+      "bytes": 55824,
+      "sha256": "a001338a992b323c71cecd9d9ec527b40597ca5516144380cd072a99d7fda528"
+    },
+    {
+      "path": "logs/03_gpu_device_1.log",
+      "bytes": 56340,
+      "sha256": "a30626a4a7582edd28d424a625d6b90b01ecc036a036811aa1badefcd0b03fcc"
+    },
+    {
+      "path": "logs/03_gpu_device_2.log",
+      "bytes": 56335,
+      "sha256": "e08506641f68d3ff6d52c1565ba1a46505b01bdb31d33af95e8acfa1bd2bc8a7"
+    },
+    {
+      "path": "logs/03_gpu_device_3.log",
+      "bytes": 45911,
+      "sha256": "081bdf265b1ea039c44d17ae1e86071016be02a11c369e29a57a4e824fae4e42"
+    },
+    {
+      "path": "logs/03_gpu_first_context.log",
+      "bytes": 9419,
+      "sha256": "822394fd249eca83d1a7857e3ca09aa56fe6556ce3d935d871fa9c55dbe837e0"
+    },
+    {
+      "path": "logs/03_gpu_orchestration.log",
+      "bytes": 749,
+      "sha256": "4e1a3dfb92db93bc3f2a579d32293e8d652c5631bd1ed2d85b3331db25612ffc"
+    },
+    {
+      "path": "logs/03_prepare_and_B_cell.log",
+      "bytes": 3030,
+      "sha256": "39975c62a7ff2690c96bd56ae7226847be166da084dbfaa7d37e8e2266b43123"
+    },
+    {
+      "path": "logs/03_sklearn_pilot_stop.txt",
+      "bytes": 89,
+      "sha256": "64623bea1d971f438eb70001bc68c62d9cf3e864d096d2ded5c466d01150285a"
+    },
+    {
+      "path": "logs/03_solver_crosscheck_B_cell.json",
+      "bytes": 1363,
+      "sha256": "c564b1a0516e91a8420dffff765b8389f27db608eb60c10635cb3a69da061fc6"
+    },
+    {
+      "path": "logs/03_solver_crosscheck_B_cell.log",
+      "bytes": 1037,
+      "sha256": "81246de982498462b70ed7cba8df62bb4205c0380940532dad28ec757317b4cb"
+    },
+    {
+      "path": "logs/03_target_assembly.log",
+      "bytes": 30165,
+      "sha256": "2286ff57db63927947125f25efa8a7135d508ba280922688272e182ce21a3574"
+    },
+    {
+      "path": "logs/03_validation.log",
+      "bytes": 2372,
+      "sha256": "cca66ae10582d46e32254b97868b413bd5c9d56e4211cf990579e7705cabde68"
+    },
+    {
+      "path": "logs/stage1_artifact_manifest.json",
+      "bytes": 7001,
+      "sha256": "d42abc12188df614808e5faf6343763d384899d3f7cf91b4801416191e1befc4"
+    },
+    {
+      "path": "logs/stage1_summary.json",
+      "bytes": 1373,
+      "sha256": "8266ecebad2b1ddda33d8572f4117039ff30617c38b91213dff9a99d25d6e73b"
+    },
+    {
+      "path": "logs/stage1_validation.json",
+      "bytes": 636,
+      "sha256": "6f7689bc3dd0f7421710cdef672adfc454156dec6861556e3217ce31d01fda97"
+    },
+    {
+      "path": "logs/stage2_artifact_manifest.json",
+      "bytes": 17549,
+      "sha256": "47b43c82145bc473a94dc190e441cb6cf6dc2915c185c0247e5d4eea9d7ac9bd"
+    },
+    {
+      "path": "logs/stage2_eda_summary.json",
+      "bytes": 4679,
+      "sha256": "46bb0938137241763da0c3d694ab81a7ee1d34808fc31ebee9fce893f2aa2b34"
+    },
+    {
+      "path": "logs/stage2_validation.json",
+      "bytes": 1688,
+      "sha256": "1436353ed5026518696878cae1a2bd9bee9d0560754c5712001b9d0dee23194e"
+    },
+    {
+      "path": "logs/stage3_gpu_execution.json",
+      "bytes": 811,
+      "sha256": "1c9e58e3d692cc04186e88c37e47870b3dceb172ef727066d563f334a534df54"
+    },
+    {
+      "path": "logs/stage3_preparation.json",
+      "bytes": 231,
+      "sha256": "7bb691754d224fe7e1a1dbc7b0df38d80702cc8997d05faf6527f2cc8c43dd4d"
+    },
+    {
+      "path": "logs/stage3_remote_archive_validation.json",
+      "bytes": 151,
+      "sha256": "fcac435c28f34d661c08bbe9912f69d8c9570044cd039163df85ee568b851295"
+    },
+    {
+      "path": "logs/stage3_remote_manifest.json",
+      "bytes": 43374,
+      "sha256": "56f33c9f6cb421caf2f0875ca9b8f309d28ab5b4a6724af663eec7f60a2607f4"
+    },
+    {
+      "path": "logs/stage3_summary.json",
+      "bytes": 30043,
+      "sha256": "6bbdd7ad42290b1560e46a2a29f32ffa398fe44148d1ff51bf2db13cdd746c95"
+    },
+    {
+      "path": "logs/stage3_validation.json",
+      "bytes": 2372,
+      "sha256": "cca66ae10582d46e32254b97868b413bd5c9d56e4211cf990579e7705cabde68"
+    },
+    {
+      "path": "prism/HSC_difference_data.pzfx",
+      "bytes": 1194,
+      "sha256": "be12d1bae52e22b8515c22152912f28904c394ea499f0c2ccd97d65092e84545"
+    },
+    {
+      "path": "prism/HSC_difference_data.tsv",
+      "bytes": 100,
+      "sha256": "b0ab61843589ffbef482045fc3fd7e33876dcf4704343a488cb3e7aa59089cd6"
+    },
+    {
+      "path": "prism/README.md",
+      "bytes": 1198,
+      "sha256": "b0b3e5de1000912d3483ca41e24196c729c7103e1dd4ab80c9772e05cc5b9498"
+    },
+    {
+      "path": "reports/01_data_qc.md",
+      "bytes": 5376,
+      "sha256": "dff64f213e225adfb0674c2271017daf3ed534c8f9923fe3359874a33167c91f"
+    },
+    {
+      "path": "reports/02_eda_report.md",
+      "bytes": 9635,
+      "sha256": "5bc7078dfc612fc7ba74ce0f71600ffe360baec779d875e3f6901fe96e8d8a03"
+    },
+    {
+      "path": "reports/02_figure_captions.md",
+      "bytes": 2746,
+      "sha256": "daea1e1ffa67fc10d2e7369f998747170a770d82da7fa38eaee66d3605366cc8"
+    },
+    {
+      "path": "reports/02_independent_review.md",
+      "bytes": 5194,
+      "sha256": "a2fd0fce30738bb5804370d3d674cd39e7ea3e893cae45147af3fe39afa13309"
+    },
+    {
+      "path": "reports/03_figure_captions.md",
+      "bytes": 1957,
+      "sha256": "f6b897fb996af58ca6db59e06bff49ed29e015b27b934b6878fddd8552637557"
+    },
+    {
+      "path": "reports/03_independent_review.md",
+      "bytes": 7885,
+      "sha256": "5d85a65c885809b4e7516ec7e8f0a7ff542df6550290a56f8b905dba0f7981c2"
+    },
+    {
+      "path": "reports/03_lasso_methods.md",
+      "bytes": 3638,
+      "sha256": "b9f4dfef5fc8d9ef3a68847dc900562613d5179bb9addbb23fba4dd160760a89"
+    },
+    {
+      "path": "reports/03_lasso_report.md",
+      "bytes": 9948,
+      "sha256": "be888404c2511431e4fcbaa28aa57058d952957d76f46ee304bc11a510e5bc4b"
+    },
+    {
+      "path": "results/lasso/target_00/completed.json",
+      "bytes": 1069,
+      "sha256": "60e544cc22e03fdc24de045f3c69ff9e47bebba80abacd8c9bdd997ee284ff75"
+    },
+    {
+      "path": "results/lasso/target_00/fold_metrics.csv",
+      "bytes": 1190,
+      "sha256": "c57d6fa71f81f7db6303f968dc4c9bc44e1d489f70e1db52e006f92a7aed2ba1"
+    },
+    {
+      "path": "results/lasso/target_00/model_arrays.npz",
+      "bytes": 562767,
+      "sha256": "de1d78c7202a3c1e225696ce20f75ec3dc09ed02f2710a508d70af25cd447f17"
+    },
+    {
+      "path": "results/lasso/target_00/oof_predictions.csv",
+      "bytes": 867104,
+      "sha256": "bd93d40d47463cd0957cdccab7541e6a9eb5916098bf48beddf9aa932cb6dc9b"
+    },
+    {
+      "path": "results/lasso/target_00/pooled_metrics.csv",
+      "bytes": 363,
+      "sha256": "4d126b3fd6a0da787b443807b6bcc1685a2eaf2c86fb8e226897735dff765e85"
+    },
+    {
+      "path": "results/lasso/target_00/selected_models.csv",
+      "bytes": 843,
+      "sha256": "ebd102f8612c2aae207db19cd057b64c2bbf8546e1ca4239ecc30fca0e4de035"
+    },
+    {
+      "path": "results/lasso/target_00/solver_diagnostics.csv",
+      "bytes": 156120,
+      "sha256": "9c64a908d3eb5901450386b3140d736379f218cfd72a17400cec4ae0eaa17ba2"
+    },
+    {
+      "path": "results/lasso/target_00/tuning_curves.csv",
+      "bytes": 38696,
+      "sha256": "421342e1efb4ef4bc9fd1f49bcb0843bb89dc1ae130e2c0931f05ec400e5de7c"
+    },
+    {
+      "path": "results/lasso/target_01/completed.json",
+      "bytes": 1008,
+      "sha256": "3ad58c0dfa745a7ecba811656a1763ae18cb166d995e433f7e8002dcb4e67820"
+    },
+    {
+      "path": "results/lasso/target_01/fold_metrics.csv",
+      "bytes": 1192,
+      "sha256": "c9a7bad1099e08bcb37253626c300447fe5f889aa320f02d19485f251cbf8235"
+    },
+    {
+      "path": "results/lasso/target_01/model_arrays.npz",
+      "bytes": 551883,
+      "sha256": "97320a228670e8a714734d30766cbe1d9a2b1e01ea00fb9d73fbe4113a7948a0"
+    },
+    {
+      "path": "results/lasso/target_01/oof_predictions.csv",
+      "bytes": 892722,
+      "sha256": "248927d9210df9ba7d0045263c876fad8476f19c5515d826d31a0645224c1045"
+    },
+    {
+      "path": "results/lasso/target_01/pooled_metrics.csv",
+      "bytes": 322,
+      "sha256": "b847f8327580ed45ef5cb25327e20bc2850f84a24b894d8460f8cdc7c7e81799"
+    },
+    {
+      "path": "results/lasso/target_01/selected_models.csv",
+      "bytes": 872,
+      "sha256": "ac0160f6e3bebcbc1d4a2e3020fc47347b643490ec5b49e38b5fab3c8d592751"
+    },
+    {
+      "path": "results/lasso/target_01/solver_diagnostics.csv",
+      "bytes": 153067,
+      "sha256": "824cabe7e97413eaad156d60da73668b51b224407b4969e11dd48e3345511a69"
+    },
+    {
+      "path": "results/lasso/target_01/tuning_curves.csv",
+      "bytes": 38211,
+      "sha256": "9fcd59cdee50736bdcee8a692c4683fb7e54dc6c520b7d226f8f10bf2ece959b"
+    },
+    {
+      "path": "results/lasso/target_02/completed.json",
+      "bytes": 997,
+      "sha256": "d8458244ddabc2ae604ecaa4c9907fa65c20cd7929b8413089c203035903d24a"
+    },
+    {
+      "path": "results/lasso/target_02/fold_metrics.csv",
+      "bytes": 1193,
+      "sha256": "5e116c80e63080c59d1fff4fa65a04389c3a613fac45194e1abe0012ea38db74"
+    },
+    {
+      "path": "results/lasso/target_02/model_arrays.npz",
+      "bytes": 598904,
+      "sha256": "4d27e52c5283d872ceb6b2dd0c728f084ed4489b23a406bc8181f28f93e43cf1"
+    },
+    {
+      "path": "results/lasso/target_02/oof_predictions.csv",
+      "bytes": 869357,
+      "sha256": "4253c9c8b308d0557378c39093e1f761e5178e0e78f35a0e1f1f95262f38cd2f"
+    },
+    {
+      "path": "results/lasso/target_02/pooled_metrics.csv",
+      "bytes": 310,
+      "sha256": "ac10ac0f59486bacf2d7f37a1223dfdf606a0eebbe05db3ff620b850fd80e6ef"
+    },
+    {
+      "path": "results/lasso/target_02/selected_models.csv",
+      "bytes": 859,
+      "sha256": "28c633da8c79f8214462098f1251884ee3d0dd034bd4762e726af3ba73283499"
+    },
+    {
+      "path": "results/lasso/target_02/solver_diagnostics.csv",
+      "bytes": 152413,
+      "sha256": "4a711e8ec5725c4fe989ca95b53447efd2d3f2ecf5d1d1dd170a2c33a6bf46db"
+    },
+    {
+      "path": "results/lasso/target_02/tuning_curves.csv",
+      "bytes": 37340,
+      "sha256": "35a7356bc79db7215549a2b7f439a9a8db9365886c759b42afd56097f3813a65"
+    },
+    {
+      "path": "results/lasso/target_03/completed.json",
+      "bytes": 1003,
+      "sha256": "8011d28565d5aa41e14bb5d2b468011d081bd7c665a489fd483cb392f9f9c61b"
+    },
+    {
+      "path": "results/lasso/target_03/fold_metrics.csv",
+      "bytes": 1195,
+      "sha256": "4af464755294209b3c5ab1b1694a60fcdee8b123c7dba352056211cd8e140cc8"
+    },
+    {
+      "path": "results/lasso/target_03/model_arrays.npz",
+      "bytes": 572149,
+      "sha256": "5571c27522b92764bc952d5fc0892973d099cc7445946ebed2b30cec25504cc3"
+    },
+    {
+      "path": "results/lasso/target_03/oof_predictions.csv",
+      "bytes": 887769,
+      "sha256": "d8d4a2714c450c1be6fa1e217a634c4d529c9d22b4807ecc11dc4d55d1cf3674"
+    },
+    {
+      "path": "results/lasso/target_03/pooled_metrics.csv",
+      "bytes": 316,
+      "sha256": "db01cafc1a54b05defeabc3a7c491e2e145194b50c8071d2cf8a65385d97df35"
+    },
+    {
+      "path": "results/lasso/target_03/selected_models.csv",
+      "bytes": 867,
+      "sha256": "d8acecb6d82e246aae8d222c1b6c9e9fe6b47f49194dba85c93e3efb3b68c60d"
+    },
+    {
+      "path": "results/lasso/target_03/solver_diagnostics.csv",
+      "bytes": 150146,
+      "sha256": "bf10572c35b06ff1b8a219ae8b670fc455d04420f1723f5791a8af54ada21753"
+    },
+    {
+      "path": "results/lasso/target_03/tuning_curves.csv",
+      "bytes": 38617,
+      "sha256": "bfbc82c431d7488c4d97695a16429f1265739946c87db677236f514074df0a4f"
+    },
+    {
+      "path": "results/lasso/target_04/completed.json",
+      "bytes": 993,
+      "sha256": "c1d8a1a64f1d10b2c25789b068c577ad968baaf8b384106785ac55a005c3e44a"
+    },
+    {
+      "path": "results/lasso/target_04/fold_metrics.csv",
+      "bytes": 1194,
+      "sha256": "32af7714daccd053a516d501261f0bb171b6c24ac8d469a5bc08c2f711a68b65"
+    },
+    {
+      "path": "results/lasso/target_04/model_arrays.npz",
+      "bytes": 588808,
+      "sha256": "a477224cacb49f5e26e8226262284db7de7b029bcde1b3cde4afa4dfeae76e00"
+    },
+    {
+      "path": "results/lasso/target_04/oof_predictions.csv",
+      "bytes": 896291,
+      "sha256": "ea810592be16fb2962168b46af4f0122cfb35daba8b4f0745ceeedcc33986b5c"
+    },
+    {
+      "path": "results/lasso/target_04/pooled_metrics.csv",
+      "bytes": 306,
+      "sha256": "f0a21a19be2d0aae3d7faaca470b16085f0f1f87b1cca79cb1f6d365f6e9ab52"
+    },
+    {
+      "path": "results/lasso/target_04/selected_models.csv",
+      "bytes": 864,
+      "sha256": "6eb33e210d4bb671819335802b713383509dcd452e8aac2770841ae8fdfc9db3"
+    },
+    {
+      "path": "results/lasso/target_04/solver_diagnostics.csv",
+      "bytes": 151080,
+      "sha256": "64744baca990e44da1d3caf86604725da31658f2609ef11f0dcb2ef28fc10c85"
+    },
+    {
+      "path": "results/lasso/target_04/tuning_curves.csv",
+      "bytes": 38654,
+      "sha256": "50f240500ca98804ba36ea0ccb3f45cc7a882c4e94a8e596ef787f68a039bf7d"
+    },
+    {
+      "path": "results/lasso/target_05/completed.json",
+      "bytes": 996,
+      "sha256": "33916af3197fb33a8473e05f2ecf32f95287615e1a930bd854ccc9d194ec883c"
+    },
+    {
+      "path": "results/lasso/target_05/fold_metrics.csv",
+      "bytes": 1189,
+      "sha256": "251b325dea5423eababb38960c283c657be2002535aeb6acf7ba87f3fa519308"
+    },
+    {
+      "path": "results/lasso/target_05/model_arrays.npz",
+      "bytes": 598831,
+      "sha256": "b5e510bcc8af9172ff5e204172560b0e1b49026cfb12ae1a1112b66fa6035206"
+    },
+    {
+      "path": "results/lasso/target_05/oof_predictions.csv",
+      "bytes": 915807,
+      "sha256": "32d47c433df45c18b5da8d0174a386cc0b1ac3132a4b9e4cda619867a673d217"
+    },
+    {
+      "path": "results/lasso/target_05/pooled_metrics.csv",
+      "bytes": 311,
+      "sha256": "86ec1728f1cea3e6ddb49c7b0d29dc0aa39d68bd765a9747119eaa9b1eeed090"
+    },
+    {
+      "path": "results/lasso/target_05/selected_models.csv",
+      "bytes": 863,
+      "sha256": "cbeb071d6f3ae8b2b9ae140d9b03f868abd74084926eedbf86d4943fc68714c8"
+    },
+    {
+      "path": "results/lasso/target_05/solver_diagnostics.csv",
+      "bytes": 147610,
+      "sha256": "094d57d4e456edfcb8577ddf8a6920a2c04aef215097749100660a5a2b766cab"
+    },
+    {
+      "path": "results/lasso/target_05/tuning_curves.csv",
+      "bytes": 38574,
+      "sha256": "caa9b99c77904344ddc7cf272ae1e0d5081e90cc5e934da67f9d43ad325b3c4b"
+    },
+    {
+      "path": "results/lasso/target_06/completed.json",
+      "bytes": 1041,
+      "sha256": "373d9789d5bc6a7a0224bdc855a09e1d851f1b7aa91feeab3ea4f0a2bf689de5"
+    },
+    {
+      "path": "results/lasso/target_06/fold_metrics.csv",
+      "bytes": 1194,
+      "sha256": "3e02b3a848c8a91eee2505d4d2eb0b21fe3e8154cb2d2f0683658dce260f6513"
+    },
+    {
+      "path": "results/lasso/target_06/model_arrays.npz",
+      "bytes": 618346,
+      "sha256": "ff8c7b84da4ddfaad7a45b448ae8d7bab1863b03e20236fdf2a558e979f25366"
+    },
+    {
+      "path": "results/lasso/target_06/oof_predictions.csv",
+      "bytes": 891369,
+      "sha256": "df5344dd16df03691c617faf4dd157c3b319409706f46e89dd6abe227d3ead77"
+    },
+    {
+      "path": "results/lasso/target_06/pooled_metrics.csv",
+      "bytes": 341,
+      "sha256": "187c4cd5f7dcc92cfa4a801327fee0787c87378e00279367f40361edc73d4d47"
+    },
+    {
+      "path": "results/lasso/target_06/selected_models.csv",
+      "bytes": 868,
+      "sha256": "c73884b4d59c2879bb67dbaa82e51cba1b5f6e61acf46dcaa7ad417cd01c315c"
+    },
+    {
+      "path": "results/lasso/target_06/solver_diagnostics.csv",
+      "bytes": 150469,
+      "sha256": "1c4dbb1ae93a3c1362783d8abf69ed3192085e13f8a9dc674cd93b3cd3bf6d7d"
+    },
+    {
+      "path": "results/lasso/target_06/tuning_curves.csv",
+      "bytes": 38645,
+      "sha256": "f99cec970db638161210686f0579a8c9e9be588a9aef7c3ffa100ae468c47b6b"
+    },
+    {
+      "path": "results/lasso/target_07/completed.json",
+      "bytes": 1089,
+      "sha256": "3b64cb40d2e3857f12d6bfb9c7f6edf579619b93e8797bc699ba0be7d58c32d3"
+    },
+    {
+      "path": "results/lasso/target_07/fold_metrics.csv",
+      "bytes": 1192,
+      "sha256": "43d060fb981629dd3f4b8efd9018c7b9e3cf4950e23c2692f2e7a0b0407a11a4"
+    },
+    {
+      "path": "results/lasso/target_07/model_arrays.npz",
+      "bytes": 624518,
+      "sha256": "29e44667e02c12deb50ffa90801a5c0ffee2c66814f0e0d22c623047c82d8bfd"
+    },
+    {
+      "path": "results/lasso/target_07/oof_predictions.csv",
+      "bytes": 901743,
+      "sha256": "28f0457654fa3bcd30efabed83664c5698e9e427d658dcf18e6e7b39d1cadacf"
+    },
+    {
+      "path": "results/lasso/target_07/pooled_metrics.csv",
+      "bytes": 387,
+      "sha256": "80cd697c22d386d4906c16fbee9015715766fd794afd676e2c6b72804d5628f8"
+    },
+    {
+      "path": "results/lasso/target_07/selected_models.csv",
+      "bytes": 861,
+      "sha256": "0bef25cbccc99da0caa63eed061ffde937263e46ccd263b79c7a1b61e70fd92b"
+    },
+    {
+      "path": "results/lasso/target_07/solver_diagnostics.csv",
+      "bytes": 149329,
+      "sha256": "60a7eae37d628e4ea92f628625274b069750a8ccb9bccedc468ff372b1b9386d"
+    },
+    {
+      "path": "results/lasso/target_07/tuning_curves.csv",
+      "bytes": 38704,
+      "sha256": "c23bcefaf5cc16937837f5352811d0fa3db29f285a0fe1c663b9b4ba07dc1ef6"
+    },
+    {
+      "path": "results/lasso/target_08/completed.json",
+      "bytes": 1090,
+      "sha256": "465d3a38c3e9a0adc5d6a92c211c9f9cd1d9e1eded2aeec623ee9e80c33e3dad"
+    },
+    {
+      "path": "results/lasso/target_08/fold_metrics.csv",
+      "bytes": 1195,
+      "sha256": "8cf8dad7abb957ef9c5171406d8323a53cb97ef71fc1b2ce87aebebda61ff975"
+    },
+    {
+      "path": "results/lasso/target_08/model_arrays.npz",
+      "bytes": 621955,
+      "sha256": "b4f888f753ae3f3acce4b43efac61937cfbfac26cdee271b9741a67b800c8011"
+    },
+    {
+      "path": "results/lasso/target_08/oof_predictions.csv",
+      "bytes": 894517,
+      "sha256": "d5a66b2a691059f0c91cf8b9c36756ad5d5bef1e12ec04c1fafb015478816981"
+    },
+    {
+      "path": "results/lasso/target_08/pooled_metrics.csv",
+      "bytes": 384,
+      "sha256": "7434e2c2786ec88b4b7dcd9f8961cbca180434de0a2513c1a1a02b77996a4af8"
+    },
+    {
+      "path": "results/lasso/target_08/selected_models.csv",
+      "bytes": 870,
+      "sha256": "81344a5934d56e5ea05ce2eb17d831c84c9f6cb23a15a6ff60e9af9654bd69ce"
+    },
+    {
+      "path": "results/lasso/target_08/solver_diagnostics.csv",
+      "bytes": 151016,
+      "sha256": "bf961542d9df1de5aa520c3097714865e0f9f6c88573fcf0f32ad1a49e7dc9a2"
+    },
+    {
+      "path": "results/lasso/target_08/tuning_curves.csv",
+      "bytes": 38683,
+      "sha256": "8971a0eff9687c199b0545dd0fb162cff9e7407e3d64e94e2ef8c8ed5af2b534"
+    },
+    {
+      "path": "results/lasso/target_09/completed.json",
+      "bytes": 996,
+      "sha256": "265f29f0bf3b71b8b9dac994f2430e0830d6d68dfd0e0b3e31363dc7ef1b96bd"
+    },
+    {
+      "path": "results/lasso/target_09/fold_metrics.csv",
+      "bytes": 1193,
+      "sha256": "041f8d7586585f8a37ff7980d50057f3be97e5a41cb4faa96b50278b39f96760"
+    },
+    {
+      "path": "results/lasso/target_09/model_arrays.npz",
+      "bytes": 538398,
+      "sha256": "4f7a2285f5eb1ce7665f4979808b7815e8fc81e19f3ede01649f60c68874ba60"
+    },
+    {
+      "path": "results/lasso/target_09/oof_predictions.csv",
+      "bytes": 876885,
+      "sha256": "094ad475b1707740a72f038bc3a33c66622eccdca37d2bc28d6b1213c38cbbb2"
+    },
+    {
+      "path": "results/lasso/target_09/pooled_metrics.csv",
+      "bytes": 311,
+      "sha256": "7f793c4fb425376b6d52f8774bb45c821aa671599d41d31d7f973a31f454cfc2"
+    },
+    {
+      "path": "results/lasso/target_09/selected_models.csv",
+      "bytes": 858,
+      "sha256": "f04b0001a4e099e0982c1418a64b6fc465fc46b0bbeb5d26dd91618b34759dd8"
+    },
+    {
+      "path": "results/lasso/target_09/solver_diagnostics.csv",
+      "bytes": 154658,
+      "sha256": "d1bc4009438e8c0908f949262f5e23fe478b98446ced6dc844a860889c7da8b8"
+    },
+    {
+      "path": "results/lasso/target_09/tuning_curves.csv",
+      "bytes": 38556,
+      "sha256": "263e8b5c891f5138bbfaa5f81f7fe32d8fe96b0e926145afd96a27c5371c5649"
+    },
+    {
+      "path": "results/lasso/target_10/completed.json",
+      "bytes": 1007,
+      "sha256": "ec21b0f738ff76de570908c0b81ad425e9356798ba1b877f1c3e6e209428d217"
+    },
+    {
+      "path": "results/lasso/target_10/fold_metrics.csv",
+      "bytes": 1192,
+      "sha256": "229eeef0e736326d37726957b40855c4981d42a9c7e741c1a2f915e1396fe78c"
+    },
+    {
+      "path": "results/lasso/target_10/model_arrays.npz",
+      "bytes": 565606,
+      "sha256": "7466fa12da05ec8e5a3f84b83715cb0527b382ea134bfcea3941ae0cecb8bcc5"
+    },
+    {
+      "path": "results/lasso/target_10/oof_predictions.csv",
+      "bytes": 903976,
+      "sha256": "f3124c9121b99014e03b488a2b5462aa4cd3e3a9f2d7317e687e279a74b49525"
+    },
+    {
+      "path": "results/lasso/target_10/pooled_metrics.csv",
+      "bytes": 317,
+      "sha256": "3c5a2b2e3eec027dbfca65c0a947c138fb31431d8c48e71eaa1d3d8762ac5b6e"
+    },
+    {
+      "path": "results/lasso/target_10/selected_models.csv",
+      "bytes": 861,
+      "sha256": "4462a9fbede29753466baded9d1876a67c30ac45dc8b421568aea13914e1023e"
+    },
+    {
+      "path": "results/lasso/target_10/solver_diagnostics.csv",
+      "bytes": 147638,
+      "sha256": "e2ef259461e06974dc45bd19d62f94073f4554e4b4a90abdd03e4ccb6ec9027a"
+    },
+    {
+      "path": "results/lasso/target_10/tuning_curves.csv",
+      "bytes": 37843,
+      "sha256": "929cca152bf6906f89cc28071554f65a342149fd5cd4f43daf39fa42eeb4bdec"
+    },
+    {
+      "path": "results/lasso/target_11/completed.json",
+      "bytes": 1055,
+      "sha256": "004096c7a91f7af0b9cb94e5fd5ed26bc08b338b4e6882ea2e59475f6528a1fa"
+    },
+    {
+      "path": "results/lasso/target_11/fold_metrics.csv",
+      "bytes": 1195,
+      "sha256": "b579dd27d5e970bbc2ef869c563682febe549e121d35f632ae7cf7e65166e3e4"
+    },
+    {
+      "path": "results/lasso/target_11/model_arrays.npz",
+      "bytes": 483041,
+      "sha256": "f84759bc88a998bae43cceac8dbb1ef79a305b19eb3b7c18449ad4576f3ee350"
+    },
+    {
+      "path": "results/lasso/target_11/oof_predictions.csv",
+      "bytes": 866213,
+      "sha256": "67ba5092160f2c9dc73bf0a0eda993de990cf6ae54247492c2c79889fc1a6cf1"
+    },
+    {
+      "path": "results/lasso/target_11/pooled_metrics.csv",
+      "bytes": 353,
+      "sha256": "61a25619e10fbc405f082e2849bba8c8ce2b0b52ea5449fb54d0e93c454d3378"
+    },
+    {
+      "path": "results/lasso/target_11/selected_models.csv",
+      "bytes": 843,
+      "sha256": "5df84a55357ab4ed4f0482cb3a4829a9eb07c32778e4c3cd1926b76de26e3387"
+    },
+    {
+      "path": "results/lasso/target_11/solver_diagnostics.csv",
+      "bytes": 155651,
+      "sha256": "68ee7fad0aab53d650be5930a032b75784de9461450a89745e8e37a5aa236eb7"
+    },
+    {
+      "path": "results/lasso/target_11/tuning_curves.csv",
+      "bytes": 37191,
+      "sha256": "0b78aedd6fd7c4dd17644ef4ca732919b3fde4efa2a1679528dc103790dbef76"
+    },
+    {
+      "path": "results/lasso/target_12/completed.json",
+      "bytes": 1076,
+      "sha256": "aab0841c80a61f77950fe4b609212049762b1cb56c05353af58cdd384c90f2e2"
+    },
+    {
+      "path": "results/lasso/target_12/fold_metrics.csv",
+      "bytes": 1192,
+      "sha256": "5cbf52667c3db92d4b95b03b6d83ad232124e92e434ffa7a84eb422fca045465"
+    },
+    {
+      "path": "results/lasso/target_12/model_arrays.npz",
+      "bytes": 674689,
+      "sha256": "15ff43684595d95c796cbff6a33a20803f8e2fa3ffb4a4d96dba455d33796155"
+    },
+    {
+      "path": "results/lasso/target_12/oof_predictions.csv",
+      "bytes": 861745,
+      "sha256": "d299fce91c40afbeed63e08f192c5cacaa710947ee91e8fcc559bb58affdbd0e"
+    },
+    {
+      "path": "results/lasso/target_12/pooled_metrics.csv",
+      "bytes": 367,
+      "sha256": "bcad07232fc6e97cb4c062692835347b4d432d41f9233a4c07c3a916e70e12f5"
+    },
+    {
+      "path": "results/lasso/target_12/selected_models.csv",
+      "bytes": 859,
+      "sha256": "cf8ea70d75a54f2827f0950dcae56c08d48bd0e8aeb857141c959ee68e2dfbe2"
+    },
+    {
+      "path": "results/lasso/target_12/solver_diagnostics.csv",
+      "bytes": 156247,
+      "sha256": "18287c7f2399dd448d45a96f82ad91c66034a1129d535565d5c73732a2ad9306"
+    },
+    {
+      "path": "results/lasso/target_12/tuning_curves.csv",
+      "bytes": 38705,
+      "sha256": "9fef45f94793189ca5c919c1c37dbe55479ac9db8b36b466802dfc5315e60857"
+    },
+    {
+      "path": "results/lasso/target_13/completed.json",
+      "bytes": 1008,
+      "sha256": "259cde259893614c9fc2856b069f97815459229193113c5d3a429489f1b40ec7"
+    },
+    {
+      "path": "results/lasso/target_13/fold_metrics.csv",
+      "bytes": 1193,
+      "sha256": "63825cff78fc6875da9bbab27f3de15947d71629926e2c14fcd4abde4fd3a555"
+    },
+    {
+      "path": "results/lasso/target_13/model_arrays.npz",
+      "bytes": 656277,
+      "sha256": "3366feb14e90abcabd51596a2699646216cde4eccc4d529dbe792c079cd13757"
+    },
+    {
+      "path": "results/lasso/target_13/oof_predictions.csv",
+      "bytes": 893491,
+      "sha256": "165e50a8c85c44dc4d4df9e43ab8e6a07be7ec85c48831d8886c4f62d5c324d6"
+    },
+    {
+      "path": "results/lasso/target_13/pooled_metrics.csv",
+      "bytes": 318,
+      "sha256": "fa42860b57052db3dbe9ed5af9d4dcd7037f1f1a211aa642f3f82bf4381d7554"
+    },
+    {
+      "path": "results/lasso/target_13/selected_models.csv",
+      "bytes": 863,
+      "sha256": "457ba68af64cc1ddf1c6f8a27013761ce84bb62fa96fc98d437c82719c6557b9"
+    },
+    {
+      "path": "results/lasso/target_13/solver_diagnostics.csv",
+      "bytes": 154732,
+      "sha256": "d3c9f9313df0ce67a1be6d2b198799ae186ddac3f79cdf54689113905e3028c0"
+    },
+    {
+      "path": "results/lasso/target_13/tuning_curves.csv",
+      "bytes": 38597,
+      "sha256": "36f82bd03b17e9a35262c73a0fca014ea49a38e4ec1f8da79c036e40a7d27f2d"
+    },
+    {
+      "path": "results/lasso/target_14/completed.json",
+      "bytes": 1032,
+      "sha256": "e5130f9c9a6d1258e280d40f576ea51cc104f852a9dbff59ab6c0877aa21277c"
+    },
+    {
+      "path": "results/lasso/target_14/fold_metrics.csv",
+      "bytes": 1196,
+      "sha256": "4bcdfaa3d9e1d2a4916f60af2991f70035b677fe530e61d87842eabdaaddadf9"
+    },
+    {
+      "path": "results/lasso/target_14/model_arrays.npz",
+      "bytes": 614138,
+      "sha256": "b8958a5a645deee20cd6dfb8554ee7394c7449956ad2748e0fad60a084d01164"
+    },
+    {
+      "path": "results/lasso/target_14/oof_predictions.csv",
+      "bytes": 878120,
+      "sha256": "001ccd93e5bc41d9c6b2def3cc4145ff0bbf1feb1f88b70f5db5db2d0eba98a6"
+    },
+    {
+      "path": "results/lasso/target_14/pooled_metrics.csv",
+      "bytes": 334,
+      "sha256": "b773ae331ae6cedd597ff813ca4cf14738293b44d67abfcee876a65e82f39f2c"
+    },
+    {
+      "path": "results/lasso/target_14/selected_models.csv",
+      "bytes": 858,
+      "sha256": "27bd891d289a8cd3fcdda08152417dfc1128332e61256cd06c7ede0ab84c2ffd"
+    },
+    {
+      "path": "results/lasso/target_14/solver_diagnostics.csv",
+      "bytes": 153796,
+      "sha256": "f4ad95d9cd265912bc60c43f43f61148d867e6b159a204d0572ce5d16407079b"
+    },
+    {
+      "path": "results/lasso/target_14/tuning_curves.csv",
+      "bytes": 38707,
+      "sha256": "e54dfa6d2345d7a1f8231261eed9ac13a73e7fcd9e6a609d52115f9cb16d04d1"
+    },
+    {
+      "path": "results/lasso/target_15/completed.json",
+      "bytes": 1033,
+      "sha256": "98461ee4a433df13279ac8c62f340d6547bd05011f162754e3244b7fb6fa0c6c"
+    },
+    {
+      "path": "results/lasso/target_15/fold_metrics.csv",
+      "bytes": 1195,
+      "sha256": "da22b8bf02e13a3a6dd279b3c5193e793c130efc66dc2b820b3dee41c1ea2a33"
+    },
+    {
+      "path": "results/lasso/target_15/model_arrays.npz",
+      "bytes": 631186,
+      "sha256": "c65fb73bf326d038cb8514b8c972d9f90705d7001f333debe1d02ab6c97088e2"
+    },
+    {
+      "path": "results/lasso/target_15/oof_predictions.csv",
+      "bytes": 878055,
+      "sha256": "4b9202fe26c0e6060ab0eea4ed91110c99653438689dcd6a8613b49c9c1cd9d8"
+    },
+    {
+      "path": "results/lasso/target_15/pooled_metrics.csv",
+      "bytes": 338,
+      "sha256": "08641be2be9296d307ab09aa39a94db2249d4655865f5ac2c33c50d42155f983"
+    },
+    {
+      "path": "results/lasso/target_15/selected_models.csv",
+      "bytes": 857,
+      "sha256": "de3f7f8a2aed68a39d08ba0e192530c2d1caa874e6cd90ca5684c40dd3bcd0bb"
+    },
+    {
+      "path": "results/lasso/target_15/solver_diagnostics.csv",
+      "bytes": 154706,
+      "sha256": "cd4460826643f2c3ef4647abc05f108710d17a7b60fcb2674ef4860a4aaa3303"
+    },
+    {
+      "path": "results/lasso/target_15/tuning_curves.csv",
+      "bytes": 38593,
+      "sha256": "154f60f95bf61cf43c861da970619adaf61caad9d020515045b6664c3e10a366"
+    },
+    {
+      "path": "results/lasso/target_16/completed.json",
+      "bytes": 1040,
+      "sha256": "1914c9fcba9760cae9ca6590745b78617fdfb17dc97709b0ee7c662d0ffdab52"
+    },
+    {
+      "path": "results/lasso/target_16/fold_metrics.csv",
+      "bytes": 1190,
+      "sha256": "d2dc78e2a1d7928296982f57e7a8180fa4e5a50b4bc311a19ab06d97a96892fd"
+    },
+    {
+      "path": "results/lasso/target_16/model_arrays.npz",
+      "bytes": 601961,
+      "sha256": "86bc4a25791a8eeedc5731f578eafd1650584297354605d5aa02cb8bbbd03c52"
+    },
+    {
+      "path": "results/lasso/target_16/oof_predictions.csv",
+      "bytes": 886467,
+      "sha256": "57c1cee56df7cc244d3bb12d5192aab964da78c01047efcf767b6d445643edab"
+    },
+    {
+      "path": "results/lasso/target_16/pooled_metrics.csv",
+      "bytes": 341,
+      "sha256": "e8a5b1ad27e5b1aa7305c2b103e18de250aa110e117d51f7a33a7ddf06e6740a"
+    },
+    {
+      "path": "results/lasso/target_16/selected_models.csv",
+      "bytes": 865,
+      "sha256": "9f2ab3cb8562dd26de86d650867491b70bdc866191107b1a37ecbaa82c41d671"
+    },
+    {
+      "path": "results/lasso/target_16/solver_diagnostics.csv",
+      "bytes": 148533,
+      "sha256": "462d7d461e0055cb45b0d4611ce1346b2c383463d4b84672402e14835d88ec57"
+    },
+    {
+      "path": "results/lasso/target_16/tuning_curves.csv",
+      "bytes": 38559,
+      "sha256": "df7643bfa8a296962471b0ee2aebd0a3f55f8e10d17aefb195ab6e021dcf8368"
+    },
+    {
+      "path": "results/lasso/target_17/completed.json",
+      "bytes": 1056,
+      "sha256": "2c0b6176e6c4e1a8201881efe06952fb8cd6f073cfb9fff0f385675fb4db4cfb"
+    },
+    {
+      "path": "results/lasso/target_17/fold_metrics.csv",
+      "bytes": 1192,
+      "sha256": "4994fae3dcced07f9f90193cbbbc9beaccde418e8d59215a5012acb68186a491"
+    },
+    {
+      "path": "results/lasso/target_17/model_arrays.npz",
+      "bytes": 624362,
+      "sha256": "39f0e6d12ebdbb1824c83ebe25edf4e7fae16bb6ed976ec63cd1033e43ba35f4"
+    },
+    {
+      "path": "results/lasso/target_17/oof_predictions.csv",
+      "bytes": 865757,
+      "sha256": "99f0803a17a28975918b322f63afa180e534a91ad25612a23c7a7af2f2fc0c93"
+    },
+    {
+      "path": "results/lasso/target_17/pooled_metrics.csv",
+      "bytes": 353,
+      "sha256": "a63ac2a0a5080942c2e5f0bf43c251f603af4eb77b614d9a990082dbbf069196"
+    },
+    {
+      "path": "results/lasso/target_17/selected_models.csv",
+      "bytes": 863,
+      "sha256": "2b614599b67773301e59c0480d2261907ed333976631cc8810cdf70e2ca6a9b7"
+    },
+    {
+      "path": "results/lasso/target_17/solver_diagnostics.csv",
+      "bytes": 153929,
+      "sha256": "d02d17191f62209113dcde28cc242bf45855b56445293204ae817df1c2b44b9e"
+    },
+    {
+      "path": "results/lasso/target_17/tuning_curves.csv",
+      "bytes": 38602,
+      "sha256": "cf9c4e799faf96327e3d6643a1ea13033a19b4373cb8026da3d802f1c16a075b"
+    },
+    {
+      "path": "results/lasso/target_18/completed.json",
+      "bytes": 1176,
+      "sha256": "e444883610f9eda2ee38b8688d4c5274c0c82c129193143760142735d9ad9ee1"
+    },
+    {
+      "path": "results/lasso/target_18/fold_metrics.csv",
+      "bytes": 1189,
+      "sha256": "ec61f4f653094c85766a9fc89271dcd038054d42ad514fb092244ba3823accbb"
+    },
+    {
+      "path": "results/lasso/target_18/model_arrays.npz",
+      "bytes": 632915,
+      "sha256": "59e4529936582435fdd781766973008866ec80b06cb366747b7ab8730db9cbb9"
+    },
+    {
+      "path": "results/lasso/target_18/oof_predictions.csv",
+      "bytes": 891771,
+      "sha256": "c8800e88114193b8f3fea7a42a5007ca01c85af174d666c7520d0712ce30f03b"
+    },
+    {
+      "path": "results/lasso/target_18/pooled_metrics.csv",
+      "bytes": 450,
+      "sha256": "5f0546fff033a0bc7ebea1f51a62765012b4b065fdf7fd351983b8205c54e2c5"
+    },
+    {
+      "path": "results/lasso/target_18/selected_models.csv",
+      "bytes": 857,
+      "sha256": "f4a270e9413af8fe55aff7f0309ae1d11ce4380b3b898bcb285f709373fe8b56"
+    },
+    {
+      "path": "results/lasso/target_18/solver_diagnostics.csv",
+      "bytes": 153296,
+      "sha256": "b06c1ed8e6121efad35c0b3dea0f1dd63b5255a5314c46a6dc4689941d5b6391"
+    },
+    {
+      "path": "results/lasso/target_18/tuning_curves.csv",
+      "bytes": 38668,
+      "sha256": "dbb8779eace8a1a420c0200ebb8b15d77dc8b954a460f3afa8ac4c6920e887f8"
+    },
+    {
+      "path": "results/lasso/target_19/completed.json",
+      "bytes": 1049,
+      "sha256": "4aa35cd2ab7ab39134652398248d0b7cfe31a8417b436037f4b6abb281108a65"
+    },
+    {
+      "path": "results/lasso/target_19/fold_metrics.csv",
+      "bytes": 1189,
+      "sha256": "657be65da4c08d2990a9b99fd0e99b442da6e71913ef9404e0a7711cb5000118"
+    },
+    {
+      "path": "results/lasso/target_19/model_arrays.npz",
+      "bytes": 607502,
+      "sha256": "586eac38992b29a1db88addd7598c75f9ec64924b85539fbfc800788d972f1eb"
+    },
+    {
+      "path": "results/lasso/target_19/oof_predictions.csv",
+      "bytes": 871193,
+      "sha256": "5ddcdbe58c99f580e93c4c1f6f4d901ff0dfe4c051099166e28d0dc8be9a82c8"
+    },
+    {
+      "path": "results/lasso/target_19/pooled_metrics.csv",
+      "bytes": 350,
+      "sha256": "cf074087eab204f30cda6e594f4aa2bcab6deab06f59c03a98d439751f0a8d6c"
+    },
+    {
+      "path": "results/lasso/target_19/selected_models.csv",
+      "bytes": 863,
+      "sha256": "cb434cd44c12792b2c1fbccbe453840a7fc675f70e25e9f2600b6ab7634210e2"
+    },
+    {
+      "path": "results/lasso/target_19/solver_diagnostics.csv",
+      "bytes": 152418,
+      "sha256": "ce15ac0fb0956a6878912aa553a252675a57121e38e286dfdce63a739b863887"
+    },
+    {
+      "path": "results/lasso/target_19/tuning_curves.csv",
+      "bytes": 38554,
+      "sha256": "7145c153afdf75eea359ffa7767f936c4fea1c58922d4c3cc1b7f316da81cee4"
+    },
+    {
+      "path": "results/lasso/target_20/completed.json",
+      "bytes": 1080,
+      "sha256": "800a2076633691d8e9de35d273a19db538a25aa3063eb17117af16ff2f74fa42"
+    },
+    {
+      "path": "results/lasso/target_20/fold_metrics.csv",
+      "bytes": 1202,
+      "sha256": "5c4ef53d19a7819e5805dc83c913f5d8af3c56475d1d3f2932dc62c38662ab30"
+    },
+    {
+      "path": "results/lasso/target_20/model_arrays.npz",
+      "bytes": 616697,
+      "sha256": "ca60e75b3f07bc879b074822df0379b7737fc597a9ef8c81475741d1f0454c2d"
+    },
+    {
+      "path": "results/lasso/target_20/oof_predictions.csv",
+      "bytes": 893147,
+      "sha256": "9ddb03808273b3a99cf6add981574beae2ab38e828ee8808c63553630033c769"
+    },
+    {
+      "path": "results/lasso/target_20/pooled_metrics.csv",
+      "bytes": 369,
+      "sha256": "0b579a6ef8b6bb237473dd72b6348987c9370a4cbfcef53c62b06800928e2be7"
+    },
+    {
+      "path": "results/lasso/target_20/selected_models.csv",
+      "bytes": 859,
+      "sha256": "87db9bb3be009415eeb76b099175e2878643878a25c4aea775d00eeeb7d1fcfb"
+    },
+    {
+      "path": "results/lasso/target_20/solver_diagnostics.csv",
+      "bytes": 155287,
+      "sha256": "654fec72386e37d0f89f1cd50d61ca544575692128611a702e1a1d154128b480"
+    },
+    {
+      "path": "results/lasso/target_20/tuning_curves.csv",
+      "bytes": 39540,
+      "sha256": "ff13e837e001aef6b9cd5b383c770a57bf74e3c1546686fefd21d194d1f376dd"
+    },
+    {
+      "path": "results/lasso_gpu_paths/full_fit.json",
+      "bytes": 267,
+      "sha256": "4ebcfaa13b21fa7487cf860f7bd727655201ddb1fdace8ea57a9a24b10df73b4"
+    },
+    {
+      "path": "results/lasso_gpu_paths/full_fit.npz",
+      "bytes": 6756519,
+      "sha256": "865c1c1339bab0e1cbe13d6dd9118e15fe79c5640ee794d987ffff2ac358d50e"
+    },
+    {
+      "path": "results/lasso_gpu_paths/full_inner_01.json",
+      "bytes": 272,
+      "sha256": "1433cfaf35e76c77ec5691f7862336238e1a6fab3154aa43e1034b861a554957"
+    },
+    {
+      "path": "results/lasso_gpu_paths/full_inner_01.npz",
+      "bytes": 6744880,
+      "sha256": "1fc2c3ef2de49d54d3c401f36339422d8f025afd4dd9a81d9f94085600889a57"
+    },
+    {
+      "path": "results/lasso_gpu_paths/full_inner_02.json",
+      "bytes": 273,
+      "sha256": "1d2d886d5c07e3683acdbc03774328de1dc2f779279ce90c7841c944480cac4c"
+    },
+    {
+      "path": "results/lasso_gpu_paths/full_inner_02.npz",
+      "bytes": 6682081,
+      "sha256": "4a231e4a12a93d5b23afea438e9a2ed15414c8ee439f37be425480ab9299969b"
+    },
+    {
+      "path": "results/lasso_gpu_paths/full_inner_03.json",
+      "bytes": 272,
+      "sha256": "64af87cdbacfbd7ce0b3deacd766683f5ea1b51fc238a80b3436590005c818d0"
+    },
+    {
+      "path": "results/lasso_gpu_paths/full_inner_03.npz",
+      "bytes": 6655882,
+      "sha256": "a11d38e06e5f07a1f0908202c0a7a780320a27e92f6f6ed78fc32a5025a02813"
+    },
+    {
+      "path": "results/lasso_gpu_paths/outer_01_fit.json",
+      "bytes": 271,
+      "sha256": "b56c107740c27dc739167b0a8ffad9d4a8a5313b7beabe5ac9e64d9f1226fbbb"
+    },
+    {
+      "path": "results/lasso_gpu_paths/outer_01_fit.npz",
+      "bytes": 6740293,
+      "sha256": "4a2633c2329dbcb4964bef54ce495e12975b177b21a0c8d553fad96a7677a3d8"
+    },
+    {
+      "path": "results/lasso_gpu_paths/outer_01_inner_01.json",
+      "bytes": 277,
+      "sha256": "adbd83cd96e8f90c18d8dec94c52b0045e3d932795af905d055cf4cee4ee8cbb"
+    },
+    {
+      "path": "results/lasso_gpu_paths/outer_01_inner_01.npz",
+      "bytes": 6674996,
+      "sha256": "4bff0fe9a5ef8c4eb9d973e9c033801f1a755ea3b702225d0f2b2944c64bf9e0"
+    },
+    {
+      "path": "results/lasso_gpu_paths/outer_01_inner_02.json",
+      "bytes": 276,
+      "sha256": "4bd78bca53a2a1f9c06beef76ef0821e695e45f42eb2b6dd964aad82463bb497"
+    },
+    {
+      "path": "results/lasso_gpu_paths/outer_01_inner_02.npz",
+      "bytes": 6654959,
+      "sha256": "d45289110f8870c9e17cfd13f4075dd808f6b2428786e74d94063d13699845ac"
+    },
+    {
+      "path": "results/lasso_gpu_paths/outer_01_inner_03.json",
+      "bytes": 276,
+      "sha256": "3f3a0a7171aaaa6a3197eb86480ab6e0fc0ff9d7239d825d8f6af9ecb70780cb"
+    },
+    {
+      "path": "results/lasso_gpu_paths/outer_01_inner_03.npz",
+      "bytes": 6633969,
+      "sha256": "390e87cb60dd1825b5a935da3fe743df972d1f8640dd1b9f7015d4fb71b6266d"
+    },
+    {
+      "path": "results/lasso_gpu_paths/outer_02_fit.json",
+      "bytes": 271,
+      "sha256": "a41cc6b4a31ee14b5e934d2d32464385f9f808844980e1fd0596f3de782c85d4"
+    },
+    {
+      "path": "results/lasso_gpu_paths/outer_02_fit.npz",
+      "bytes": 6730840,
+      "sha256": "4e6e394074c31426fdb216f30f06e5b6c5845220e5de9af26c99b09e1067ba61"
+    },
+    {
+      "path": "results/lasso_gpu_paths/outer_02_inner_01.json",
+      "bytes": 277,
+      "sha256": "704bcb6991d318b2bbb88133c25325772df76bdc771e0d0a4a783fbc7f03220d"
+    },
+    {
+      "path": "results/lasso_gpu_paths/outer_02_inner_01.npz",
+      "bytes": 6715651,
+      "sha256": "db7af3e1daefb4f35c1700fd9dfb916dff95e215aeb8abb7d3059ca5024c286d"
+    },
+    {
+      "path": "results/lasso_gpu_paths/outer_02_inner_02.json",
+      "bytes": 276,
+      "sha256": "d477e9b8c793a04f8e02e1c028babfc13c7652a2f3497b627f65cbc75a3a530b"
+    },
+    {
+      "path": "results/lasso_gpu_paths/outer_02_inner_02.npz",
+      "bytes": 6722983,
+      "sha256": "46e394975c224c9cd44c8174700731ef930cebc4ce57de77dcde14e4443d69e9"
+    },
+    {
+      "path": "results/lasso_gpu_paths/outer_02_inner_03.json",
+      "bytes": 276,
+      "sha256": "b00613c2b45a40ab62cf625a97255d4c7dbc0551e76bb8d455a68c405afca147"
+    },
+    {
+      "path": "results/lasso_gpu_paths/outer_02_inner_03.npz",
+      "bytes": 6545115,
+      "sha256": "487d053a521c11620ea80ca37d11c8703bacd8607caef9c27543c1ea74e3b604"
+    },
+    {
+      "path": "results/lasso_gpu_paths/outer_03_fit.json",
+      "bytes": 271,
+      "sha256": "e70d5d58a4d92b91f763d157bdb14a632b6ebff5b13123e3f7e23dc62dd8f07d"
+    },
+    {
+      "path": "results/lasso_gpu_paths/outer_03_fit.npz",
+      "bytes": 6726890,
+      "sha256": "e3426a4fdcf1eca32ea55f5cac5b51d9e082913c85b2ec33e75e326f5cddd5c5"
+    },
+    {
+      "path": "results/lasso_gpu_paths/outer_03_inner_01.json",
+      "bytes": 276,
+      "sha256": "cf182a7d19ccf1c882b1f1325d157df7f9bc7e1db80d832630ffb4f3ffe10c34"
+    },
+    {
+      "path": "results/lasso_gpu_paths/outer_03_inner_01.npz",
+      "bytes": 6689930,
+      "sha256": "00d94434aec2aa54871a2cfb3a917561d93c9ff786632513cfda3a62038d9d59"
+    },
+    {
+      "path": "results/lasso_gpu_paths/outer_03_inner_02.json",
+      "bytes": 276,
+      "sha256": "373fcb1bb7497e8b98e0df00bda29cdd93cd640b7fde4d3a665e82a43fb9670c"
+    },
+    {
+      "path": "results/lasso_gpu_paths/outer_03_inner_02.npz",
+      "bytes": 6605571,
+      "sha256": "3fca82c3338f94964907c2d1cf993b10de9edf08a698ebf360403827ea82f4d3"
+    },
+    {
+      "path": "results/lasso_gpu_paths/outer_03_inner_03.json",
+      "bytes": 276,
+      "sha256": "8ae71e3eb0b1c9cdece890f4f982b0d2d82bce7870f18bd9601d359b524af6eb"
+    },
+    {
+      "path": "results/lasso_gpu_paths/outer_03_inner_03.npz",
+      "bytes": 6717712,
+      "sha256": "a477ff601f7f6b5bb5cca352ebdda3882ad91994212665bdc978dfefd65ef185"
+    },
+    {
+      "path": "results/lasso_gpu_paths/outer_04_fit.json",
+      "bytes": 271,
+      "sha256": "58a69ec01bd3c840efcb1277e983df0f052fb4ac348f6ae52606ff51f8690acb"
+    },
+    {
+      "path": "results/lasso_gpu_paths/outer_04_fit.npz",
+      "bytes": 6698683,
+      "sha256": "d887159f7c237752db7cec022204a183b6a25aa1d514d04119e7fee63cf73da6"
+    },
+    {
+      "path": "results/lasso_gpu_paths/outer_04_inner_01.json",
+      "bytes": 276,
+      "sha256": "9b05f2434dcc5c6d98ffd0801401e573f0a43c648765fdc7f6a4a40d283f1e69"
+    },
+    {
+      "path": "results/lasso_gpu_paths/outer_04_inner_01.npz",
+      "bytes": 6632309,
+      "sha256": "73e9a14ce3717aea107aba53320d017ed73e3a2a8c8dcf372485ff157ba389bd"
+    },
+    {
+      "path": "results/lasso_gpu_paths/outer_04_inner_02.json",
+      "bytes": 276,
+      "sha256": "b534260795db40e9f8560a3a343f563c43e385e911a093d2229fbb3a773b4273"
+    },
+    {
+      "path": "results/lasso_gpu_paths/outer_04_inner_02.npz",
+      "bytes": 6661082,
+      "sha256": "6552d9d7e6671a7ee9553e55e43e99f2eb5d2fa6d1dfe6ffd2383b16c7ad02a8"
+    },
+    {
+      "path": "results/lasso_gpu_paths/outer_04_inner_03.json",
+      "bytes": 276,
+      "sha256": "32cc9f7c7c4b03c5cf0a187a4943075a3f7a5bedfb382d030a89b8b748ecccb7"
+    },
+    {
+      "path": "results/lasso_gpu_paths/outer_04_inner_03.npz",
+      "bytes": 6607488,
+      "sha256": "974c753571baf726cf1008e0f51eec99a9a07984f8993f6b01acca6dc642cdd8"
+    },
+    {
+      "path": "results/lasso_gpu_paths/outer_05_fit.json",
+      "bytes": 271,
+      "sha256": "da026bbf62ac93f9c26db8681e3b68ec8274333d86f65afb6b18e5468167279c"
+    },
+    {
+      "path": "results/lasso_gpu_paths/outer_05_fit.npz",
+      "bytes": 6715587,
+      "sha256": "d3ab0c2bdb9d9005e3c75f2cd43690a409047a769baaf36ada44587b08907459"
+    },
+    {
+      "path": "results/lasso_gpu_paths/outer_05_inner_01.json",
+      "bytes": 275,
+      "sha256": "529579b1c59fe8702e6da319af371e3159b2fc9fbe79d988822d6463b6a2a3d5"
+    },
+    {
+      "path": "results/lasso_gpu_paths/outer_05_inner_01.npz",
+      "bytes": 6631773,
+      "sha256": "e546b38c04d50d7a0eb75c1cdf89b29d7cc15925370cafa1de1014cfa8d3920a"
+    },
+    {
+      "path": "results/lasso_gpu_paths/outer_05_inner_02.json",
+      "bytes": 276,
+      "sha256": "e6b3328a685f8500eebb6d964d150a772081bcd511510fb2072890b2e45176ba"
+    },
+    {
+      "path": "results/lasso_gpu_paths/outer_05_inner_02.npz",
+      "bytes": 6635797,
+      "sha256": "16098bdb824309b315303443863e0feb107e05889d60d6b08df90c816580c4b8"
+    },
+    {
+      "path": "results/lasso_gpu_paths/outer_05_inner_03.json",
+      "bytes": 277,
+      "sha256": "052355761083c26e096b4c697dd65924e4ab5572394f73419b0139a1ba9e9d9f"
+    },
+    {
+      "path": "results/lasso_gpu_paths/outer_05_inner_03.npz",
+      "bytes": 6622495,
+      "sha256": "5382f93c2f32abd554e44ccf672cdd8e331e61e8e901d9ff150ccfd3f36e811c"
+    },
+    {
+      "path": "scripts/check_lasso_solver.py",
+      "bytes": 2464,
+      "sha256": "d28c90c86b856220ed43ff117ceb23d24693bf20f8c444ba468c16a1767ddefe"
+    },
+    {
+      "path": "scripts/download_references.py",
+      "bytes": 2211,
+      "sha256": "c44f66e262b728d3af98b5fc1e87b61e571d87a77ba7680b5b3f4bb7aecfc688"
+    },
+    {
+      "path": "scripts/eda_figures.py",
+      "bytes": 26186,
+      "sha256": "9480aa461fad4b75f1787b7bd6621cd960370baa5bed062fe7c27cfd60dd36a5"
+    },
+    {
+      "path": "scripts/inspect_remote.py",
+      "bytes": 2755,
+      "sha256": "5ca9c5baf3e57fbac4edcaad4c99d6a0eb177e5ad7e4a32db2a697981bda4182"
+    },
+    {
+      "path": "scripts/lasso_analysis.py",
+      "bytes": 19013,
+      "sha256": "11a659faf1604f4d8725be21c21f28dc11a7e2a9fe789d7851570146eb0f25a7"
+    },
+    {
+      "path": "scripts/lasso_figures.py",
+      "bytes": 14643,
+      "sha256": "0aeef50a0a8eca7dc73546fc2d5a9cfc578ec30df2727999f58da887a36482c2"
+    },
+    {
+      "path": "scripts/lasso_gpu_paths.py",
+      "bytes": 5142,
+      "sha256": "8a5eed02dee87d2028af255447fc79e201a0cb1ef43da62a472422eedcc3b08f"
+    },
+    {
+      "path": "scripts/prepare_data.py",
+      "bytes": 25758,
+      "sha256": "1acabe9b9aa26edfb090490b5d252c2e20b218ac5a28a8f916508e97120d34a1"
+    },
+    {
+      "path": "scripts/run_gpu_lasso.py",
+      "bytes": 2855,
+      "sha256": "0e4383464a2819fe1a423ee0e3d4f456550d8a3dde1778c5216590485de38292"
+    },
+    {
+      "path": "scripts/run_python.sh",
+      "bytes": 398,
+      "sha256": "35792708043baf68f87287c56d517b97209ff92075439bef7fa8f33318f07903"
+    },
+    {
+      "path": "scripts/stage3_manifest.py",
+      "bytes": 1022,
+      "sha256": "4998e2f8559053c99544364048d400c665b659f6ce1d99f9f671d93a3836ede0"
+    },
+    {
+      "path": "scripts/verify_stage1.py",
+      "bytes": 4491,
+      "sha256": "175184ef7894b5665791dbb0c1f5dec7ac6ea27b107e06ce7e68d2a178c02157"
+    },
+    {
+      "path": "scripts/verify_stage2.py",
+      "bytes": 8290,
+      "sha256": "b15043f01961a4dc5baabaab13a3673e2a78d220d73947ccbcd45b073a27ddb2"
+    },
+    {
+      "path": "scripts/verify_stage3.py",
+      "bytes": 12764,
+      "sha256": "2795c7df8d3a7634c01f3aae6985174ff9855a674c9b94804683cc6e94929f27"
+    },
+    {
+      "path": "stage_status.json",
+      "bytes": 611,
+      "sha256": "5b62794c3a18b0a8f1df476c8e6023aa1eb4892fc240973faa407d2e98f85b5a"
+    },
+    {
+      "path": "tables/01_TF_catalog_coverage.csv",
+      "bytes": 115066,
+      "sha256": "0bcf7116e293b83f01ae97b1f0e0e7a881c0cad7f446b8c383d51827c351a64d"
+    },
+    {
+      "path": "tables/01_TF_perturbations.csv",
+      "bytes": 56458,
+      "sha256": "dce3a161bbbb606ace5625021c756249c468af68f8fd2500478958d265b1e7b1"
+    },
+    {
+      "path": "tables/01_TF_shared_identity_labels.csv",
+      "bytes": 632,
+      "sha256": "b3400da28d7f3223eae2f7bc08e0830e718a36b6ecc46ce78e93a8374f76aa73"
+    },
+    {
+      "path": "tables/01_cell_quality.csv",
+      "bytes": 2830,
+      "sha256": "45acf82828b0d101464d2ca673aed925718784e37ba5955e9f832ddfc43659ea"
+    },
+    {
+      "path": "tables/01_duplicate_gene_audit.csv",
+      "bytes": 648,
+      "sha256": "3823464f648ec5dfe00020d5effad25081c5ff85c1d6d1739844247cd7363e3a"
+    },
+    {
+      "path": "tables/01_excluded_shared_genes.csv",
+      "bytes": 2069,
+      "sha256": "021f8d695b221d6aebb825e608f8210dafdb083524e03d12828bb005cd42b1a6"
+    },
+    {
+      "path": "tables/01_landmark_model_genes.csv",
+      "bytes": 78841,
+      "sha256": "1e1b2747302ce434e0896f50987a9a9155dea45fe878862b5dca42fb7cf4aac8"
+    },
+    {
+      "path": "tables/01_lineage_TF_coverage.csv",
+      "bytes": 1459,
+      "sha256": "27286657cff33ce032dfd7ac9008829b83f24a0c3bdd5808437015e9856eddce"
+    },
+    {
+      "path": "tables/01_matrix_qc.csv",
+      "bytes": 373,
+      "sha256": "f5d2e280c693af7042236f6d17984022339dd6f707861478c02e2e2056f3fe1a"
+    },
+    {
+      "path": "tables/01_perturbation_annotations.csv",
+      "bytes": 492507,
+      "sha256": "79d1d2ee91f119d344f76dc76c2eb129099628bc8fffc2d501ae91f94789bff1"
+    },
+    {
+      "path": "tables/01_perturbation_categories.csv",
+      "bytes": 292,
+      "sha256": "1833cf92346f46def6029a350ca9c2bd7f54d36586cb32584e59f6bc88a29434"
+    },
+    {
+      "path": "tables/01_predictor_qc.csv",
+      "bytes": 257516,
+      "sha256": "482745800128e260d9070efe57580a5ebc08acefa95be0fbaa3e1e3ab8cda694"
+    },
+    {
+      "path": "tables/01_shared_gene_annotations.csv",
+      "bytes": 978992,
+      "sha256": "bee343fad4f593de7cb4315148d569e61b4052369930da5f2d2004250a0699c7"
+    },
+    {
+      "path": "tables/01_target_manifest.csv",
+      "bytes": 835,
+      "sha256": "5747acf19b54a7e3649762e64fb6468e1e505f5beb2995e6594c05e6e8cf2f06"
+    },
+    {
+      "path": "tables/01_unresolved_perturbations.csv",
+      "bytes": 44074,
+      "sha256": "8d7899f78e29d92ace378b6f1048e921073da6e5b97a81dd891fb94a62f77fe1"
+    },
+    {
+      "path": "tables/02_HSC_difference_summary.csv",
+      "bytes": 1762,
+      "sha256": "70d38958bf84083c807b1c01644dc415eb48c51b04652a325509c54c0245dbec"
+    },
+    {
+      "path": "tables/02_HVG1000_euclidean_distance.csv",
+      "bytes": 6745,
+      "sha256": "e7a866cf192905ee29f830dd44c059490c25d50457cd713b30a43c6645118435"
+    },
+    {
+      "path": "tables/02_HVG1000_gene_zscore_Pearson.csv",
+      "bytes": 7507,
+      "sha256": "fc5547ca0de3a52be9a818086e2545f3c2b985e70389f2621ba60fb82214444f"
+    },
+    {
+      "path": "tables/02_HVG1000_zscores.csv",
+      "bytes": 327942,
+      "sha256": "3d424d0e6659c8e991da70da403deb7c8311425d87e358f7d97ab844c3b658d7"
+    },
+    {
+      "path": "tables/02_HVG_100.csv",
+      "bytes": 8302,
+      "sha256": "57cf700701aebb3b0dd4ef7a6eb06a0acff54d04b8164a2aea4f525f7c273bfa"
+    },
+    {
+      "path": "tables/02_HVG_1000.csv",
+      "bytes": 86202,
+      "sha256": "a80449ff8496f9cbf920dae8974ffd4db56c63b4ccd6a2ac72d9f9a65886d808"
+    },
+    {
+      "path": "tables/02_HVG_500.csv",
+      "bytes": 43489,
+      "sha256": "124347835b2e09441d9bb4f951ff771ee3b17fe4e18afdf1095ee77ced28e19e"
+    },
+    {
+      "path": "tables/02_PCA_all22_refit_coordinates.csv",
+      "bytes": 1426,
+      "sha256": "ce4a9e13c15505bdd6fd5fce83ae0db71657fb0f04e28f1eba3966f13481014b"
+    },
+    {
+      "path": "tables/02_PCA_coordinates.csv",
+      "bytes": 3540,
+      "sha256": "4fec0e19d959f9e6ef1b53d906cfc01ca3416f04ddaf5c7d75082c9f9a25cf1c"
+    },
+    {
+      "path": "tables/02_PCA_explained_variance.csv",
+      "bytes": 728,
+      "sha256": "a0a442790f0edcc14dcc7fc5f5e213df324604cfe4d9e159dc2740567f660500"
+    },
+    {
+      "path": "tables/02_PCA_loadings.csv",
+      "bytes": 88922,
+      "sha256": "0b6ca7e71685a890813cc2f6b6bcfab128f4e3add7c8dc31e3658302b6ddb7ab"
+    },
+    {
+      "path": "tables/02_cell_dictionary.csv",
+      "bytes": 1116,
+      "sha256": "7f7dca9d150968dbb0a8f0306189812c81e4576d52e3dc91682cbcf1dace720f"
+    },
+    {
+      "path": "tables/02_cluster_assignments.csv",
+      "bytes": 27021,
+      "sha256": "43315e7f77a5ccf2af5984099a1e8618fdd7d273fb486232b0cbdc37732e05b7"
+    },
+    {
+      "path": "tables/02_clustering_sensitivity.csv",
+      "bytes": 896,
+      "sha256": "a90a2ab156b54dc12317539bc3fd4e884445f9e8d9b4d31cef035497fda96ea8"
+    },
+    {
+      "path": "tables/02_focus_HSC_differences.csv",
+      "bytes": 1062894,
+      "sha256": "9b92a704d07749764363c449761c3a46ae79093b758e42395b962197962dfb74"
+    },
+    {
+      "path": "tables/02_focus_expression_ECDF.csv",
+      "bytes": 3813894,
+      "sha256": "dab29c016a80ca7bac01c94c2f84716004f2bd8306426a934e84848040fa23fc"
+    },
+    {
+      "path": "tables/02_gene_variance.csv",
+      "bytes": 1603218,
+      "sha256": "8f1d2556bbf75b61ff9ea3e792f8f707cbfdaeb1b9af25afa199adbfc48a7936"
+    },
+    {
+      "path": "tables/02_heatmap_HVG100_gene_zscores.csv",
+      "bytes": 32909,
+      "sha256": "0ea4c9974e85b4ed1d509c68a4fd6ac3e36596eed9ca77c0c099d4f85e9f4d4e"
+    },
+    {
+      "path": "tables/02_heatmap_HVG100_order.csv",
+      "bytes": 442,
+      "sha256": "bf8e149ced78dcbb573765229cec6a0f396713080fcfe37cb2eed7f5fa82ab11"
+    },
+    {
+      "path": "tables/02_linkage_correlation_average.csv",
+      "bytes": 493,
+      "sha256": "06493b9cc1037e6e239480e6369eac1dda340c5a59e34634520b0b28cf9bdfd9"
+    },
+    {
+      "path": "tables/02_linkage_ward.csv",
+      "bytes": 472,
+      "sha256": "887c298457331b1343a7253a380ddd368682250378de119a8203bcff8c15eb4c"
+    },
+    {
+      "path": "tables/02_mDC_fixed_projection.csv",
+      "bytes": 60,
+      "sha256": "a0030439db84d998d83c4ce276f9e676d14eed3c055a04e5c4a0bdde8173ff26"
+    },
+    {
+      "path": "tables/02_marker_gene_zscore_HSC_difference.csv",
+      "bytes": 1976,
+      "sha256": "a6438963058dac976d6f875cbc3af4d808ca1b1b1309eb6d1eae1686fe2c253f"
+    },
+    {
+      "path": "tables/02_marker_input_expression.csv",
+      "bytes": 6663,
+      "sha256": "996f4f695a801b5c6ee2cf7e2f9c1cb738213615f742c856d235feeae3fc9176"
+    },
+    {
+      "path": "tables/02_marker_panel_manifest.csv",
+      "bytes": 1503,
+      "sha256": "83f4a59c7f543a93ee096d1051c7e68f4245ae1d349e7a60b1d5f6e3b7419343"
+    },
+    {
+      "path": "tables/02_nearest_cell_profiles.csv",
+      "bytes": 2121,
+      "sha256": "46e5cadcd7977a3559ffdd2bcb291af37428a136fb2780339e9c25f9d5ac16e1"
+    },
+    {
+      "path": "tables/03_TF_candidates_all.csv",
+      "bytes": 1171584,
+      "sha256": "2ae202bbcf16d1120754a69322a12c398b492b996b391b7ad3ad94224797fdfb"
+    },
+    {
+      "path": "tables/03_TF_top10_1se.csv",
+      "bytes": 63653,
+      "sha256": "af4f8af16aa1fe06a7e7a0abfd2a12d7cbfed432add5c342ab21cc69081eff08"
+    },
+    {
+      "path": "tables/03_all_coefficients_annotated.csv",
+      "bytes": 28987233,
+      "sha256": "8dc1162e7e1687c6d1a353854b5501df276c8a44bc42fe491c31deef42e123de"
+    },
+    {
+      "path": "tables/03_focus_TF_top10_1se.csv",
+      "bytes": 12008,
+      "sha256": "77742c3c9ff65b145d4c7d34a5270fdfa6c319d72724666a196aa199d81c6293"
+    },
+    {
+      "path": "tables/03_fold_metrics.csv",
+      "bytes": 28508,
+      "sha256": "bb80cdda427844e74118e32249aede0d28384df9f42549d53040b81fe23f6c7d"
+    },
+    {
+      "path": "tables/03_model_metrics.csv",
+      "bytes": 6335,
+      "sha256": "81796d89d53696e2e003f85ea78136d93e10c699fbfca866a5991d4f4b03728f"
+    },
+    {
+      "path": "tables/03_preprocessing_contexts.csv",
+      "bytes": 1001,
+      "sha256": "0c4eb9a3e722c8c3b1d2f144ecd7496c92eb2370934be19cd2e58135bbf9909d"
+    },
+    {
+      "path": "tables/03_runtime.csv",
+      "bytes": 997,
+      "sha256": "e991562f00c5136a3ee17062ba69695591de6a377097607728072004aec566f4"
+    },
+    {
+      "path": "tables/03_selected_models.csv",
+      "bytes": 20636,
+      "sha256": "57bf57164645371c1e4aae4c1c20993e56eb7ca05a63c91ceb6aa8f58aebdd4f"
+    },
+    {
+      "path": "tables/03_single_perturbation_correlations.csv",
+      "bytes": 4180786,
+      "sha256": "b9583105f00ecddc3c9fbf2dd21bc06b195895a769fc733fe1a574484bb959d1"
+    },
+    {
+      "path": "tables/03_single_perturbation_correlations_annotated.csv",
+      "bytes": 13882265,
+      "sha256": "1ab8429ed9d424c88a401f5e91453fccfc254f920c93ab6b58d367668ce97350"
+    },
+    {
+      "path": "tables/03_single_perturbation_top20.csv",
+      "bytes": 101126,
+      "sha256": "17a59c053e6ae2f790a2e8af91d8f8af39f57dcd9cd8a4acfe3d4571ff25beb0"
+    },
+    {
+      "path": "tables/03_solver_diagnostics.csv",
+      "bytes": 3353074,
+      "sha256": "251e0b934c8cbdae42ed472abc24c039bc71a2f6020a1243923512c627b32a9c"
+    }
+  ]
+}

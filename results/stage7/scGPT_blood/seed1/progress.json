@@ -1,0 +1,10 @@
+{
+  "model": "scGPT_blood",
+  "seed": 1,
+  "epoch": 9,
+  "phase": "training",
+  "rows_processed": 32000,
+  "training_rows": 44158,
+  "epoch_elapsed_seconds": 208.1257357597351,
+  "time_unix": 1794055995.9395783
+}

@@ -1,0 +1,9 @@
+{
+  "model": "training_condition_mean",
+  "seed": 3,
+  "status": "completed",
+  "test_conditions": 97,
+  "eligible_conditions": 97,
+  "training_conditions_equal_weight": 103,
+  "controls_excluded_from_training_mean": true
+}

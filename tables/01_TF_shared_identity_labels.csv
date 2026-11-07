@@ -1,0 +1,3 @@
+﻿perturbation_label,lookup_label,approved_symbol,mapping_method,parenthesized_label,mutation_tag,construct_status,locus_group,locus_type,annotation_class,is_TF,primary_TF_eligible,TF_catalog_symbols,TF_assessment,DBD,GSE92742_OE_name_match,name_match_scope
+DDIT3,DDIT3,DDIT3,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,DDIT3,Known motif,bZIP,True,annotation_only_not_signature_provenance
+(DDIT3),DDIT3,DDIT3,approved_exact,True,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,DDIT3,Known motif,bZIP,True,annotation_only_not_signature_provenance

@@ -1,0 +1,18 @@
+{
+  "id": "self_readout/exclude_NFYB",
+  "name": "exclude_NFYB",
+  "kind": "self_readout",
+  "dataset": "raw",
+  "tolerance": 1e-06,
+  "n_train": 11921,
+  "n_validation": 0,
+  "parameters": {},
+  "initialization": "zero",
+  "seconds": 1.7984549870016053,
+  "model_path_seconds_excluding_shared_preprocessing": {
+    "Lasso": 1.6779613059479743
+  },
+  "device": 3,
+  "all_converged": true,
+  "completed_utc": "2026-11-07T08:16:44.190004+00:00"
+}

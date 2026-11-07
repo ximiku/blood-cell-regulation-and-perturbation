@@ -1,0 +1,23 @@
+﻿cell_type,short_label,color,main_EDA,focus
+hematopoietic stem cell,HSC,#40464D,True,False
+common myeloid progenitor,CMP,#BFC7CE,True,False
+erythrocyte,Erythrocyte,#D55E00,True,True
+platelet,Platelet,#BFC7CE,True,False
+macrophage,Macrophage,#BFC7CE,True,False
+B cell,B cell,#0072B2,True,True
+monocyte,Monocyte,#E69F00,True,True
+natural killer cell,NK cell,#BFC7CE,True,False
+"CD4-positive, alpha-beta T cell",CD4 T,#BFC7CE,True,False
+"CD8-positive, alpha-beta T cell",CD8 T,#BFC7CE,True,False
+basophil,Basophil,#BFC7CE,True,False
+neutrophil,Neutrophil,#BFC7CE,True,False
+myeloid dendritic cell,mDC,#222222,False,False
+plasmacytoid dendritic cell,pDC,#BFC7CE,True,False
+plasma cell,Plasma cell,#AA4499,True,True
+mature NK T cell,NK T,#BFC7CE,True,False
+regulatory T cell,Treg,#BFC7CE,True,False
+classical monocyte,Classical mono.,#BFC7CE,True,False
+non-classical monocyte,Non-classical mono.,#BFC7CE,True,False
+"naive thymus-derived CD4-positive, alpha-beta T cell",Naive CD4 T,#BFC7CE,True,False
+intermediate monocyte,Intermediate mono.,#BFC7CE,True,False
+hematopoietic precursor cell,Precursor,#BFC7CE,True,False

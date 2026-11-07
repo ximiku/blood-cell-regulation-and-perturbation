@@ -1,0 +1,56 @@
+{
+  "passed": true,
+  "generated_utc": "2026-11-07T07:23:48.437287+00:00",
+  "checks": [
+    {
+      "check": "frozen_input_and_split_isolation",
+      "passed": true,
+      "detail": "Frozen HDF5 unchanged; five disjoint outer tests and all inner train/validation sets form the intended nested partitions."
+    },
+    {
+      "check": "pooled_metrics_and_tuning",
+      "passed": true,
+      "detail": "All 63 pooled metric rows and 126 scope-wise min/1-SE choices match independent recomputation from saved predictions and individual inner-fold errors."
+    },
+    {
+      "check": "candidate_mapping",
+      "passed": true,
+      "detail": "Every saved coefficient retains the frozen 2,717-perturbation order and exact active-threshold classification."
+    },
+    {
+      "check": "inner_losses_from_original_validation_rows",
+      "passed": true,
+      "detail": "All 18 inner folds × 21 targets × 50 penalties reproduce from independently recomputed training moments and original validation rows; maximum MSE discrepancy 5.16e-15."
+    },
+    {
+      "check": "outer_models_and_predictions",
+      "passed": true,
+      "detail": "All 105 outer folds reproduce both OOF Lasso predictions, training-fold means/scales, intercepts, baseline predictions and alpha_max; maximum saved-prediction error 5.04e-14."
+    },
+    {
+      "check": "full_data_models",
+      "passed": true,
+      "detail": "All 21 full-data preprocessing records, selected paths, raw coefficients and intercepts agree with the frozen original input."
+    },
+    {
+      "check": "independent_original_data_dual_certificates",
+      "passed": true,
+      "detail": "All 252 selected outer/full models pass a CPU primal-dual calculation directly from training X/y, independently of cached GPU Gram matrices; maximum gap 9.99355958e-05."
+    },
+    {
+      "check": "convergence",
+      "passed": true,
+      "detail": "20160 recorded fits satisfy the saved dual-gap tolerance; 0 retried fits."
+    },
+    {
+      "check": "single_perturbation_ranking",
+      "passed": true,
+      "detail": "All 57,057 target/perturbation pairs are saved; 25 pairs spanning targets and feature indices agree with scipy/NumPy correlation calculations."
+    },
+    {
+      "check": "figure_files",
+      "passed": true,
+      "detail": "5 figure groups parse successfully as PDF, SVG and 450-dpi PNG."
+    }
+  ]
+}

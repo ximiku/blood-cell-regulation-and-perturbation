@@ -1,0 +1,18 @@
+{
+  "id": "self_readout/exclude_ZNF22",
+  "name": "exclude_ZNF22",
+  "kind": "self_readout",
+  "dataset": "raw",
+  "tolerance": 1e-06,
+  "n_train": 11921,
+  "n_validation": 0,
+  "parameters": {},
+  "initialization": "zero",
+  "seconds": 2.115819380967878,
+  "model_path_seconds_excluding_shared_preprocessing": {
+    "Lasso": 1.7895395330851898
+  },
+  "device": 1,
+  "all_converged": true,
+  "completed_utc": "2026-11-07T08:16:42.381967+00:00"
+}

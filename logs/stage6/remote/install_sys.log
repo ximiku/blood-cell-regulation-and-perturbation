@@ -1,0 +1,171 @@
+Looking in indexes: https://mirrors.aliyun.com/pypi/simple/
+Collecting numpy==1.26.4
+  Downloading https://mirrors.aliyun.com/pypi/packages/0f/50/de23fde84e45f5c4fda2488c759b69990fd4512387a8632860f3ac9cd225/numpy-1.26.4-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (18.0 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 18.0/18.0 MB 931.6 kB/s eta 0:00:00
+Collecting pandas==2.2.2
+  Downloading https://mirrors.aliyun.com/pypi/packages/40/10/79e52ef01dfeb1c1ca47a109a01a248754ebe990e159a844ece12914de83/pandas-2.2.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (12.7 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.7/12.7 MB 896.2 kB/s eta 0:00:00
+Collecting scipy==1.13.1
+  Downloading https://mirrors.aliyun.com/pypi/packages/88/ab/6ecdc526d509d33814835447bbbeedbebdec7cca46ef495a61b00a35b4bf/scipy-1.13.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (38.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 38.2/38.2 MB 986.1 kB/s eta 0:00:00
+Collecting h5py==3.11.0
+  Downloading https://mirrors.aliyun.com/pypi/packages/db/7e/fedac8bb8c4729409e2dec5e4136a289116d701d54f69ce73c5617afc5f0/h5py-3.11.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (5.4 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.4/5.4 MB 708.7 kB/s eta 0:00:00
+Collecting anndata==0.10.8
+  Downloading https://mirrors.aliyun.com/pypi/packages/eb/58/2608b71280b351369b6190818c16cf90ad1d1ab2f30c2be68c8bd2c1749b/anndata-0.10.8-py3-none-any.whl (124 kB)
+Collecting scanpy==1.10.2
+  Downloading https://mirrors.aliyun.com/pypi/packages/2f/9d/05129619c6bd9a657a64a9c19ec8d0eb46eb06c3107c48e38b1b6e70c088/scanpy-1.10.2-py3-none-any.whl (2.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.1/2.1 MB 697.3 kB/s eta 0:00:00
+Collecting torch-geometric==2.5.3
+  Downloading https://mirrors.aliyun.com/pypi/packages/97/f0/66ad3a5263aa16efb534aaf4e7da23ffc28c84efbbd720b0c5ec174f6242/torch_geometric-2.5.3-py3-none-any.whl (1.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.1/1.1 MB 699.8 kB/s eta 0:00:00
+Collecting gdown
+  Downloading https://mirrors.aliyun.com/pypi/packages/ab/a7/dceeff81a633c9c894ec1a6b63df2fdf88f88a76f4e40f1d2b504dbc7699/gdown-6.5.1-py3-none-any.whl (51 kB)
+Collecting einops
+  Downloading https://mirrors.aliyun.com/pypi/packages/2a/09/f8d8f8f31e4483c10a906437b4ce31bdf3d6d417b73fe33f1a8b59e34228/einops-0.8.2-py3-none-any.whl (65 kB)
+Collecting local-attention
+  Downloading https://mirrors.aliyun.com/pypi/packages/d8/f6/074ef5c98f2d062177af24a9e20db20b009d141e4ca827c1e419461595b0/local_attention-1.11.2-py3-none-any.whl (9.5 kB)
+Requirement already satisfied: tensorboard in /opt/conda/lib/python3.12/site-packages (2.21.0)
+Requirement already satisfied: psutil in /opt/conda/lib/python3.12/site-packages (7.2.2)
+Collecting matplotlib==3.9.2
+  Downloading https://mirrors.aliyun.com/pypi/packages/27/75/de5b9cd67648051cae40039da0c8cbc497a0d99acb1a1f3d087cd66d27b7/matplotlib-3.9.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (8.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 8.3/8.3 MB 931.3 kB/s eta 0:00:00
+Requirement already satisfied: python-dateutil>=2.8.2 in /opt/conda/lib/python3.12/site-packages (from pandas==2.2.2) (2.9.0.post0)
+Collecting pytz>=2020.1 (from pandas==2.2.2)
+  Downloading https://mirrors.aliyun.com/pypi/packages/b6/25/564f3fc5b70c1398d706c51f2b1470d0ea0b1b2f96fee67877b6f5bdf3b6/pytz-2026.6-py2.py3-none-any.whl (506 kB)
+Requirement already satisfied: tzdata>=2022.7 in /opt/conda/lib/python3.12/site-packages (from pandas==2.2.2) (2026.3)
+Collecting array-api-compat!=1.5,>1.4 (from anndata==0.10.8)
+  Downloading https://mirrors.aliyun.com/pypi/packages/d0/09/cab56a48b7e83609831c96f36658f9e30421877875071f2413eb591cf756/array_api_compat-1.16.0-py3-none-any.whl (81 kB)
+Collecting natsort (from anndata==0.10.8)
+  Downloading https://mirrors.aliyun.com/pypi/packages/ef/82/7a9d0550484a62c6da82858ee9419f3dd1ccc9aa1c26a1e43da3ecd20b0d/natsort-8.4.0-py3-none-any.whl (38 kB)
+Requirement already satisfied: packaging>=20.0 in /opt/conda/lib/python3.12/site-packages (from anndata==0.10.8) (26.2)
+Collecting joblib (from scanpy==1.10.2)
+  Downloading https://mirrors.aliyun.com/pypi/packages/18/53/84099323c2ec4be98d935f63c033ac4151ee83836ca1050ede3b3aadf155/joblib-1.6.0-py3-none-any.whl (306 kB)
+Collecting legacy-api-wrap>=1.4 (from scanpy==1.10.2)
+  Downloading https://mirrors.aliyun.com/pypi/packages/41/5b/058db09c45ba58a7321bdf2294cae651b37d6fec68117265af90cde043b0/legacy_api_wrap-1.5-py3-none-any.whl (10 kB)
+Requirement already satisfied: networkx>=2.7 in /opt/conda/lib/python3.12/site-packages (from scanpy==1.10.2) (3.6.1)
+Collecting numba>=0.56 (from scanpy==1.10.2)
+  Downloading https://mirrors.aliyun.com/pypi/packages/43/23/0813ab091f60403c33cb741392ae77db13324587748df6f52167bf3a2404/numba-0.68.1-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (3.9 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.9/3.9 MB 950.6 kB/s eta 0:00:00
+Collecting patsy (from scanpy==1.10.2)
+  Downloading https://mirrors.aliyun.com/pypi/packages/20/70/cd3cf5cff538323076a879edef02cce6f13f7d75e03d12f211b0a0dbd178/patsy-1.0.3-py2.py3-none-any.whl (233 kB)
+Collecting pynndescent>=0.5 (from scanpy==1.10.2)
+  Downloading https://mirrors.aliyun.com/pypi/packages/e1/63/fe905ec765fcb92a8a235e5a77ba591f620316c192a960dda1ce07d028eb/pynndescent-0.7.0-py3-none-any.whl (112 kB)
+Collecting scikit-learn>=0.24 (from scanpy==1.10.2)
+  Downloading https://mirrors.aliyun.com/pypi/packages/8e/57/a50162f3d29feb979ab6347c6debda506dfb525bcff3c50dd17606651c7e/scikit_learn-1.9.1-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (9.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 9.2/9.2 MB 960.9 kB/s eta 0:00:00
+Collecting seaborn>=0.13 (from scanpy==1.10.2)
+  Downloading https://mirrors.aliyun.com/pypi/packages/83/11/00d3c3dfc25ad54e731d91449895a79e4bf2384dc3ac01809010ba88f6d5/seaborn-0.13.2-py3-none-any.whl (294 kB)
+Collecting session-info (from scanpy==1.10.2)
+  Downloading https://mirrors.aliyun.com/pypi/packages/c5/c4/f6b7c0ec5241a2bde90c7ba1eca6ba44f8488bcedafe9072c79593015ec0/session_info-1.0.1-py3-none-any.whl (9.1 kB)
+Collecting statsmodels>=0.13 (from scanpy==1.10.2)
+  Downloading https://mirrors.aliyun.com/pypi/packages/41/c7/aeadca282baf51d7b9c135674bac79ded91f4db79c69c188575d22234342/statsmodels-0.15.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (12.0 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.0/12.0 MB 967.0 kB/s eta 0:00:00
+Requirement already satisfied: tqdm in /opt/conda/lib/python3.12/site-packages (from scanpy==1.10.2) (4.67.3)
+Collecting umap-learn!=0.5.0,>=0.5 (from scanpy==1.10.2)
+  Downloading https://mirrors.aliyun.com/pypi/packages/1b/98/f63318ccbe75c810011fe9233884c5d348d94d90005de1b79e5f93bef9c0/umap_learn-0.5.12-py3-none-any.whl (91 kB)
+Requirement already satisfied: fsspec in /opt/conda/lib/python3.12/site-packages (from torch-geometric==2.5.3) (2026.7.0)
+Requirement already satisfied: jinja2 in /opt/conda/lib/python3.12/site-packages (from torch-geometric==2.5.3) (3.1.6)
+Collecting aiohttp (from torch-geometric==2.5.3)
+  Downloading https://mirrors.aliyun.com/pypi/packages/da/e4/aa172eb534b7f02f1f8ff1c3213347eaf3cf218db91a727c6863c22f1035/aiohttp-3.14.5-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (1.9 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.9/1.9 MB 1.0 MB/s eta 0:00:00
+Requirement already satisfied: requests in /opt/conda/lib/python3.12/site-packages (from torch-geometric==2.5.3) (2.34.2)
+Collecting pyparsing (from torch-geometric==2.5.3)
+  Downloading https://mirrors.aliyun.com/pypi/packages/38/bb/d215ee7c73b61497b28a5503f9f53523f294fcc936762b7caf90e0c1c2b5/pyparsing-3.3.3-py3-none-any.whl (126 kB)
+Collecting contourpy>=1.0.1 (from matplotlib==3.9.2)
+  Downloading https://mirrors.aliyun.com/pypi/packages/78/f9/b6831508960d559581c448532ba4df312217072975486dbf2b24fcc5b76f/contourpy-1.4.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (383 kB)
+Collecting cycler>=0.10 (from matplotlib==3.9.2)
+  Downloading https://mirrors.aliyun.com/pypi/packages/e7/05/c19819d5e3d95294a6f5947fb9b9629efb316b96de511b418c53d245aae6/cycler-0.12.1-py3-none-any.whl (8.3 kB)
+Collecting fonttools>=4.22.0 (from matplotlib==3.9.2)
+  Downloading https://mirrors.aliyun.com/pypi/packages/7f/58/fe13db71e3f5a020c6875f349806e84f7550f3f24cb3cdbabdd693968b1d/fonttools-4.68.0-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (5.4 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.4/5.4 MB 1.0 MB/s eta 0:00:00
+Collecting kiwisolver>=1.3.1 (from matplotlib==3.9.2)
+  Downloading https://mirrors.aliyun.com/pypi/packages/fc/f4/dadfec469313c7f428efa7e84b4aba9732f813c13ea7131a24b7b008ef57/kiwisolver-1.5.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (1.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.5/1.5 MB 1.0 MB/s eta 0:00:00
+Requirement already satisfied: pillow>=8 in /opt/conda/lib/python3.12/site-packages (from matplotlib==3.9.2) (12.3.0)
+Requirement already satisfied: beautifulsoup4 in /opt/conda/lib/python3.12/site-packages (from gdown) (4.15.0)
+Requirement already satisfied: filelock in /opt/conda/lib/python3.12/site-packages (from gdown) (3.32.2)
+Requirement already satisfied: urllib3 in /opt/conda/lib/python3.12/site-packages (from gdown) (2.7.0)
+Collecting hyper-connections>=0.1.8 (from local-attention)
+  Downloading https://mirrors.aliyun.com/pypi/packages/42/2d/23143d9e5af1b6a2e7ed4e5f88a6c0cbf7587563acb8f15a740b726ce07f/hyper_connections-0.4.11-py3-none-any.whl (29 kB)
+Requirement already satisfied: torch in /opt/conda/lib/python3.12/site-packages (from local-attention) (2.12.0+cu130)
+Requirement already satisfied: absl-py>=0.4 in /opt/conda/lib/python3.12/site-packages (from tensorboard) (2.5.0)
+Requirement already satisfied: grpcio<2.0,>=1.74.0 in /opt/conda/lib/python3.12/site-packages (from tensorboard) (1.83.0)
+Requirement already satisfied: markdown>=2.6.8 in /opt/conda/lib/python3.12/site-packages (from tensorboard) (3.10.3)
+Requirement already satisfied: protobuf<8.0.0,>=6.31.1 in /opt/conda/lib/python3.12/site-packages (from tensorboard) (7.35.1)
+Requirement already satisfied: setuptools>=41.0.0 in /opt/conda/lib/python3.12/site-packages (from tensorboard) (81.0.0)
+Requirement already satisfied: tensorboard-data-server<0.8.0,>=0.7.0 in /opt/conda/lib/python3.12/site-packages (from tensorboard) (0.7.2)
+Requirement already satisfied: werkzeug>=1.0.1 in /opt/conda/lib/python3.12/site-packages (from tensorboard) (3.1.8)
+INFO: pip is looking at multiple versions of contourpy to determine which version is compatible with other requirements. This could take a while.
+Collecting contourpy>=1.0.1 (from matplotlib==3.9.2)
+  Downloading https://mirrors.aliyun.com/pypi/packages/cc/8f/ec6289987824b29529d0dfda0d74a07cec60e54b9c92f3c9da4c0ac732de/contourpy-1.3.3-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (362 kB)
+Requirement already satisfied: typing-extensions~=4.12 in /opt/conda/lib/python3.12/site-packages (from grpcio<2.0,>=1.74.0->tensorboard) (4.16.0)
+Collecting torch-einops-utils>=0.0.20 (from hyper-connections>=0.1.8->local-attention)
+  Downloading https://mirrors.aliyun.com/pypi/packages/06/b5/2448c2eb17c3100504bf44380630f8aa7ed48728e2a7bba782d835817f7c/torch_einops_utils-0.2.6-py3-none-any.whl (26 kB)
+Collecting llvmlite<0.51,>=0.50.0dev0 (from numba>=0.56->scanpy==1.10.2)
+  Downloading https://mirrors.aliyun.com/pypi/packages/4c/72/22b6449e15bec4cc86c62b659e6c625ab777d01e87aaec717ecef440f87a/llvmlite-0.50.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (59.7 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 59.7/59.7 MB 808.8 kB/s eta 0:00:00
+Collecting cloudpickle>=3.0 (from joblib->scanpy==1.10.2)
+  Downloading https://mirrors.aliyun.com/pypi/packages/88/39/799be3f2f0f38cc727ee3b4f1445fe6d5e4133064ec2e4115069418a5bb6/cloudpickle-3.1.2-py3-none-any.whl (22 kB)
+Requirement already satisfied: six>=1.5 in /opt/conda/lib/python3.12/site-packages (from python-dateutil>=2.8.2->pandas==2.2.2) (1.17.0)
+Collecting narwhals>=2.0.1 (from scikit-learn>=0.24->scanpy==1.10.2)
+  Downloading https://mirrors.aliyun.com/pypi/packages/cf/82/8ef9c7e0f50493307a49c09cfa7f00c5a778b6d1921f7b2dabe1d3a5809e/narwhals-2.28.0-py3-none-any.whl (490 kB)
+Collecting threadpoolctl>=3.5.0 (from scikit-learn>=0.24->scanpy==1.10.2)
+  Downloading https://mirrors.aliyun.com/pypi/packages/54/1b/831f2de4840a25db1dd7b1afea433ccafe6bb10aca07e13264f2079462d0/threadpoolctl-3.8.0-py3-none-any.whl (32 kB)
+Collecting formulaic>=1.1.0 (from statsmodels>=0.13->scanpy==1.10.2)
+  Downloading https://mirrors.aliyun.com/pypi/packages/fc/75/0576b03f7889ad25b5385b4f6c69e0543713425a6f193b056c9b0a2e65ce/formulaic-1.2.2-py3-none-any.whl (118 kB)
+Requirement already satisfied: sympy>=1.13.3 in /opt/conda/lib/python3.12/site-packages (from torch->local-attention) (1.14.0)
+Requirement already satisfied: cuda-toolkit==13.0.2 in /opt/conda/lib/python3.12/site-packages (from cuda-toolkit[cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.2; platform_system == "Linux"->torch->local-attention) (13.0.2)
+Requirement already satisfied: nvidia-cublas<=13.1.1.3,>=13.1.0.3 in /opt/conda/lib/python3.12/site-packages (from torch->local-attention) (13.1.1.3)
+Requirement already satisfied: cuda-bindings<14,>=13.0.3 in /opt/conda/lib/python3.12/site-packages (from torch->local-attention) (13.3.1)
+Requirement already satisfied: nvidia-cudnn-cu13==9.20.0.48 in /opt/conda/lib/python3.12/site-packages (from torch->local-attention) (9.20.0.48)
+Requirement already satisfied: nvidia-cusparselt-cu13==0.8.1 in /opt/conda/lib/python3.12/site-packages (from torch->local-attention) (0.8.1)
+Requirement already satisfied: nvidia-nccl-cu13==2.29.7 in /opt/conda/lib/python3.12/site-packages (from torch->local-attention) (2.29.7)
+Requirement already satisfied: nvidia-nvshmem-cu13==3.4.5 in /opt/conda/lib/python3.12/site-packages (from torch->local-attention) (3.4.5)
+Requirement already satisfied: triton==3.7.0 in /opt/conda/lib/python3.12/site-packages (from torch->local-attention) (3.7.0)
+Requirement already satisfied: nvidia-cuda-runtime==13.0.96.* in /opt/conda/lib/python3.12/site-packages (from cuda-toolkit[cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.2; platform_system == "Linux"->torch->local-attention) (13.0.96)
+Requirement already satisfied: nvidia-cufft==12.0.0.61.* in /opt/conda/lib/python3.12/site-packages (from cuda-toolkit[cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.2; platform_system == "Linux"->torch->local-attention) (12.0.0.61)
+Requirement already satisfied: nvidia-cufile==1.15.1.6.* in /opt/conda/lib/python3.12/site-packages (from cuda-toolkit[cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.2; platform_system == "Linux"->torch->local-attention) (1.15.1.6)
+Requirement already satisfied: nvidia-cuda-cupti==13.0.85.* in /opt/conda/lib/python3.12/site-packages (from cuda-toolkit[cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.2; platform_system == "Linux"->torch->local-attention) (13.0.85)
+Requirement already satisfied: nvidia-curand==10.4.0.35.* in /opt/conda/lib/python3.12/site-packages (from cuda-toolkit[cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.2; platform_system == "Linux"->torch->local-attention) (10.4.0.35)
+Requirement already satisfied: nvidia-cusolver==12.0.4.66.* in /opt/conda/lib/python3.12/site-packages (from cuda-toolkit[cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.2; platform_system == "Linux"->torch->local-attention) (12.0.4.66)
+Requirement already satisfied: nvidia-cusparse==12.6.3.3.* in /opt/conda/lib/python3.12/site-packages (from cuda-toolkit[cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.2; platform_system == "Linux"->torch->local-attention) (12.6.3.3)
+Requirement already satisfied: nvidia-nvjitlink==13.0.88.* in /opt/conda/lib/python3.12/site-packages (from cuda-toolkit[cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.2; platform_system == "Linux"->torch->local-attention) (13.0.88)
+Requirement already satisfied: nvidia-cuda-nvrtc==13.0.88.* in /opt/conda/lib/python3.12/site-packages (from cuda-toolkit[cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.2; platform_system == "Linux"->torch->local-attention) (13.0.88)
+Requirement already satisfied: nvidia-nvtx==13.0.85.* in /opt/conda/lib/python3.12/site-packages (from cuda-toolkit[cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.2; platform_system == "Linux"->torch->local-attention) (13.0.85)
+Requirement already satisfied: markupsafe>=2.1.1 in /opt/conda/lib/python3.12/site-packages (from werkzeug>=1.0.1->tensorboard) (3.0.3)
+Collecting aiohappyeyeballs>=2.5.0 (from aiohttp->torch-geometric==2.5.3)
+  Downloading https://mirrors.aliyun.com/pypi/packages/71/43/1947f06babed6b3f1d7f38b0c767f52df66bfb2bc10b468c4a7de9eceff2/aiohappyeyeballs-2.7.1-py3-none-any.whl (15 kB)
+Collecting aiosignal>=1.4.0 (from aiohttp->torch-geometric==2.5.3)
+  Downloading https://mirrors.aliyun.com/pypi/packages/fb/76/641ae371508676492379f16e2fa48f4e2c11741bd63c48be4b12a6b09cba/aiosignal-1.4.0-py3-none-any.whl (7.5 kB)
+Requirement already satisfied: attrs>=17.3.0 in /opt/conda/lib/python3.12/site-packages (from aiohttp->torch-geometric==2.5.3) (26.1.0)
+Collecting frozenlist>=1.1.1 (from aiohttp->torch-geometric==2.5.3)
+  Downloading https://mirrors.aliyun.com/pypi/packages/6a/bd/d91c5e39f490a49df14320f4e8c80161cfcce09f1e2cde1edd16a551abb3/frozenlist-1.8.0-cp312-cp312-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl (242 kB)
+Collecting multidict<8.0,>=4.5 (from aiohttp->torch-geometric==2.5.3)
+  Downloading https://mirrors.aliyun.com/pypi/packages/43/50/6bd8600b4843f0a9d939e0cc0f4160f4c727bd6c69e4f7e294a1caa93db8/multidict-7.2.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (516 kB)
+Collecting propcache>=0.2.0 (from aiohttp->torch-geometric==2.5.3)
+  Downloading https://mirrors.aliyun.com/pypi/packages/85/9f/83a07b6ec0e043c050cfdd35fb0cf1b7897b91d554d6eea293740309afe7/propcache-0.5.4-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (250 kB)
+Collecting yarl<2.0,>=1.25.1 (from aiohttp->torch-geometric==2.5.3)
+  Downloading https://mirrors.aliyun.com/pypi/packages/bc/7b/ca212cbe170ac8b96e45317ecbcf9c3c3ecf0cdec98d5b088a9c4088929b/yarl-1.25.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (117 kB)
+Requirement already satisfied: soupsieve>=1.6.1 in /opt/conda/lib/python3.12/site-packages (from beautifulsoup4->gdown) (2.9.2)
+Requirement already satisfied: charset_normalizer<4,>=2 in /opt/conda/lib/python3.12/site-packages (from requests->torch-geometric==2.5.3) (3.4.7)
+Requirement already satisfied: idna<4,>=2.5 in /opt/conda/lib/python3.12/site-packages (from requests->torch-geometric==2.5.3) (3.17)
+Requirement already satisfied: certifi>=2023.5.7 in /opt/conda/lib/python3.12/site-packages (from requests->torch-geometric==2.5.3) (2026.7.22)
+Requirement already satisfied: PySocks!=1.5.7,>=1.5.6 in /opt/conda/lib/python3.12/site-packages (from requests[socks]->gdown) (1.7.1)
+Collecting stdlib_list (from session-info->scanpy==1.10.2)
+  Downloading https://mirrors.aliyun.com/pypi/packages/3b/3d/2970b27a11ae17fb2d353e7a179763a2fe6f37d6d2a9f4d40104a2f132e9/stdlib_list-0.12.0-py3-none-any.whl (87 kB)
+Requirement already satisfied: cuda-pathfinder>=1.4.2 in /opt/conda/lib/python3.12/site-packages (from cuda-bindings<14,>=13.0.3->torch->local-attention) (1.6.0)
+Collecting interface-meta>=1.2.0 (from formulaic>=1.1.0->statsmodels>=0.13->scanpy==1.10.2)
+  Downloading https://mirrors.aliyun.com/pypi/packages/a1/d3/20a61a248feb1249cd81f83ce731f0bdf5170ed96a08a298f7081cda9e90/interface_meta-2.0.1-py3-none-any.whl (15 kB)
+Collecting wrapt>=1.0 (from formulaic>=1.1.0->statsmodels>=0.13->scanpy==1.10.2)
+  Downloading https://mirrors.aliyun.com/pypi/packages/dd/26/a6caa9a84ef5db4a273787949cea7ab51f6001d2548768af4c8e3c49debd/wrapt-2.5.2-cp312-cp312-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl (250 kB)
+Requirement already satisfied: mpmath<1.4,>=1.1.0 in /opt/conda/lib/python3.12/site-packages (from sympy>=1.13.3->torch->local-attention) (1.3.0)
+Installing collected packages: pytz, wrapt, threadpoolctl, stdlib_list, pyparsing, propcache, numpy, natsort, narwhals, multidict, llvmlite, legacy-api-wrap, kiwisolver, interface-meta, frozenlist, fonttools, einops, cycler, cloudpickle, array-api-compat, aiohappyeyeballs, yarl, session-info, scipy, patsy, pandas, numba, joblib, h5py, contourpy, aiosignal, scikit-learn, matplotlib, gdown, formulaic, anndata, aiohttp, torch-geometric, statsmodels, seaborn, pynndescent, umap-learn, torch-einops-utils, scanpy, hyper-connections, local-attention
+  Attempting uninstall: numpy
+    Found existing installation: numpy 2.5.2
+    Not uninstalling numpy at /opt/conda/lib/python3.12/site-packages, outside environment /root/HW2_20261107/envs/perturbation_sys
+    Can't uninstall 'numpy'. No files were found to uninstall.
+Successfully installed aiohappyeyeballs-2.7.1 aiohttp-3.14.5 aiosignal-1.4.0 anndata-0.10.8 array-api-compat-1.16.0 cloudpickle-3.1.2 contourpy-1.3.3 cycler-0.12.1 einops-0.8.2 fonttools-4.68.0 formulaic-1.2.2 frozenlist-1.8.0 gdown-6.5.1 h5py-3.11.0 hyper-connections-0.4.11 interface-meta-2.0.1 joblib-1.6.0 kiwisolver-1.5.1 legacy-api-wrap-1.5 llvmlite-0.50.0 local-attention-1.11.2 matplotlib-3.9.2 multidict-7.2.1 narwhals-2.28.0 natsort-8.4.0 numba-0.68.1 numpy-1.26.4 pandas-2.2.2 patsy-1.0.3 propcache-0.5.4 pynndescent-0.7.0 pyparsing-3.3.3 pytz-2026.6 scanpy-1.10.2 scikit-learn-1.9.1 scipy-1.13.1 seaborn-0.13.2 session-info-1.0.1 statsmodels-0.15.0 stdlib_list-0.12.0 threadpoolctl-3.8.0 torch-einops-utils-0.2.6 torch-geometric-2.5.3 umap-learn-0.5.12 wrapt-2.5.2 yarl-1.25.1
+
+[notice] A new release of pip is available: 25.0.1 -> 26.3
+[notice] To update, run: /root/HW2_20261107/envs/perturbation_sys/bin/python -m pip install --upgrade pip

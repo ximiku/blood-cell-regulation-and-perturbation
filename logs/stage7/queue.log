@@ -1,0 +1,3 @@
+{'model': 'GEARS', 'seed': 2, 'gpu': 3, 'exit_code': 0, 'seconds': 1050.1909291744232}
+{'model': 'GEARS', 'seed': 1, 'gpu': 2, 'exit_code': 0, 'seconds': 1215.224347114563}
+{'model': 'scFoundation_GEARS', 'seed': 3, 'gpu': 2, 'exit_code': 0, 'seconds': 2735.5136482715607}

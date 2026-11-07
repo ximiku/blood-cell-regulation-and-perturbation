@@ -1,0 +1,101 @@
+﻿gene_symbol,variance_21_cells,rank,ribosomal_prefix,globin_gene,HGNC_gene_group,HGNC_ribosomal_annotation
+HBB,3.64221917,1,False,True,Hemoglobin subunits,False
+S100A9,3.21817271698,2,False,False,S100 calcium binding proteins|EF-hand domain containing,False
+S100A8,2.95283340878,3,False,False,S100 calcium binding proteins|EF-hand domain containing,False
+HBA2,2.2497957381,4,False,True,Hemoglobin subunits|Proteins encoded by multiple genes,False
+HBA1,2.05363503015,5,False,True,Hemoglobin subunits|Proteins encoded by multiple genes,False
+LYZ,1.95060526697,6,False,False,"Lysozymes, c-type",False
+RPS18,1.71693519179,7,True,False,S ribosomal proteins,True
+VCAN,1.62664379988,8,False,False,Hyalectan proteoglycans|V-set domain containing|Sushi domain containing|C-type lectin domain containing,False
+EEF1A1,1.54105939909,9,False,False,Translational GTPases,False
+RPL13,1.52328202406,10,True,False,L ribosomal proteins|Small nucleolar RNA protein coding host genes,True
+RPS23,1.51992952779,11,True,False,S ribosomal proteins,True
+RPS8,1.50772274732,12,True,False,S ribosomal proteins|Small nucleolar RNA protein coding host genes,True
+GNLY,1.48100729228,13,False,False,Saposin B type domain containing,False
+RPS2,1.48004743111,14,True,False,S ribosomal proteins|Small nucleolar RNA protein coding host genes,True
+RPL3,1.44878807105,15,True,False,L ribosomal proteins|Small nucleolar RNA protein coding host genes,True
+RPS19,1.42252046403,16,True,False,S ribosomal proteins|MicroRNA protein coding host genes,True
+RPL10,1.41940149927,17,True,False,L ribosomal proteins|Small nucleolar RNA protein coding host genes,True
+RPS4X,1.39743679104,18,True,False,S ribosomal proteins,True
+RPS6,1.37586989249,19,True,False,S ribosomal proteins,True
+PPBP,1.36432531285,20,False,False,Receptor ligands,False
+RPS12,1.34817941346,21,True,False,S ribosomal proteins|Small nucleolar RNA protein coding host genes,True
+RPS3A,1.31309611537,22,True,False,S ribosomal proteins|Small nucleolar RNA protein coding host genes,True
+RPS27,1.31129298569,23,True,False,S ribosomal proteins,True
+RPS3,1.29651565871,24,True,False,S ribosomal proteins|Small nucleolar RNA protein coding host genes|DNA-(apurinic or apyrimidinic site) lyases,True
+RPL18A,1.286262607,25,True,False,L ribosomal proteins|Small nucleolar RNA protein coding host genes,True
+RPL32,1.28029925917,26,True,False,L ribosomal proteins|Small nucleolar RNA protein coding host genes,True
+RPL19,1.26764237173,27,True,False,L ribosomal proteins,True
+RPL34,1.26468133477,28,True,False,L ribosomal proteins,True
+CTSS,1.26252152373,29,False,False,Cathepsins|Elastases,False
+RPL11,1.22902969335,30,True,False,L ribosomal proteins,True
+RPL5,1.1987047698,31,True,False,Protein phosphatase 1 regulatory subunits|L ribosomal proteins|Small nucleolar RNA protein coding host genes,True
+RPLP1,1.16670947719,32,False,False,L ribosomal proteins,True
+RPS27A,1.16354427181,33,True,False,S ribosomal proteins|Ubiquitins,True
+RPL7A,1.1583893326,34,True,False,L ribosomal proteins|Small nucleolar RNA protein coding host genes,True
+NAMPT,1.14719841784,35,False,False,Phosphoribosyltransferases,False
+RPL18,1.13596561164,36,True,False,L ribosomal proteins,True
+RPS28,1.13480730023,37,True,False,S ribosomal proteins,True
+RPS14,1.130522216,38,True,False,S ribosomal proteins,True
+GPX1,1.13033055472,39,False,False,Selenoproteins|Glutathione peroxidase family,False
+RPS21,1.11790171332,40,True,False,S ribosomal proteins,True
+RPL37,1.11176939121,41,True,False,L ribosomal proteins|Small nucleolar RNA protein coding host genes,True
+RPS13,1.11172146346,42,True,False,S ribosomal proteins|Small nucleolar RNA protein coding host genes,True
+TMSB4X,1.10466013779,43,False,False,Thymosin beta family,False
+SLC8A1,1.08941924233,44,False,False,Solute carrier family 8,False
+RPS15A,1.08927754621,45,True,False,S ribosomal proteins,True
+RPS24,1.08431341643,46,True,False,S ribosomal proteins,True
+S100A6,1.07873265686,47,False,False,S100 calcium binding proteins|EF-hand domain containing,False
+RPL14,1.07736599257,48,True,False,L ribosomal proteins,True
+RPL12,1.07600261759,49,True,False,L ribosomal proteins|Small nucleolar RNA protein coding host genes,True
+S100A4,1.06888061844,50,False,False,S100 calcium binding proteins|EF-hand domain containing,False
+CD74,1.06828702958,51,False,False,CD molecules,False
+RPS29,1.06528938646,52,True,False,S ribosomal proteins,True
+RPL10A,1.0652265486,53,True,False,L ribosomal proteins|MicroRNA protein coding host genes,True
+DPYD,1.0649747443,54,False,False,Flavoproteins|Oxidoreductases,False
+RPL13A,1.06316016381,55,True,False,L ribosomal proteins,True
+TMSB10,1.04319715081,56,False,False,Thymosin beta family,False
+RPL26,1.0426346081,57,True,False,L ribosomal proteins,True
+S100A11,1.03948449126,58,False,False,S100 calcium binding proteins|EF-hand domain containing,False
+RPL30,1.03611641738,59,True,False,L ribosomal proteins|Small nucleolar RNA protein coding host genes,True
+RPL37A,1.02760189542,60,True,False,L ribosomal proteins|Small nucleolar RNA protein coding host genes,True
+ZEB2,1.02692888209,61,False,False,Zinc fingers C2H2-type|ZF class homeoboxes and pseudogenes,False
+TYROBP,1.02178211216,62,False,False,,False
+RPL39,1.01986058464,63,True,False,L ribosomal proteins|Small nucleolar RNA protein coding host genes,True
+RPLP0,1.0083252139,64,False,False,L ribosomal proteins,True
+TXNIP,0.999051773874,65,False,False,Alpha arrestins,False
+RPS7,0.991693197665,66,True,False,S ribosomal proteins,True
+RPSA,0.988144346145,67,False,False,S ribosomal proteins|Small nucleolar RNA protein coding host genes,True
+RPS5,0.985664276018,68,True,False,S ribosomal proteins,True
+RPL29,0.982974425685,69,True,False,L ribosomal proteins,True
+RPL28,0.974848861195,70,True,False,L ribosomal proteins|MicroRNA protein coding host genes,True
+SAT1,0.974308600211,71,False,False,GCN5 related N-acetyltransferases,False
+AIF1,0.969415828675,72,False,False,EF-hand domain containing,False
+RPL23A,0.966811415365,73,True,False,L ribosomal proteins|Small nucleolar RNA protein coding host genes,True
+PLXDC2,0.965123716018,74,False,False,,False
+CST3,0.962836131407,75,False,False,"Cystatins, type 2",False
+NKG7,0.959289425401,76,False,False,,False
+RPL9,0.959031193596,77,True,False,L ribosomal proteins,True
+RPL6,0.954332956564,78,True,False,L ribosomal proteins,True
+RPL36,0.953529669072,79,True,False,L ribosomal proteins,True
+SKAP1,0.948778143145,80,False,False,Pleckstrin homology domain containing|MicroRNA protein coding host genes|SH3 domain containing,False
+HLA-DRA,0.947032189675,81,False,False,Histocompatibility complex|C1-set domain containing,False
+CD247,0.938980782952,82,False,False,CD molecules|CD3 subunits of T-cell receptor complex,False
+IL1R2,0.938924206094,83,False,False,CD molecules|Immunoglobulin like domain containing|Interleukin receptors,False
+RPL15,0.927775599112,84,True,False,L ribosomal proteins,True
+RPS16,0.923558560678,85,True,False,S ribosomal proteins,True
+RPL8,0.910035320947,86,True,False,L ribosomal proteins|MicroRNA protein coding host genes,True
+RPLP2,0.905958787039,87,False,False,L ribosomal proteins|Small nucleolar RNA protein coding host genes,True
+RPS15,0.897029183668,88,True,False,S ribosomal proteins,True
+ACSL1,0.89556568713,89,False,False,Acyl-CoA synthetase family,False
+RACK1,0.88969790407,90,False,False,WD repeat domain containing|SSU processome|Small nucleolar RNA protein coding host genes,False
+MNDA,0.879484194547,91,False,False,Pyrin domain containing|Pyrin and HIN domain family,False
+EEF1B2,0.874797137777,92,False,False,Small nucleolar RNA protein coding host genes,False
+LYN,0.858860247187,93,False,False,SH2 domain containing|Src family tyrosine kinases|SH3 domain containing,False
+RPL41,0.857185429052,94,True,False,L ribosomal proteins,True
+AOAH,0.855625674901,95,False,False,Saposin B type domain containing,False
+RBM47,0.850672757235,96,False,False,RNA binding motif containing|MicroRNA protein coding host genes,False
+IRAK3,0.849713526019,97,False,False,Pseudokinases|MicroRNA protein coding host genes|Interleukin 1 receptor associated kinase family,False
+NRGN,0.849557525993,98,False,False,,False
+SRGN,0.842502885502,99,False,False,Proteoglycans,False
+MT-ATP6,0.838915929011,100,False,False,Mitochondrial complex V: ATP synthase subunits|Mitochondrially encoded protein coding genes,False

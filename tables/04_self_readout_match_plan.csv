@@ -1,0 +1,41 @@
+﻿target,perturbation,approved_symbol,readout_genes,n_removed,job_id,status
+B cell,ZNF22,ZNF22,ZNF22,1,self_readout/exclude_ZNF22,planned
+B cell,DLX3,DLX3,,0,,own_readout_absent
+B cell,RORC,RORC,RORC,1,self_readout/exclude_RORC,planned
+B cell,ZNF174,ZNF174,ZNF174,1,self_readout/exclude_ZNF174,planned
+B cell,STAT4,STAT4,STAT4,1,self_readout/exclude_STAT4,planned
+B cell,ZNF296,ZNF296,,0,,own_readout_absent
+B cell,KLF3,KLF3,KLF3,1,self_readout/exclude_KLF3,planned
+B cell,HOXB5,HOXB5,HOXB5,1,self_readout/exclude_HOXB5,planned
+B cell,NFYB,NFYB,NFYB,1,self_readout/exclude_NFYB,planned
+B cell,ZNF114,ZNF114,,0,,own_readout_absent
+plasma cell,OVOL2,OVOL2,OVOL2,1,self_readout/exclude_OVOL2,planned
+plasma cell,NCOA3,NCOA3,NCOA3,1,self_readout/exclude_NCOA3,planned
+plasma cell,ZNF653,ZNF653,,0,,own_readout_absent
+plasma cell,(DDIT3),DDIT3,DDIT3,1,self_readout/exclude_DDIT3,planned
+plasma cell,LHX8,LHX8,,0,,own_readout_absent
+plasma cell,ERF,ERF,ERF,1,self_readout/exclude_ERF,planned
+plasma cell,CLOCK,CLOCK,CLOCK,1,self_readout/exclude_CLOCK,planned
+plasma cell,ZNF558,ZNF558,,0,,own_readout_absent
+plasma cell,TFAP2A,TFAP2A,TFAP2A,1,self_readout/exclude_TFAP2A,planned
+plasma cell,TP53,TP53,TP53,1,self_readout/exclude_TP53,planned
+monocyte,PAX8,PAX8,PAX8,1,self_readout/exclude_PAX8,planned
+monocyte,KLF6,KLF6,KLF6,1,self_readout/exclude_KLF6,planned
+monocyte,TCF7L2,TCF7L2,TCF7L2,1,self_readout/exclude_TCF7L2,planned
+monocyte,TFAP2A,TFAP2A,TFAP2A,1,self_readout/exclude_TFAP2A,planned
+monocyte,OVOL2,OVOL2,OVOL2,1,self_readout/exclude_OVOL2,planned
+monocyte,IRF3,IRF3,IRF3,1,self_readout/exclude_IRF3,planned
+monocyte,HIF1A,HIF1A,HIF1A,1,self_readout/exclude_HIF1A,planned
+monocyte,PRDM1,PRDM1,PRDM1,1,self_readout/exclude_PRDM1,planned
+monocyte,SIM2,SIM2,SIM2,1,self_readout/exclude_SIM2,planned
+monocyte,SATB2,SATB2,SATB2,1,self_readout/exclude_SATB2,planned
+erythrocyte,MYB,MYB,MYB,1,self_readout/exclude_MYB,planned
+erythrocyte,IRF3,IRF3,IRF3,1,self_readout/exclude_IRF3,planned
+erythrocyte,NFYB,NFYB,NFYB,1,self_readout/exclude_NFYB,planned
+erythrocyte,PREB,PREB,PREB,1,self_readout/exclude_PREB,planned
+erythrocyte,ELK3,ELK3,ELK3,1,self_readout/exclude_ELK3,planned
+erythrocyte,NCOA3,NCOA3,NCOA3,1,self_readout/exclude_NCOA3,planned
+erythrocyte,CREB3,CREB3,CREB3,1,self_readout/exclude_CREB3,planned
+erythrocyte,RARA,RARA,RARA,1,self_readout/exclude_RARA,planned
+erythrocyte,OVOL2,OVOL2,OVOL2,1,self_readout/exclude_OVOL2,planned
+erythrocyte,KLF6,KLF6,KLF6,1,self_readout/exclude_KLF6,planned

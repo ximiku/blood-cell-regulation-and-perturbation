@@ -1,0 +1,18 @@
+{
+  "generated_utc": "2026-11-07T07:21:34.530938+00:00",
+  "targets": 21,
+  "focus_targets": [
+    "B cell",
+    "plasma cell",
+    "monocyte",
+    "erythrocyte"
+  ],
+  "main_targets": 20,
+  "supplementary_target": "myeloid dendritic cell",
+  "n_solver_fits": 20160,
+  "n_nonconverged": 0,
+  "n_retried": 0,
+  "n_low_alpha_boundary_selected": 0,
+  "figure_count": 5,
+  "stability_analysis_started": false
+}

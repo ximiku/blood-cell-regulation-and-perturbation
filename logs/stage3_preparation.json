@@ -1,0 +1,7 @@
+{
+  "generated_utc": "2026-11-07T06:49:50.898347+00:00",
+  "seconds": 12.898940123035572,
+  "n_contexts": 24,
+  "all_preprocessing_fitted_on_context_train_only": true,
+  "gram_cache_role": "derived_disposable_acceleration_cache"
+}

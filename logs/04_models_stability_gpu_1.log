@@ -1,0 +1,47 @@
+{"event": "model_path_done", "job": "raw/outer_02_inner_01", "model": "ElasticNet", "seconds": 113.24694470502436}
+{"event": "job_done", "id": "raw/outer_02_inner_01", "seconds": 121.85583221900743}
+{"event": "model_path_done", "job": "raw/outer_03_inner_01", "model": "ElasticNet", "seconds": 113.66751235199627}
+{"event": "job_done", "id": "raw/outer_03_inner_01", "seconds": 120.64740031899419}
+{"event": "model_path_done", "job": "raw/outer_04_inner_01", "model": "ElasticNet", "seconds": 108.67355876695365}
+{"event": "job_done", "id": "raw/outer_04_inner_01", "seconds": 115.82694753899705}
+{"event": "model_path_done", "job": "raw/outer_05_inner_01", "model": "ElasticNet", "seconds": 104.24141535593662}
+{"event": "job_done", "id": "raw/outer_05_inner_01", "seconds": 111.31812842004001}
+{"event": "model_path_done", "job": "raw/full_inner_01", "model": "ElasticNet", "seconds": 105.08218324801419}
+{"event": "job_done", "id": "raw/full_inner_01", "seconds": 112.00128624995705}
+{"event": "job_done", "id": "landmark/outer_01_inner_01", "seconds": 24.306067656027153}
+{"event": "job_done", "id": "landmark/outer_02_inner_01", "seconds": 23.165092814946547}
+{"event": "job_done", "id": "landmark/outer_03_inner_01", "seconds": 24.83770380099304}
+{"event": "job_done", "id": "landmark/outer_04_inner_01", "seconds": 25.15915435203351}
+{"event": "job_done", "id": "landmark/outer_05_inner_01", "seconds": 24.55630296608433}
+{"event": "job_done", "id": "landmark/full_inner_01", "seconds": 28.264969196985476}
+{"event": "job_done", "id": "gene_scaled/outer_01_inner_01", "seconds": 39.50059449393302}
+{"event": "job_done", "id": "gene_scaled/outer_02_inner_01", "seconds": 39.42396368703339}
+{"event": "job_done", "id": "gene_scaled/outer_03_inner_01", "seconds": 40.78336225892417}
+{"event": "job_done", "id": "gene_scaled/outer_04_inner_01", "seconds": 39.2091995109804}
+{"event": "job_done", "id": "gene_scaled/outer_05_inner_01", "seconds": 39.5804602910066}
+{"event": "job_done", "id": "gene_scaled/full_inner_01", "seconds": 34.263140571070835}
+{"event": "job_done", "id": "stability/repeat_002", "seconds": 0.7754620499908924}
+{"event": "job_done", "id": "stability/repeat_006", "seconds": 0.8274348489940166}
+{"event": "job_done", "id": "stability/repeat_010", "seconds": 0.8343464590143412}
+{"event": "job_done", "id": "stability/repeat_014", "seconds": 0.7560340920463204}
+{"event": "job_done", "id": "stability/repeat_018", "seconds": 0.9074087149929255}
+{"event": "job_done", "id": "stability/repeat_022", "seconds": 0.916159615968354}
+{"event": "job_done", "id": "stability/repeat_026", "seconds": 0.820520767942071}
+{"event": "job_done", "id": "stability/repeat_030", "seconds": 0.8679104029433802}
+{"event": "job_done", "id": "stability/repeat_034", "seconds": 0.8350173090584576}
+{"event": "job_done", "id": "stability/repeat_038", "seconds": 0.7993156579323113}
+{"event": "job_done", "id": "stability/repeat_042", "seconds": 0.8199859079904854}
+{"event": "job_done", "id": "stability/repeat_046", "seconds": 0.846341535099782}
+{"event": "job_done", "id": "stability/repeat_050", "seconds": 0.8164536079857498}
+{"event": "job_done", "id": "stability/repeat_054", "seconds": 0.8231259030289948}
+{"event": "job_done", "id": "stability/repeat_058", "seconds": 0.80390689894557}
+{"event": "job_done", "id": "stability/repeat_062", "seconds": 0.7852878859266639}
+{"event": "job_done", "id": "stability/repeat_066", "seconds": 0.8431677339831367}
+{"event": "job_done", "id": "stability/repeat_070", "seconds": 0.869287517038174}
+{"event": "job_done", "id": "stability/repeat_074", "seconds": 0.8134514429839328}
+{"event": "job_done", "id": "stability/repeat_078", "seconds": 0.8098550089634955}
+{"event": "job_done", "id": "stability/repeat_082", "seconds": 0.7888929480686784}
+{"event": "job_done", "id": "stability/repeat_086", "seconds": 0.7880543440114707}
+{"event": "job_done", "id": "stability/repeat_090", "seconds": 0.810259465011768}
+{"event": "job_done", "id": "stability/repeat_094", "seconds": 0.8777587070362642}
+{"event": "job_done", "id": "stability/repeat_098", "seconds": 0.8326851520687342}

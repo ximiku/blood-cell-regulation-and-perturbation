@@ -1,0 +1,10 @@
+{
+  "model": "GEARS",
+  "seed": 1,
+  "epoch": 5,
+  "phase": "training",
+  "rows_processed": 32000,
+  "training_rows": 44158,
+  "epoch_elapsed_seconds": 71.95854020118713,
+  "time_unix": 1794051940.4577522
+}

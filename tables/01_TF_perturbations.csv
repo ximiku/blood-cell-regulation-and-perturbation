@@ -1,0 +1,292 @@
+﻿perturbation_label,lookup_label,approved_symbol,mapping_method,parenthesized_label,mutation_tag,construct_status,locus_group,locus_type,annotation_class,is_TF,primary_TF_eligible,TF_catalog_symbols,TF_assessment,DBD,GSE92742_OE_name_match,name_match_scope
+HMGN3,HMGN3,HMGN3,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,HMGN3,Likely to be sequence specific TF,HMG/Sox,True,annotation_only_not_signature_provenance
+MAX,MAX,MAX,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,MAX,Known motif,bHLH,True,annotation_only_not_signature_provenance
+OTX2,OTX2,OTX2,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,OTX2,Known motif,Homeodomain,True,annotation_only_not_signature_provenance
+HOXA1,HOXA1,HOXA1,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,HOXA1,Known motif,Homeodomain,True,annotation_only_not_signature_provenance
+JUNB,JUNB,JUNB,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,JUNB,Known motif,bZIP,True,annotation_only_not_signature_provenance
+IRF2,IRF2,IRF2,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,IRF2,Known motif,IRF,True,annotation_only_not_signature_provenance
+FOXA3,FOXA3,FOXA3,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,FOXA3,Known motif,Forkhead,True,annotation_only_not_signature_provenance
+ATF4,ATF4,ATF4,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ATF4,Known motif,bZIP,True,annotation_only_not_signature_provenance
+OTX1,OTX1,OTX1,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,OTX1,Known motif,Homeodomain,True,annotation_only_not_signature_provenance
+ZNF707,ZNF707,ZNF707,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZNF707,Known motif,C2H2 ZF,True,annotation_only_not_signature_provenance
+CREB3,CREB3,CREB3,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,CREB3,Known motif,bZIP,True,annotation_only_not_signature_provenance
+GATA3,GATA3,GATA3,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,GATA3,Known motif,GATA,True,annotation_only_not_signature_provenance
+TEAD2,TEAD2,TEAD2,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,TEAD2,Known motif,TEA,True,annotation_only_not_signature_provenance
+SMAD5,SMAD5,SMAD5,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,SMAD5,Known motif,SMAD,True,annotation_only_not_signature_provenance
+ETS2,ETS2,ETS2,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ETS2,Known motif,Ets,True,annotation_only_not_signature_provenance
+GATA2,GATA2,GATA2,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,GATA2,Known motif,GATA,True,annotation_only_not_signature_provenance
+MECP2,MECP2,MECP2,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,MECP2,Known motif,MBD; AT hook,True,annotation_only_not_signature_provenance
+ZGPAT,ZGPAT,ZGPAT,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZGPAT,Likely to be sequence specific TF,CCCH ZF,True,annotation_only_not_signature_provenance
+RFX6,RFX6,RFX6,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,RFX6,Inferred motif,RFX,True,annotation_only_not_signature_provenance
+ZNF747,ZNF747,ZNF747,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZNF747,Likely to be sequence specific TF,C2H2 ZF,True,annotation_only_not_signature_provenance
+ZNF581,ZNF581,ZNF581,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZNF581,Known motif,C2H2 ZF,True,annotation_only_not_signature_provenance
+DLX3,DLX3,DLX3,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,DLX3,Known motif,Homeodomain,True,annotation_only_not_signature_provenance
+SPDEF,SPDEF,SPDEF,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,SPDEF,Known motif,Ets,True,annotation_only_not_signature_provenance
+MKX,MKX,MKX,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,MKX,Likely to be sequence specific TF,Homeodomain,True,annotation_only_not_signature_provenance
+OSR2,OSR2,OSR2,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,OSR2,Known motif,C2H2 ZF,True,annotation_only_not_signature_provenance
+FOS,FOS,FOS,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,FOS,Known motif,bZIP,True,annotation_only_not_signature_provenance
+NR1H3,NR1H3,NR1H3,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,NR1H3,Inferred motif,Nuclear receptor,True,annotation_only_not_signature_provenance
+LHX4,LHX4,LHX4,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,LHX4,Known motif,Homeodomain,True,annotation_only_not_signature_provenance
+TP53,TP53,TP53,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,TP53,Known motif,p53,True,annotation_only_not_signature_provenance
+PA2G4,PA2G4,PA2G4,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,PA2G4,Likely to be sequence specific TF,Unknown,True,annotation_only_not_signature_provenance
+ZBTB26,ZBTB26,ZBTB26,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZBTB26,Known motif,C2H2 ZF,True,annotation_only_not_signature_provenance
+IRF3,IRF3,IRF3,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,IRF3,Known motif,IRF,True,annotation_only_not_signature_provenance
+ETV5,ETV5,ETV5,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ETV5,Known motif,Ets,True,annotation_only_not_signature_provenance
+ZNF490,ZNF490,ZNF490,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZNF490,Known motif,C2H2 ZF,True,annotation_only_not_signature_provenance
+ZNF548,ZNF548,ZNF548,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZNF548,Known motif,C2H2 ZF,True,annotation_only_not_signature_provenance
+MTF2,MTF2,MTF2,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,MTF2,Known motif,Unknown,True,annotation_only_not_signature_provenance
+ZNF136,ZNF136,ZNF136,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZNF136,Known motif,C2H2 ZF,True,annotation_only_not_signature_provenance
+STAT4,STAT4,STAT4,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,STAT4,Known motif,STAT,True,annotation_only_not_signature_provenance
+SATB1,SATB1,SATB1,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,SATB1,Known motif,CUT; Homeodomain,True,annotation_only_not_signature_provenance
+ZBTB24,ZBTB24,ZBTB24,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZBTB24,Likely to be sequence specific TF,C2H2 ZF; AT hook,True,annotation_only_not_signature_provenance
+NFYB,NFYB,NFYB,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,NFYB,Known motif,Unknown,True,annotation_only_not_signature_provenance
+EHF,EHF,EHF,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,EHF,Known motif,Ets,True,annotation_only_not_signature_provenance
+ZNF610,ZNF610,ZNF610,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZNF610,Known motif,C2H2 ZF,True,annotation_only_not_signature_provenance
+NR2C1,NR2C1,NR2C1,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,NR2C1,Known motif,Nuclear receptor,True,annotation_only_not_signature_provenance
+CREB3L4,CREB3L4,CREB3L4,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,CREB3L4,Known motif,bZIP,True,annotation_only_not_signature_provenance
+ZNF8,ZNF8,ZNF8,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZNF8,Known motif,C2H2 ZF,True,annotation_only_not_signature_provenance
+ZNF785,ZNF785,ZNF785,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZNF785,Known motif,C2H2 ZF,True,annotation_only_not_signature_provenance
+TCF12,TCF12,TCF12,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,TCF12,Known motif,bHLH,True,annotation_only_not_signature_provenance
+MEIS2,MEIS2,MEIS2,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,MEIS2,Known motif,Homeodomain,True,annotation_only_not_signature_provenance
+ZNF554,ZNF554,ZNF554,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZNF554,Known motif,C2H2 ZF,True,annotation_only_not_signature_provenance
+ZNF436,ZNF436,ZNF436,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZNF436,Known motif,C2H2 ZF,True,annotation_only_not_signature_provenance
+ZNF200,ZNF200,ZNF200,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZNF200,Known motif,C2H2 ZF,True,annotation_only_not_signature_provenance
+ZNF558,ZNF558,ZNF558,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZNF558,Known motif,C2H2 ZF,True,annotation_only_not_signature_provenance
+POU2AF1,POU2AF1,POU2AF1,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,POU2AF1,Known motif,Unknown,True,annotation_only_not_signature_provenance
+ZNF57,ZNF57,ZNF57,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZNF57,Likely to be sequence specific TF,C2H2 ZF,True,annotation_only_not_signature_provenance
+SOX2,SOX2,SOX2,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,SOX2,Known motif,HMG/Sox,True,annotation_only_not_signature_provenance
+SOX10,SOX10,SOX10,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,SOX10,Known motif,HMG/Sox,True,annotation_only_not_signature_provenance
+TAL2,TAL2,TAL2,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,TAL2,Inferred motif,bHLH,True,annotation_only_not_signature_provenance
+HOXB5,HOXB5,HOXB5,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,HOXB5,Known motif,Homeodomain,True,annotation_only_not_signature_provenance
+FOXR1,FOXR1,FOXR1,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,FOXR1,Known motif,Forkhead,True,annotation_only_not_signature_provenance
+SATB2,SATB2,SATB2,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,SATB2,Inferred motif,CUT; Homeodomain,True,annotation_only_not_signature_provenance
+ZFP161,ZFP161,ZBTB14,previous_symbol_unique,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZBTB14,Known motif,C2H2 ZF,True,annotation_only_not_signature_provenance
+ZNF562,ZNF562,ZNF562,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZNF562,Known motif,C2H2 ZF,True,annotation_only_not_signature_provenance
+MBNL2,MBNL2,MBNL2,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,MBNL2,Likely to be sequence specific TF,CCCH ZF,True,annotation_only_not_signature_provenance
+SNAI3,SNAI3,SNAI3,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,SNAI3,Known motif,C2H2 ZF,True,annotation_only_not_signature_provenance
+BATF3,BATF3,BATF3,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,BATF3,Known motif,bZIP,True,annotation_only_not_signature_provenance
+ZNF786,ZNF786,ZNF786,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZNF786,Known motif,C2H2 ZF,True,annotation_only_not_signature_provenance
+ZNF267,ZNF267,ZNF267,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZNF267,Known motif,C2H2 ZF,True,annotation_only_not_signature_provenance
+ZKSCAN2,ZKSCAN2,ZKSCAN2,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZKSCAN2,Known motif,C2H2 ZF,True,annotation_only_not_signature_provenance
+ZFP28,ZFP28,ZFP28,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZFP28,Known motif,C2H2 ZF,True,annotation_only_not_signature_provenance
+TGIF2LY,TGIF2LY,TGIF2LY,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,TGIF2LY,Known motif,Homeodomain,True,annotation_only_not_signature_provenance
+ZNF22,ZNF22,ZNF22,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZNF22,Known motif,C2H2 ZF,True,annotation_only_not_signature_provenance
+ZNF174,ZNF174,ZNF174,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZNF174,Known motif,C2H2 ZF,True,annotation_only_not_signature_provenance
+SPIC,SPIC,SPIC,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,SPIC,Known motif,Ets,True,annotation_only_not_signature_provenance
+RORC,RORC,RORC,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,RORC,Known motif,Nuclear receptor,True,annotation_only_not_signature_provenance
+CREB3L1,CREB3L1,CREB3L1,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,CREB3L1,Known motif,bZIP,True,annotation_only_not_signature_provenance
+SCMH1,SCMH1,SCMH1,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,SCMH1,Likely to be sequence specific TF,Unknown,True,annotation_only_not_signature_provenance
+ZNF626,ZNF626,ZNF626,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZNF626,Known motif,C2H2 ZF,True,annotation_only_not_signature_provenance
+HMGA1,HMGA1,HMGA1,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,HMGA1,Known motif,AT hook,True,annotation_only_not_signature_provenance
+TSC22D1,TSC22D1,TSC22D1,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,TSC22D1,Likely to be sequence specific TF,Unknown,True,annotation_only_not_signature_provenance
+MXD3,MXD3,MXD3,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,MXD3,Inferred motif,bHLH,True,annotation_only_not_signature_provenance
+TFDP2,TFDP2,TFDP2,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,TFDP2,Inferred motif,E2F,True,annotation_only_not_signature_provenance
+ZNF24,ZNF24,ZNF24,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZNF24,Likely to be sequence specific TF,C2H2 ZF,True,annotation_only_not_signature_provenance
+PAX8,PAX8,PAX8,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,PAX8,Known motif,Paired box,True,annotation_only_not_signature_provenance
+FLI1,FLI1,FLI1,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,FLI1,Known motif,Ets,True,annotation_only_not_signature_provenance
+ZNF764,ZNF764,ZNF764,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZNF764,Known motif,C2H2 ZF,True,annotation_only_not_signature_provenance
+PREB,PREB,PREB,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,PREB,Likely to be sequence specific TF,Unknown,True,annotation_only_not_signature_provenance
+NFIL3,NFIL3,NFIL3,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,NFIL3,Known motif,bZIP,True,annotation_only_not_signature_provenance
+RARA,RARA,RARA,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,RARA,Known motif,Nuclear receptor,True,annotation_only_not_signature_provenance
+RXRG,RXRG,RXRG,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,RXRG,Known motif,Nuclear receptor,True,annotation_only_not_signature_provenance
+SMAD1,SMAD1,SMAD1,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,SMAD1,Known motif,SMAD,True,annotation_only_not_signature_provenance
+NR0B1,NR0B1,NR0B1,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,NR0B1,Known motif,Unknown,True,annotation_only_not_signature_provenance
+CEBPG,CEBPG,CEBPG,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,CEBPG,Known motif,bZIP,True,annotation_only_not_signature_provenance
+ANKZF1,ANKZF1,ANKZF1,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ANKZF1,Likely to be sequence specific TF,C2H2 ZF,True,annotation_only_not_signature_provenance
+ZNF398,ZNF398,ZNF398,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZNF398,Known motif,C2H2 ZF,True,annotation_only_not_signature_provenance
+ZNF546,ZNF546,ZNF546,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZNF546,Likely to be sequence specific TF,C2H2 ZF,True,annotation_only_not_signature_provenance
+ZNF227,ZNF227,ZNF227,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZNF227,Likely to be sequence specific TF,C2H2 ZF,True,annotation_only_not_signature_provenance
+ZNF677,ZNF677,ZNF677,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZNF677,Known motif,C2H2 ZF,True,annotation_only_not_signature_provenance
+ELK1,ELK1,ELK1,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ELK1,Known motif,Ets,True,annotation_only_not_signature_provenance
+GTF2B,GTF2B,GTF2B,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,GTF2B,Known motif,Unknown,True,annotation_only_not_signature_provenance
+OLIG3,OLIG3,OLIG3,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,OLIG3,Known motif,bHLH,True,annotation_only_not_signature_provenance
+ZNF488,ZNF488,ZNF488,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZNF488,Likely to be sequence specific TF,C2H2 ZF,True,annotation_only_not_signature_provenance
+STAT2,STAT2,STAT2,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,STAT2,Known motif,STAT,True,annotation_only_not_signature_provenance
+ZNF790,ZNF790,ZNF790,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZNF790,Known motif,C2H2 ZF,True,annotation_only_not_signature_provenance
+ZNF74,ZNF74,ZNF74,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZNF74,Known motif,C2H2 ZF,True,annotation_only_not_signature_provenance
+FOXP4,FOXP4,FOXP4,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,FOXP4,Inferred motif,Forkhead,True,annotation_only_not_signature_provenance
+GATAD2B,GATAD2B,GATAD2B,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,GATAD2B,Likely to be sequence specific TF,GATA,True,annotation_only_not_signature_provenance
+KLF3,KLF3,KLF3,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,KLF3,Known motif,C2H2 ZF,True,annotation_only_not_signature_provenance
+LHX8,LHX8,LHX8,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,LHX8,Known motif,Homeodomain,True,annotation_only_not_signature_provenance
+STAT6,STAT6,STAT6,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,STAT6,Known motif,STAT,True,annotation_only_not_signature_provenance
+DMTF1,DMTF1,DMTF1,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,DMTF1,Likely to be sequence specific TF,Myb/SANT,True,annotation_only_not_signature_provenance
+RBPJ,RBPJ,RBPJ,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,RBPJ,Known motif,CSL,True,annotation_only_not_signature_provenance
+HOXA10,HOXA10,HOXA10,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,HOXA10,Known motif,Homeodomain,True,annotation_only_not_signature_provenance
+ZNF77,ZNF77,ZNF77,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZNF77,Known motif,C2H2 ZF,True,annotation_only_not_signature_provenance
+SREBF1,SREBF1,SREBF1,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,SREBF1,Known motif,bHLH,True,annotation_only_not_signature_provenance
+ZNF219,ZNF219,ZNF219,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZNF219,Known motif,C2H2 ZF,True,annotation_only_not_signature_provenance
+NFATC3,NFATC3,NFATC3,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,NFATC3,Known motif,Rel,True,annotation_only_not_signature_provenance
+HOXB7,HOXB7,HOXB7,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,HOXB7,Known motif,Homeodomain,True,annotation_only_not_signature_provenance
+ZNF524,ZNF524,ZNF524,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZNF524,Known motif,C2H2 ZF; AT hook,True,annotation_only_not_signature_provenance
+ZNF653,ZNF653,ZNF653,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZNF653,Known motif,C2H2 ZF; AT hook,True,annotation_only_not_signature_provenance
+CDX2,CDX2,CDX2,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,CDX2,Known motif,Homeodomain,True,annotation_only_not_signature_provenance
+ZNF134,ZNF134,ZNF134,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZNF134,Known motif,C2H2 ZF,True,annotation_only_not_signature_provenance
+HOXA2,HOXA2,HOXA2,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,HOXA2,Known motif,Homeodomain,True,annotation_only_not_signature_provenance
+FOXP3,FOXP3,FOXP3,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,FOXP3,Known motif,Forkhead,True,annotation_only_not_signature_provenance
+ZNF672,ZNF672,ZNF672,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZNF672,Likely to be sequence specific TF,C2H2 ZF,True,annotation_only_not_signature_provenance
+PRKRIR,PRKRIR,THAP12,previous_symbol_unique,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,THAP12,Known motif,THAP finger,True,annotation_only_not_signature_provenance
+CLOCK,CLOCK,CLOCK,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,CLOCK,Known motif,bHLH,True,annotation_only_not_signature_provenance
+E2F8,E2F8,E2F8,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,E2F8,Known motif,E2F,True,annotation_only_not_signature_provenance
+ZNF217,ZNF217,ZNF217,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZNF217,Known motif,C2H2 ZF,True,annotation_only_not_signature_provenance
+ZFP3,ZFP3,ZFP3,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZFP3,Known motif,C2H2 ZF,True,annotation_only_not_signature_provenance
+ISX,ISX,ISX,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ISX,Known motif,Homeodomain,True,annotation_only_not_signature_provenance
+MTERFD1,MTERFD1,MTERF3,previous_symbol_unique,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,MTERF3,Likely to be sequence specific TF,mTERF,True,annotation_only_not_signature_provenance
+BRF2,BRF2,BRF2,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,BRF2,Likely to be sequence specific TF,Unknown,True,annotation_only_not_signature_provenance
+NFIB,NFIB,NFIB,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,NFIB,Known motif,SMAD,True,annotation_only_not_signature_provenance
+SMAD4,SMAD4,SMAD4,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,SMAD4,Known motif,SMAD,True,annotation_only_not_signature_provenance
+GMEB1,GMEB1,GMEB1,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,GMEB1,Known motif,SAND,True,annotation_only_not_signature_provenance
+ZNF133,ZNF133,ZNF133,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZNF133,Known motif,C2H2 ZF,True,annotation_only_not_signature_provenance
+ATMIN,ATMIN,ATMIN,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ATMIN,Likely to be sequence specific TF,C2H2 ZF,True,annotation_only_not_signature_provenance
+ZNF85,ZNF85,ZNF85,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZNF85,Known motif,C2H2 ZF,True,annotation_only_not_signature_provenance
+MAFG,MAFG,MAFG,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,MAFG,Known motif,bZIP,True,annotation_only_not_signature_provenance
+SNAI2,SNAI2,SNAI2,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,SNAI2,Known motif,C2H2 ZF,True,annotation_only_not_signature_provenance
+HOXA5,HOXA5,HOXA5,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,HOXA5,Known motif,Homeodomain,True,annotation_only_not_signature_provenance
+FOSL1,FOSL1,FOSL1,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,FOSL1,Known motif,bZIP,True,annotation_only_not_signature_provenance
+HOXA9,HOXA9,HOXA9,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,HOXA9,Known motif,Homeodomain,True,annotation_only_not_signature_provenance
+HLF,HLF,HLF,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,HLF,Known motif,bZIP,True,annotation_only_not_signature_provenance
+HMG20B,HMG20B,HMG20B,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,HMG20B,Inferred motif,HMG/Sox,True,annotation_only_not_signature_provenance
+TFAP4,TFAP4,TFAP4,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,TFAP4,Known motif,bHLH,True,annotation_only_not_signature_provenance
+CREB1,CREB1,CREB1,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,CREB1,Known motif,bZIP,True,annotation_only_not_signature_provenance
+HOXC10,HOXC10,HOXC10,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,HOXC10,Known motif,Homeodomain,True,annotation_only_not_signature_provenance
+PCGF2,PCGF2,PCGF2,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,PCGF2,Likely to be sequence specific TF,Unknown,True,annotation_only_not_signature_provenance
+ZNF597,ZNF597,ZNF597,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZNF597,Known motif,C2H2 ZF,True,annotation_only_not_signature_provenance
+ZBTB25,ZBTB25,ZBTB25,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZBTB25,Likely to be sequence specific TF,C2H2 ZF,True,annotation_only_not_signature_provenance
+ZNF563,ZNF563,ZNF563,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZNF563,Known motif,C2H2 ZF,True,annotation_only_not_signature_provenance
+PPARG,PPARG,PPARG,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,PPARG,Known motif,Nuclear receptor,True,annotation_only_not_signature_provenance
+ZBTB20,ZBTB20,ZBTB20,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZBTB20,Known motif,C2H2 ZF,True,annotation_only_not_signature_provenance
+DDIT3,DDIT3,DDIT3,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,DDIT3,Known motif,bZIP,True,annotation_only_not_signature_provenance
+PIN1,PIN1,PIN1,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,PIN1,Likely to be sequence specific TF,MBD,True,annotation_only_not_signature_provenance
+DR1,DR1,DR1,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,DR1,Likely to be sequence specific TF,Unknown,True,annotation_only_not_signature_provenance
+ZNF555,ZNF555,ZNF555,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZNF555,Known motif,C2H2 ZF,True,annotation_only_not_signature_provenance
+TRAFD1,TRAFD1,TRAFD1,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,TRAFD1,Likely to be sequence specific TF,C2H2 ZF,True,annotation_only_not_signature_provenance
+ZNF426,ZNF426,ZNF426,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZNF426,Likely to be sequence specific TF,C2H2 ZF,True,annotation_only_not_signature_provenance
+RFX4,RFX4,RFX4,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,RFX4,Known motif,RFX,True,annotation_only_not_signature_provenance
+ZNF473,ZNF473,ZNF473,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZNF473,Likely to be sequence specific TF,C2H2 ZF,True,annotation_only_not_signature_provenance
+ZNF273,ZNF273,ZNF273,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZNF273,Known motif,C2H2 ZF,True,annotation_only_not_signature_provenance
+MSX2,MSX2,MSX2,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,MSX2,Known motif,Homeodomain,True,annotation_only_not_signature_provenance
+E2F6,E2F6,E2F6,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,E2F6,Known motif,E2F,True,annotation_only_not_signature_provenance
+ZNF213,ZNF213,ZNF213,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZNF213,Known motif,C2H2 ZF,True,annotation_only_not_signature_provenance
+ZNF296,ZNF296,ZNF296,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZNF296,Known motif,C2H2 ZF,True,annotation_only_not_signature_provenance
+GRHL3,GRHL3,GRHL3,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,GRHL3,Likely to be sequence specific TF,Grainyhead,True,annotation_only_not_signature_provenance
+RARB,RARB,RARB,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,RARB,Known motif,Nuclear receptor,True,annotation_only_not_signature_provenance
+ERG,ERG,ERG,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ERG,Known motif,Ets,True,annotation_only_not_signature_provenance
+VDR,VDR,VDR,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,VDR,Known motif,Nuclear receptor,True,annotation_only_not_signature_provenance
+BCL6B,BCL6B,BCL6B,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,BCL6B,Known motif,C2H2 ZF,True,annotation_only_not_signature_provenance
+ZNF449,ZNF449,ZNF449,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZNF449,Known motif,C2H2 ZF,True,annotation_only_not_signature_provenance
+IRF9,IRF9,IRF9,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,IRF9,Known motif,IRF,True,annotation_only_not_signature_provenance
+EBF1,EBF1,EBF1,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,EBF1,Known motif,EBF1,True,annotation_only_not_signature_provenance
+BACH1,BACH1,BACH1,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,BACH1,Known motif,bZIP,True,annotation_only_not_signature_provenance
+ZNF281,ZNF281,ZNF281,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZNF281,Known motif,C2H2 ZF,True,annotation_only_not_signature_provenance
+ARNTL,ARNTL,BMAL1,previous_symbol_unique,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ARNTL,Known motif,bHLH,True,annotation_only_not_signature_provenance
+HOXC4,HOXC4,HOXC4,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,HOXC4,Known motif,Homeodomain,True,annotation_only_not_signature_provenance
+ZNF519,ZNF519,ZNF519,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZNF519,Known motif,C2H2 ZF,True,annotation_only_not_signature_provenance
+TERF1,TERF1,TERF1,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,TERF1,Likely to be sequence specific TF,Myb/SANT,True,annotation_only_not_signature_provenance
+SMYD3,SMYD3,SMYD3,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,SMYD3,Likely to be sequence specific TF,Unknown,True,annotation_only_not_signature_provenance
+ZNF317,ZNF317,ZNF317,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZNF317,Known motif,C2H2 ZF,True,annotation_only_not_signature_provenance
+ATF2,ATF2,ATF2,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ATF2,Known motif,bZIP,True,annotation_only_not_signature_provenance
+ZNF454,ZNF454,ZNF454,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZNF454,Known motif,C2H2 ZF,True,annotation_only_not_signature_provenance
+ZNF572,ZNF572,ZNF572,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZNF572,Likely to be sequence specific TF,C2H2 ZF,True,annotation_only_not_signature_provenance
+ZFP112,ZFP112,ZNF112,previous_symbol_unique,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZNF112,Likely to be sequence specific TF,C2H2 ZF,True,annotation_only_not_signature_provenance
+SALL4,SALL4,SALL4,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,SALL4,Inferred motif,C2H2 ZF,True,annotation_only_not_signature_provenance
+ZNF268,ZNF268,ZNF268,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZNF268,Likely to be sequence specific TF,C2H2 ZF,True,annotation_only_not_signature_provenance
+TBX20,TBX20,TBX20,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,TBX20,Known motif,T-box,True,annotation_only_not_signature_provenance
+ZIM3,ZIM3,ZIM3,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZIM3,Known motif,C2H2 ZF,True,annotation_only_not_signature_provenance
+ZNF114,ZNF114,ZNF114,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZNF114,Known motif,C2H2 ZF,True,annotation_only_not_signature_provenance
+NR5A2,NR5A2,NR5A2,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,NR5A2,Known motif,Nuclear receptor,True,annotation_only_not_signature_provenance
+ZNF195,ZNF195,ZNF195,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZNF195,Likely to be sequence specific TF,C2H2 ZF,True,annotation_only_not_signature_provenance
+HSF2,HSF2,HSF2,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,HSF2,Known motif,HSF,True,annotation_only_not_signature_provenance
+ZNF366,ZNF366,ZNF366,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZNF366,Likely to be sequence specific TF,C2H2 ZF,True,annotation_only_not_signature_provenance
+TCF4,TCF4,TCF4,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,TCF4,Known motif,bHLH,True,annotation_only_not_signature_provenance
+ZBTB49,ZBTB49,ZBTB49,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZBTB49,Known motif,C2H2 ZF,True,annotation_only_not_signature_provenance
+ESR1,ESR1,ESR1,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ESR1,Known motif,Nuclear receptor,True,annotation_only_not_signature_provenance
+KLF6,KLF6,KLF6,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,KLF6,Known motif,C2H2 ZF,True,annotation_only_not_signature_provenance
+ZBTB48,ZBTB48,ZBTB48,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZBTB48,Known motif,C2H2 ZF,True,annotation_only_not_signature_provenance
+ZBED1,ZBED1,ZBED1,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZBED1,Known motif,BED ZF,True,annotation_only_not_signature_provenance
+STAT3,STAT3,STAT3,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,STAT3,Known motif,STAT,True,annotation_only_not_signature_provenance
+ZNF576,ZNF576,ZNF576,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZNF576,Likely to be sequence specific TF,C2H2 ZF,True,annotation_only_not_signature_provenance
+OVOL2,OVOL2,OVOL2,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,OVOL2,Known motif,C2H2 ZF,True,annotation_only_not_signature_provenance
+HOXB13,HOXB13,HOXB13,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,HOXB13,Known motif,Homeodomain,True,annotation_only_not_signature_provenance
+ZNF263,ZNF263,ZNF263,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZNF263,Known motif,C2H2 ZF,True,annotation_only_not_signature_provenance
+STAT1,STAT1,STAT1,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,STAT1,Known motif,STAT,True,annotation_only_not_signature_provenance
+STAT5A,STAT5A,STAT5A,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,STAT5A,Known motif,STAT,True,annotation_only_not_signature_provenance
+PRDM4,PRDM4,PRDM4,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,PRDM4,Known motif,C2H2 ZF,True,annotation_only_not_signature_provenance
+SETDB1,SETDB1,SETDB1,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,SETDB1,Known motif,MBD,True,annotation_only_not_signature_provenance
+ELK3,ELK3,ELK3,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ELK3,Known motif,Ets,True,annotation_only_not_signature_provenance
+HSF1,HSF1,HSF1,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,HSF1,Known motif,HSF,True,annotation_only_not_signature_provenance
+ZNF350,ZNF350,ZNF350,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZNF350,Known motif,C2H2 ZF,True,annotation_only_not_signature_provenance
+ZNF559,ZNF559,ZNF559,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZNF559,Likely to be sequence specific TF,C2H2 ZF,True,annotation_only_not_signature_provenance
+PHF1,PHF1,PHF1,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,PHF1,Known motif,Unknown,True,annotation_only_not_signature_provenance
+ZNF595,ZNF595,ZNF595,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZNF595,Known motif,C2H2 ZF,True,annotation_only_not_signature_provenance
+ZNF202,ZNF202,ZNF202,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZNF202,Known motif,C2H2 ZF,True,annotation_only_not_signature_provenance
+ZNF274,ZNF274,ZNF274,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZNF274,Known motif,C2H2 ZF,True,annotation_only_not_signature_provenance
+ELF4,ELF4,ELF4,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ELF4,Known motif,Ets,True,annotation_only_not_signature_provenance
+WT1,WT1,WT1,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,WT1,Known motif,C2H2 ZF,True,annotation_only_not_signature_provenance
+HEY1,HEY1,HEY1,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,HEY1,Known motif,bHLH,True,annotation_only_not_signature_provenance
+ZNF625,ZNF625,ZNF625,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZNF625,Likely to be sequence specific TF,C2H2 ZF,True,annotation_only_not_signature_provenance
+TEAD4,TEAD4,TEAD4,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,TEAD4,Known motif,TEA,True,annotation_only_not_signature_provenance
+PPARD,PPARD,PPARD,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,PPARD,Known motif,Nuclear receptor,True,annotation_only_not_signature_provenance
+ZNF212,ZNF212,ZNF212,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZNF212,Known motif,C2H2 ZF,True,annotation_only_not_signature_provenance
+IRF5,IRF5,IRF5,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,IRF5,Known motif,IRF,True,annotation_only_not_signature_provenance
+MEF2A,MEF2A,MEF2A,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,MEF2A,Known motif,MADS box,True,annotation_only_not_signature_provenance
+ZNF689,ZNF689,ZNF689,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZNF689,Likely to be sequence specific TF,C2H2 ZF,True,annotation_only_not_signature_provenance
+NFE2L2,NFE2L2,NFE2L2,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,NFE2L2,Known motif,bZIP,True,annotation_only_not_signature_provenance
+KAT7,KAT7,KAT7,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,KAT7,Likely to be sequence specific TF,C2H2 ZF,True,annotation_only_not_signature_provenance
+RFX5,RFX5,RFX5,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,RFX5,Known motif,RFX,True,annotation_only_not_signature_provenance
+ELF1,ELF1,ELF1,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ELF1,Known motif,Ets,True,annotation_only_not_signature_provenance
+TFCP2,TFCP2,TFCP2,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,TFCP2,Known motif,Grainyhead,True,annotation_only_not_signature_provenance
+ZNF92,ZNF92,ZNF92,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZNF92,Likely to be sequence specific TF,C2H2 ZF,True,annotation_only_not_signature_provenance
+ZNF238,ZNF238,ZBTB18,previous_symbol_unique,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZBTB18,Known motif,C2H2 ZF,True,annotation_only_not_signature_provenance
+ZNF680,ZNF680,ZNF680,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZNF680,Known motif,C2H2 ZF,True,annotation_only_not_signature_provenance
+ZNF502,ZNF502,ZNF502,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZNF502,Known motif,C2H2 ZF,True,annotation_only_not_signature_provenance
+ERF,ERF,ERF,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ERF,Known motif,Ets,True,annotation_only_not_signature_provenance
+NR3C1,NR3C1,NR3C1,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,NR3C1,Known motif,Nuclear receptor,True,annotation_only_not_signature_provenance
+CTCF,CTCF,CTCF,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,CTCF,Known motif,C2H2 ZF,True,annotation_only_not_signature_provenance
+HIF1A,HIF1A,HIF1A,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,HIF1A,Known motif,bHLH,True,annotation_only_not_signature_provenance
+MITF,MITF,MITF,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,MITF,Known motif,bHLH,True,annotation_only_not_signature_provenance
+TFAP2A,TFAP2A,TFAP2A,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,TFAP2A,Known motif,AP-2,True,annotation_only_not_signature_provenance
+LEF1,LEF1,LEF1,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,LEF1,Known motif,HMG/Sox,True,annotation_only_not_signature_provenance
+SMAD3,SMAD3,SMAD3,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,SMAD3,Known motif,SMAD,True,annotation_only_not_signature_provenance
+ZNF175,ZNF175,ZNF175,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZNF175,Known motif,C2H2 ZF,True,annotation_only_not_signature_provenance
+NFKB1,NFKB1,NFKB1,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,NFKB1,Known motif,Rel,True,annotation_only_not_signature_provenance
+HOXC9,HOXC9,HOXC9,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,HOXC9,Known motif,Homeodomain,True,annotation_only_not_signature_provenance
+TWIST2,TWIST2,TWIST2,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,TWIST2,Known motif,bHLH,True,annotation_only_not_signature_provenance
+SIX2,SIX2,SIX2,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,SIX2,Known motif,Homeodomain,True,annotation_only_not_signature_provenance
+FOSL2,FOSL2,FOSL2,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,FOSL2,Known motif,bZIP,True,annotation_only_not_signature_provenance
+ZNF32,ZNF32,ZNF32,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZNF32,Known motif,C2H2 ZF,True,annotation_only_not_signature_provenance
+HOXA6,HOXA6,HOXA6,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,HOXA6,Known motif,Homeodomain,True,annotation_only_not_signature_provenance
+EGR1,EGR1,EGR1,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,EGR1,Known motif,C2H2 ZF,True,annotation_only_not_signature_provenance
+FOXO3,FOXO3,FOXO3,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,FOXO3,Known motif,Forkhead,True,annotation_only_not_signature_provenance
+ZNF331,ZNF331,ZNF331,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZNF331,Known motif,C2H2 ZF,True,annotation_only_not_signature_provenance
+PRDM1,PRDM1,PRDM1,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,PRDM1,Known motif,C2H2 ZF,True,annotation_only_not_signature_provenance
+ZNF418,ZNF418,ZNF418,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZNF418,Known motif,C2H2 ZF,True,annotation_only_not_signature_provenance
+CTCFL,CTCFL,CTCFL,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,CTCFL,Known motif,C2H2 ZF,True,annotation_only_not_signature_provenance
+ZNF266,ZNF266,ZNF266,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZNF266,Known motif,C2H2 ZF,True,annotation_only_not_signature_provenance
+ZNF791,ZNF791,ZNF791,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZNF791,Known motif,C2H2 ZF,True,annotation_only_not_signature_provenance
+SIM2,SIM2,SIM2,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,SIM2,Inferred motif,bHLH,True,annotation_only_not_signature_provenance
+ZNF300,ZNF300,ZNF300,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZNF300,Known motif,C2H2 ZF,True,annotation_only_not_signature_provenance
+FOXJ2,FOXJ2,FOXJ2,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,FOXJ2,Known motif,Forkhead,True,annotation_only_not_signature_provenance
+ZNF583,ZNF583,ZNF583,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZNF583,Likely to be sequence specific TF,C2H2 ZF,True,annotation_only_not_signature_provenance
+ZNF543,ZNF543,ZNF543,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZNF543,Known motif,C2H2 ZF,True,annotation_only_not_signature_provenance
+ZNF582,ZNF582,ZNF582,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZNF582,Known motif,C2H2 ZF,True,annotation_only_not_signature_provenance
+ZNF517,ZNF517,ZNF517,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZNF517,Likely to be sequence specific TF,C2H2 ZF,True,annotation_only_not_signature_provenance
+ETV1,ETV1,ETV1,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ETV1,Known motif,Ets,True,annotation_only_not_signature_provenance
+PBX4,PBX4,PBX4,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,PBX4,Known motif,Homeodomain,True,annotation_only_not_signature_provenance
+LHX9,LHX9,LHX9,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,LHX9,Known motif,Homeodomain,True,annotation_only_not_signature_provenance
+POU5F1,POU5F1,POU5F1,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,POU5F1,Known motif,Homeodomain; POU,True,annotation_only_not_signature_provenance
+EGR3,EGR3,EGR3,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,EGR3,Known motif,C2H2 ZF,True,annotation_only_not_signature_provenance
+ZNF621,ZNF621,ZNF621,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZNF621,Known motif,C2H2 ZF,True,annotation_only_not_signature_provenance
+AIRE,AIRE,AIRE,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,AIRE,Known motif,SAND,True,annotation_only_not_signature_provenance
+HNF4A,HNF4A,HNF4A,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,HNF4A,Known motif,Nuclear receptor,True,annotation_only_not_signature_provenance
+RARG,RARG,RARG,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,RARG,Known motif,Nuclear receptor,True,annotation_only_not_signature_provenance
+ZNF669,ZNF669,ZNF669,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZNF669,Known motif,C2H2 ZF,True,annotation_only_not_signature_provenance
+TCF7L2,TCF7L2,TCF7L2,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,TCF7L2,Known motif,HMG/Sox,True,annotation_only_not_signature_provenance
+ZNF692,ZNF692,ZNF692,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZNF692,Known motif,C2H2 ZF,True,annotation_only_not_signature_provenance
+RELB,RELB,RELB,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,RELB,Known motif,Rel,True,annotation_only_not_signature_provenance
+MYB,MYB,MYB,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,MYB,Known motif,Myb/SANT,True,annotation_only_not_signature_provenance
+NR2F6,NR2F6,NR2F6,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,NR2F6,Known motif,Nuclear receptor,True,annotation_only_not_signature_provenance
+BCL6,BCL6,BCL6,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,BCL6,Known motif,C2H2 ZF,True,annotation_only_not_signature_provenance
+NCOA3,NCOA3,NCOA3,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,NCOA3,Likely to be sequence specific TF,bHLH,True,annotation_only_not_signature_provenance
+ZNF525,ZNF525,ZNF525,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,ZNF525,Known motif,C2H2 ZF,False,annotation_only_not_signature_provenance
+CREB5,CREB5,CREB5,approved_exact,False,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,CREB5,Known motif,bZIP,True,annotation_only_not_signature_provenance
+ZNF788,ZNF788,ZNF788P,previous_symbol_unique,False,False,no_MUT_label,pseudogene,pseudogene,TF,True,True,ZNF788,Likely to be sequence specific TF,C2H2 ZF,False,annotation_only_not_signature_provenance
+(DDIT3),DDIT3,DDIT3,approved_exact,True,False,no_MUT_label,protein-coding gene,gene with protein product,TF,True,True,DDIT3,Known motif,bZIP,True,annotation_only_not_signature_provenance

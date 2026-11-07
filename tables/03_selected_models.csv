@@ -1,0 +1,253 @@
+﻿target,scope,model,relative_alpha,alpha,n_active_gt_1e_6,selection_at_lowest_alpha
+common myeloid progenitor,outer_01,Lasso_min,0.0517947467923,0.00605815965169,536,False
+common myeloid progenitor,outer_01,Lasso_1se,0.244205309455,0.0285634131662,99,False
+common myeloid progenitor,outer_02,Lasso_min,0.0596362331659,0.0065506987613,489,False
+common myeloid progenitor,outer_02,Lasso_1se,0.212095088792,0.0232974311366,139,False
+common myeloid progenitor,outer_03,Lasso_min,0.0517947467923,0.0060046515215,539,False
+common myeloid progenitor,outer_03,Lasso_1se,0.138949549437,0.0161086533888,190,False
+common myeloid progenitor,outer_04,Lasso_min,0.0517947467923,0.00600066436083,535,False
+common myeloid progenitor,outer_04,Lasso_1se,0.138949549437,0.0160979570497,214,False
+common myeloid progenitor,outer_05,Lasso_min,0.0596362331659,0.00666831766058,515,False
+common myeloid progenitor,outer_05,Lasso_1se,0.244205309455,0.027306194429,104,False
+common myeloid progenitor,full,Lasso_min,0.0449843266897,0.00509980708313,580,False
+common myeloid progenitor,full,Lasso_1se,0.138949549437,0.015752506452,204,False
+erythrocyte,outer_01,Lasso_min,0.00409491506238,0.00132336533892,1151,False
+erythrocyte,outer_01,Lasso_1se,0.0193069772888,0.00623949072306,597,False
+erythrocyte,outer_02,Lasso_min,0.00471486636346,0.00150769556285,1068,False
+erythrocyte,outer_02,Lasso_1se,0.0222299648253,0.0071085830956,543,False
+erythrocyte,outer_03,Lasso_min,0.00471486636346,0.00153959190972,1057,False
+erythrocyte,outer_03,Lasso_1se,0.00828642772855,0.00270584913928,879,False
+erythrocyte,outer_04,Lasso_min,0.00471486636346,0.00149440846838,1086,False
+erythrocyte,outer_04,Lasso_1se,0.0193069772888,0.00611947574652,626,False
+erythrocyte,outer_05,Lasso_min,0.00471486636346,0.00154118806159,1080,False
+erythrocyte,outer_05,Lasso_1se,0.0222299648253,0.00726649575133,557,False
+erythrocyte,full,Lasso_min,0.00409491506238,0.00131662342183,1142,False
+erythrocyte,full,Lasso_1se,0.0193069772888,0.00620770348494,593,False
+platelet,outer_01,Lasso_min,0.0126485521686,0.00251116397709,919,False
+platelet,outer_01,Lasso_1se,0.033932217719,0.0067366890426,575,False
+platelet,outer_02,Lasso_min,0.0109854114199,0.00213109075622,989,False
+platelet,outer_02,Lasso_1se,0.025595479227,0.00496533876583,663,False
+platelet,outer_03,Lasso_min,0.0126485521686,0.00245254441138,926,False
+platelet,outer_03,Lasso_1se,0.0222299648253,0.00431037286093,745,False
+platelet,outer_04,Lasso_min,0.0109854114199,0.0021389114331,973,False
+platelet,outer_04,Lasso_1se,0.033932217719,0.00660676288356,562,False
+platelet,outer_05,Lasso_min,0.0109854114199,0.00214860887327,947,False
+platelet,outer_05,Lasso_1se,0.025595479227,0.00500615513438,680,False
+platelet,full,Lasso_min,0.0109854114199,0.00213156413879,974,False
+platelet,full,Lasso_1se,0.0193069772888,0.00374624662149,798,False
+macrophage,outer_01,Lasso_min,0.00828642772855,0.0019990311219,964,False
+macrophage,outer_01,Lasso_1se,0.0193069772888,0.00465764618174,679,False
+macrophage,outer_02,Lasso_min,0.00719685673001,0.00171744999378,1046,False
+macrophage,outer_02,Lasso_1se,0.0193069772888,0.00460739587692,680,False
+macrophage,outer_03,Lasso_min,0.0095409547635,0.00229579000115,926,False
+macrophage,outer_03,Lasso_1se,0.0167683293681,0.00403487531945,718,False
+macrophage,outer_04,Lasso_min,0.00828642772855,0.00203101813083,951,False
+macrophage,outer_04,Lasso_1se,0.0193069772888,0.00473217437111,667,False
+macrophage,outer_05,Lasso_min,0.0095409547635,0.00226681723371,898,False
+macrophage,outer_05,Lasso_1se,0.0294705170255,0.00700184389672,524,False
+macrophage,full,Lasso_min,0.00719685673001,0.00173185055378,1019,False
+macrophage,full,Lasso_1se,0.0126485521686,0.00304374574894,824,False
+B cell,outer_01,Lasso_min,0.0109854114199,0.00228592214179,927,False
+B cell,outer_01,Lasso_1se,0.033932217719,0.00706085596972,551,False
+B cell,outer_02,Lasso_min,0.0095409547635,0.00199207580765,1021,False
+B cell,outer_02,Lasso_1se,0.0193069772888,0.00403114398183,744,False
+B cell,outer_03,Lasso_min,0.0109854114199,0.00226475831642,949,False
+B cell,outer_03,Lasso_1se,0.0294705170255,0.00607565761279,609,False
+B cell,outer_04,Lasso_min,0.0126485521686,0.00261850388735,908,False
+B cell,outer_04,Lasso_1se,0.025595479227,0.00529877735897,676,False
+B cell,outer_05,Lasso_min,0.0109854114199,0.00234435171708,926,False
+B cell,outer_05,Lasso_1se,0.0193069772888,0.00412022305117,749,False
+B cell,full,Lasso_min,0.00828642772855,0.00172909766085,1089,False
+B cell,full,Lasso_1se,0.025595479227,0.0053409122374,656,False
+monocyte,outer_01,Lasso_min,0.0126485521686,0.00244855209029,896,False
+monocyte,outer_01,Lasso_1se,0.0390693993705,0.00756319444473,558,False
+monocyte,outer_02,Lasso_min,0.0095409547635,0.00176683892383,1018,False
+monocyte,outer_02,Lasso_1se,0.0390693993705,0.00723505532199,560,False
+monocyte,outer_03,Lasso_min,0.0109854114199,0.00205523669254,984,False
+monocyte,outer_03,Lasso_1se,0.033932217719,0.00634830469699,586,False
+monocyte,outer_04,Lasso_min,0.0109854114199,0.00205841348747,961,False
+monocyte,outer_04,Lasso_1se,0.0193069772888,0.00361768357458,770,False
+monocyte,outer_05,Lasso_min,0.0126485521686,0.00244221679456,913,False
+monocyte,outer_05,Lasso_1se,0.0449843266897,0.00868569593339,492,False
+monocyte,full,Lasso_min,0.0095409547635,0.00178854757421,1054,False
+monocyte,full,Lasso_1se,0.025595479227,0.00479812905699,683,False
+natural killer cell,outer_01,Lasso_min,0.0095409547635,0.00192304908847,1031,False
+natural killer cell,outer_01,Lasso_1se,0.025595479227,0.00515895570375,673,False
+natural killer cell,outer_02,Lasso_min,0.0109854114199,0.00204805761553,980,False
+natural killer cell,outer_02,Lasso_1se,0.0294705170255,0.00549431555367,644,False
+natural killer cell,outer_03,Lasso_min,0.0095409547635,0.00179123807673,1053,False
+natural killer cell,outer_03,Lasso_1se,0.0167683293681,0.0031481199515,843,False
+natural killer cell,outer_04,Lasso_min,0.0095409547635,0.00188360040877,1036,False
+natural killer cell,outer_04,Lasso_1se,0.0222299648253,0.00438869818271,712,False
+natural killer cell,outer_05,Lasso_min,0.00828642772855,0.00159885070442,1089,False
+natural killer cell,outer_05,Lasso_1se,0.0193069772888,0.00372524509351,804,False
+natural killer cell,full,Lasso_min,0.00828642772855,0.00160064784382,1102,False
+natural killer cell,full,Lasso_1se,0.0167683293681,0.00323905440641,842,False
+"CD4-positive, alpha-beta T cell",outer_01,Lasso_min,0.0126485521686,0.00230799937388,992,False
+"CD4-positive, alpha-beta T cell",outer_01,Lasso_1se,0.0294705170255,0.00537752731984,674,False
+"CD4-positive, alpha-beta T cell",outer_02,Lasso_min,0.0126485521686,0.00229766244895,974,False
+"CD4-positive, alpha-beta T cell",outer_02,Lasso_1se,0.025595479227,0.00464952594566,732,False
+"CD4-positive, alpha-beta T cell",outer_03,Lasso_min,0.0126485521686,0.00232755669513,980,False
+"CD4-positive, alpha-beta T cell",outer_03,Lasso_1se,0.0390693993705,0.0071894585932,585,False
+"CD4-positive, alpha-beta T cell",outer_04,Lasso_min,0.0109854114199,0.0019826786444,1040,False
+"CD4-positive, alpha-beta T cell",outer_04,Lasso_1se,0.014563484775,0.00262845961319,921,False
+"CD4-positive, alpha-beta T cell",outer_05,Lasso_min,0.0126485521686,0.00230888412824,978,False
+"CD4-positive, alpha-beta T cell",outer_05,Lasso_1se,0.025595479227,0.00467223401971,714,False
+"CD4-positive, alpha-beta T cell",full,Lasso_min,0.0095409547635,0.00172219281981,1099,False
+"CD4-positive, alpha-beta T cell",full,Lasso_1se,0.0294705170255,0.00531958426337,677,False
+"CD8-positive, alpha-beta T cell",outer_01,Lasso_min,0.0095409547635,0.00196168984691,1019,False
+"CD8-positive, alpha-beta T cell",outer_01,Lasso_1se,0.025595479227,0.00526261710396,669,False
+"CD8-positive, alpha-beta T cell",outer_02,Lasso_min,0.0095409547635,0.00182033000015,1056,False
+"CD8-positive, alpha-beta T cell",outer_02,Lasso_1se,0.0294705170255,0.00562271466443,641,False
+"CD8-positive, alpha-beta T cell",outer_03,Lasso_min,0.00828642772855,0.00158780275229,1100,False
+"CD8-positive, alpha-beta T cell",outer_03,Lasso_1se,0.0193069772888,0.00369950389744,791,False
+"CD8-positive, alpha-beta T cell",outer_04,Lasso_min,0.0095409547635,0.00192083916376,1020,False
+"CD8-positive, alpha-beta T cell",outer_04,Lasso_1se,0.0193069772888,0.00388699024673,776,False
+"CD8-positive, alpha-beta T cell",outer_05,Lasso_min,0.00828642772855,0.00161872096081,1094,False
+"CD8-positive, alpha-beta T cell",outer_05,Lasso_1se,0.0167683293681,0.00327562697885,832,False
+"CD8-positive, alpha-beta T cell",full,Lasso_min,0.00828642772855,0.0016315375706,1117,False
+"CD8-positive, alpha-beta T cell",full,Lasso_1se,0.014563484775,0.00286744461519,890,False
+basophil,outer_01,Lasso_min,0.014563484775,0.00344570994312,751,False
+basophil,outer_01,Lasso_1se,0.033932217719,0.00802833812049,501,False
+basophil,outer_02,Lasso_min,0.0095409547635,0.00226250496589,906,False
+basophil,outer_02,Lasso_1se,0.025595479227,0.00606961255879,561,False
+basophil,outer_03,Lasso_min,0.0109854114199,0.00258939518992,841,False
+basophil,outer_03,Lasso_1se,0.0167683293681,0.00395249934202,706,False
+basophil,outer_04,Lasso_min,0.014563484775,0.00340784921779,741,False
+basophil,outer_04,Lasso_1se,0.0449843266897,0.0105263132341,403,False
+basophil,outer_05,Lasso_min,0.0126485521686,0.00305999441716,785,False
+basophil,outer_05,Lasso_1se,0.0390693993705,0.0094518441607,417,False
+basophil,full,Lasso_min,0.0109854114199,0.00260417125385,838,False
+basophil,full,Lasso_1se,0.0193069772888,0.00457685864758,652,False
+neutrophil,outer_01,Lasso_min,0.00828642772855,0.00203298347838,969,False
+neutrophil,outer_01,Lasso_1se,0.014563484775,0.00357299006341,760,False
+neutrophil,outer_02,Lasso_min,0.00828642772855,0.0020486578319,933,False
+neutrophil,outer_02,Lasso_1se,0.025595479227,0.00632798362545,551,False
+neutrophil,outer_03,Lasso_min,0.0095409547635,0.0023877640551,887,False
+neutrophil,outer_03,Lasso_1se,0.0167683293681,0.00419652069649,709,False
+neutrophil,outer_04,Lasso_min,0.00828642772855,0.00204803781568,959,False
+neutrophil,outer_04,Lasso_1se,0.0193069772888,0.00477182941665,666,False
+neutrophil,outer_05,Lasso_min,0.00828642772855,0.00209707611237,916,False
+neutrophil,outer_05,Lasso_1se,0.0095409547635,0.00241456378782,875,False
+neutrophil,full,Lasso_min,0.00719685673001,0.00178909143139,991,False
+neutrophil,full,Lasso_1se,0.0167683293681,0.00416849681974,708,False
+myeloid dendritic cell,outer_01,Lasso_min,0.0449843266897,0.00843376229168,393,False
+myeloid dendritic cell,outer_01,Lasso_1se,0.281176869797,0.0527156691296,50,False
+myeloid dendritic cell,outer_02,Lasso_min,0.0449843266897,0.00850354981845,378,False
+myeloid dendritic cell,outer_02,Lasso_1se,0.244205309455,0.0461630120465,76,False
+myeloid dendritic cell,outer_03,Lasso_min,0.0517947467923,0.00937447459611,352,False
+myeloid dendritic cell,outer_03,Lasso_1se,0.120679264064,0.0218420740578,178,False
+myeloid dendritic cell,outer_04,Lasso_min,0.0517947467923,0.00952164495037,367,False
+myeloid dendritic cell,outer_04,Lasso_1se,0.159985871961,0.0294108720329,133,False
+myeloid dendritic cell,outer_05,Lasso_min,0.0517947467923,0.00905764179632,350,False
+myeloid dendritic cell,outer_05,Lasso_1se,0.281176869797,0.0491709975579,44,False
+myeloid dendritic cell,full,Lasso_min,0.0390693993705,0.00709978693395,435,False
+myeloid dendritic cell,full,Lasso_1se,0.0910298177992,0.016542161421,226,False
+plasmacytoid dendritic cell,outer_01,Lasso_min,0.025595479227,0.00287912608705,882,False
+plasmacytoid dendritic cell,outer_01,Lasso_1se,0.0686648845004,0.00772381944782,573,False
+plasmacytoid dendritic cell,outer_02,Lasso_min,0.0167683293681,0.00217973739474,962,False
+plasmacytoid dendritic cell,outer_02,Lasso_1se,0.033932217719,0.00441089402675,752,False
+plasmacytoid dendritic cell,outer_03,Lasso_min,0.0167683293681,0.00211772153942,1015,False
+plasmacytoid dendritic cell,outer_03,Lasso_1se,0.033932217719,0.00428539938394,768,False
+plasmacytoid dendritic cell,outer_04,Lasso_min,0.014563484775,0.00175500064385,1104,False
+plasmacytoid dendritic cell,outer_04,Lasso_1se,0.025595479227,0.0030844322782,899,False
+plasmacytoid dendritic cell,outer_05,Lasso_min,0.0193069772888,0.0021299960999,1012,False
+plasmacytoid dendritic cell,outer_05,Lasso_1se,0.0517947467923,0.00571413158116,665,False
+plasmacytoid dendritic cell,full,Lasso_min,0.0167683293681,0.0020097237093,1043,False
+plasmacytoid dendritic cell,full,Lasso_1se,0.033932217719,0.00406685609294,803,False
+plasma cell,outer_01,Lasso_min,0.014563484775,0.00189586385082,1058,False
+plasma cell,outer_01,Lasso_1se,0.0517947467923,0.00674260244873,589,False
+plasma cell,outer_02,Lasso_min,0.0193069772888,0.00249478939343,929,False
+plasma cell,outer_02,Lasso_1se,0.0449843266897,0.00581273906408,658,False
+plasma cell,outer_03,Lasso_min,0.0167683293681,0.00217001174852,1021,False
+plasma cell,outer_03,Lasso_1se,0.0517947467923,0.0067028268937,586,False
+plasma cell,outer_04,Lasso_min,0.014563484775,0.00201144130943,1012,False
+plasma cell,outer_04,Lasso_1se,0.0390693993705,0.00539608514326,656,False
+plasma cell,outer_05,Lasso_min,0.0222299648253,0.00296901669485,873,False
+plasma cell,outer_05,Lasso_1se,0.0294705170255,0.00393605917699,763,False
+plasma cell,full,Lasso_min,0.0126485521686,0.00167061447782,1111,False
+plasma cell,full,Lasso_1se,0.0294705170255,0.00389245122727,784,False
+mature NK T cell,outer_01,Lasso_min,0.014563484775,0.00256161296767,919,False
+mature NK T cell,outer_01,Lasso_1se,0.025595479227,0.00450206200744,711,False
+mature NK T cell,outer_02,Lasso_min,0.014563484775,0.0025278978244,930,False
+mature NK T cell,outer_02,Lasso_1se,0.0390693993705,0.00678158086441,577,False
+mature NK T cell,outer_03,Lasso_min,0.0126485521686,0.00220064289449,948,False
+mature NK T cell,outer_03,Lasso_1se,0.0294705170255,0.00512739189632,664,False
+mature NK T cell,outer_04,Lasso_min,0.014563484775,0.00259134230065,893,False
+mature NK T cell,outer_04,Lasso_1se,0.025595479227,0.00455431162602,719,False
+mature NK T cell,outer_05,Lasso_min,0.0126485521686,0.00222711908377,955,False
+mature NK T cell,outer_05,Lasso_1se,0.0193069772888,0.00339951458451,826,False
+mature NK T cell,full,Lasso_min,0.0126485521686,0.00218095503221,976,False
+mature NK T cell,full,Lasso_1se,0.0294705170255,0.00508152012594,681,False
+regulatory T cell,outer_01,Lasso_min,0.0193069772888,0.00266059576868,922,False
+regulatory T cell,outer_01,Lasso_1se,0.0449843266897,0.00619905992828,604,False
+regulatory T cell,outer_02,Lasso_min,0.0167683293681,0.00237198035684,930,False
+regulatory T cell,outer_02,Lasso_1se,0.033932217719,0.00479991489471,674,False
+regulatory T cell,outer_03,Lasso_min,0.0167683293681,0.00233826047533,945,False
+regulatory T cell,outer_03,Lasso_1se,0.0517947467923,0.00722252089613,561,False
+regulatory T cell,outer_04,Lasso_min,0.0167683293681,0.00244174775468,910,False
+regulatory T cell,outer_04,Lasso_1se,0.0294705170255,0.00429139762207,715,False
+regulatory T cell,outer_05,Lasso_min,0.0193069772888,0.00279957424859,869,False
+regulatory T cell,outer_05,Lasso_1se,0.0390693993705,0.00566518946749,646,False
+regulatory T cell,full,Lasso_min,0.014563484775,0.00204525231219,1011,False
+regulatory T cell,full,Lasso_1se,0.0517947467923,0.00727389956955,558,False
+classical monocyte,outer_01,Lasso_min,0.0126485521686,0.00245457530365,905,False
+classical monocyte,outer_01,Lasso_1se,0.033932217719,0.00658487884629,585,False
+classical monocyte,outer_02,Lasso_min,0.0095409547635,0.00175865495897,1036,False
+classical monocyte,outer_02,Lasso_1se,0.0390693993705,0.00720154268103,552,False
+classical monocyte,outer_03,Lasso_min,0.0109854114199,0.002036000042,1002,False
+classical monocyte,outer_03,Lasso_1se,0.0294705170255,0.00546196875185,648,False
+classical monocyte,outer_04,Lasso_min,0.0095409547635,0.00183415392236,1011,False
+classical monocyte,outer_04,Lasso_1se,0.0167683293681,0.00322354500617,813,False
+classical monocyte,outer_05,Lasso_min,0.0109854114199,0.0020813200236,965,False
+classical monocyte,outer_05,Lasso_1se,0.0390693993705,0.00740217367486,549,False
+classical monocyte,full,Lasso_min,0.0095409547635,0.00179772440238,1041,False
+classical monocyte,full,Lasso_1se,0.0222299648253,0.00418861122614,733,False
+non-classical monocyte,outer_01,Lasso_min,0.0126485521686,0.00212935252086,996,False
+non-classical monocyte,outer_01,Lasso_1se,0.025595479227,0.00430893571756,740,False
+non-classical monocyte,outer_02,Lasso_min,0.0126485521686,0.00212033579146,986,False
+non-classical monocyte,outer_02,Lasso_1se,0.0294705170255,0.00494028021622,679,False
+non-classical monocyte,outer_03,Lasso_min,0.0109854114199,0.00191068925079,1028,False
+non-classical monocyte,outer_03,Lasso_1se,0.025595479227,0.00445181387921,704,False
+non-classical monocyte,outer_04,Lasso_min,0.0109854114199,0.001885404247,1002,False
+non-classical monocyte,outer_04,Lasso_1se,0.0222299648253,0.003815284516,753,False
+non-classical monocyte,outer_05,Lasso_min,0.014563484775,0.00262660085698,892,False
+non-classical monocyte,outer_05,Lasso_1se,0.0294705170255,0.0053151623029,670,False
+non-classical monocyte,full,Lasso_min,0.0095409547635,0.00164472730293,1108,False
+non-classical monocyte,full,Lasso_1se,0.0222299648253,0.00383213535726,768,False
+"naive thymus-derived CD4-positive, alpha-beta T cell",outer_01,Lasso_min,0.0193069772888,0.0029660990751,923,False
+"naive thymus-derived CD4-positive, alpha-beta T cell",outer_01,Lasso_1se,0.0390693993705,0.0060021673825,650,False
+"naive thymus-derived CD4-positive, alpha-beta T cell",outer_02,Lasso_min,0.014563484775,0.00225361258682,994,False
+"naive thymus-derived CD4-positive, alpha-beta T cell",outer_02,Lasso_1se,0.0294705170255,0.00456038710068,729,False
+"naive thymus-derived CD4-positive, alpha-beta T cell",outer_03,Lasso_min,0.0167683293681,0.0025593945725,953,False
+"naive thymus-derived CD4-positive, alpha-beta T cell",outer_03,Lasso_1se,0.0596362331659,0.00910243639293,540,False
+"naive thymus-derived CD4-positive, alpha-beta T cell",outer_04,Lasso_min,0.0167683293681,0.00258666065315,936,False
+"naive thymus-derived CD4-positive, alpha-beta T cell",outer_04,Lasso_1se,0.0294705170255,0.0045460835808,733,False
+"naive thymus-derived CD4-positive, alpha-beta T cell",outer_05,Lasso_min,0.0167683293681,0.00259882984481,935,False
+"naive thymus-derived CD4-positive, alpha-beta T cell",outer_05,Lasso_1se,0.033932217719,0.00525896517015,684,False
+"naive thymus-derived CD4-positive, alpha-beta T cell",full,Lasso_min,0.0126485521686,0.00194818100162,1051,False
+"naive thymus-derived CD4-positive, alpha-beta T cell",full,Lasso_1se,0.0449843266897,0.00692866736522,612,False
+intermediate monocyte,outer_01,Lasso_min,0.0109854114199,0.00205782298859,984,False
+intermediate monocyte,outer_01,Lasso_1se,0.0294705170255,0.00552051307892,640,False
+intermediate monocyte,outer_02,Lasso_min,0.0095409547635,0.00177091362834,1046,False
+intermediate monocyte,outer_02,Lasso_1se,0.0294705170255,0.00547007522082,629,False
+intermediate monocyte,outer_03,Lasso_min,0.0109854114199,0.00202689536686,1001,False
+intermediate monocyte,outer_03,Lasso_1se,0.025595479227,0.00472256852973,675,False
+intermediate monocyte,outer_04,Lasso_min,0.0109854114199,0.00203664919143,966,False
+intermediate monocyte,outer_04,Lasso_1se,0.0222299648253,0.00412134221982,751,False
+intermediate monocyte,outer_05,Lasso_min,0.0126485521686,0.00232631030617,929,False
+intermediate monocyte,outer_05,Lasso_1se,0.0390693993705,0.00718560869264,562,False
+intermediate monocyte,full,Lasso_min,0.0095409547635,0.00176404513233,1038,False
+intermediate monocyte,full,Lasso_1se,0.0193069772888,0.00356970346791,787,False
+hematopoietic precursor cell,outer_01,Lasso_min,0.0222299648253,0.00336301027528,820,False
+hematopoietic precursor cell,outer_01,Lasso_1se,0.0517947467923,0.00783565187967,501,False
+hematopoietic precursor cell,outer_02,Lasso_min,0.0222299648253,0.00326048949363,803,False
+hematopoietic precursor cell,outer_02,Lasso_1se,0.0596362331659,0.00874690145512,438,False
+hematopoietic precursor cell,outer_03,Lasso_min,0.0193069772888,0.00283148818227,879,False
+hematopoietic precursor cell,outer_03,Lasso_1se,0.0390693993705,0.0057297701733,621,False
+hematopoietic precursor cell,outer_04,Lasso_min,0.0193069772888,0.00276452755763,899,False
+hematopoietic precursor cell,outer_04,Lasso_1se,0.0390693993705,0.00559426934648,630,False
+hematopoietic precursor cell,outer_05,Lasso_min,0.0193069772888,0.0028468893168,877,False
+hematopoietic precursor cell,outer_05,Lasso_1se,0.0390693993705,0.0057609357497,586,False
+hematopoietic precursor cell,full,Lasso_min,0.0167683293681,0.00243957022805,953,False
+hematopoietic precursor cell,full,Lasso_1se,0.033932217719,0.00493668905838,653,False

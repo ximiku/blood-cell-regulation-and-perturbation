@@ -1,0 +1,37 @@
+{
+  "target_index": 17,
+  "target": "non-classical monocyte",
+  "completed_utc": "2026-11-07T07:17:22.562797+00:00",
+  "seconds": 3.1060505859786645,
+  "timing_scope": "assembly_after_shared_GPU_paths",
+  "metrics": [
+    {
+      "target": "non-classical monocyte",
+      "model": "Lasso_min",
+      "R2": 0.4724820546118732,
+      "RMSE": 0.19459675493668793,
+      "Pearson": 0.6880471496740589,
+      "Spearman": 0.6047070337470177
+    },
+    {
+      "target": "non-classical monocyte",
+      "model": "Lasso_1se",
+      "R2": 0.4506045243287289,
+      "RMSE": 0.1985909777093402,
+      "Pearson": 0.6715625130313932,
+      "Spearman": 0.5920698885320183
+    },
+    {
+      "target": "non-classical monocyte",
+      "model": "Mean_baseline",
+      "R2": -0.00017046536785469968,
+      "RMSE": 0.26795013954686403,
+      "Pearson": -0.017407742997361537,
+      "Spearman": -0.0017247869184209075
+    }
+  ],
+  "n_fits": 960,
+  "n_retried": 0,
+  "all_converged": true,
+  "input_sha256": "37afe6e27bcb80676f6ae2e92bd0ec77d1acd4480f1eabc1100f8cbee18175be"
+}

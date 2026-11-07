@@ -1,0 +1,18 @@
+{
+  "id": "self_readout/exclude_TP53",
+  "name": "exclude_TP53",
+  "kind": "self_readout",
+  "dataset": "raw",
+  "tolerance": 1e-06,
+  "n_train": 11921,
+  "n_validation": 0,
+  "parameters": {},
+  "initialization": "zero",
+  "seconds": 1.4351691040210426,
+  "model_path_seconds_excluding_shared_preprocessing": {
+    "Lasso": 1.331730721052736
+  },
+  "device": 2,
+  "all_converged": true,
+  "completed_utc": "2026-11-07T08:16:47.428288+00:00"
+}

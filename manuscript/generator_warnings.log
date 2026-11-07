@@ -1,0 +1,18 @@
+/path/to/user/Desktop/CourseData/26_fall/Statistical_analysis_of_genomics_data/HW2/solution/scripts/manuscript_appendices.py:19: SyntaxWarning: invalid escape sequence '\c'
+  add('{\\'+size+r'\linespread{1}\selectfont\setlength{\tabcolsep}{4pt}\renewcommand{\arraystretch}{1.08}\begin{longtable}{'+align+'}\caption{'+caption+r'}\\\toprule '+' & '.join(headers)+r'\\\midrule\endfirsthead\toprule '+' & '.join(headers)+r'\\\midrule\endhead')
+/path/to/user/Desktop/CourseData/26_fall/Statistical_analysis_of_genomics_data/HW2/solution/scripts/manuscript_appendices.py:41: SyntaxWarning: invalid escape sequence '\%'
+  fig('02_F3_PCA','a:pca','完整 PCA：A 为 PC1/PC2，B 为 PC1/PC3，C 为解释方差。前两轴累计 51.54\%，前三轴 63.67\%。所有点为细胞类型平均谱。',.33)
+/path/to/user/Desktop/CourseData/26_fall/Statistical_analysis_of_genomics_data/HW2/solution/scripts/manuscript_appendices.py:47: SyntaxWarning: invalid escape sequence '\%'
+  q=rd('01_cell_quality');table('细胞覆盖。零值率以去重后的 19,994 个基因为分母。',['细胞类型','零值率（\%）','均值','最大值'],[[esc(S[r.cell_type]),val(100*r.zero_fraction,1),val(r['mean']),val(r.maximum)] for _,r in q.iterrows()],align='lrrr')
+/path/to/user/Desktop/CourseData/26_fall/Statistical_analysis_of_genomics_data/HW2/solution/scripts/manuscript_appendices.py:86: SyntaxWarning: invalid escape sequence '\%'
+  add('B、Plasma、Mono、Ery 对应四目标。频率为选中比例；固定抽样为 100 次，重新调参为 20 次。所有展示条目的固定选择频率及活跃符号一致性均为 100\%。分位数描述子抽样系数分布。')
+/path/to/user/Desktop/CourseData/26_fall/Statistical_analysis_of_genomics_data/HW2/solution/scripts/manuscript_appendices.py:92: SyntaxWarning: invalid escape sequence '\%'
+  table('40 个展示候选的完整统计及自身读出删除结果。最后一列为相对系数变化百分比，--- 为没有匹配自身读出。',['目标','排名','TF','全数据','中位数','2.5\%–97.5\%','重选\%','删除变化\%'],rows,align='lrlrrlrr',size='footnotesize')
+/path/to/user/Desktop/CourseData/26_fall/Statistical_analysis_of_genomics_data/HW2/solution/scripts/manuscript_appendices.py:92: SyntaxWarning: invalid escape sequence '\%'
+  table('40 个展示候选的完整统计及自身读出删除结果。最后一列为相对系数变化百分比，--- 为没有匹配自身读出。',['目标','排名','TF','全数据','中位数','2.5\%–97.5\%','重选\%','删除变化\%'],rows,align='lrlrrlrr',size='footnotesize')
+/path/to/user/Desktop/CourseData/26_fall/Statistical_analysis_of_genomics_data/HW2/solution/scripts/manuscript_appendices.py:92: SyntaxWarning: invalid escape sequence '\%'
+  table('40 个展示候选的完整统计及自身读出删除结果。最后一列为相对系数变化百分比，--- 为没有匹配自身读出。',['目标','排名','TF','全数据','中位数','2.5\%–97.5\%','重选\%','删除变化\%'],rows,align='lrlrrlrr',size='footnotesize')
+/path/to/user/Desktop/CourseData/26_fall/Statistical_analysis_of_genomics_data/HW2/solution/scripts/manuscript_appendices.py:109: SyntaxWarning: invalid escape sequence '\g'
+  ed=rd('04_correlation_edges');table('相关扰动边（主阈值 $|r|\geq0.8$）。用于观察可替代模式。',['扰动 1','扰动 2','Pearson'],[[esc(r.perturbation_1),esc(r.perturbation_2),val(r.Pearson)] for _,r in ed.iterrows()],align='llr',size='footnotesize')
+/path/to/user/Desktop/CourseData/26_fall/Statistical_analysis_of_genomics_data/HW2/solution/scripts/manuscript_appendices.py:167: SyntaxWarning: invalid escape sequence '\%'
+  table('PRDM1 及其组合的所有方法。种子 1；改进为相对零变化 MSE 降低百分比。',['条件','模型','MSE','$r$',r'$\rho$','改进\%'],rows,align='llrrrr',size='footnotesize')

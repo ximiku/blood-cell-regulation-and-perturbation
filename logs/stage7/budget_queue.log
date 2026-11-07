@@ -1,0 +1,10 @@
+budget_finalize scFoundation_GEARS 1 9
+budget_finalize scGPT_blood 1 8
+{'model': 'scFoundation_GEARS', 'seed': 1, 'gpu': 0, 'exit_code': 0, 'seconds': 4355.462495326996}
+budget_finalize scFoundation_GEARS 2 8
+{'model': 'scFoundation_GEARS', 'seed': 2, 'gpu': 3, 'exit_code': 0, 'seconds': 3656.824903488159}
+{'model': 'scGPT_blood', 'seed': 1, 'gpu': 1, 'exit_code': 0, 'seconds': 5460.630314350128}
+{'model': 'GEARS', 'seed': 3, 'gpu': 3, 'exit_code': 0, 'seconds': 838.6859769821167}
+budget_finalize scGPT_blood 2 8
+{'model': 'scGPT_blood', 'seed': 2, 'gpu': 2, 'exit_code': 0, 'seconds': 5655.165718317032}
+{'model': 'scGPT_blood', 'seed': 3, 'gpu': 0, 'exit_code': 0, 'seconds': 5370.49671292305}

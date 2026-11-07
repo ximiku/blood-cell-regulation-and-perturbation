@@ -1,0 +1,90 @@
+[
+  {
+    "project": "01_PCA_data.pzfx",
+    "graph_type": "XY scatter, no connecting lines",
+    "table_count": 2,
+    "rows_per_table": 21,
+    "x_title": "PC1 (28.9%)",
+    "y_titles": [
+      "PC2 (22.6%)",
+      "PC3 (12.1%)"
+    ],
+    "palette": {
+      "hematopoietic stem cell": "#40464D",
+      "common myeloid progenitor": "#BFC7CE",
+      "erythrocyte": "#D55E00",
+      "platelet": "#BFC7CE",
+      "macrophage": "#BFC7CE",
+      "B cell": "#0072B2",
+      "monocyte": "#E69F00",
+      "natural killer cell": "#BFC7CE",
+      "CD4-positive, alpha-beta T cell": "#BFC7CE",
+      "CD8-positive, alpha-beta T cell": "#BFC7CE",
+      "basophil": "#BFC7CE",
+      "neutrophil": "#BFC7CE",
+      "myeloid dendritic cell": "#222222",
+      "plasmacytoid dendritic cell": "#BFC7CE",
+      "plasma cell": "#AA4499",
+      "mature NK T cell": "#BFC7CE",
+      "regulatory T cell": "#BFC7CE",
+      "classical monocyte": "#BFC7CE",
+      "non-classical monocyte": "#BFC7CE",
+      "naive thymus-derived CD4-positive, alpha-beta T cell": "#BFC7CE",
+      "intermediate monocyte": "#BFC7CE",
+      "hematopoietic precursor cell": "#BFC7CE"
+    }
+  },
+  {
+    "project": "02_HVG100_heatmap_data.pzfx",
+    "graph_type": "Grouped heatmap",
+    "rows": 100,
+    "columns": 21,
+    "color_limits": [
+      -2.5,
+      2.5
+    ],
+    "note": "Data retain full z-scores. Display clipping only. Original Ward order; no native dendrogram assumed."
+  },
+  {
+    "project": "03_OOF_data.pzfx",
+    "graph_type": "XY scatter, no lines; small points",
+    "table_count": 4,
+    "rows_per_table": 11922,
+    "x_title": "Observed expression difference",
+    "y_title": "Predicted expression difference",
+    "layout": "2 x 2",
+    "note": "All genes retained. Add y=x if supported. Original hexbin changed to native scatter."
+  },
+  {
+    "project": "04_TF_stability_data.pzfx",
+    "graph_type": "Grouped horizontal interval/forest, linear coefficient axis",
+    "table_count": 4,
+    "rows_per_table": 10,
+    "interval_order": [
+      "median",
+      "upper absolute limit",
+      "lower absolute limit"
+    ],
+    "layout": "2 x 2",
+    "note": "All displayed TFs selected in 100/100 subsamples. Lines are empirical 2.5-97.5 percentiles, not confidence intervals."
+  },
+  {
+    "project": "05_All_models_data.pzfx",
+    "graph_type": "Grouped points, no error bars",
+    "table_count": 4,
+    "layout": "2 x 2",
+    "y_title": "Out-of-fold R2",
+    "note": "Complete six models plus baseline; each scalar pooled OOF, no replicate error bars."
+  },
+  {
+    "project": "06_Cross_target_heatmap_data.pzfx",
+    "graph_type": "Grouped heatmap",
+    "rows": 33,
+    "columns": 4,
+    "color_limits": [
+      -1,
+      1
+    ],
+    "note": "Signed selection frequency; original white stable-priority marker documented in separate source table."
+  }
+]

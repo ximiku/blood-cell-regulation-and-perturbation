@@ -1,0 +1,37 @@
+{
+  "target_index": 2,
+  "target": "platelet",
+  "completed_utc": "2026-11-07T07:17:10.152119+00:00",
+  "seconds": 3.3064618490170687,
+  "timing_scope": "assembly_after_shared_GPU_paths",
+  "metrics": [
+    {
+      "target": "platelet",
+      "model": "Lasso_min",
+      "R2": 0.43696035888887563,
+      "RMSE": 0.32509361615971566,
+      "Pearson": 0.6620226425472421,
+      "Spearman": 0.5464011735724353
+    },
+    {
+      "target": "platelet",
+      "model": "Lasso_1se",
+      "R2": 0.40586162846396545,
+      "RMSE": 0.333951005790743,
+      "Pearson": 0.6373865657210243,
+      "Spearman": 0.5337825763373062
+    },
+    {
+      "target": "platelet",
+      "model": "Mean_baseline",
+      "R2": -0.00020572848644451192,
+      "RMSE": 0.43329494640921473,
+      "Pearson": -0.0191245557692097,
+      "Spearman": -0.013374694102194376
+    }
+  ],
+  "n_fits": 960,
+  "n_retried": 0,
+  "all_converged": true,
+  "input_sha256": "37afe6e27bcb80676f6ae2e92bd0ec77d1acd4480f1eabc1100f8cbee18175be"
+}

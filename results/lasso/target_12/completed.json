@@ -1,0 +1,37 @@
+{
+  "target_index": 12,
+  "target": "plasmacytoid dendritic cell",
+  "completed_utc": "2026-11-07T07:17:19.432068+00:00",
+  "seconds": 3.333579343976453,
+  "timing_scope": "assembly_after_shared_GPU_paths",
+  "metrics": [
+    {
+      "target": "plasmacytoid dendritic cell",
+      "model": "Lasso_min",
+      "R2": 0.3930253921500154,
+      "RMSE": 0.14751675252990493,
+      "Pearson": 0.6281857393377334,
+      "Spearman": 0.5470416190337628
+    },
+    {
+      "target": "plasmacytoid dendritic cell",
+      "model": "Lasso_1se",
+      "R2": 0.36494656363410893,
+      "RMSE": 0.15089026343081144,
+      "Pearson": 0.6044784589965636,
+      "Spearman": 0.5231006816791139
+    },
+    {
+      "target": "plasmacytoid dendritic cell",
+      "model": "Mean_baseline",
+      "R2": -0.00017615300719375782,
+      "RMSE": 0.18936265292347887,
+      "Pearson": -0.017693545900505488,
+      "Spearman": -0.016349451415153992
+    }
+  ],
+  "n_fits": 960,
+  "n_retried": 0,
+  "all_converged": true,
+  "input_sha256": "37afe6e27bcb80676f6ae2e92bd0ec77d1acd4480f1eabc1100f8cbee18175be"
+}

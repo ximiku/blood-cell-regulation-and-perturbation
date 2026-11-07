@@ -1,0 +1,18 @@
+{
+  "id": "self_readout/exclude_CLOCK",
+  "name": "exclude_CLOCK",
+  "kind": "self_readout",
+  "dataset": "raw",
+  "tolerance": 1e-06,
+  "n_train": 11921,
+  "n_validation": 0,
+  "parameters": {},
+  "initialization": "zero",
+  "seconds": 1.3874168000184,
+  "model_path_seconds_excluding_shared_preprocessing": {
+    "Lasso": 1.2849596349988133
+  },
+  "device": 0,
+  "all_converged": true,
+  "completed_utc": "2026-11-07T08:16:47.176320+00:00"
+}

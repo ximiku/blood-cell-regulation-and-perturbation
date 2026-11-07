@@ -1,0 +1,18 @@
+{
+  "id": "self_readout/exclude_RARA",
+  "name": "exclude_RARA",
+  "kind": "self_readout",
+  "dataset": "raw",
+  "tolerance": 1e-06,
+  "n_train": 11921,
+  "n_validation": 0,
+  "parameters": {},
+  "initialization": "zero",
+  "seconds": 1.389628754928708,
+  "model_path_seconds_excluding_shared_preprocessing": {
+    "Lasso": 1.2859236989170313
+  },
+  "device": 3,
+  "all_converged": true,
+  "completed_utc": "2026-11-07T08:16:51.211171+00:00"
+}

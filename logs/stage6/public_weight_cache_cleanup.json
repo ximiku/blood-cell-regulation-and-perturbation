@@ -1,0 +1,17 @@
+{
+  "time_utc": "2026-11-07T10:38:59.978370+00:00",
+  "removed_only_verified_temporary_public_weights": [
+    {
+      "local_temporary_copy": "HW2/solution/.cache/stage6_weights/scGPT_blood/best_model.pt",
+      "verified_remote_path": "models/stage6/scGPT_blood/best_model.pt",
+      "bytes": 155981354,
+      "sha256": "56e68896b1b4e8c708b695f1a60bb7560e08952ea76842f695109737beaeeb41"
+    },
+    {
+      "local_temporary_copy": "HW2/solution/.cache/stage6_weights/scFoundation/models.ckpt",
+      "verified_remote_path": "models/stage6/scFoundation/models.ckpt",
+      "bytes": 1432587886,
+      "sha256": "9f40bf324d3d0084c4b288d06f5af4fddd12206e2a3f022551d12e89e33a0ea9"
+    }
+  ]
+}

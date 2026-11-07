@@ -1,0 +1,431 @@
+[
+  {
+    "name": "GEARS",
+    "repository": "https://github.com/snap-stanford/GEARS",
+    "commit": "f374e43e197b295016d80395d7a54ddb81cc6769",
+    "selection": "runtime source only; large repository data omitted",
+    "files": [
+      {
+        "path": "LICENSE",
+        "bytes": 1098,
+        "sha256": "5c608f2c9421da729963328261ebffd23127dc55184fa8acc96acc52d8fd8b90"
+      },
+      {
+        "path": "README.md",
+        "bytes": 3850,
+        "sha256": "fe78b7b1ede50c673b8f0d91fb2637707685c78b269ee157edb6cbc4d510d61b"
+      },
+      {
+        "path": "gears/__init__.py",
+        "bytes": 55,
+        "sha256": "3cdc747e61b16e073873d7f5ccb4f7c872d921c5355f2615049de09f279233ee"
+      },
+      {
+        "path": "gears/data_utils.py",
+        "bytes": 18868,
+        "sha256": "8091713aa91a8d3a6e07d7cb82535ace0b0e7d98ca1626c7e769d00ef77b8a88"
+      },
+      {
+        "path": "gears/gears.py",
+        "bytes": 26531,
+        "sha256": "b87b464b9bce74ff909626ef642781c5b8df6907902c5e18ec11d6c57ca7f562"
+      },
+      {
+        "path": "gears/inference.py",
+        "bytes": 33564,
+        "sha256": "744668b54fa05c0493baefad3da6fdccfa658426db5d0519b27a2d3f4f036dd7"
+      },
+      {
+        "path": "gears/model.py",
+        "bytes": 9156,
+        "sha256": "07fee864bc5020807c90ed5443ff17530116f47f257332466243c233ef2bc857"
+      },
+      {
+        "path": "gears/pertdata.py",
+        "bytes": 23008,
+        "sha256": "7b7f849808947bd148e5e96db22d56cfb083913ed547be0817cbf798930d410b"
+      },
+      {
+        "path": "gears/utils.py",
+        "bytes": 20559,
+        "sha256": "89d1da79df60d14d929aed05ec904b4ef2664855abe89b5bce5112b88f80395a"
+      },
+      {
+        "path": "gears/version.py",
+        "bytes": 537,
+        "sha256": "de9054fdc97b182c042b260989d08811e34adcce38c712da471dc3db873afa29"
+      },
+      {
+        "path": "requirements.txt",
+        "bytes": 131,
+        "sha256": "dffa9f17177d33bc5d7e7cdcea7e734446d1775ea945b8151b081d8956f96c6c"
+      },
+      {
+        "path": "setup.py",
+        "bytes": 1149,
+        "sha256": "f683681c539d3ac411dff3556d0286110a44a36676643177b5103b93c036ed68"
+      }
+    ]
+  },
+  {
+    "name": "scGPT",
+    "repository": "https://github.com/bowang-lab/scGPT",
+    "commit": "cebd6fae655b9c585a4807daa3ac31bb764f06b4",
+    "selection": "runtime source only; large repository data omitted",
+    "files": [
+      {
+        "path": "LICENSE",
+        "bytes": 1062,
+        "sha256": "1ceeacbed51e2890187425547bc2efd16c1b7ad45189b7dfb21e83a45a2e9d9e"
+      },
+      {
+        "path": "README.md",
+        "bytes": 8908,
+        "sha256": "b0503e8ca789f19f1fc2350c5aaf57b1b323bbae43b354655231b5f4a1586c83"
+      },
+      {
+        "path": "pyproject.toml",
+        "bytes": 1291,
+        "sha256": "e6b8a140d7a34f559eb5868e28e9a5b7f3dbd75bcb846c642e0eb71174c14110"
+      },
+      {
+        "path": "scgpt/__init__.py",
+        "bytes": 792,
+        "sha256": "daa6cbf556f05c4e2c9ca2ddff57512d70c15e2293219fa1ef6dcc744a222d40"
+      },
+      {
+        "path": "scgpt/data_collator.py",
+        "bytes": 7497,
+        "sha256": "4543e16e5fd162ba935c8e7687059953503db1878189dfd33c0ecda3375428e9"
+      },
+      {
+        "path": "scgpt/data_sampler.py",
+        "bytes": 3573,
+        "sha256": "8911646827542bb3bc6c23fa341de054fe5f4b1d128e1e9eff3017fcd0a516a3"
+      },
+      {
+        "path": "scgpt/loss.py",
+        "bytes": 1068,
+        "sha256": "b830b16b8bb83e60aa052efd766f4ef2b4e46970a38c4c4ec6ec2734aac2d89c"
+      },
+      {
+        "path": "scgpt/model/__init__.py",
+        "bytes": 277,
+        "sha256": "9d912a97828bd801dcb0ce71b41059afe7a161418708d9ea27375c4089f8c4cc"
+      },
+      {
+        "path": "scgpt/model/dsbn.py",
+        "bytes": 2393,
+        "sha256": "666e443b530b8f4c7a26759c18b2c3125d96bb8ae55b7d91f26599ae7f84fb9b"
+      },
+      {
+        "path": "scgpt/model/flash_attn_compat.py",
+        "bytes": 18602,
+        "sha256": "5a37a9a172c83c286cd45d9387051d7cc09634bc7f635e11e7615da636860251"
+      },
+      {
+        "path": "scgpt/model/generation_model.py",
+        "bytes": 19594,
+        "sha256": "a6dff3fff64f49f061847b91ec67041586d59720426ec360e78c15a24fb59d2f"
+      },
+      {
+        "path": "scgpt/model/grad_reverse.py",
+        "bytes": 469,
+        "sha256": "506b0adb351b1dc50f5778434b6c4a553cd18d23a6100add62fdbf2791764ad6"
+      },
+      {
+        "path": "scgpt/model/model.py",
+        "bytes": 39040,
+        "sha256": "4ae77618cc6f12a7d1f6d946fee3f7bd5c56f3e9e103073394a590ceba5a35ed"
+      },
+      {
+        "path": "scgpt/model/multiomic_model.py",
+        "bytes": 40811,
+        "sha256": "5c3f97b5843478d09288904d986939b626be5e81f6aab459a13212b87cb61c6b"
+      },
+      {
+        "path": "scgpt/preprocess.py",
+        "bytes": 12140,
+        "sha256": "e0928ef5cbbdbe5012869cf890740d972c4faa6852e22006ac8dc52846fd5c84"
+      },
+      {
+        "path": "scgpt/scbank/__init__.py",
+        "bytes": 611,
+        "sha256": "f3a058dd8a1c2e060d96af86371afa174909b15b7e7ee055f7b5f48f85d7a8f3"
+      },
+      {
+        "path": "scgpt/scbank/data.py",
+        "bytes": 4044,
+        "sha256": "c59f45a9aaf23e164e5d26eb0a498f75252880d20363333e7aba344c714e1f62"
+      },
+      {
+        "path": "scgpt/scbank/databank.py",
+        "bytes": 29599,
+        "sha256": "4770da71360ea21568b53726f54a73da5ad3c82ccd78eaf1e51eec2b8ae0bd84"
+      },
+      {
+        "path": "scgpt/scbank/monitor.py",
+        "bytes": 129,
+        "sha256": "83aed3a6e2dedfb02a56db49f729e77cbcdf1595143eabca068e0a333bf7cd5f"
+      },
+      {
+        "path": "scgpt/scbank/setting.py",
+        "bytes": 844,
+        "sha256": "c10f66d446e13a3b303ca8cb221a7d3e805216e7a934b79daf9b53c6a0c24019"
+      },
+      {
+        "path": "scgpt/tasks/__init__.py",
+        "bytes": 91,
+        "sha256": "c91cc436f31dedcfd8cb4b8e96ce334452832055095d399f0b749d2f7ab9d057"
+      },
+      {
+        "path": "scgpt/tasks/cell_emb.py",
+        "bytes": 9953,
+        "sha256": "f21af4073a2b35d40436d4b5a7ad28d7eadb3a3040a817a9c8a7173097993c54"
+      },
+      {
+        "path": "scgpt/tasks/grn.py",
+        "bytes": 10925,
+        "sha256": "04291b95fde268fea796399e7f7db19a1958b181657a8664385a10c53650e38e"
+      },
+      {
+        "path": "scgpt/tokenizer/__init__.py",
+        "bytes": 30,
+        "sha256": "dff8c48c65b5a2574af040b4ca5b8d11f0ae3a003a27bc04b856d20609d6f1ca"
+      },
+      {
+        "path": "scgpt/tokenizer/default_census_vocab.json",
+        "bytes": 1317585,
+        "sha256": "9fe73cf29929b5c66a5fffcfb2bcbdd3e38a3a086848cd12f8f918bcf458d75f"
+      },
+      {
+        "path": "scgpt/tokenizer/default_gene_vocab.json",
+        "bytes": 940574,
+        "sha256": "af490ed60ed045fe492d9124134ceb0855c056a1398e50eda24077ffa4946345"
+      },
+      {
+        "path": "scgpt/tokenizer/gene_tokenizer.py",
+        "bytes": 17362,
+        "sha256": "5044666baf469c46b77a124ae01c2ccbea02c185c6a93333d09b9571c088b8b5"
+      },
+      {
+        "path": "scgpt/tokenizer/vocab_compat.py",
+        "bytes": 8868,
+        "sha256": "8c0b24277a4d9eaef2176be038af5b082acd071f331922eb075a38fdb3f9c59c"
+      },
+      {
+        "path": "scgpt/trainer.py",
+        "bytes": 23754,
+        "sha256": "ac79810a89dff3dced0351a920f6e1014ab007f79f2376c2c90c7c5dad851ad9"
+      },
+      {
+        "path": "scgpt/utils/__init__.py",
+        "bytes": 20,
+        "sha256": "2307e1706bbdf12ee9a66a65491fcb62f8be33bfff780ce824268cbbd1ea1c95"
+      },
+      {
+        "path": "scgpt/utils/util.py",
+        "bytes": 20592,
+        "sha256": "3d482631610b5be35474d43b778099e8b515437a0fcde0e3f69d1eef90e05160"
+      },
+      {
+        "path": "tutorials/build_atlas_index_faiss.py",
+        "bytes": 16314,
+        "sha256": "e96d3ec10eec3cd9f7136104a393f560bd58223de52e4deef53f41fd912e9440"
+      },
+      {
+        "path": "tutorials/zero-shot/README.md",
+        "bytes": 5594,
+        "sha256": "a15606b7449a64e87135e8717aab01a701ab94b195f63f6ed2026257f908d3d8"
+      },
+      {
+        "path": "tutorials/Tutorial_Perturbation.ipynb",
+        "bytes": 144523,
+        "sha256": "a997191d88e4c05969103e777f1323ebf4263238e64520877ae3a0f6aed4bdbb"
+      }
+    ]
+  },
+  {
+    "name": "scFoundation",
+    "repository": "https://github.com/biomap-research/scFoundation",
+    "commit": "397631c495eddf9ad6644fc00c6ea8139e651245",
+    "selection": "runtime source only; large repository data omitted",
+    "files": [
+      {
+        "path": "GEARS/gears/__init__.py",
+        "bytes": 55,
+        "sha256": "3cdc747e61b16e073873d7f5ccb4f7c872d921c5355f2615049de09f279233ee"
+      },
+      {
+        "path": "GEARS/gears/data_utils.py",
+        "bytes": 18902,
+        "sha256": "776b41af9c8d49131d103ef54c8e0bea892a8313137e9c191fd8e74a41c05b58"
+      },
+      {
+        "path": "GEARS/gears/gears.py",
+        "bytes": 24246,
+        "sha256": "3d237d10c9e3d485d8967661279e70a03fb0d19ae71b744852e79daa675af8cb"
+      },
+      {
+        "path": "GEARS/gears/inference.py",
+        "bytes": 39585,
+        "sha256": "18f26d43934f5678f871de59da92a6f9449796341ad4924ab077809d98d5f9fb"
+      },
+      {
+        "path": "GEARS/gears/model.py",
+        "bytes": 10563,
+        "sha256": "593232d601fe8e5ee8d4dbabcd37d795c82ea256cfe45ad0152255baa4d99fe0"
+      },
+      {
+        "path": "GEARS/gears/pertdata.py",
+        "bytes": 16521,
+        "sha256": "919cd207e3075e9b71ea18f427635e754750f2eff9bc609f55feac8cb66dabd2"
+      },
+      {
+        "path": "GEARS/gears/utils.py",
+        "bytes": 14542,
+        "sha256": "cf5a4577f5a8afefe4b65b5a0b306e6f735e819fc470f28262afa4b929c02fe3"
+      },
+      {
+        "path": "GEARS/gears/version.py",
+        "bytes": 536,
+        "sha256": "4d0c75dd9622427ed902f910f1c7c3771ae9c278fae978ed92a66b5f0060cac1"
+      },
+      {
+        "path": "GEARS/run_sh/run_singlecell-adamson.sh",
+        "bytes": 1047,
+        "sha256": "3d1ae44623a18f5314c3d2d5b3715f8b95aea1880cc7e73d4688b4f85ee9563c"
+      },
+      {
+        "path": "GEARS/run_sh/run_singlecell-dixit.sh",
+        "bytes": 1044,
+        "sha256": "29d66f586fb8c4d7b5250e02e5a040da214a7bfbcf2bf0f1e198c96e6a793a0f"
+      },
+      {
+        "path": "GEARS/run_sh/run_singlecell_maeautobin-0.1B-res0-adamson.sh",
+        "bytes": 1754,
+        "sha256": "88126708d79695b1af1378d90bbbcaedba59967dbbeaee92245e8b04eb0650ac"
+      },
+      {
+        "path": "GEARS/run_sh/run_singlecell_maeautobin-0.1B-res0-dixit.sh",
+        "bytes": 1752,
+        "sha256": "c3c243f035f9d5502efd3d4429a1dedeb61473fa0828b562dbee714be91225b5"
+      },
+      {
+        "path": "GEARS/run_sh/run_singlecell_maeautobin-0.1B-res0-norman.sh",
+        "bytes": 1710,
+        "sha256": "fbf57e6d6c8950f4c07461b2a0738321bd7902132dbae06a79399a1931b68b07"
+      },
+      {
+        "path": "GEARS/run_sh/run_singlecell_maeautobin-demo-baseline.sh",
+        "bytes": 1429,
+        "sha256": "55fc885167612c205ab358ca67ff4223894214acc627881b72158c1afb8d6c3c"
+      },
+      {
+        "path": "GEARS/run_sh/run_singlecell_maeautobin-demo-emb-train.sh",
+        "bytes": 1713,
+        "sha256": "dc0103af1b53f3ec7d974baf1ff4fd10c3fc5205c9edb63d1cce6606ecae4e9b"
+      },
+      {
+        "path": "GEARS/run_sh/run_singlecell_maeautobin-demo-emb.sh",
+        "bytes": 1664,
+        "sha256": "b2fb898ff6a67280bcd7fe8add40ec80349290231666d776267e63eeb2e36ac9"
+      },
+      {
+        "path": "GEARS/run_sh/run_singlecell_norman.sh",
+        "bytes": 1018,
+        "sha256": "2053c5d7d920a9b8aca7cb7554979962f4a43dbff9b23ae03d9557c5895e3078"
+      },
+      {
+        "path": "LICENSE",
+        "bytes": 11357,
+        "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+      },
+      {
+        "path": "MODEL_LICENSE",
+        "bytes": 2310,
+        "sha256": "bdcd01b3213efb813f4461ef60c2a30d56cf07b63446d234283d8c0547ee3cbb"
+      },
+      {
+        "path": "OS_scRNA_gene_index.19264.tsv",
+        "bytes": 228232,
+        "sha256": "bb337ea195d94e7b033543abc02a42e7060d6562eba97deb077f7dcecec62661"
+      },
+      {
+        "path": "README.md",
+        "bytes": 8960,
+        "sha256": "02a7ae44cf2cc9948b5c1520b18a261b45abf9f17e3149e37d9f48072184f376"
+      },
+      {
+        "path": "model/README.md",
+        "bytes": 6523,
+        "sha256": "f62879233ecf5fac407cd516aca2ddb3df20370523cb111c9d057676b4721d5d"
+      },
+      {
+        "path": "model/demo.sh",
+        "bytes": 4440,
+        "sha256": "dcae6fe3aef9c87462a2d495f8714e68cbcc333d7c0c88d911fa7e74b77867a4"
+      },
+      {
+        "path": "model/finetune_model.py",
+        "bytes": 2638,
+        "sha256": "0ca996846210f5b27b614c3045554db54829049d504697d11bb9ab77acc7af12"
+      },
+      {
+        "path": "model/get_embedding.py",
+        "bytes": 14077,
+        "sha256": "7e1d7ce2905d5b5b60288e9ac0919eece4becadba909a0eccc7afadb9697e351"
+      },
+      {
+        "path": "model/load.py",
+        "bytes": 7183,
+        "sha256": "6cd804545f80ad737c215339bd420f3e3e6d4d4ca47197a72dcd25b027d013f5"
+      },
+      {
+        "path": "model/pretrainmodels/__init__.py",
+        "bytes": 120,
+        "sha256": "e7d125b0bb339be3d3d82d7612ac771bdbc677cfa124d442455c512c52f4af1e"
+      },
+      {
+        "path": "model/pretrainmodels/mae_autobin.py",
+        "bytes": 5847,
+        "sha256": "b68161adf0f6b5be8a0353f8d6f3c00519689498e5cf7a62e4e762a67854ca8f"
+      },
+      {
+        "path": "model/pretrainmodels/performer.py",
+        "bytes": 25864,
+        "sha256": "c4021e1b0e2f3b6d0a9fee407bbd927fe3aea06f325975883e877a7680024187"
+      },
+      {
+        "path": "model/pretrainmodels/pytorchTransformer.py",
+        "bytes": 2498,
+        "sha256": "83d0bfad5a500059034355fdf729df39fa91d2089d1c835ee719ac87461ed2a3"
+      },
+      {
+        "path": "model/pretrainmodels/reversible.py",
+        "bytes": 7492,
+        "sha256": "bd4673f38bdb15f644167880fce9cd134ab7a337855b9285e048de69a44f1ed4"
+      },
+      {
+        "path": "model/pretrainmodels/select_model.py",
+        "bytes": 2157,
+        "sha256": "8eae9694a34d26bbdab86336d18bf24ce90203e1035544a2911d9b104bfafcb7"
+      },
+      {
+        "path": "model/pretrainmodels/transformer.py",
+        "bytes": 1612,
+        "sha256": "dfa1b30e6da09bb25f7c1c05c9d5f41a4a26799f8b250b87f0d187c4373b286c"
+      },
+      {
+        "path": "GEARS/README.md",
+        "bytes": 3064,
+        "sha256": "f15d36e20ec01d0759c69f6481a8811011b9d0e0bf9ce0d70d4e64af21924ed4"
+      },
+      {
+        "path": "GEARS/train.py",
+        "bytes": 3283,
+        "sha256": "0ca31b2a9fd0644760022c8f2f31370a6cb4b7f47b3f4f319f35154f76bf70ac"
+      }
+    ]
+  }
+]

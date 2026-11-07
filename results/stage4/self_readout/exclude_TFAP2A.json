@@ -1,0 +1,18 @@
+{
+  "id": "self_readout/exclude_TFAP2A",
+  "name": "exclude_TFAP2A",
+  "kind": "self_readout",
+  "dataset": "raw",
+  "tolerance": 1e-06,
+  "n_train": 11921,
+  "n_validation": 0,
+  "parameters": {},
+  "initialization": "zero",
+  "seconds": 1.4158150600269437,
+  "model_path_seconds_excluding_shared_preprocessing": {
+    "Lasso": 1.3118863980052993
+  },
+  "device": 1,
+  "all_converged": true,
+  "completed_utc": "2026-11-07T08:16:47.161450+00:00"
+}

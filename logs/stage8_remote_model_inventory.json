@@ -1,0 +1,117 @@
+{
+  "files": [
+    {
+      "path": "results/stage7/GEARS/seed1/latest.pt",
+      "bytes": 75384656,
+      "sha256": "965a0712c7a85452dd1de2bfaa7fd76f55fbf18193d55c722ab184a2d2b752be"
+    },
+    {
+      "path": "results/stage7/GEARS/seed2/latest.pt",
+      "bytes": 75384400,
+      "sha256": "07acc3ab57f9528595931f3ae6456b72d8ec33d7f98da1427ab101a7e499acde"
+    },
+    {
+      "path": "results/stage7/GEARS/seed3/latest.pt",
+      "bytes": 75384144,
+      "sha256": "f05ef88bdbc9c1944a6b1f9c465868fa0e20afbce97bd6c629c56124496e4d56"
+    },
+    {
+      "path": "results/stage7/scFoundation_GEARS/seed1/latest.pt",
+      "bytes": 630163930,
+      "sha256": "5f0096ad97d7059ccde4a7690097b191d53f27ac9222cebb14b27a928a903ba1"
+    },
+    {
+      "path": "results/stage7/scFoundation_GEARS/seed2/latest.pt",
+      "bytes": 630163802,
+      "sha256": "5d8a31de10855eddcb4face589cb6c7566c34be08a211e7ee6bc0c6a6d48e560"
+    },
+    {
+      "path": "results/stage7/scFoundation_GEARS/seed3/latest.pt",
+      "bytes": 630163546,
+      "sha256": "086caa1542536f7e7b84fc1c8f71086540f0007807e7ccb7b6e91200102ad42e"
+    },
+    {
+      "path": "results/stage7/scGPT_blood/seed1/latest.pt",
+      "bytes": 470074893,
+      "sha256": "f9fea97002e60fa783b8e8ced119ba5805075584ae475da2d3527b550f109adc"
+    },
+    {
+      "path": "results/stage7/scGPT_blood/seed2/latest.pt",
+      "bytes": 470074893,
+      "sha256": "eace35380dc0f1766c0606a2ead849b7f08826a6076f386dd8fd4401e89d4bae"
+    },
+    {
+      "path": "results/stage7/scGPT_blood/seed3/latest.pt",
+      "bytes": 470074893,
+      "sha256": "d392afbc5d804ca5b291d9430a09988f26a100b45195a4f0ac0f833a6609f759"
+    },
+    {
+      "path": "results/stage7_exploratory/constant_lr/GEARS/seed1/best.pt",
+      "bytes": 25131161,
+      "sha256": "ef6a94dad21b111e2e27354c360da7b67c72adba8988706a1ed63af4a3ec4473"
+    },
+    {
+      "path": "results/stage7_exploratory/constant_lr/GEARS/seed1/latest.pt",
+      "bytes": 75383312,
+      "sha256": "08f5931425c46525dedcc4a5a395fac3e8fb2f98cc60581c5d43c21c34249945"
+    },
+    {
+      "path": "results/stage7_exploratory/constant_lr/GEARS/seed2/best.pt",
+      "bytes": 25131161,
+      "sha256": "c2f9d0d2d9edeaa69d676681436de1dc3628fea77fcda34aad7e6c2a5f316376"
+    },
+    {
+      "path": "results/stage7_exploratory/constant_lr/GEARS/seed2/latest.pt",
+      "bytes": 75383312,
+      "sha256": "c330a8445d6b1445adabfc181a99acdc045dce701bdbae861ee054175b6fcce0"
+    },
+    {
+      "path": "results/stage7_exploratory/constant_lr/scFoundation_GEARS/seed1/best.pt",
+      "bytes": 290420192,
+      "sha256": "67069e335deb8005e934c3203088d1c8da76307aab54258c32cda9e7afcd0328"
+    },
+    {
+      "path": "results/stage7_exploratory/constant_lr/scFoundation_GEARS/seed1/latest.pt",
+      "bytes": 630162586,
+      "sha256": "de875246584557c549157cc06e891a25b3a44c081d830421c77fbbd79dcebbd7"
+    },
+    {
+      "path": "results/stage7_exploratory/constant_lr/scGPT_blood/seed1/best.pt",
+      "bytes": 158078717,
+      "sha256": "9651e8a9c6466931620bdf689626d7e3fba296da8a786e6179ace1cbb78db2cf"
+    },
+    {
+      "path": "results/stage7_exploratory/constant_lr/scGPT_blood/seed1/latest.pt",
+      "bytes": 470073677,
+      "sha256": "fd74454dfe10695605d6083fe3c6ae8f32f3f298445b26e288508c8fac0dc452"
+    },
+    {
+      "path": "models/stage6/scFoundation/MODEL_LICENSE",
+      "bytes": 2310,
+      "sha256": "bdcd01b3213efb813f4461ef60c2a30d56cf07b63446d234283d8c0547ee3cbb"
+    },
+    {
+      "path": "models/stage6/scFoundation/models.ckpt",
+      "bytes": 1432587886,
+      "sha256": "9f40bf324d3d0084c4b288d06f5af4fddd12206e2a3f022551d12e89e33a0ea9"
+    },
+    {
+      "path": "models/stage6/scGPT_blood/args.json",
+      "bytes": 902,
+      "sha256": "8db3c600fec669fcba2619dad82810267d1f1490f64b1d2375ca0c814586a936"
+    },
+    {
+      "path": "models/stage6/scGPT_blood/best_model.pt",
+      "bytes": 155981354,
+      "sha256": "56e68896b1b4e8c708b695f1a60bb7560e08952ea76842f695109737beaeeb41"
+    },
+    {
+      "path": "models/stage6/scGPT_blood/vocab.json",
+      "bytes": 761427,
+      "sha256": "9b8df99caf1da1d58f0b7c7f871c64b75f2c5fba256d1f18fe14b29c4529e64c"
+    }
+  ],
+  "file_count": 22,
+  "bytes": 6865967154,
+  "note": "Public pretraining and non-best/resume/aborted checkpoints remain remote; formal best checkpoints are archived locally."
+}

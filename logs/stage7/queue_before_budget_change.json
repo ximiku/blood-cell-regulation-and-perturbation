@@ -1,0 +1,69 @@
+{
+  "queued": [
+    {
+      "model": "scGPT_blood",
+      "seed": 3
+    },
+    {
+      "model": "GEARS",
+      "seed": 3
+    }
+  ],
+  "active": [
+    {
+      "gpu": 0,
+      "model": "scFoundation_GEARS",
+      "seed": 1,
+      "pid": 25996,
+      "elapsed_seconds": 4235.7957401275635
+    },
+    {
+      "gpu": 1,
+      "model": "scGPT_blood",
+      "seed": 1,
+      "pid": 25997,
+      "elapsed_seconds": 4235.795446157455
+    },
+    {
+      "gpu": 3,
+      "model": "scFoundation_GEARS",
+      "seed": 2,
+      "pid": 26184,
+      "elapsed_seconds": 3180.601903438568
+    },
+    {
+      "gpu": 2,
+      "model": "scGPT_blood",
+      "seed": 2,
+      "pid": 29162,
+      "elapsed_seconds": 275.05297803878784
+    }
+  ],
+  "completed": [
+    {
+      "model": "GEARS",
+      "seed": 2,
+      "gpu": 3,
+      "exit_code": 0,
+      "seconds": 1050.1909291744232
+    },
+    {
+      "model": "GEARS",
+      "seed": 1,
+      "gpu": 2,
+      "exit_code": 0,
+      "seconds": 1215.224347114563
+    },
+    {
+      "model": "scFoundation_GEARS",
+      "seed": 3,
+      "gpu": 2,
+      "exit_code": 0,
+      "seconds": 2735.5136482715607
+    }
+  ],
+  "failed": [],
+  "elapsed_seconds": 4235.796200752258,
+  "time_unix": 1794056226.2988389,
+  "budget_change_time": 1794056227.238504
+}

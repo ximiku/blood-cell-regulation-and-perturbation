@@ -1,0 +1,40 @@
+{
+  "commit": "397631c495eddf9ad6644fc00c6ea8139e651245",
+  "files": [
+    {
+      "path": "GEARS/modules/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "GEARS/modules/attention.py",
+      "bytes": 10136,
+      "sha256": "bbd5cafc0df6f3673d50f5340979062092e26a91ea978690a2b7390152013d1a"
+    },
+    {
+      "path": "GEARS/modules/encoders.py",
+      "bytes": 10486,
+      "sha256": "89ebe5c8b535c86e52cea95371d4f2064497f6eeaaa63c379ba23f57fcc03bfd"
+    },
+    {
+      "path": "GEARS/modules/mae_autobin.py",
+      "bytes": 5826,
+      "sha256": "3f6e855495c58bce45c76a39bd3e9637e14b99f9bef12c402d262e5c9da8a593"
+    },
+    {
+      "path": "GEARS/modules/performer_module.py",
+      "bytes": 27037,
+      "sha256": "078e94df89393b75edfaf2a9db991e2eaf60a9f743d0c949c4f351cd5b9caf5d"
+    },
+    {
+      "path": "GEARS/modules/reversible.py",
+      "bytes": 7371,
+      "sha256": "4891031194801dcc781f83a939b2ef46be0a12e0babf4b2708863a63f1d871e2"
+    },
+    {
+      "path": "GEARS/modules/transformer.py",
+      "bytes": 8374,
+      "sha256": "35a46bc1eca9936b2b2182071be46636c607c293a9a7fd4695939e8f0b1af98b"
+    }
+  ]
+}

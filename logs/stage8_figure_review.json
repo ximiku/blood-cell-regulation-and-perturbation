@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "checked_utc": "2026-11-07T14:40:11.330182+00:00",
+  "figures": [
+    "07_F1_model_benchmark",
+    "07_F2_generalization",
+    "07_F3_training_curves",
+    "07_F4_direct_additive_subset",
+    "07_F5_representative_predictions"
+  ],
+  "formats": [
+    "pdf",
+    "svg",
+    "png"
+  ],
+  "visual_review": "All five PNGs inspected: legible English labels, no clipped panels, consistent model colors, shared within-case axes and complete captions."
+}

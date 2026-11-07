@@ -1,0 +1,13 @@
+{
+  "train_batch_size": 64,
+  "evaluation_batch_size": 32,
+  "train_cells": 45661,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0005,
+  "scheduler_gamma": 0.5,
+  "gradient_clip": "value1",
+  "reference_pool_size": 64,
+  "TF32": true,
+  "initialization": "fresh public pretraining or random, no pilot checkpoint",
+  "train_graph_seed": 2
+}

@@ -1,0 +1,219 @@
+{
+  "id": "landmark/full_inner_03",
+  "kind": "context",
+  "dataset": "landmark",
+  "name": "full_inner_03",
+  "n_train": 611,
+  "n_validation": 354,
+  "parameters": {
+    "Lasso": [
+      {
+        "relative_alpha": 1.0,
+        "l1_ratio": 1.0
+      },
+      {
+        "relative_alpha": 0.8685113737513526,
+        "l1_ratio": 1.0
+      },
+      {
+        "relative_alpha": 0.7543120063354617,
+        "l1_ratio": 1.0
+      },
+      {
+        "relative_alpha": 0.655128556859551,
+        "l1_ratio": 1.0
+      },
+      {
+        "relative_alpha": 0.5689866029018297,
+        "l1_ratio": 1.0
+      },
+      {
+        "relative_alpha": 0.49417133613238345,
+        "l1_ratio": 1.0
+      },
+      {
+        "relative_alpha": 0.4291934260128778,
+        "l1_ratio": 1.0
+      },
+      {
+        "relative_alpha": 0.37275937203149406,
+        "l1_ratio": 1.0
+      },
+      {
+        "relative_alpha": 0.3237457542817644,
+        "l1_ratio": 1.0
+      },
+      {
+        "relative_alpha": 0.28117686979742307,
+        "l1_ratio": 1.0
+      },
+      {
+        "relative_alpha": 0.2442053094548651,
+        "l1_ratio": 1.0
+      },
+      {
+        "relative_alpha": 0.2120950887920191,
+        "l1_ratio": 1.0
+      },
+      {
+        "relative_alpha": 0.18420699693267165,
+        "l1_ratio": 1.0
+      },
+      {
+        "relative_alpha": 0.15998587196060582,
+        "l1_ratio": 1.0
+      },
+      {
+        "relative_alpha": 0.13894954943731377,
+        "l1_ratio": 1.0
+      },
+      {
+        "relative_alpha": 0.12067926406393285,
+        "l1_ratio": 1.0
+      },
+      {
+        "relative_alpha": 0.10481131341546858,
+        "l1_ratio": 1.0
+      },
+      {
+        "relative_alpha": 0.09102981779915217,
+        "l1_ratio": 1.0
+      },
+      {
+        "relative_alpha": 0.07906043210907701,
+        "l1_ratio": 1.0
+      },
+      {
+        "relative_alpha": 0.06866488450043001,
+        "l1_ratio": 1.0
+      },
+      {
+        "relative_alpha": 0.05963623316594643,
+        "l1_ratio": 1.0
+      },
+      {
+        "relative_alpha": 0.05179474679231213,
+        "l1_ratio": 1.0
+      },
+      {
+        "relative_alpha": 0.04498432668969446,
+        "l1_ratio": 1.0
+      },
+      {
+        "relative_alpha": 0.03906939937054617,
+        "l1_ratio": 1.0
+      },
+      {
+        "relative_alpha": 0.03393221771895329,
+        "l1_ratio": 1.0
+      },
+      {
+        "relative_alpha": 0.029470517025518114,
+        "l1_ratio": 1.0
+      },
+      {
+        "relative_alpha": 0.025595479226995357,
+        "l1_ratio": 1.0
+      },
+      {
+        "relative_alpha": 0.022229964825261943,
+        "l1_ratio": 1.0
+      },
+      {
+        "relative_alpha": 0.019306977288832506,
+        "l1_ratio": 1.0
+      },
+      {
+        "relative_alpha": 0.016768329368110083,
+        "l1_ratio": 1.0
+      },
+      {
+        "relative_alpha": 0.014563484775012436,
+        "l1_ratio": 1.0
+      },
+      {
+        "relative_alpha": 0.012648552168552964,
+        "l1_ratio": 1.0
+      },
+      {
+        "relative_alpha": 0.010985411419875584,
+        "l1_ratio": 1.0
+      },
+      {
+        "relative_alpha": 0.009540954763499945,
+        "l1_ratio": 1.0
+      },
+      {
+        "relative_alpha": 0.008286427728546842,
+        "l1_ratio": 1.0
+      },
+      {
+        "relative_alpha": 0.0071968567300115215,
+        "l1_ratio": 1.0
+      },
+      {
+        "relative_alpha": 0.006250551925273976,
+        "l1_ratio": 1.0
+      },
+      {
+        "relative_alpha": 0.005428675439323859,
+        "l1_ratio": 1.0
+      },
+      {
+        "relative_alpha": 0.004714866363457394,
+        "l1_ratio": 1.0
+      },
+      {
+        "relative_alpha": 0.004094915062380427,
+        "l1_ratio": 1.0
+      },
+      {
+        "relative_alpha": 0.0035564803062231283,
+        "l1_ratio": 1.0
+      },
+      {
+        "relative_alpha": 0.0030888435964774815,
+        "l1_ratio": 1.0
+      },
+      {
+        "relative_alpha": 0.002682695795279727,
+        "l1_ratio": 1.0
+      },
+      {
+        "relative_alpha": 0.0023299518105153716,
+        "l1_ratio": 1.0
+      },
+      {
+        "relative_alpha": 0.0020235896477251575,
+        "l1_ratio": 1.0
+      },
+      {
+        "relative_alpha": 0.001757510624854793,
+        "l1_ratio": 1.0
+      },
+      {
+        "relative_alpha": 0.0015264179671752333,
+        "l1_ratio": 1.0
+      },
+      {
+        "relative_alpha": 0.0013257113655901094,
+        "l1_ratio": 1.0
+      },
+      {
+        "relative_alpha": 0.0011513953993264481,
+        "l1_ratio": 1.0
+      },
+      {
+        "relative_alpha": 0.001,
+        "l1_ratio": 1.0
+      }
+    ]
+  },
+  "seconds": 25.642394962953404,
+  "model_path_seconds_excluding_shared_preprocessing": {
+    "Lasso": 25.505173275945708
+  },
+  "device": 3,
+  "all_converged": true,
+  "completed_utc": "2026-11-07T08:07:59.793806+00:00"
+}

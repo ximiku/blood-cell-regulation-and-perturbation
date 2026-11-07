@@ -1,0 +1,8 @@
+﻿target,TF,TF_stability_rank,selection_frequency,coefficient_standardized,stable_priority,source_ids,evidence_scope,literature_support_zh,interpretation_and_validation_zh,self_readout_check_status,source_urls
+erythrocyte,MYB,1,1,0.078201997916685806,True,R03;R04,红系机制支持,人 CD34+ 细胞中的 MYB 下调影响红系命运，并涉及 KLF1、LMO2；小鼠研究显示其作用随红系阶段变化。,将 MYB 相关匹配优先联系红系发育程序，检验阶段与表达持续时间。,completed,https://pubmed.ncbi.nlm.nih.gov/20686118/;https://pubmed.ncbi.nlm.nih.gov/16484593/
+plasma cell,BCL6,15,1,-0.040719668190824197,True,R05,浆细胞机制支持,小鼠 Bcl6 直接抑制 Prdm1；缺失后浆细胞发育加快。,负向匹配与解除 BCL6 抑制的方向相呼应；在 B 到浆细胞背景核对转变。,not_in_prespecified_top10_check,https://pubmed.ncbi.nlm.nih.gov/15240705/
+monocyte,KLF6,2,1,0.084296879365355001,True,R06;R07,邻近髓系背景支持,人/鼠巨噬细胞研究支持 KLF6 的炎症调控；后续工作涉及 PRDM1–BCL6 轴。,优先考察炎症功能状态，并区分其与单核细胞谱系形成的关系。,completed,https://pubmed.ncbi.nlm.nih.gov/24385430/;https://pubmed.ncbi.nlm.nih.gov/27539853/
+monocyte,PRDM1,8,1,0.048471826968702197,True,R07,邻近髓系背景支持,巨噬细胞 KLF6–PRDM1–BCL6 轴提供与 KLF6 共同出现的研究线索。,在对应背景检验两者共同响应与先后关系；本次未直接估计调控边。,completed,https://pubmed.ncbi.nlm.nih.gov/27539853/
+B cell,ZNF22,1,1,0.069495114311844103,True,,本次定向检索尚未定位直接证据,预定基因—B/淋巴/造血检索返回空；保留统计排名。,作为探索性候选，在独立 B 细胞数据中优先复核。,completed,
+plasma cell,OVOL2,1,1,0.071870885725377406,True,,共同模式候选,本次定向检索命中一篇镉暴露/糖代谢研究，未作为血液分化机制证据。,比较其跨细胞共同表达程序与目标特有程序。,completed,
+erythrocyte,NFYB,3,1,-0.053118067676794299,True,,共同模式候选,本阶段按四目标稳定交集讨论；未新增 NFYB 特异机制结论。,比较跨目标贡献，查明是否主要追踪共同状态特征。,completed,

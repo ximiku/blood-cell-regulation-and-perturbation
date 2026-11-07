@@ -1,0 +1,16 @@
+{
+  "model": "GEARS",
+  "seed": 2,
+  "epoch": 10,
+  "phase": "epoch_completed",
+  "learning_rate": 1.953125e-06,
+  "mean_training_batch_loss": 0.13251485385480716,
+  "validation_condition_equal_MSE": 0.0019779600144663374,
+  "training_seconds": 103.2686812877655,
+  "validation_seconds": 0.8522512912750244,
+  "best_epoch": 5,
+  "best_validation_MSE": 0.001838606759964815,
+  "training_rows_seen": 45661,
+  "max_gradient_norm": 0.2570204436779022,
+  "time_unix": 1794053036.2150354
+}

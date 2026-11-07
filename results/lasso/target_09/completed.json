@@ -1,0 +1,37 @@
+{
+  "target_index": 9,
+  "target": "basophil",
+  "completed_utc": "2026-11-07T07:17:16.320082+00:00",
+  "seconds": 3.098364590900019,
+  "timing_scope": "assembly_after_shared_GPU_paths",
+  "metrics": [
+    {
+      "target": "basophil",
+      "model": "Lasso_min",
+      "R2": 0.42979565451826807,
+      "RMSE": 0.2416465869686007,
+      "Pearson": 0.6561082023378214,
+      "Spearman": 0.512330844426624
+    },
+    {
+      "target": "basophil",
+      "model": "Lasso_1se",
+      "R2": 0.4056194056067086,
+      "RMSE": 0.24671622718213027,
+      "Pearson": 0.6373517104916201,
+      "Spearman": 0.4874235680976221
+    },
+    {
+      "target": "basophil",
+      "model": "Mean_baseline",
+      "R2": -0.00015317509660128792,
+      "RMSE": 0.32003587432928116,
+      "Pearson": -0.01650162489490417,
+      "Spearman": -0.008053348719173915
+    }
+  ],
+  "n_fits": 960,
+  "n_retried": 0,
+  "all_converged": true,
+  "input_sha256": "37afe6e27bcb80676f6ae2e92bd0ec77d1acd4480f1eabc1100f8cbee18175be"
+}

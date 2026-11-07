@@ -1,0 +1,73 @@
+{
+  "queued": [],
+  "active": [],
+  "completed": [
+    {
+      "model": "GEARS",
+      "seed": 2,
+      "gpu": 3,
+      "exit_code": 0,
+      "seconds": 1050.1909291744232
+    },
+    {
+      "model": "GEARS",
+      "seed": 1,
+      "gpu": 2,
+      "exit_code": 0,
+      "seconds": 1215.224347114563
+    },
+    {
+      "model": "scFoundation_GEARS",
+      "seed": 3,
+      "gpu": 2,
+      "exit_code": 0,
+      "seconds": 2735.5136482715607
+    },
+    {
+      "model": "scFoundation_GEARS",
+      "seed": 1,
+      "gpu": 0,
+      "exit_code": 0,
+      "seconds": 4355.462495326996
+    },
+    {
+      "model": "scFoundation_GEARS",
+      "seed": 2,
+      "gpu": 3,
+      "exit_code": 0,
+      "seconds": 3656.824903488159
+    },
+    {
+      "model": "scGPT_blood",
+      "seed": 1,
+      "gpu": 1,
+      "exit_code": 0,
+      "seconds": 5460.630314350128
+    },
+    {
+      "model": "GEARS",
+      "seed": 3,
+      "gpu": 3,
+      "exit_code": 0,
+      "seconds": 838.6859769821167
+    },
+    {
+      "model": "scGPT_blood",
+      "seed": 2,
+      "gpu": 2,
+      "exit_code": 0,
+      "seconds": 5655.165718317032
+    },
+    {
+      "model": "scGPT_blood",
+      "seed": 3,
+      "gpu": 0,
+      "exit_code": 0,
+      "seconds": 5370.49671292305
+    }
+  ],
+  "failed": [],
+  "elapsed_seconds": 9725.962400436401,
+  "time_unix": 1794061716.4650388,
+  "max_epochs": 8
+}

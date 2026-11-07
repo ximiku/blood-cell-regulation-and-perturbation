@@ -1,0 +1,9 @@
+{
+  "model": "zero_change",
+  "seed": 1,
+  "status": "completed",
+  "test_conditions": 109,
+  "eligible_conditions": 109,
+  "training_conditions_equal_weight": 97,
+  "controls_excluded_from_training_mean": true
+}

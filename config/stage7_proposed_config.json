@@ -1,0 +1,84 @@
+{
+  "status": "proposed_waiting_for_user_stage7_approval",
+  "execution_started": false,
+  "task": "held-out perturbation-condition expression-change prediction",
+  "seeds": [
+    1,
+    2,
+    3
+  ],
+  "split_manifests": "data/splits/stage6/seed{seed}.json",
+  "models": [
+    "zero_change",
+    "training_condition_mean",
+    "Ridge_additive",
+    "direct_single_additive",
+    "GEARS",
+    "scGPT_blood",
+    "scFoundation_GEARS"
+  ],
+  "max_epochs": 20,
+  "early_stopping_patience": 5,
+  "early_stopping_metric": "validation condition-equal mean MSE on expression changes across all shared output genes",
+  "best_checkpoint": "minimum validation metric; fresh training, pilot weights not reused",
+  "training_conditions": "all conditions in each training manifest; train controls only as reference inputs",
+  "gene_sets": [
+    "18977 shared outputs",
+    "1000 high-variance shared genes selected using each training split"
+  ],
+  "evaluation_groups": [
+    "seen0",
+    "seen1",
+    "seen2",
+    "unseen_single"
+  ],
+  "seen_definition": "gene occurs in final training conditions; original GEARS labels preserved separately",
+  "condition_aggregation": "equal weight per condition; true mean across all cells in that condition",
+  "control_reference_for_evaluation": {
+    "n_cells": 64,
+    "seed": 20261107,
+    "selection": "fixed training-control sample shared across all models and seeds",
+    "prediction": "average predicted response across these controls",
+    "control_baseline": "mean over all training controls"
+  },
+  "metrics": [
+    "expression-change MSE",
+    "expression-change RMSE",
+    "Pearson on changes",
+    "Spearman on changes",
+    "relative MSE improvement over each baseline"
+  ],
+  "supplement": "repeat metrics excluding directly perturbed genes; report undefined correlations explicitly",
+  "direct_additive_eligibility": "all corresponding single-perturbation conditions present in training; report coverage",
+  "Ridge_alpha_grid": [
+    0.0001,
+    0.001,
+    0.01,
+    0.1,
+    1,
+    10,
+    100,
+    1000,
+    10000
+  ],
+  "Ridge_selection": "validation condition-equal MSE",
+  "initial_batch_sizes": {
+    "GEARS": 32,
+    "scGPT_train": 32,
+    "scGPT_full_gene_eval": 4,
+    "scFoundation_GEARS": 6
+  },
+  "learning_rates": {
+    "GEARS": 0.001,
+    "scGPT_blood": 0.0001,
+    "scFoundation_GEARS": 0.001
+  },
+  "scGPT_training_sequence_length": 1536,
+  "scGPT_always_include_perturbed_genes": true,
+  "scFoundation_frozen_encoder": true,
+  "resource_adjustment": "batch sizes may be reduced for memory; log final values; no extra pilot rounds",
+  "speed_strategy": "parallelize model/seed jobs across 4 GPUs; cached data; early stopping; vectorized condition summaries",
+  "coexpression_graphs": "seed-specific training-only graphs; seed2/3 built at stage7 start",
+  "runtime_estimate": "hour-scale; refine after first full epoch, minimal-trial timing is insufficient for a reliable total",
+  "self_checks_only": true
+}

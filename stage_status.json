@@ -1,0 +1,23 @@
+{
+  "stage": 8,
+  "status": "completed_for_user_review",
+  "started_utc": "2026-11-07T11:33:27.782709+00:00",
+  "previous_stage_user_approved": true,
+  "independent_review_required": false,
+  "next_stage": null,
+  "next_stage_started": false,
+  "Prism_migration": "cancelled_by_user; original_approved_figures_retained",
+  "pending_items": [],
+  "review_mode": "self_checks_only_user_requested",
+  "remote_current_task_training_active": false,
+  "local_archive_verified": true,
+  "main_report": "reports/08_enhanced_report.md",
+  "validation": "logs/stage8_archive_validation.json",
+  "deferred_original_plan_item": "20 retuned resamples per target completed in stage7",
+  "authorized_stages": [
+    7,
+    8
+  ],
+  "previous_completed_archive": "logs/stage6/local_validation.json",
+  "completed_utc": "2026-11-07T14:40:11.330182+00:00"
+}

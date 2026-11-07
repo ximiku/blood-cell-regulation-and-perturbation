@@ -1,0 +1,21 @@
+{
+  "status": "completed",
+  "model": "scFoundation_GEARS",
+  "seed": 2,
+  "epochs": 8,
+  "best_epoch": 4,
+  "best_validation_MSE": 0.002332866505362442,
+  "test_condition_equal_MSE": 0.0026062851839143445,
+  "test_conditions": 93,
+  "test_seconds": 14.120131731033325,
+  "total_seconds": 3652.9541914463043,
+  "max_epochs_requested": 8,
+  "selection_max_epochs": 8,
+  "prechange_extra_epochs": 0,
+  "peak_allocated_GiB": 7.8030853271484375,
+  "peak_reserved_GiB": 9.04296875,
+  "all_predictions_finite": true,
+  "train_cells": 45661,
+  "training_reference_pool_size": 64,
+  "frozen_cache": true
+}

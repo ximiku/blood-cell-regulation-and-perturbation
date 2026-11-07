@@ -1,0 +1,22 @@
+﻿cell_type,euclidean_nearest,euclidean_distance,correlation_nearest,correlation
+hematopoietic stem cell,hematopoietic precursor cell,15.3163106871,hematopoietic precursor cell,0.790745558778
+common myeloid progenitor,hematopoietic stem cell,19.1148177638,hematopoietic stem cell,0.778405211381
+erythrocyte,plasma cell,51.4076547795,platelet,0.313852532881
+platelet,hematopoietic precursor cell,53.2801778643,erythrocyte,0.313852532881
+macrophage,classical monocyte,16.5138458841,intermediate monocyte,0.856336118012
+B cell,plasmacytoid dendritic cell,28.9781689859,plasmacytoid dendritic cell,0.374513124018
+monocyte,classical monocyte,8.24508016938,classical monocyte,0.950685498748
+natural killer cell,"CD8-positive, alpha-beta T cell",7.21256253715,"CD8-positive, alpha-beta T cell",0.957757897893
+"CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell",10.0096296996,"naive thymus-derived CD4-positive, alpha-beta T cell",0.933723056543
+"CD8-positive, alpha-beta T cell",natural killer cell,7.21256253715,natural killer cell,0.957757897893
+basophil,macrophage,34.6435212309,neutrophil,0.415656357819
+neutrophil,macrophage,39.9722344145,macrophage,0.510895107711
+plasmacytoid dendritic cell,hematopoietic stem cell,26.8997181942,B cell,0.374513124018
+plasma cell,hematopoietic precursor cell,27.1417239784,plasmacytoid dendritic cell,0.358543861822
+mature NK T cell,"CD8-positive, alpha-beta T cell",13.6743846836,"CD8-positive, alpha-beta T cell",0.822454586467
+regulatory T cell,"CD4-positive, alpha-beta T cell",20.7488110562,"CD4-positive, alpha-beta T cell",0.672390877289
+classical monocyte,monocyte,8.24508016938,intermediate monocyte,0.9512316326
+non-classical monocyte,monocyte,18.6084494716,intermediate monocyte,0.696211883718
+"naive thymus-derived CD4-positive, alpha-beta T cell","CD4-positive, alpha-beta T cell",10.0096296996,"CD4-positive, alpha-beta T cell",0.933723056543
+intermediate monocyte,classical monocyte,8.75758859787,classical monocyte,0.9512316326
+hematopoietic precursor cell,hematopoietic stem cell,15.3163106871,hematopoietic stem cell,0.790745558778

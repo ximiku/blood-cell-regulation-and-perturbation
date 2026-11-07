@@ -1,0 +1,41 @@
+﻿target,perturbation,approved_symbol,selection_frequency,sign_consistency,full_coefficient,stable_priority,raw_ElasticNet_same_active_sign,landmark_Lasso_same_active_sign,gene_scaled_Lasso_same_active_sign,self_readout_status,self_readout_same_active_sign,relative_coefficient_change
+B cell,ZNF22,ZNF22,1,1,0.069495114311844103,True,True,False,True,completed,True,0.00080719108804892185
+B cell,DLX3,DLX3,1,1,0.033585399466784002,True,True,False,False,own_readout_absent,,
+B cell,RORC,RORC,1,1,0.044608069213789597,True,True,False,True,completed,True,0.0020635105875201078
+B cell,ZNF174,ZNF174,1,1,-0.039911044714680301,True,True,False,True,completed,True,-5.127733521473137e-05
+B cell,STAT4,STAT4,1,1,0.0365862067124973,True,True,False,True,completed,True,-0.0044781927530655749
+B cell,ZNF296,ZNF296,1,1,0.0402565511114958,True,True,False,True,own_readout_absent,,
+B cell,KLF3,KLF3,1,1,0.035906805925494001,True,True,False,True,completed,True,0.00025737254224408624
+B cell,HOXB5,HOXB5,1,1,-0.0338495825647631,True,True,False,True,completed,True,-0.00083038528472544385
+B cell,NFYB,NFYB,1,1,-0.035169186231950998,True,True,False,True,completed,True,0.00032481642477292285
+B cell,ZNF114,ZNF114,1,1,0.034924756280694101,True,True,False,True,own_readout_absent,,
+plasma cell,OVOL2,OVOL2,1,1,0.071870885725377406,True,True,False,True,completed,True,-0.00012180733499635567
+plasma cell,NCOA3,NCOA3,1,1,-0.063930645921835796,True,True,False,True,completed,True,-0.070462907539571656
+plasma cell,ZNF653,ZNF653,1,1,0.066991999670068705,True,True,False,True,own_readout_absent,,
+plasma cell,(DDIT3),DDIT3,1,1,0.067259012185629199,True,True,False,True,completed,True,-0.00064979491402891254
+plasma cell,LHX8,LHX8,1,1,-0.059110760439591799,True,True,False,True,own_readout_absent,,
+plasma cell,ERF,ERF,1,1,0.0526472222380703,True,True,False,True,completed,True,0.00031210543923261807
+plasma cell,CLOCK,CLOCK,1,1,-0.048558423571349499,True,True,False,True,completed,True,0.0011942609932434425
+plasma cell,ZNF558,ZNF558,1,1,0.0391245938640866,True,True,False,True,own_readout_absent,,
+plasma cell,TFAP2A,TFAP2A,1,1,0.046642751433453603,True,True,False,True,completed,True,0.00093611796221302127
+plasma cell,TP53,TP53,1,1,-0.039850372057278802,True,True,False,False,completed,True,0.0091324735553287521
+monocyte,PAX8,PAX8,1,1,0.088407400224114405,True,True,False,True,completed,True,0.0024439373193441746
+monocyte,KLF6,KLF6,1,1,0.084296879365355001,True,True,False,True,completed,True,-0.012071041049675735
+monocyte,TCF7L2,TCF7L2,1,1,0.067325550852868093,True,True,False,True,completed,True,0.00057633310533426578
+monocyte,TFAP2A,TFAP2A,1,1,0.067274341084704703,True,True,False,True,completed,True,-0.00010537678707648302
+monocyte,OVOL2,OVOL2,1,1,0.061514404804208098,True,True,False,True,completed,True,2.4330820761368682e-05
+monocyte,IRF3,IRF3,1,1,0.055264116438292002,True,True,False,True,completed,True,0.00094594051233020792
+monocyte,HIF1A,HIF1A,1,1,0.059681534460233401,True,True,False,False,completed,True,-0.0016535537298294344
+monocyte,PRDM1,PRDM1,1,1,0.048471826968702197,True,True,False,True,completed,True,-0.00052378920375177704
+monocyte,SIM2,SIM2,1,1,-0.049871693774906203,True,True,False,True,completed,True,0.0036776591644603149
+monocyte,SATB2,SATB2,1,1,0.040068848284407502,True,True,False,False,completed,True,-6.0195937019349301e-05
+erythrocyte,MYB,MYB,1,1,0.078201997916685806,True,True,False,False,completed,True,0.013040420441844747
+erythrocyte,IRF3,IRF3,1,1,0.049985596078638603,True,True,False,True,completed,True,0.00086091099409343647
+erythrocyte,NFYB,NFYB,1,1,-0.053118067676794299,True,True,False,True,completed,True,4.8908136863814824e-07
+erythrocyte,PREB,PREB,1,1,0.046590607422094601,True,True,False,False,completed,True,-0.00024560392702170284
+erythrocyte,ELK3,ELK3,1,1,0.041417648029770902,True,True,False,True,completed,True,0.00054853440264635012
+erythrocyte,NCOA3,NCOA3,1,1,-0.039892051804105703,True,True,False,True,completed,True,0.0034408301914876545
+erythrocyte,CREB3,CREB3,1,1,0.039999423265570398,True,True,False,False,completed,True,-0.0011784691413425006
+erythrocyte,RARA,RARA,1,1,-0.037101120868815798,True,True,False,False,completed,True,0.0050199531677236238
+erythrocyte,OVOL2,OVOL2,1,1,0.031927661591313897,True,True,False,True,completed,True,0.0007106690111343965
+erythrocyte,KLF6,KLF6,1,1,0.035916372517723602,True,True,False,True,completed,True,0.017887359778487454

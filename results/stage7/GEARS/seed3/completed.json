@@ -1,0 +1,21 @@
+{
+  "status": "completed",
+  "model": "GEARS",
+  "seed": 3,
+  "epochs": 8,
+  "best_epoch": 5,
+  "best_validation_MSE": 0.001974835799086956,
+  "test_condition_equal_MSE": 0.0018799467173268097,
+  "test_conditions": 97,
+  "test_seconds": 2.8539960384368896,
+  "total_seconds": 834.2836258411407,
+  "max_epochs_requested": 8,
+  "selection_max_epochs": 8,
+  "prechange_extra_epochs": 0,
+  "peak_allocated_GiB": 6.087319374084473,
+  "peak_reserved_GiB": 7.525390625,
+  "all_predictions_finite": true,
+  "train_cells": 45696,
+  "training_reference_pool_size": 64,
+  "frozen_cache": false
+}

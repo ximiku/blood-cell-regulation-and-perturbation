@@ -1,0 +1,3 @@
+/root/HW2_20261107/solution/scripts/stage4_assemble.py:23: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  'Spearman':float(spearmanr(y,p).statistic) if np.std(p)>0 else np.nan,'n_genes':len(y)}
+{"event": "models_assembled", "raw_metric_rows": 52, "coefficient_rows": 152152}

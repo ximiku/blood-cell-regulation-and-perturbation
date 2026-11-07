@@ -1,0 +1,148 @@
+"""Fold-local float64 model paths and fixed-penalty resampling on CUDA."""
+from pathlib import Path
+from datetime import datetime,timezone
+import argparse,json,time
+import numpy as np
+import cupy as cp
+
+ROOT=Path(__file__).resolve().parents[1]
+CFG=json.loads((ROOT/'config/stage4_config.json').read_text())
+PATH=np.geomspace(CFG['relative_path']['maximum'],CFG['relative_path']['minimum'],CFG['relative_path']['count'])
+
+def cert(Q,c,s,b,l1,l2,positive=False):
+    qb=Q@b;cb=cp.sum(c*b,axis=0);bb=cp.sum(b*b,axis=0)
+    aug=cp.maximum(s-2*cb+cp.sum(b*qb,axis=0)+l2*bb,0)
+    corr=c-qb-l2*b
+    norm=cp.max(corr if positive else cp.abs(corr),axis=0)
+    scaling=cp.maximum(1,norm/l1)
+    primal=.5*aug+l1*cp.sum(cp.abs(b),axis=0)
+    dual=(s-cb)/scaling-.5*aug/scaling**2
+    return primal-dual,primal,dual
+
+def proximal(Q,c,s,L,ratios,l1_ratio=1.,positive=False,initial=None,tol=None):
+    tol=CFG['tol'] if tol is None else tol
+    amax=cp.maximum(cp.max(c if positive else cp.abs(c),axis=0),1e-15)/l1_ratio
+    b=cp.zeros_like(c) if initial is None else cp.asarray(initial).copy()
+    records=[];coefs=[]
+    for ratio in ratios:
+        alpha=amax*cp.asarray(ratio);l1=alpha*l1_ratio;l2=alpha*(1-l1_ratio)
+        step_size=1/(L+l2)
+        v=b.copy();momentum=cp.ones(c.shape[1]);gap,primal,dual=cert(Q,c,s,b,l1,l2,positive)
+        done=(gap<=tol*s)&(gap>=-1e-8);at=cp.zeros(c.shape[1],dtype='int64')
+        for it in range(1,CFG['max_iter']+1):
+            if bool(cp.all(done).get()):break
+            step=v-(Q@v-c+l2*v)*step_size
+            update=cp.maximum(step-l1*step_size,0) if positive else cp.sign(step)*cp.maximum(cp.abs(step)-l1*step_size,0)
+            update=cp.where(done[None,:],b,update)
+            next_m=(1+cp.sqrt(1+4*momentum**2))/2
+            restart=cp.sum((v-update)*(update-b),axis=0)>0
+            next_m=cp.where(restart,1,next_m)
+            v=update+((momentum-1)/next_m)[None,:]*(update-b)
+            v=cp.where(restart[None,:],update,v);b=update;momentum=next_m
+            if it==1 or it%25==0:
+                gap,primal,dual=cert(Q,c,s,b,l1,l2,positive)
+                new=(~done)&(gap<=tol*s)&(gap>=-1e-8)
+                at=cp.where(new,it,at);done|=new
+        gap,primal,dual=cert(Q,c,s,b,l1,l2,positive)
+        if not bool(cp.all((gap<=tol*s*1.00001)&(gap>=-1e-8)).get()):
+            raise RuntimeError(f'Unconverged ratio {ratio}: {gap.get()}')
+        coefs.append(b.copy());records.append([alpha.get(),gap.get(),primal.get(),dual.get(),at.get()])
+    # Every target is an independent single-response optimization.
+    return cp.stack(coefs,axis=2),np.asarray(records),amax.get()
+
+def pls_path(xx,yy,components):
+    out=cp.zeros((xx.shape[1],yy.shape[1],len(components)))
+    for target in range(yy.shape[1]):
+        xr=xx.copy();yr=yy[:,target].copy();weights=[];loads=[];yloads=[]
+        for k in range(1,max(components)+1):
+            w=xr.T@yr;w/=cp.linalg.norm(w)
+            t=xr@w;den=t@t;p=xr.T@t/den;q=yr@t/den
+            xr-=t[:,None]*p[None,:];yr-=t*q
+            weights.append(w);loads.append(p);yloads.append(q)
+            if k in components:
+                W=cp.stack(weights,axis=1);P=cp.stack(loads,axis=1);qv=cp.stack(yloads)
+                out[:,target,components.index(k)]=W@cp.linalg.solve(P.T@W,qv)
+    return out
+
+def save_npz(path,**arrays):
+    path.parent.mkdir(parents=True,exist_ok=True)
+    temp=path.with_suffix('.npz.tmp')
+    with temp.open('wb') as f:np.savez_compressed(f,**arrays)
+    temp.replace(path)
+
+def run_job(job,X,Yraw,Yscaled,reference,device):
+    dest=ROOT/'results/stage4'/f'{job["id"]}.npz';record=dest.with_suffix('.json')
+    if dest.exists() and record.exists():return
+    start=time.monotonic();tr=np.asarray(job['train']);va=np.asarray(job['validation'],dtype=int)
+    yy_source=Yscaled if job['dataset']=='gene_scaled' else Yraw
+    xx=X[tr].copy();xm=xx.mean(axis=0);xs=xx.std(axis=0);xs=cp.where(xs>0,xs,1);xx=(xx-xm)/xs
+    yy=yy_source[tr].copy();ym=yy.mean(axis=0);ys=yy.std(axis=0);yy=(yy-ym)/ys
+    Q=xx.T@xx/len(tr);Q=(Q+Q.T)/2;c=xx.T@yy/len(tr);s=cp.mean(yy**2,axis=0)
+    values,vectors=cp.linalg.eigh(Q);L=float(values[-1].get())*1.000001
+    arrays={'train':tr,'validation':va,'x_mean':xm.get(),'x_scale':xs.get(),
+        'y_mean':ym.get(),'y_scale':ys.get(),'target_second_moment':s.get(),'Lipschitz':L}
+    models={};parameters={};diagnostics={};model_seconds={};model_start=time.monotonic()
+    if job['kind'] in ['stability','self_readout']:
+        b,diag,amax=proximal(Q,c,s,L,[reference['relative_alphas']],initial=None,tol=job.get('tolerance'))
+        arrays.update(coef=b[:,:,0].get(),diagnostics=diag,alpha_max=amax,
+                      relative_alphas=reference['relative_alphas'])
+        model_seconds['Lasso']=time.monotonic()-model_start
+    elif job['dataset']!='raw':
+        models['Lasso'],diagnostics['Lasso'],amax=proximal(Q,c,s,L,PATH)
+        parameters['Lasso']=[{'relative_alpha':float(v),'l1_ratio':1.} for v in PATH]
+        arrays['Lasso_alpha_max']=amax
+        model_seconds['Lasso']=time.monotonic()-model_start
+    else:
+        blocks=[];diags=[];pars=[]
+        for mix in CFG['elastic_net_l1_ratios']:
+            b,d,amax=proximal(Q,c,s,L,PATH,l1_ratio=mix)
+            blocks.append(b);diags.append(d)
+            pars += [{'relative_alpha':float(v),'l1_ratio':mix} for v in PATH]
+        models['ElasticNet']=cp.concatenate(blocks,axis=2);diagnostics['ElasticNet']=np.concatenate(diags)
+        parameters['ElasticNet']=pars
+        model_seconds['ElasticNet']=time.monotonic()-model_start;model_start=time.monotonic()
+        print(json.dumps({'event':'model_path_done','job':job['id'],'model':'ElasticNet','seconds':model_seconds['ElasticNet']}),flush=True)
+        models['NonnegativeLasso'],diagnostics['NonnegativeLasso'],amax=proximal(Q,c,s,L,PATH,positive=True)
+        parameters['NonnegativeLasso']=[{'relative_alpha':float(v),'l1_ratio':1.} for v in PATH]
+        arrays['NonnegativeLasso_alpha_max']=amax
+        model_seconds['NonnegativeLasso']=time.monotonic()-model_start;model_start=time.monotonic()
+        eig=cp.maximum(values,0);projected=vectors.T@c
+        lam=np.geomspace(CFG['ridge']['minimum'],CFG['ridge']['maximum'],CFG['ridge']['count'])
+        models['Ridge']=cp.stack([vectors@(projected/(eig[:,None]+v)) for v in lam],axis=2)
+        parameters['Ridge']=[{'lambda':float(v)} for v in lam]
+        cp.cuda.Stream.null.synchronize();model_seconds['Ridge']=time.monotonic()-model_start;model_start=time.monotonic()
+        models['PCR']=cp.stack([vectors[:,-k:]@(projected[-k:]/eig[-k:,None]) for k in CFG['pcr_components']],axis=2)
+        parameters['PCR']=[{'components':k} for k in CFG['pcr_components']]
+        cp.cuda.Stream.null.synchronize();model_seconds['PCR']=time.monotonic()-model_start;model_start=time.monotonic()
+        models['PLS']=pls_path(xx,yy,CFG['pls_components'])
+        parameters['PLS']=[{'components':k} for k in CFG['pls_components']]
+        cp.cuda.Stream.null.synchronize();model_seconds['PLS']=time.monotonic()-model_start
+    for model,b in models.items():
+        arrays[model+'_coef']=b.get()
+        if len(va):
+            xv=(X[va]-xm)/xs
+            pred=cp.einsum('np,ptk->ntk',xv,b)*ys[None,:,None]+ym[None,:,None]
+            arrays[model+'_validation_MSE']=cp.mean((yy_source[va,:,None]-pred)**2,axis=0).get()
+        if model in diagnostics:arrays[model+'_diagnostics']=diagnostics[model]
+    save_npz(dest,**arrays)
+    meta={k:v for k,v in job.items() if k not in ['train','validation']}
+    meta.update(n_train=len(tr),n_validation=len(va),parameters=parameters,
+        initialization='zero' if job['kind'] in ['stability','self_readout'] else 'zero_then_within_context_path_continuation',
+        seconds=time.monotonic()-start,model_path_seconds_excluding_shared_preprocessing=model_seconds,
+        device=device,all_converged=True,
+        completed_utc=datetime.now(timezone.utc).isoformat())
+    record.write_text(json.dumps(meta,ensure_ascii=False,indent=2)+'\n')
+    print(json.dumps({'event':'job_done','id':job['id'],'seconds':meta['seconds']},ensure_ascii=False),flush=True)
+    cp.get_default_memory_pool().free_all_blocks()
+
+if __name__=='__main__':
+    parser=argparse.ArgumentParser();parser.add_argument('--device',type=int,default=0)
+    parser.add_argument('--shard',type=int,default=0);parser.add_argument('--n-shards',type=int,default=1)
+    parser.add_argument('--only',nargs='*');parser.add_argument('--jobs',default='data/splits/stage4_jobs.json')
+    args=parser.parse_args();cp.cuda.Device(args.device).use()
+    X=cp.asarray(np.load(ROOT/'.cache/stage4/X.npy'));Yr=cp.asarray(np.load(ROOT/'.cache/stage4/Y_raw.npy'))
+    Yz=cp.asarray(np.load(ROOT/'.cache/stage4/Y_gene_scaled.npy'))
+    with np.load(ROOT/'data/processed/stage4_stability_reference.npz') as z:ref={k:z[k] for k in z.files}
+    jobs=json.loads((ROOT/args.jobs).read_text())['jobs']
+    if args.only:jobs=[j for j in jobs if j['id'] in args.only]
+    for job in jobs[args.shard::args.n_shards]:run_job(job,X,Yr,Yz,ref,args.device)

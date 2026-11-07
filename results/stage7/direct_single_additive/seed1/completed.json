@@ -1,0 +1,9 @@
+{
+  "model": "direct_single_additive",
+  "seed": 1,
+  "status": "completed",
+  "test_conditions": 109,
+  "eligible_conditions": 10,
+  "training_conditions_equal_weight": 97,
+  "controls_excluded_from_training_mean": true
+}

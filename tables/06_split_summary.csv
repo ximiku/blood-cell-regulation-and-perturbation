@@ -1,0 +1,10 @@
+seed,split,conditions,cells
+1,test,109,33945
+1,train,98,44158
+1,val,18,6040
+2,test,93,28011
+2,train,104,45661
+2,val,28,10471
+3,test,97,28641
+3,train,104,45696
+3,val,24,9806

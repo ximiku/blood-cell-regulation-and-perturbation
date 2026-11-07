@@ -1,0 +1,18 @@
+{
+  "id": "self_readout/exclude_HIF1A",
+  "name": "exclude_HIF1A",
+  "kind": "self_readout",
+  "dataset": "raw",
+  "tolerance": 1e-06,
+  "n_train": 11921,
+  "n_validation": 0,
+  "parameters": {},
+  "initialization": "zero",
+  "seconds": 1.3997919160174206,
+  "model_path_seconds_excluding_shared_preprocessing": {
+    "Lasso": 1.2967111839680001
+  },
+  "device": 3,
+  "all_converged": true,
+  "completed_utc": "2026-11-07T08:16:48.433667+00:00"
+}

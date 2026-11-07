@@ -1,0 +1,16 @@
+{
+  "model": "scFoundation_GEARS",
+  "seed": 3,
+  "epoch": 6,
+  "phase": "epoch_completed",
+  "learning_rate": 3.125e-05,
+  "mean_training_batch_loss": 0.06934756745717355,
+  "validation_condition_equal_MSE": 0.002944089954524652,
+  "training_seconds": 446.6820058822632,
+  "validation_seconds": 3.568948745727539,
+  "best_epoch": 1,
+  "best_validation_MSE": 0.0027623107993098527,
+  "training_rows_seen": 45696,
+  "max_gradient_norm": 0.6366881132125854,
+  "time_unix": 1794055929.0947952
+}

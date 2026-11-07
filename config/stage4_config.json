@@ -1,0 +1,101 @@
+{
+  "created_utc": "2026-11-07T07:45:02.562940+00:00",
+  "focus_targets": [
+    "B cell",
+    "plasma cell",
+    "monocyte",
+    "erythrocyte"
+  ],
+  "input_sha256": "37afe6e27bcb80676f6ae2e92bd0ec77d1acd4480f1eabc1100f8cbee18175be",
+  "n_genes": 11922,
+  "n_perturbations": 2717,
+  "landmark_genes": 965,
+  "raw_models": [
+    "ElasticNet",
+    "NonnegativeLasso",
+    "Ridge",
+    "PCR",
+    "PLS"
+  ],
+  "reference_models": [
+    "Lasso",
+    "Mean_baseline"
+  ],
+  "relative_path": {
+    "maximum": 1.0,
+    "minimum": 0.001,
+    "count": 50
+  },
+  "elastic_net_l1_ratios": [
+    0.1,
+    0.5,
+    0.9
+  ],
+  "ridge": {
+    "minimum": 1e-05,
+    "maximum": 1000.0,
+    "count": 17,
+    "sklearn_alpha": "n_train * lambda"
+  },
+  "pcr_components": [
+    2,
+    5,
+    10,
+    20,
+    50,
+    100
+  ],
+  "pls_components": [
+    2,
+    5,
+    10,
+    20
+  ],
+  "tol": 0.0001,
+  "max_iter": 50000,
+  "active_threshold": 1e-06,
+  "one_se_order": {
+    "ElasticNet": "largest relative penalty, then largest l1_ratio",
+    "NonnegativeLasso": "largest relative penalty",
+    "Lasso": "largest relative penalty",
+    "Ridge": "largest mean-loss lambda",
+    "PCR": "fewest components",
+    "PLS": "fewest components"
+  },
+  "stability": {
+    "repetitions": 100,
+    "fraction": 0.8,
+    "seed": 20265107,
+    "selection": "full-data Lasso 1-SE relative penalty held fixed; alpha_max and scaling recomputed per subsample",
+    "frequency_threshold": 0.8,
+    "sign_consistency_threshold": 0.9,
+    "sign_consistency": "majority sign among active resamples",
+    "median_absolute_coefficient": "all 100 resamples, including inactive values as zero",
+    "ranking": "selection frequency, median absolute standardized coefficient, full coefficient magnitude",
+    "initialization": "zero coefficients, independently for every subsample"
+  },
+  "gene_scaled_response": "target-HSC divided by gene sample SD across 21 blood types excluding mDC",
+  "landmark_splits": "intersection with the saved outer and inner gene lists",
+  "self_readout": "remove matched own-gene rows, refit fixed relative Lasso 1-SE, inspect coefficient/sign and marginal correlation",
+  "correlation_groups": {
+    "primary_abs_Pearson": 0.8,
+    "sensitivity": [
+      0.7,
+      0.9
+    ],
+    "definition": "connected components of thresholded perturbation correlations"
+  },
+  "extended_retuning": "20 resamples per target after stage 5, as planned",
+  "exploratory_size_control": {
+    "repetitions": 3,
+    "n_genes": 965,
+    "sampling": "non-landmark genes; exact landmark count in each outer test fold",
+    "seeds": [
+      20265208,
+      20265209,
+      20265210
+    ],
+    "model": "Lasso, full 5x3 nested tuning",
+    "scope": "training-set size/composition comparison; not part of prespecified model ranking"
+  }
+}

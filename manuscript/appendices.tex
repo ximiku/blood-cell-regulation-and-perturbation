@@ -1,0 +1,423 @@
+\clearpage\section{数据与探索分析}\label{app:A}\setcounter{figure}{0}\setcounter{table}{0}\renewcommand{\thefigure}{A\arabic{figure}}\renewcommand{\thetable}{A\arabic{table}}
+本附录给出原始矩阵质控、细胞覆盖及完整探索图。除 mDC 的敏感性分析外，主要 EDA 覆盖 HSC 和 20 个目标。
+{\small\linespread{1}\selectfont\setlength{\tabcolsep}{4pt}\renewcommand{\arraystretch}{1.08}\begin{longtable}{lrrrrr}\caption{原始输入矩阵的质量与尺度。缺失和无穷值均为零。}\\\toprule 输入 & 行数 & 列数 & 删除重复行 & 最小值 & 最大值\\\midrule\endfirsthead\toprule 输入 & 行数 & 列数 & 删除重复行 & 最小值 & 最大值\\\midrule\endhead
+blood\_raw & 20001 & 22 & 7 & 0.000 & 8.778\\
+L1000\_raw & 12328 & 2717 & 1 & -10.000 & 10.000\\
+\bottomrule\end{longtable}}
+血液去重后 19,994 个基因，L1000 去重后 12,327 个。模型交集去除全血液零值行后为 11,922 个基因；全部 2,717 个扰动列保留，291 个为 TF 条目。重复处理逐条保留审计，矩阵按原符号对齐，HGNC 映射用于注释。
+\plate{02_F1_expression_distributions}{a:dist}{表达覆盖与分布。A：全部 22 类型的零值比例。B：HSC 与重点目标的跨基因累积分布；symlog 为显示坐标，输入表达尺度保持。}{0.56}
+\clearpage\subsection{完整高变基因表达图}
+\plate{Supp_HVG100}{a:hvg}{完整 HVG100 逐基因 z-score。A、B 按原 Ward 行聚类顺序分别显示前、后 50 个基因；两块共享同一细胞列顺序和色标。列顺序来自图示 HVG100 的 Ward 聚类；完整列树见顶部。图中 56 个基因带有核糖体相关分组注释。}{0.83}
+\clearpage\subsection{主成分与谱系差异的补充视图}
+\plate{02_F3_PCA}{a:pca}{完整 PCA：A 为 PC1/PC2，B 为 PC1/PC3，C 为解释方差。前两轴累计 51.54\%，前三轴 63.67\%。所有点为细胞类型平均谱。}{0.33}
+\plate{02_F4_HSC_differences}{a:markers}{相对 HSC 的差异。A 为四目标差值 RMS；B 为预设 29 个谱系标记在逐基因标准化后与 HSC 的差值，保留全部可用标记。}{0.44}
+\clearpage\subsection{聚类距离与 mDC 的影响}
+\plate{02_F5_clustering_comparison}{a:cluster}{HVG1000 下欧氏距离/Ward 与 Pearson 相关距离/平均连接的对照。HSC 在两者中均最接近造血前体。}{0.37}
+\plate{02_S1_mDC_sensitivity}{a:mdc}{mDC 敏感性：A 将 mDC 投影到固定主要 PCA 空间；B 将全部 22 类型重新拟合。mDC 的高零值率及其对全局坐标的影响单独显示。}{0.33}
+\clearpage\subsection{全部细胞的覆盖与聚类稳定性}
+{\small\linespread{1}\selectfont\setlength{\tabcolsep}{4pt}\renewcommand{\arraystretch}{1.08}\begin{longtable}{lrrr}\caption{细胞覆盖。零值率以去重后的 19,994 个基因为分母。}\\\toprule 细胞类型 & 零值率（\%） & 均值 & 最大值\\\midrule\endfirsthead\toprule 细胞类型 & 零值率（\%） & 均值 & 最大值\\\midrule\endhead
+HSC & 29.2 & 0.173 & 4.565\\
+CMP & 55.9 & 0.190 & 4.436\\
+Erythrocyte & 20.2 & 0.019 & 8.778\\
+Platelet & 39.5 & 0.093 & 5.491\\
+Macrophage & 19.2 & 0.163 & 4.374\\
+B cell & 10.8 & 0.145 & 4.189\\
+Monocyte & 2.7 & 0.164 & 5.044\\
+NK cell & 14.8 & 0.164 & 4.368\\
+CD4 T & 5.4 & 0.142 & 4.117\\
+CD8 T & 11.6 & 0.164 & 4.374\\
+Basophil & 45.4 & 0.149 & 3.981\\
+Neutrophil & 3.6 & 0.119 & 5.215\\
+mDC & 94.0 & 0.060 & 6.317\\
+pDC & 37.4 & 0.194 & 4.196\\
+Plasma cell & 16.0 & 0.149 & 4.413\\
+NK T & 29.1 & 0.165 & 4.274\\
+Treg & 48.0 & 0.156 & 4.635\\
+Classical mono. & 3.9 & 0.177 & 4.964\\
+Non-classical mono. & 26.0 & 0.186 & 4.778\\
+Naive CD4 T & 24.2 & 0.145 & 4.526\\
+Intermediate mono. & 19.4 & 0.195 & 4.517\\
+Precursor & 27.2 & 0.147 & 4.309\\
+\bottomrule\end{longtable}}
+\plate{02_S2_clustering_sensitivity}{a:clustsens}{聚类敏感性。改变 HVG 数目、表达尺度和距离定义，在聚类数 3–8 下以 ARI 对照主聚类；ARI 衡量分组一致性。}{0.28}
+\clearpage\section{统计模型与拟合诊断}\label{app:B}\setcounter{figure}{0}\setcounter{table}{0}\renewcommand{\thefigure}{B\arabic{figure}}\renewcommand{\thetable}{B\arabic{table}}
+本附录的 r 和 $\rho$ 分别为 Pearson 与 Spearman 相关。最低误差模型用于预测比较，1-SE 用于简约候选解释；模型规模均来自全数据最终拟合。
+{\small\linespread{1}\selectfont\setlength{\tabcolsep}{4pt}\renewcommand{\arraystretch}{1.08}\begin{longtable}{lrrrrrr}\caption{全部目标 Lasso 的折外性能与模型规模。min/1SE 列保留两套选择。}\\\toprule 目标 & $R^2_{min}$ & $R^2_{1SE}$ & RMSE$_{min}$ & $r_{min}$ & $\rho_{min}$ & 活跃数 min/1SE\\\midrule\endfirsthead\toprule 目标 & $R^2_{min}$ & $R^2_{1SE}$ & RMSE$_{min}$ & $r_{min}$ & $\rho_{min}$ & 活跃数 min/1SE\\\midrule\endhead
+Erythrocyte & 0.609 & 0.568 & 0.2413 & 0.781 & 0.695 & 1142/593\\
+Neutrophil & 0.547 & 0.533 & 0.2954 & 0.740 & 0.603 & 991/708\\
+Macrophage & 0.538 & 0.516 & 0.1979 & 0.734 & 0.631 & 1019/824\\
+Intermediate mono. & 0.504 & 0.475 & 0.2078 & 0.710 & 0.635 & 1038/787\\
+Classical mono. & 0.494 & 0.460 & 0.2019 & 0.704 & 0.634 & 1041/733\\
+CD8 T & 0.486 & 0.463 & 0.1630 & 0.698 & 0.606 & 1117/890\\
+Monocyte & 0.483 & 0.445 & 0.1927 & 0.696 & 0.628 & 1054/683\\
+Non-classical mono. & 0.472 & 0.451 & 0.1946 & 0.688 & 0.605 & 1108/768\\
+NK cell & 0.470 & 0.447 & 0.1757 & 0.686 & 0.580 & 1102/842\\
+CD4 T & 0.464 & 0.435 & 0.1402 & 0.681 & 0.627 & 1099/677\\
+Platelet & 0.437 & 0.406 & 0.3251 & 0.662 & 0.546 & 974/798\\
+Basophil & 0.430 & 0.406 & 0.2416 & 0.656 & 0.512 & 838/652\\
+Plasma cell & 0.429 & 0.393 & 0.1620 & 0.655 & 0.583 & 1111/784\\
+B cell & 0.427 & 0.397 & 0.1595 & 0.654 & 0.611 & 1089/656\\
+NK T & 0.409 & 0.391 & 0.1657 & 0.640 & 0.557 & 976/681\\
+Naive CD4 T & 0.401 & 0.369 & 0.1539 & 0.634 & 0.592 & 1051/612\\
+Treg & 0.400 & 0.371 & 0.1879 & 0.633 & 0.540 & 1011/558\\
+pDC & 0.393 & 0.365 & 0.1475 & 0.628 & 0.547 & 1043/803\\
+Precursor & 0.312 & 0.284 & 0.0898 & 0.560 & 0.529 & 953/653\\
+mDC & 0.171 & 0.108 & 0.4654 & 0.414 & 0.478 & 435/226\\
+CMP & 0.127 & 0.085 & 0.1601 & 0.357 & 0.286 & 580/204\\
+\bottomrule\end{longtable}}
+{\footnotesize\linespread{1}\selectfont\setlength{\tabcolsep}{4pt}\renewcommand{\arraystretch}{1.08}\begin{longtable}{lrrrrr}\caption{1-SE 与均值基线的补充指标。基线由各训练折均值构成。}\\\toprule 目标 & RMSE$_{1SE}$ & $r_{1SE}$ & $\rho_{1SE}$ & $R^2_{mean}$ & RMSE$_{mean}$\\\midrule\endfirsthead\toprule 目标 & RMSE$_{1SE}$ & $r_{1SE}$ & $\rho_{1SE}$ & $R^2_{mean}$ & RMSE$_{mean}$\\\midrule\endhead
+Erythrocyte & 0.2536 & 0.754 & 0.675 & -0.0001 & 0.3861\\
+Neutrophil & 0.2997 & 0.730 & 0.588 & -0.0001 & 0.4388\\
+Macrophage & 0.2025 & 0.718 & 0.611 & -0.0001 & 0.2910\\
+Intermediate mono. & 0.2137 & 0.690 & 0.614 & -0.0002 & 0.2951\\
+Classical mono. & 0.2086 & 0.679 & 0.611 & -0.0002 & 0.2839\\
+CD8 T & 0.1667 & 0.681 & 0.590 & -0.0001 & 0.2274\\
+Monocyte & 0.1998 & 0.668 & 0.605 & -0.0002 & 0.2681\\
+Non-classical mono. & 0.1986 & 0.672 & 0.592 & -0.0002 & 0.2680\\
+NK cell & 0.1795 & 0.669 & 0.564 & -0.0001 & 0.2414\\
+CD4 T & 0.1439 & 0.660 & 0.607 & -0.0001 & 0.1914\\
+Platelet & 0.3340 & 0.637 & 0.534 & -0.0002 & 0.4333\\
+Basophil & 0.2467 & 0.637 & 0.487 & -0.0002 & 0.3200\\
+Plasma cell & 0.1670 & 0.628 & 0.557 & -0.0002 & 0.2143\\
+B cell & 0.1636 & 0.631 & 0.594 & -0.0000 & 0.2107\\
+NK T & 0.1682 & 0.626 & 0.546 & -0.0002 & 0.2155\\
+Naive CD4 T & 0.1580 & 0.609 & 0.570 & -0.0002 & 0.1988\\
+Treg & 0.1924 & 0.610 & 0.525 & -0.0001 & 0.2426\\
+pDC & 0.1509 & 0.604 & 0.523 & -0.0002 & 0.1894\\
+Precursor & 0.0917 & 0.533 & 0.516 & -0.0002 & 0.1083\\
+mDC & 0.4829 & 0.339 & 0.461 & -0.0002 & 0.5113\\
+CMP & 0.1639 & 0.300 & 0.240 & -0.0002 & 0.1714\\
+\bottomrule\end{longtable}}
+\clearpage\subsection{六类统计模型的完整比较}
+{\footnotesize\linespread{1}\selectfont\setlength{\tabcolsep}{4pt}\renewcommand{\arraystretch}{1.08}\begin{longtable}{lrrrrrr}\caption{四目标所有模型与选择规则。各行均采用相同外层基因划分。}\\\toprule 目标 & 模型 & 选择 & $R^2$ & RMSE & $r$ & $\rho$\\\midrule\endfirsthead\toprule 目标 & 模型 & 选择 & $R^2$ & RMSE & $r$ & $\rho$\\\midrule\endhead
+B & Lasso & min & 0.427 & 0.1595 & 0.654 & 0.611\\
+B & Lasso & 1se & 0.397 & 0.1636 & 0.631 & 0.594\\
+B & Elastic Net & min & 0.431 & 0.1590 & 0.657 & 0.614\\
+B & Elastic Net & 1se & 0.404 & 0.1627 & 0.636 & 0.598\\
+B & Ridge & min & 0.435 & 0.1584 & 0.660 & 0.617\\
+B & Ridge & 1se & 0.418 & 0.1607 & 0.647 & 0.611\\
+B & Nonneg. Lasso & min & 0.169 & 0.1922 & 0.411 & 0.456\\
+B & Nonneg. Lasso & 1se & 0.133 & 0.1963 & 0.375 & 0.430\\
+B & PCR & min & 0.151 & 0.1941 & 0.389 & 0.398\\
+B & PCR & 1se & 0.138 & 0.1956 & 0.372 & 0.387\\
+B & PLS & min & 0.414 & 0.1613 & 0.652 & 0.608\\
+B & PLS & 1se & 0.393 & 0.1641 & 0.635 & 0.595\\
+B & Mean & baseline & -0.000 & 0.2107 & -0.008 & -0.004\\
+Plasma & Lasso & min & 0.429 & 0.1620 & 0.655 & 0.583\\
+Plasma & Lasso & 1se & 0.393 & 0.1670 & 0.628 & 0.557\\
+Plasma & Elastic Net & min & 0.436 & 0.1610 & 0.661 & 0.587\\
+Plasma & Elastic Net & 1se & 0.401 & 0.1659 & 0.634 & 0.562\\
+Plasma & Ridge & min & 0.443 & 0.1600 & 0.666 & 0.592\\
+Plasma & Ridge & 1se & 0.422 & 0.1630 & 0.651 & 0.580\\
+Plasma & Nonneg. Lasso & min & 0.127 & 0.2002 & 0.357 & 0.357\\
+Plasma & Nonneg. Lasso & 1se & 0.078 & 0.2057 & 0.305 & 0.284\\
+Plasma & PCR & min & 0.136 & 0.1992 & 0.369 & 0.326\\
+Plasma & PCR & 1se & 0.110 & 0.2022 & 0.331 & 0.289\\
+Plasma & PLS & min & 0.419 & 0.1633 & 0.656 & 0.582\\
+Plasma & PLS & 1se & 0.403 & 0.1656 & 0.641 & 0.562\\
+Plasma & Mean & baseline & -0.000 & 0.2143 & -0.017 & -0.018\\
+Mono & Lasso & min & 0.483 & 0.1927 & 0.696 & 0.628\\
+Mono & Lasso & 1se & 0.445 & 0.1998 & 0.668 & 0.605\\
+Mono & Elastic Net & min & 0.487 & 0.1919 & 0.699 & 0.632\\
+Mono & Elastic Net & 1se & 0.450 & 0.1989 & 0.672 & 0.608\\
+Mono & Ridge & min & 0.496 & 0.1904 & 0.704 & 0.638\\
+Mono & Ridge & 1se & 0.478 & 0.1936 & 0.692 & 0.631\\
+Mono & Nonneg. Lasso & min & 0.198 & 0.2401 & 0.445 & 0.449\\
+Mono & Nonneg. Lasso & 1se & 0.152 & 0.2469 & 0.407 & 0.415\\
+Mono & PCR & min & 0.232 & 0.2350 & 0.482 & 0.421\\
+Mono & PCR & 1se & 0.216 & 0.2374 & 0.465 & 0.406\\
+Mono & PLS & min & 0.476 & 0.1941 & 0.696 & 0.624\\
+Mono & PLS & 1se & 0.441 & 0.2004 & 0.668 & 0.596\\
+Mono & Mean & baseline & -0.000 & 0.2681 & -0.021 & -0.008\\
+Ery & Lasso & min & 0.609 & 0.2413 & 0.781 & 0.695\\
+Ery & Lasso & 1se & 0.568 & 0.2536 & 0.754 & 0.675\\
+Ery & Elastic Net & min & 0.613 & 0.2400 & 0.783 & 0.698\\
+Ery & Elastic Net & 1se & 0.572 & 0.2524 & 0.757 & 0.677\\
+Ery & Ridge & min & 0.615 & 0.2396 & 0.784 & 0.700\\
+Ery & Ridge & 1se & 0.587 & 0.2481 & 0.767 & 0.692\\
+Ery & Nonneg. Lasso & min & 0.336 & 0.3146 & 0.579 & 0.568\\
+Ery & Nonneg. Lasso & 1se & 0.298 & 0.3235 & 0.554 & 0.553\\
+Ery & PCR & min & 0.390 & 0.3016 & 0.624 & 0.537\\
+Ery & PCR & 1se & 0.372 & 0.3059 & 0.610 & 0.524\\
+Ery & PLS & min & 0.599 & 0.2444 & 0.776 & 0.687\\
+Ery & PLS & 1se & 0.573 & 0.2522 & 0.759 & 0.668\\
+Ery & Mean & baseline & -0.000 & 0.3861 & -0.014 & -0.000\\
+\bottomrule\end{longtable}}
+\clearpage\subsection{全部重点目标的留出预测}
+\plate{03_F2_focus_OOF_predictions}{b:oof}{四目标最低误差 Lasso 折外预测。每个基因仅使用其所属测试折的预测，全部 11,922 个基因均进入图中。六边形颜色为基因数的对数色阶，各面板独立；虚线为一致线。}{0.78}
+预测在低幅度区域集中，大幅变化呈现收缩。评价以整套折外预测合并计算，因而图示代表所有共同基因的重建情况。模型预测单位与目标相对 HSC 的输入尺度差值相同。
+\clearpage\subsection{调参曲线与单次拟合初筛}
+\plate{03_F3_tuning_curves}{b:tuning}{全数据三折调参曲线：均值 MSE 及一个标准误，蓝虚线与朱红点线分别为最低误差与 1-SE。该图解释最终候选模型选择，独立外层评价见表 B1。}{0.43}
+{\footnotesize\linespread{1}\selectfont\setlength{\tabcolsep}{4pt}\renewcommand{\arraystretch}{1.08}\begin{longtable}{rllll}\caption{单次全数据 1-SE 拟合按系数幅度的前十 TF。括号为标准化系数，排序与稳定性排序用途不同。}\\\toprule 名次 & B & Plasma & Mono & Ery\\\midrule\endfirsthead\toprule 名次 & B & Plasma & Mono & Ery\\\midrule\endhead
+1 & ZNF22 (+0.069) & OVOL2 (+0.072) & PAX8 (+0.088) & MYB (+0.078)\\
+2 & RORC (+0.045) & (DDIT3) (+0.067) & KLF6 (+0.084) & NFYB (-0.053)\\
+3 & ZNF296 (+0.040) & ZNF653 (+0.067) & TCF7L2 (+0.067) & IRF3 (+0.050)\\
+4 & ZNF174 (-0.040) & NCOA3 (-0.064) & TFAP2A (+0.067) & PREB (+0.047)\\
+5 & STAT4 (+0.037) & LHX8 (-0.059) & OVOL2 (+0.062) & ELK3 (+0.041)\\
+6 & KLF3 (+0.036) & ERF (+0.053) & HIF1A (+0.060) & CREB3 (+0.040)\\
+7 & NFYB (-0.035) & CLOCK (-0.049) & IRF3 (+0.055) & NCOA3 (-0.040)\\
+8 & ZNF114 (+0.035) & TFAP2A (+0.047) & SIM2 (-0.050) & RARA (-0.037)\\
+9 & HOXB5 (-0.034) & BCL6 (-0.041) & PRDM1 (+0.048) & KLF6 (+0.036)\\
+10 & DLX3 (+0.034) & TP53 (-0.040) & ZNF546 (+0.044) & ZNF790 (-0.033)\\
+\bottomrule\end{longtable}}
+\clearpage\subsection{完整系数路径的代表变量}
+\plate{03_F4_coefficient_paths}{b:paths}{每目标全数据 1-SE 模型中幅度最大的十二个活跃扰动，显示完整正则化路径。横轴由强到弱惩罚，蓝线为最低误差，朱红线为 1-SE。正负号贯穿路径保留，变量标签为原始扰动标签。}{0.78}
+全部 2,717 个扰动参与拟合。单扰动相关性按与目标差值的绝对 Pearson 相关排序，用于直观参照；联合回归系数还取决于其他扰动模式，故两种排序分别保留。求解过程记录了收敛及边界参数，冻结结果通过数值验收。
+\clearpage\section{候选与稳健性证据}\label{app:C}\setcounter{figure}{0}\setcounter{table}{0}\renewcommand{\thefigure}{C\arabic{figure}}\renewcommand{\thetable}{C\arabic{table}}
+B、Plasma、Mono、Ery 对应四目标。频率为选中比例；固定抽样为 100 次，重新调参为 20 次。所有展示条目的固定选择频率及活跃符号一致性均为 100\%。分位数描述子抽样系数分布。
+{\footnotesize\linespread{1}\selectfont\setlength{\tabcolsep}{4pt}\renewcommand{\arraystretch}{1.08}\begin{longtable}{lrlrrlrr}\caption{40 个展示候选的完整统计及自身读出删除结果。最后一列为相对系数变化百分比，--- 为没有匹配自身读出。}\\\toprule 目标 & 排名 & TF & 全数据 & 中位数 & 2.5\%–97.5\% & 重选\% & 删除变化\%\\\midrule\endfirsthead\toprule 目标 & 排名 & TF & 全数据 & 中位数 & 2.5\%–97.5\% & 重选\% & 删除变化\%\\\midrule\endhead
+B & 1 & ZNF22 & 0.069 & 0.068 & [0.041, 0.090] & 100 & 0.08\\
+B & 2 & DLX3 & 0.034 & 0.039 & [0.018, 0.067] & 100 & ---\\
+B & 3 & RORC & 0.045 & 0.039 & [0.020, 0.059] & 100 & 0.21\\
+B & 4 & ZNF174 & -0.040 & -0.037 & [-0.051, -0.019] & 100 & -0.01\\
+B & 5 & STAT4 & 0.037 & 0.037 & [0.015, 0.058] & 100 & -0.45\\
+B & 6 & ZNF296 & 0.040 & 0.036 & [0.010, 0.059] & 100 & ---\\
+B & 7 & KLF3 & 0.036 & 0.034 & [0.011, 0.067] & 90 & 0.03\\
+B & 8 & HOXB5 & -0.034 & -0.033 & [-0.048, -0.015] & 100 & -0.08\\
+B & 9 & NFYB & -0.035 & -0.032 & [-0.053, -0.010] & 100 & 0.03\\
+B & 10 & ZNF114 & 0.035 & 0.032 & [0.018, 0.052] & 100 & ---\\
+Plasma & 1 & OVOL2 & 0.072 & 0.065 & [0.047, 0.087] & 100 & -0.01\\
+Plasma & 2 & NCOA3 & -0.064 & -0.065 & [-0.087, -0.046] & 100 & -7.05\\
+Plasma & 3 & ZNF653 & 0.067 & 0.063 & [0.040, 0.083] & 100 & ---\\
+Plasma & 4 & (DDIT3) & 0.067 & 0.057 & [0.037, 0.080] & 100 & -0.06\\
+Plasma & 5 & LHX8 & -0.059 & -0.047 & [-0.069, -0.026] & 100 & ---\\
+Plasma & 6 & ERF & 0.053 & 0.046 & [0.022, 0.072] & 100 & 0.03\\
+Plasma & 7 & CLOCK & -0.049 & -0.041 & [-0.061, -0.029] & 100 & 0.12\\
+Plasma & 8 & ZNF558 & 0.039 & 0.039 & [0.018, 0.058] & 100 & ---\\
+Plasma & 9 & TFAP2A & 0.047 & 0.038 & [0.017, 0.064] & 100 & 0.09\\
+Plasma & 10 & TP53 & -0.040 & -0.037 & [-0.064, -0.014] & 100 & 0.91\\
+Mono & 1 & PAX8 & 0.088 & 0.087 & [0.053, 0.110] & 95 & 0.24\\
+Mono & 2 & KLF6 & 0.084 & 0.082 & [0.064, 0.098] & 100 & -1.21\\
+Mono & 3 & TCF7L2 & 0.067 & 0.065 & [0.050, 0.079] & 100 & 0.06\\
+Mono & 4 & TFAP2A & 0.067 & 0.064 & [0.042, 0.087] & 100 & -0.01\\
+Mono & 5 & OVOL2 & 0.062 & 0.060 & [0.039, 0.077] & 100 & 0.00\\
+Mono & 6 & IRF3 & 0.055 & 0.057 & [0.037, 0.080] & 100 & 0.09\\
+Mono & 7 & HIF1A & 0.060 & 0.055 & [0.040, 0.072] & 100 & -0.17\\
+Mono & 8 & PRDM1 & 0.048 & 0.051 & [0.031, 0.070] & 100 & -0.05\\
+Mono & 9 & SIM2 & -0.050 & -0.049 & [-0.070, -0.032] & 100 & 0.37\\
+Mono & 10 & SATB2 & 0.040 & 0.043 & [0.006, 0.065] & 95 & -0.01\\
+Ery & 1 & MYB & 0.078 & 0.071 & [0.038, 0.097] & 100 & 1.30\\
+Ery & 2 & IRF3 & 0.050 & 0.052 & [0.011, 0.073] & 100 & 0.09\\
+Ery & 3 & NFYB & -0.053 & -0.052 & [-0.070, -0.026] & 100 & 0.00\\
+Ery & 4 & PREB & 0.047 & 0.047 & [0.034, 0.060] & 100 & -0.02\\
+Ery & 5 & ELK3 & 0.041 & 0.044 & [0.019, 0.058] & 100 & 0.05\\
+Ery & 6 & NCOA3 & -0.040 & -0.039 & [-0.058, -0.025] & 100 & 0.34\\
+Ery & 7 & CREB3 & 0.040 & 0.038 & [0.014, 0.051] & 100 & -0.12\\
+Ery & 8 & RARA & -0.037 & -0.037 & [-0.053, -0.010] & 100 & 0.50\\
+Ery & 9 & OVOL2 & 0.032 & 0.032 & [0.014, 0.046] & 100 & 0.07\\
+Ery & 10 & KLF6 & 0.036 & 0.032 & [0.019, 0.044] & 100 & 1.79\\
+\bottomrule\end{longtable}}
+\clearpage\subsection{全部稳定身份与交集}
+\noindent\textbf{B cell（41 个规范身份）：} BMAL1、DDIT3、DLX3、EGR1、ESR1、FOXR1、HOXB5、IRF5、JUNB、KLF3、MAFG、NFIL3、NFYB、OSR2、OTX1、OTX2、OVOL2、RFX4、RFX6、RORC、SALL4、SNAI3、SREBF1、STAT4、TFAP4、ZBTB20、ZNF114、ZNF136、ZNF174、ZNF22、ZNF296、ZNF317、ZNF32、ZNF331、ZNF426、ZNF449、ZNF473、ZNF621、ZNF653、ZNF747、ZNF785。\par\medskip
+\noindent\textbf{Plasma cell（43 个规范身份）：} BCL6、CEBPG、CLOCK、DDIT3、EBF1、ERF、GATA2、HIF1A、IRF3、IRF5、ISX、KAT7、LHX8、MAX、MBNL2、MSX2、MTERF3、MTF2、NCOA3、NFIB、NFKB1、NFYB、NR1H3、OVOL2、SATB2、SOX2、STAT1、STAT3、STAT5A、TCF12、TFAP2A、TP53、WT1、ZNF134、ZNF136、ZNF274、ZNF398、ZNF548、ZNF555、ZNF558、ZNF653、ZNF747、ZNF791。\par\medskip
+\noindent\textbf{Monocyte（52 个规范身份）：} CDX2、CEBPG、CREB1、CTCF、ELF1、ERF、FOXP3、HIF1A、HNF4A、HOXB13、HOXC10、IRF2、IRF3、ISX、KLF6、MAFG、MTERF3、NFKB1、NFYB、OSR2、OVOL2、PAX8、PRDM1、SATB1、SATB2、SIM2、SOX2、STAT2、TCF7L2、TFAP2A、TFAP4、TGIF2LY、TP53、VDR、ZBTB20、ZBTB25、ZBTB26、ZBTB49、ZIM3、ZNF112、ZNF114、ZNF174、ZNF300、ZNF490、ZNF546、ZNF555、ZNF558、ZNF576、ZNF583、ZNF597、ZNF677、ZNF785。\par\medskip
+\noindent\textbf{Erythrocyte（42 个规范身份）：} CDX2、CREB3、CREB3L1、CREB5、EBF1、EGR1、ELK3、HMGA1、HOXA6、HOXB7、HOXC9、IRF3、KLF6、LHX8、MAX、MEIS2、MTERF3、MYB、NCOA3、NFYB、NR5A2、OVOL2、PRDM1、PREB、RARA、RBPJ、SREBF1、STAT5A、TCF12、TRAFD1、ZBED1、ZBTB49、ZGPAT、ZNF200、ZNF268、ZNF300、ZNF555、ZNF57、ZNF581、ZNF626、ZNF77、ZNF790。\par\medskip
+{\footnotesize\linespread{1}\selectfont\setlength{\tabcolsep}{4pt}\renewcommand{\arraystretch}{1.08}\begin{longtable}{lrrp{10cm}}\caption{成对交集。构建体按规范身份合并后计算。}\\\toprule 目标对 & 交集数 & Jaccard & 共享身份\\\midrule\endfirsthead\toprule 目标对 & 交集数 & Jaccard & 共享身份\\\midrule\endhead
+B / Plasma & 7 & 0.091 & DDIT3, IRF5, NFYB, OVOL2, ZNF136, ZNF653, ZNF747\\
+B / Mono & 9 & 0.107 & MAFG, NFYB, OSR2, OVOL2, TFAP4, ZBTB20, ZNF114, ZNF174, ZNF785\\
+B / Ery & 4 & 0.051 & EGR1, NFYB, OVOL2, SREBF1\\
+Plasma / Mono & 15 & 0.188 & CEBPG, ERF, HIF1A, IRF3, ISX, MTERF3, NFKB1, NFYB, OVOL2, SATB2, SOX2, TFAP2A, TP53, ZNF555, ZNF558\\
+Plasma / Ery & 11 & 0.149 & EBF1, IRF3, LHX8, MAX, MTERF3, NCOA3, NFYB, OVOL2, STAT5A, TCF12, ZNF555\\
+Mono / Ery & 10 & 0.119 & CDX2, IRF3, KLF6, MTERF3, NFYB, OVOL2, PRDM1, ZBTB49, ZNF300, ZNF555\\
+\bottomrule\end{longtable}}
+\clearpage\subsection{统计候选的文献证据与研究定位}
+{\footnotesize\linespread{1}\selectfont\setlength{\tabcolsep}{4pt}\renewcommand{\arraystretch}{1.08}\begin{longtable}{p{2.6cm}rp{2.6cm}p{9cm}}\caption{统计证据—文献背景—验证方向。R 编号对应参考文献序号。}\\\toprule 目标 / TF & 排名 & 证据背景 & 文献依据与后续问题\\\midrule\endfirsthead\toprule 目标 / TF & 排名 & 证据背景 & 文献依据与后续问题\\\midrule\endhead
+Erythrocyte / MYB & 1 & 红系机制支持 & 人 CD34+ 细胞中的 MYB 下调影响红系命运，并涉及 KLF1、LMO2；小鼠研究显示其作用随红系阶段变化。 将 MYB 相关匹配优先联系红系发育程序，检验阶段与表达持续时间。 R03、R04\\
+Plasma cell / BCL6 & 15 & 浆细胞机制支持 & 小鼠 Bcl6 直接抑制 Prdm1；缺失后浆细胞发育加快。 负向匹配与解除 BCL6 抑制的方向相呼应；在 B 到浆细胞背景核对转变。 R05\\
+Monocyte / KLF6 & 2 & 邻近髓系背景支持 & 人/鼠巨噬细胞研究支持 KLF6 的炎症调控；后续工作涉及 PRDM1–BCL6 轴。 优先考察炎症功能状态，并区分其与单核细胞谱系形成的关系。 R06、R07\\
+Monocyte / PRDM1 & 8 & 邻近髓系背景支持 & 巨噬细胞 KLF6–PRDM1–BCL6 轴提供与 KLF6 共同出现的研究线索。 在对应背景检验两者共同响应与先后关系；本次未直接估计调控边。 R07\\
+B cell / ZNF22 & 1 & 本次定向检索尚未定位直接证据 & 预定基因—B/淋巴/造血检索返回空；保留统计排名。 作为探索性候选，在独立 B 细胞数据中优先复核。 定向检索\\
+Plasma cell / OVOL2 & 1 & 共同模式候选 & 本次定向检索命中一篇镉暴露/糖代谢研究，未作为血液分化机制证据。 比较其跨细胞共同表达程序与目标特有程序。 定向检索\\
+Erythrocyte / NFYB & 3 & 共同模式候选 & 本阶段按四目标稳定交集讨论；未新增 NFYB 特异机制结论。 比较跨目标贡献，查明是否主要追踪共同状态特征。 定向检索\\
+\bottomrule\end{longtable}}
+文献核对以原始研究的摘要、可访问全文及官方索引为依据。部分全文访问受限，表中结论限定在已核对内容。BCL6 因机制证据列入讨论，未被追加到预设的前十自身读出删除实验；EBF1 作为已知 B 细胞参照保留其零系数结果。
+{\footnotesize\linespread{1}\selectfont\setlength{\tabcolsep}{4pt}\renewcommand{\arraystretch}{1.08}\begin{longtable}{llr}\caption{相关扰动边（主阈值 $|r|\geq0.8$）。用于观察可替代模式。}\\\toprule 扰动 1 & 扰动 2 & Pearson\\\midrule\endfirsthead\toprule 扰动 1 & 扰动 2 & Pearson\\\midrule\endhead
+PLA2G12A & SIRT3 & 0.809\\
+HSP90AB1 & MYB & 0.801\\
+POLB & DHH & 0.831\\
+DHH & MYB & 0.802\\
+DHH & RPS6KB2 & 0.824\\
+PPP3CB & RPS6KB2 & 0.802\\
+\bottomrule\end{longtable}}
+\clearpage\subsection{Lasso 与 Elastic Net 的相关变量结构}
+\plate{04_F5_correlated_predictor_groups}{c:correlation}{Lasso 与 Elastic Net 的全扰动系数对照及相关组。各点为扰动，重点前十 TF 高亮；连通组按相关阈值定义，保留组内不同成员。两种模型的活跃方向一致性需与候选组成和预测性能共同阅读。}{0.73}
+{\footnotesize\linespread{1}\selectfont\setlength{\tabcolsep}{4pt}\renewcommand{\arraystretch}{1.08}\begin{longtable}{lrrrrr}\caption{全活跃扰动集合的一致性。}\\\toprule 目标 & Lasso 数 & EN 数 & 交集 & Jaccard & 系数 Spearman\\\midrule\endfirsthead\toprule 目标 & Lasso 数 & EN 数 & 交集 & Jaccard & 系数 Spearman\\\midrule\endhead
+B & 656 & 656 & 655 & 0.997 & 0.999\\
+Plasma & 784 & 836 & 760 & 0.884 & 0.956\\
+Mono & 683 & 730 & 663 & 0.884 & 0.954\\
+Ery & 593 & 700 & 566 & 0.779 & 0.902\\
+\bottomrule\end{longtable}}
+\clearpage\subsection{完整尺度与读出敏感性汇总}
+原尺度差值、逐基因标准化差值和 landmark 子集具有各自响应与读出定义。表中保留各任务的原生评价尺度；同一 landmark 测试集上的训练覆盖比较在正文图 4D。等数量非 landmark 对照检验读出组成的影响。
+{\footnotesize\linespread{1}\selectfont\setlength{\tabcolsep}{4pt}\renewcommand{\arraystretch}{1.08}\begin{longtable}{llrrrrr}\caption{全部尺度与训练读出比较。MSE 选择相同，列出两套 $R^2$ 与最低误差模型其他指标。}\\\toprule 任务 & 目标 & $R^2_{min}$ & $R^2_{1SE}$ & RMSE$_{min}$ & $r_{min}$ & $\rho_{min}$\\\midrule\endfirsthead\toprule 任务 & 目标 & $R^2_{min}$ & $R^2_{1SE}$ & RMSE$_{min}$ & $r_{min}$ & $\rho_{min}$\\\midrule\endhead
+Raw & B & 0.427 & 0.397 & 0.1595 & 0.654 & 0.611\\
+Raw & Plasma & 0.429 & 0.393 & 0.1620 & 0.655 & 0.583\\
+Raw & Mono & 0.483 & 0.445 & 0.1927 & 0.696 & 0.628\\
+Raw & Ery & 0.609 & 0.568 & 0.2413 & 0.781 & 0.695\\
+Gene-scaled & B & 0.273 & 0.258 & 1.1080 & 0.522 & 0.562\\
+Gene-scaled & Plasma & 0.307 & 0.280 & 1.1702 & 0.554 & 0.558\\
+Gene-scaled & Mono & 0.312 & 0.291 & 1.1642 & 0.559 & 0.623\\
+Gene-scaled & Ery & 0.413 & 0.394 & 1.0430 & 0.643 & 0.672\\
+Landmark & B & 0.005 & -0.003 & 0.2669 & 0.077 & 0.113\\
+Landmark & Plasma & 0.007 & -0.002 & 0.2661 & 0.086 & 0.108\\
+Landmark & Mono & 0.034 & -0.001 & 0.3005 & 0.191 & 0.249\\
+Landmark & Ery & -0.003 & -0.001 & 0.3495 & 0.043 & 0.108\\
+All → landmark & B & 0.316 & 0.286 & 0.2213 & 0.592 & 0.576\\
+All → landmark & Plasma & 0.324 & 0.274 & 0.2197 & 0.614 & 0.583\\
+All → landmark & Mono & 0.328 & 0.302 & 0.2507 & 0.627 & 0.545\\
+All → landmark & Ery & 0.224 & 0.200 & 0.3074 & 0.598 & 0.598\\
+Size match 1 & B & 0.100 & -0.000 & 0.2053 & 0.317 & 0.352\\
+Size match 1 & Plasma & 0.064 & -0.004 & 0.1963 & 0.264 & 0.258\\
+Size match 1 & Mono & 0.226 & 0.070 & 0.2184 & 0.476 & 0.432\\
+Size match 1 & Ery & 0.489 & 0.389 & 0.2884 & 0.700 & 0.557\\
+Size match 2 & B & 0.093 & 0.007 & 0.2169 & 0.312 & 0.326\\
+Size match 2 & Plasma & 0.179 & 0.057 & 0.1955 & 0.424 & 0.310\\
+Size match 2 & Mono & 0.192 & 0.076 & 0.2162 & 0.439 & 0.387\\
+Size match 2 & Ery & 0.361 & 0.241 & 0.3017 & 0.603 & 0.533\\
+Size match 3 & B & 0.137 & 0.058 & 0.1784 & 0.372 & 0.350\\
+Size match 3 & Plasma & 0.247 & 0.078 & 0.1842 & 0.498 & 0.397\\
+Size match 3 & Mono & 0.358 & 0.211 & 0.2296 & 0.599 & 0.466\\
+Size match 3 & Ery & 0.485 & 0.355 & 0.2909 & 0.697 & 0.533\\
+\bottomrule\end{longtable}}
+{\footnotesize\linespread{1}\selectfont\setlength{\tabcolsep}{4pt}\renewcommand{\arraystretch}{1.08}\begin{longtable}{lllll}\caption{前十候选的活跃方向保留与自身读出覆盖。}\\\toprule 目标 & Elastic Net & Gene-scaled & Landmark & 自身读出可匹配\\\midrule\endfirsthead\toprule 目标 & Elastic Net & Gene-scaled & Landmark & 自身读出可匹配\\\midrule\endhead
+B & 10/10 & 9/10 & 0/10 & 7/10\\
+Plasma & 10/10 & 9/10 & 0/10 & 7/10\\
+Mono & 10/10 & 8/10 & 0/10 & 10/10\\
+Ery & 10/10 & 6/10 & 0/10 & 10/10\\
+\bottomrule\end{longtable}}
+\clearpage\section{外部扰动实验}\label{app:D}\setcounter{figure}{0}\setcounter{table}{0}\renewcommand{\thefigure}{D\arabic{figure}}\renewcommand{\thetable}{D\arabic{table}}
+本附录覆盖划分、训练、完整汇总与代表条件。统一输出 18,977 个共同基因，HVG1000 每次由训练集确定；单个条件等权，三个种子再等权。模型缩写 scF+GEARS 指冻结 scFoundation 编码器的任务模型。
+{\small\linespread{1}\selectfont\setlength{\tabcolsep}{4pt}\renewcommand{\arraystretch}{1.08}\begin{longtable}{lrrrrrrr}\caption{条件划分与最终训练覆盖。各测试集另含 25 个未见单扰动。}\\\toprule 种子 & 训练 & 验证 & 测试 & Seen0 & Seen1 & Seen2 & 训练细胞\\\midrule\endfirsthead\toprule 种子 & 训练 & 验证 & 测试 & Seen0 & Seen1 & Seen2 & 训练细胞\\\midrule\endhead
+1 & 98 & 18 & 109 & 18 & 56 & 10 & 44158\\
+2 & 104 & 28 & 93 & 15 & 37 & 16 & 45661\\
+3 & 104 & 24 & 97 & 10 & 48 & 14 & 45696\\
+\bottomrule\end{longtable}}
+{\footnotesize\linespread{1}\selectfont\setlength{\tabcolsep}{4pt}\renewcommand{\arraystretch}{1.08}\begin{longtable}{lrrrrrr}\caption{九项正式运行。轮数为实际记录；所有最佳检查点在前八轮。耗时含训练与预测，显存为最终进程的分配峰值。}\\\toprule 模型 & 种子 & 实际轮数 & 最佳轮 & 验证 MSE & 分钟 & 显存 GiB\\\midrule\endfirsthead\toprule 模型 & 种子 & 实际轮数 & 最佳轮 & 验证 MSE & 分钟 & 显存 GiB\\\midrule\endhead
+GEARS & 1 & 12 & 7 & 0.00162 & 20.1 & 6.1\\
+GEARS & 2 & 10 & 5 & 0.00184 & 17.4 & 6.1\\
+GEARS & 3 & 8 & 5 & 0.00197 & 13.9 & 6.1\\
+scGPT & 1 & 8 & 8 & 0.00132 & 90.9 & 5.3\\
+scGPT & 2 & 8 & 7 & 0.00137 & 94.2 & 5.3\\
+scGPT & 3 & 8 & 6 & 0.00168 & 89.4 & 15.9\\
+scF+GEARS & 1 & 9 & 8 & 0.00202 & 72.5 & 7.8\\
+scF+GEARS & 2 & 8 & 4 & 0.00233 & 60.9 & 7.8\\
+scF+GEARS & 3 & 6 & 1 & 0.00276 & 45.5 & 20.7\\
+\bottomrule\end{longtable}}
+\plate{07_F3_training_curves}{d:training}{所有模型与种子的验证曲线。点标最佳检查点，灰区标示预算变更前已完成的第八轮之后历史；这些额外轮次没有进入最终检查点选择。}{0.43}
+\clearpage\subsection{总体指标与直接靶基因排除}
+{\footnotesize\linespread{1}\selectfont\setlength{\tabcolsep}{4pt}\renewcommand{\arraystretch}{1.08}\begin{longtable}{lllrrrrr}\caption{全部方法的总体指标。SD 为三个划分间的标准差；相关无定义记为 ---。}\\\toprule 直接靶基因 & 读出 & 模型 & MSE & SD & RMSE & $r$ & $\rho$\\\midrule\endfirsthead\toprule 直接靶基因 & 读出 & 模型 & MSE & SD & RMSE & $r$ & $\rho$\\\midrule\endhead
+包含 & Shared & Zero & 0.00304 & 0.00026 & 0.0551 & --- & ---\\
+包含 & Shared & Train mean & 0.00197 & 0.00026 & 0.0443 & 0.596 & 0.398\\
+包含 & Shared & Ridge add. & 0.00197 & 0.00035 & 0.0443 & 0.701 & 0.423\\
+包含 & Shared & GEARS & 0.00221 & 0.00030 & 0.0470 & 0.467 & 0.221\\
+包含 & Shared & scGPT & 0.00203 & 0.00030 & 0.0450 & 0.544 & 0.311\\
+包含 & Shared & scF+GEARS & 0.00275 & 0.00014 & 0.0525 & 0.422 & 0.143\\
+包含 & HVG & Zero & 0.03412 & 0.00247 & 0.1846 & --- & ---\\
+包含 & HVG & Train mean & 0.02051 & 0.00248 & 0.1430 & 0.587 & 0.610\\
+包含 & HVG & Ridge add. & 0.02091 & 0.00353 & 0.1443 & 0.739 & 0.694\\
+包含 & HVG & GEARS & 0.01974 & 0.00245 & 0.1403 & 0.547 & 0.514\\
+包含 & HVG & scGPT & 0.02068 & 0.00304 & 0.1435 & 0.546 & 0.524\\
+包含 & HVG & scF+GEARS & 0.02340 & 0.00123 & 0.1529 & 0.490 & 0.477\\
+排除 & Shared & Zero & 0.00300 & 0.00026 & 0.0548 & --- & ---\\
+排除 & Shared & Train mean & 0.00193 & 0.00026 & 0.0439 & 0.601 & 0.398\\
+排除 & Shared & Ridge add. & 0.00195 & 0.00035 & 0.0440 & 0.698 & 0.423\\
+排除 & Shared & GEARS & 0.00218 & 0.00030 & 0.0466 & 0.470 & 0.221\\
+排除 & Shared & scGPT & 0.00202 & 0.00030 & 0.0449 & 0.534 & 0.311\\
+排除 & Shared & scF+GEARS & 0.00272 & 0.00015 & 0.0521 & 0.424 & 0.143\\
+排除 & HVG & Zero & 0.03404 & 0.00247 & 0.1844 & --- & ---\\
+排除 & HVG & Train mean & 0.02042 & 0.00248 & 0.1427 & 0.588 & 0.610\\
+排除 & HVG & Ridge add. & 0.02089 & 0.00352 & 0.1442 & 0.736 & 0.694\\
+排除 & HVG & GEARS & 0.01965 & 0.00244 & 0.1400 & 0.548 & 0.514\\
+排除 & HVG & scGPT & 0.02067 & 0.00303 & 0.1435 & 0.541 & 0.524\\
+排除 & HVG & scF+GEARS & 0.02331 & 0.00124 & 0.1526 & 0.492 & 0.477\\
+\bottomrule\end{longtable}}
+三次划分不是独立生物重复，SD 描述划分差异。相关系数按有定义的条件汇总。对零变化或全未见组成下的恒定预测，相关系数无定义，但 MSE／RMSE 仍可计算。
+\clearpage\subsection{泛化分层的完整误差与模式相关性}
+{\footnotesize\linespread{1}\selectfont\setlength{\tabcolsep}{4pt}\renewcommand{\arraystretch}{1.08}\begin{longtable}{lllrrrr}\caption{分层评价保留全部方法。Seen0/1/2 按最终训练条件重新核对。}\\\toprule 读出 & 条件组 & 模型 & MSE & RMSE & $r$ & $\rho$\\\midrule\endfirsthead\toprule 读出 & 条件组 & 模型 & MSE & RMSE & $r$ & $\rho$\\\midrule\endhead
+Shared & Single & Zero & 0.00186 & 0.0430 & --- & ---\\
+Shared & Single & Train mean & 0.00126 & 0.0354 & 0.559 & 0.371\\
+Shared & Single & Ridge add. & 0.00186 & 0.0430 & --- & ---\\
+Shared & Single & GEARS & 0.00164 & 0.0404 & 0.334 & 0.168\\
+Shared & Single & scGPT & 0.00151 & 0.0387 & 0.417 & 0.244\\
+Shared & Single & scF+GEARS & 0.00199 & 0.0445 & 0.365 & 0.122\\
+Shared & seen0 & Zero & 0.00377 & 0.0613 & --- & ---\\
+Shared & seen0 & Train mean & 0.00229 & 0.0475 & 0.673 & 0.446\\
+Shared & seen0 & Ridge add. & 0.00377 & 0.0613 & --- & ---\\
+Shared & seen0 & GEARS & 0.00281 & 0.0528 & 0.534 & 0.249\\
+Shared & seen0 & scGPT & 0.00270 & 0.0517 & 0.566 & 0.331\\
+Shared & seen0 & scF+GEARS & 0.00319 & 0.0564 & 0.485 & 0.158\\
+Shared & seen1 & Zero & 0.00336 & 0.0579 & --- & ---\\
+Shared & seen1 & Train mean & 0.00218 & 0.0466 & 0.598 & 0.401\\
+Shared & seen1 & Ridge add. & 0.00176 & 0.0419 & 0.658 & 0.396\\
+Shared & seen1 & GEARS & 0.00232 & 0.0481 & 0.504 & 0.233\\
+Shared & seen1 & scGPT & 0.00214 & 0.0461 & 0.578 & 0.330\\
+Shared & seen1 & scF+GEARS & 0.00299 & 0.0547 & 0.431 & 0.146\\
+Shared & seen2 & Zero & 0.00317 & 0.0562 & --- & ---\\
+Shared & seen2 & Train mean & 0.00202 & 0.0447 & 0.598 & 0.409\\
+Shared & seen2 & Ridge add. & 0.00084 & 0.0288 & 0.848 & 0.511\\
+Shared & seen2 & GEARS & 0.00205 & 0.0448 & 0.525 & 0.257\\
+Shared & seen2 & scGPT & 0.00173 & 0.0415 & 0.659 & 0.358\\
+Shared & seen2 & scF+GEARS & 0.00270 & 0.0518 & 0.434 & 0.166\\
+HVG & Single & Zero & 0.02072 & 0.1435 & --- & ---\\
+HVG & Single & Train mean & 0.01304 & 0.1138 & 0.533 & 0.562\\
+HVG & Single & Ridge add. & 0.02072 & 0.1435 & --- & ---\\
+HVG & Single & GEARS & 0.01539 & 0.1238 & 0.399 & 0.370\\
+HVG & Single & scGPT & 0.01551 & 0.1241 & 0.380 & 0.380\\
+HVG & Single & scF+GEARS & 0.01611 & 0.1267 & 0.429 & 0.429\\
+HVG & seen0 & Zero & 0.04301 & 0.2070 & --- & ---\\
+HVG & seen0 & Train mean & 0.02405 & 0.1543 & 0.675 & 0.690\\
+HVG & seen0 & Ridge add. & 0.04301 & 0.2070 & --- & ---\\
+HVG & seen0 & GEARS & 0.02611 & 0.1607 & 0.627 & 0.597\\
+HVG & seen0 & scGPT & 0.02872 & 0.1689 & 0.567 & 0.565\\
+HVG & seen0 & scF+GEARS & 0.02710 & 0.1645 & 0.565 & 0.540\\
+HVG & seen1 & Zero & 0.03763 & 0.1939 & --- & ---\\
+HVG & seen1 & Train mean & 0.02266 & 0.1503 & 0.589 & 0.612\\
+HVG & seen1 & Ridge add. & 0.01789 & 0.1334 & 0.696 & 0.653\\
+HVG & seen1 & GEARS & 0.02013 & 0.1418 & 0.584 & 0.550\\
+HVG & seen1 & scGPT & 0.02155 & 0.1463 & 0.590 & 0.561\\
+HVG & seen1 & scF+GEARS & 0.02585 & 0.1606 & 0.497 & 0.481\\
+HVG & seen2 & Zero & 0.03524 & 0.1874 & --- & ---\\
+HVG & seen2 & Train mean & 0.02091 & 0.1440 & 0.602 & 0.633\\
+HVG & seen2 & Ridge add. & 0.00687 & 0.0827 & 0.892 & 0.829\\
+HVG & seen2 & GEARS & 0.01735 & 0.1297 & 0.615 & 0.581\\
+HVG & seen2 & scGPT & 0.01647 & 0.1281 & 0.704 & 0.635\\
+HVG & seen2 & scF+GEARS & 0.02268 & 0.1499 & 0.508 & 0.498\\
+\bottomrule\end{longtable}}
+\clearpage\subsection{直接加和的匹配比较与权重来源}
+\plate{07_F4_direct_additive_subset}{d:direct}{直接单扰动加和的可用子集。三个种子分别有 10、16、14 个可匹配组合；全部七种方法在相同条件子集内评价。比值相对直接加和计算，点与误差线保留划分间波动。}{0.43}
+{\footnotesize\linespread{1}\selectfont\setlength{\tabcolsep}{4pt}\renewcommand{\arraystretch}{1.08}\begin{longtable}{llrrrr}\caption{匹配子集完整指标。}\\\toprule 模型 & 读出 & MSE & RMSE & $r$ & $\rho$\\\midrule\endfirsthead\toprule 模型 & 读出 & MSE & RMSE & $r$ & $\rho$\\\midrule\endhead
+Zero & Shared & 0.00317 & 0.0562 & --- & ---\\
+Zero & HVG & 0.03524 & 0.1874 & --- & ---\\
+Train mean & Shared & 0.00202 & 0.0447 & 0.598 & 0.409\\
+Train mean & HVG & 0.02091 & 0.1440 & 0.602 & 0.633\\
+Ridge add. & Shared & 0.00084 & 0.0288 & 0.848 & 0.511\\
+Ridge add. & HVG & 0.00687 & 0.0827 & 0.892 & 0.829\\
+GEARS & Shared & 0.00205 & 0.0448 & 0.525 & 0.257\\
+GEARS & HVG & 0.01735 & 0.1297 & 0.615 & 0.581\\
+scGPT & Shared & 0.00173 & 0.0415 & 0.659 & 0.358\\
+scGPT & HVG & 0.01647 & 0.1281 & 0.704 & 0.635\\
+scF+GEARS & Shared & 0.00270 & 0.0518 & 0.434 & 0.166\\
+scF+GEARS & HVG & 0.02268 & 0.1499 & 0.508 & 0.498\\
+Direct add. & Shared & 0.00109 & 0.0330 & 0.839 & 0.513\\
+Direct add. & HVG & 0.00955 & 0.0976 & 0.884 & 0.824\\
+\bottomrule\end{longtable}}
+{\footnotesize 源码版本：GEARS \texttt{f374e43e197b}；scGPT \texttt{cebd6fae655b}；scFoundation \texttt{397631c495ed}。scGPT 使用官方 blood 通用权重，scFoundation 使用公共镜像固定版本 \texttt{cb434153a1ac}，文件 SHA-256 与该镜像发布标识一致。运行环境为 Python 3.12.13、PyTorch 2.12.0+cu130。预训练数据与 Norman 的样本重叠状态未核实。}\par
+\clearpage\subsection{不同响应幅度的完整代表预测}
+\plate{07_F5_representative_predictions}{d:cases}{种子 1 测试组合中，按真实 HVG 响应均方根选取最大、中位和最小响应条件。每行同一条件，保留 Ridge、GEARS、scGPT 与 scFoundation＋GEARS 全部预测；同一行采用共同坐标范围。该选择覆盖不同信号强度，不依据模型误差筛选。}{0.84}
+\clearpage\subsection{PRDM1 的完整响应及指标}
+\plate{Supp_PRDM1}{d:prdm}{PRDM1 衔接案例的完整方法预测。上排单扰动，下排 CBFA2T3＋PRDM1 组合；每种方法均显示同一套训练 HVG1000。各排共享坐标范围，虚线为一致线。图中使用连续 A–L 标识。}{0.42}
+{\footnotesize\linespread{1}\selectfont\setlength{\tabcolsep}{4pt}\renewcommand{\arraystretch}{1.08}\begin{longtable}{llrrrr}\caption{PRDM1 及其组合的所有方法。种子 1；改进为相对零变化 MSE 降低百分比。}\\\toprule 条件 & 模型 & MSE & $r$ & $\rho$ & 改进\%\\\midrule\endfirsthead\toprule 条件 & 模型 & MSE & $r$ & $\rho$ & 改进\%\\\midrule\endhead
+单扰动 & Zero & 0.04378 & --- & --- & 0.0\\
+单扰动 & Train mean & 0.02107 & 0.801 & 0.784 & 51.9\\
+单扰动 & Ridge add. & 0.04378 & --- & --- & 0.0\\
+单扰动 & GEARS & 0.02046 & 0.821 & 0.699 & 53.3\\
+单扰动 & scGPT & 0.03121 & 0.615 & 0.594 & 28.7\\
+单扰动 & scF+GEARS & 0.01710 & 0.751 & 0.633 & 60.9\\
+组合 & Zero & 0.08208 & --- & --- & 0.0\\
+组合 & Train mean & 0.04351 & 0.885 & 0.878 & 47.0\\
+组合 & Ridge add. & 0.08208 & --- & --- & 0.0\\
+组合 & GEARS & 0.03009 & 0.861 & 0.845 & 63.3\\
+组合 & scGPT & 0.04725 & 0.809 & 0.800 & 42.4\\
+组合 & scF+GEARS & 0.02901 & 0.768 & 0.724 & 64.7\\
+\bottomrule\end{longtable}}
+核心稳定 TF 与 Norman 靶标交集为 EGR1、OSR2、PRDM1、HNF4A、ZBTB25，共八个目标细胞—候选条目。PRDM1 单扰动在种子 1 为未见单扰动，组合为 seen0；在种子 2、3 中，PRDM1 单扰动处于训练集。直接单扰动加和不覆盖这两个种子 1 条件。

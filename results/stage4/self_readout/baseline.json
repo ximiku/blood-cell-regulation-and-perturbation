@@ -1,0 +1,18 @@
+{
+  "id": "self_readout/baseline",
+  "name": "baseline",
+  "kind": "self_readout",
+  "dataset": "raw",
+  "tolerance": 1e-06,
+  "n_train": 11922,
+  "n_validation": 0,
+  "parameters": {},
+  "initialization": "zero",
+  "seconds": 2.042640119907446,
+  "model_path_seconds_excluding_shared_preprocessing": {
+    "Lasso": 1.7164741810411215
+  },
+  "device": 0,
+  "all_converged": true,
+  "completed_utc": "2026-11-07T08:16:42.309129+00:00"
+}

@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "value_abs_difference": 1.4901161193847656e-08,
+  "gradient_max_abs_difference": 1.4551915228366852e-11,
+  "batch_cells": 64
+}

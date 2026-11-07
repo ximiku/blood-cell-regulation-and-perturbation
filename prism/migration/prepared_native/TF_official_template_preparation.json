@@ -1,0 +1,30 @@
+[
+  {
+    "path": "HW2/solution/prism/migration/prepared_native/TF_official_template_1.pzfx",
+    "source_table": "Table0",
+    "native_template": "/Applications/Prism 10.app/Contents/SharedSupport/Portfolio/Graphs with tutorials/Odds ratio (Forest plot).pzt",
+    "native_payload_sha256": "4cd95909000ad199875756625db53b28ad1049f36a9ca59f724a0f2c2d2691ea",
+    "rendered_in_Prism": false
+  },
+  {
+    "path": "HW2/solution/prism/migration/prepared_native/TF_official_template_2.pzfx",
+    "source_table": "Table1",
+    "native_template": "/Applications/Prism 10.app/Contents/SharedSupport/Portfolio/Graphs with tutorials/Odds ratio (Forest plot).pzt",
+    "native_payload_sha256": "4cd95909000ad199875756625db53b28ad1049f36a9ca59f724a0f2c2d2691ea",
+    "rendered_in_Prism": false
+  },
+  {
+    "path": "HW2/solution/prism/migration/prepared_native/TF_official_template_3.pzfx",
+    "source_table": "Table2",
+    "native_template": "/Applications/Prism 10.app/Contents/SharedSupport/Portfolio/Graphs with tutorials/Odds ratio (Forest plot).pzt",
+    "native_payload_sha256": "4cd95909000ad199875756625db53b28ad1049f36a9ca59f724a0f2c2d2691ea",
+    "rendered_in_Prism": false
+  },
+  {
+    "path": "HW2/solution/prism/migration/prepared_native/TF_official_template_4.pzfx",
+    "source_table": "Table3",
+    "native_template": "/Applications/Prism 10.app/Contents/SharedSupport/Portfolio/Graphs with tutorials/Odds ratio (Forest plot).pzt",
+    "native_payload_sha256": "4cd95909000ad199875756625db53b28ad1049f36a9ca59f724a0f2c2d2691ea",
+    "rendered_in_Prism": false
+  }
+]

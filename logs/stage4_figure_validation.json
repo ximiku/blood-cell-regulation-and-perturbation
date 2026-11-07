@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "seconds": 0.08126845800143201,
+  "checks": [
+    {
+      "check": "publication_figure_files",
+      "passed": true,
+      "detail": {
+        "files": 21
+      }
+    }
+  ]
+}

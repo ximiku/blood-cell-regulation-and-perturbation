@@ -1,0 +1,18 @@
+{
+  "completed_utc": "2026-11-07T04:07:57.385935+00:00",
+  "status": "passed",
+  "checks": [
+    "original_input_files_match_saved_hashes",
+    "official_reference_files_match_saved_hashes",
+    "processed_matrix_matches_saved_hash",
+    "matrix_dimensions_unique_labels_finite_values",
+    "response_independently_reconstructed_from_saved_blood",
+    "no_constant_predictors",
+    "TF_and_landmark_masks_match_feature_and_gene_order",
+    "twenty_main_and_one_supplementary_target",
+    "handoff_documents_present_and_readable",
+    "stage_two_has_not_started"
+  ],
+  "training_started": false,
+  "local_data_archive_verified": true
+}

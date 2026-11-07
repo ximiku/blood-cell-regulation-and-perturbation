@@ -1,0 +1,115 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "check": "remote_to_local_path_bytes_sha256",
+      "passed": true,
+      "files": 126,
+      "bytes": 3847328837
+    },
+    {
+      "check": "matrix_dimensions_order_finite",
+      "passed": true
+    },
+    {
+      "check": "shared_gene_indices",
+      "passed": true
+    },
+    {
+      "check": "total_counts_preserved",
+      "passed": true
+    },
+    {
+      "check": "target_gene_coverage",
+      "passed": true
+    },
+    {
+      "check": "seed1_condition_disjoint",
+      "passed": true
+    },
+    {
+      "check": "seed1_training_only_HVG_recomputed",
+      "passed": true
+    },
+    {
+      "check": "seed1_actual_seen_recomputed",
+      "passed": true
+    },
+    {
+      "check": "seed2_condition_disjoint",
+      "passed": true
+    },
+    {
+      "check": "seed2_training_only_HVG_recomputed",
+      "passed": true
+    },
+    {
+      "check": "seed2_actual_seen_recomputed",
+      "passed": true
+    },
+    {
+      "check": "seed3_condition_disjoint",
+      "passed": true
+    },
+    {
+      "check": "seed3_training_only_HVG_recomputed",
+      "passed": true
+    },
+    {
+      "check": "seed3_actual_seen_recomputed",
+      "passed": true
+    },
+    {
+      "check": "control_mean_recomputed",
+      "passed": true
+    },
+    {
+      "check": "pilot_pair_identity_and_training_controls",
+      "passed": true
+    },
+    {
+      "check": "publisher_matrix_pilot_rows_exact",
+      "passed": true
+    },
+    {
+      "check": "GEARS_shared_rows_genes_truth",
+      "passed": true
+    },
+    {
+      "check": "GEARS_finite_predictions_and_real_updates",
+      "passed": true
+    },
+    {
+      "check": "GEARS_checkpoint_readable_zip",
+      "passed": true
+    },
+    {
+      "check": "scGPT_blood_shared_rows_genes_truth",
+      "passed": true
+    },
+    {
+      "check": "scGPT_blood_finite_predictions_and_real_updates",
+      "passed": true
+    },
+    {
+      "check": "scGPT_blood_checkpoint_readable_zip",
+      "passed": true
+    },
+    {
+      "check": "scFoundation_GEARS_shared_rows_genes_truth",
+      "passed": true
+    },
+    {
+      "check": "scFoundation_GEARS_finite_predictions_and_real_updates",
+      "passed": true
+    },
+    {
+      "check": "scFoundation_GEARS_checkpoint_readable_zip",
+      "passed": true
+    }
+  ],
+  "check_count": 26,
+  "review_mode": "self_checks_only_user_requested",
+  "completed_utc": "2026-11-07T10:35:51.749479+00:00",
+  "elapsed_seconds": 24.640336275100708
+}

@@ -1,0 +1,3 @@
+graph 2 36374 18035
+graph 3 37164 18042
+{'passed': True, 'elapsed_seconds': 32.51112127304077, 'dense_cache': '/root/HW2_20261107/cache/stage7/expression_dense.npy', 'dense_cache_role': 'temporary exact dense copy of archived sparse matrix; removable after jobs', 'reference_pool_seed': 20261107, 'reference_pool_size': 64}

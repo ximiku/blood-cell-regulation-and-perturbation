@@ -1,0 +1,5 @@
+target             B cell  erythrocyte  monocyte  plasma cell
+dataset                                                      
+size_matched_01  0.100022     0.489328  0.226420     0.063793
+size_matched_02  0.093246     0.361491  0.191687     0.179434
+size_matched_03  0.137390     0.485096  0.357935     0.246893

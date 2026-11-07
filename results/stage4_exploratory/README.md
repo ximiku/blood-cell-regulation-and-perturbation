@@ -1,0 +1,1 @@
+Initial fixed-penalty resampling initialized from the full-data coefficient vector. Retained as an exploratory computational comparison. Formal candidate frequencies use independent zero-initialized fits in results/stage4/stability.

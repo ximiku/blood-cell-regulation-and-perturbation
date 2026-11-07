@@ -1,0 +1,34 @@
+{
+  "reason": "Align full-training optimizer and learning-rate schedule with pinned upstream GEARS/scFoundation and scGPT tutorial; initial constant-lr implementation superseded before final evaluation",
+  "aborted_runs": [
+    {
+      "gpu": 0,
+      "model": "scFoundation_GEARS",
+      "seed": 1,
+      "pid": 25775,
+      "elapsed_seconds": 480.08868980407715
+    },
+    {
+      "gpu": 1,
+      "model": "scGPT_blood",
+      "seed": 1,
+      "pid": 25776,
+      "elapsed_seconds": 480.0884256362915
+    },
+    {
+      "gpu": 2,
+      "model": "GEARS",
+      "seed": 1,
+      "pid": 25777,
+      "elapsed_seconds": 480.08804726600647
+    },
+    {
+      "gpu": 3,
+      "model": "GEARS",
+      "seed": 2,
+      "pid": 25778,
+      "elapsed_seconds": 480.0878071784973
+    }
+  ],
+  "test_results_used_for_change": false
+}

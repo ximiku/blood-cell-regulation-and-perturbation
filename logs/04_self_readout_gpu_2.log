@@ -1,0 +1,7 @@
+{"event": "job_done", "id": "self_readout/exclude_RORC", "seconds": 2.072800469934009}
+{"event": "job_done", "id": "self_readout/exclude_HOXB5", "seconds": 2.0686293890466914}
+{"event": "job_done", "id": "self_readout/exclude_DDIT3", "seconds": 1.5832454799674451}
+{"event": "job_done", "id": "self_readout/exclude_TP53", "seconds": 1.4351691040210426}
+{"event": "job_done", "id": "self_readout/exclude_IRF3", "seconds": 1.8224531869636849}
+{"event": "job_done", "id": "self_readout/exclude_SATB2", "seconds": 1.4103735170792788}
+{"event": "job_done", "id": "self_readout/exclude_CREB3", "seconds": 1.4475111200008541}

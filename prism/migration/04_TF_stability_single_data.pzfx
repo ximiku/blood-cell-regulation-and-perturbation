@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8'?>
+<GraphPadPrismFile PrismXMLVersion="5.00">
+  <Created>
+    <OriginalVersion CreatedByProgram="HW2 lossless data export" CreatedByVersion="1.0" DateTime="2026-11-07T09:45:57.447517+00:00" />
+  </Created>
+  <TableSequence Selected="1">
+    <Ref ID="Table0" Selected="1" />
+  </TableSequence>
+  <Table ID="Table0" XFormat="none" YFormat="upper-lower-limits" TableType="TwoWay" EVFormat="AsteriskAfterNumber">
+    <Title>B cell</Title>
+    <RowTitlesColumn Width="130">
+      <Subcolumn>
+        <d>ZNF22</d>
+        <d>DLX3</d>
+        <d>RORC</d>
+        <d>ZNF174</d>
+        <d>STAT4</d>
+        <d>ZNF296</d>
+        <d>KLF3</d>
+        <d>HOXB5</d>
+        <d>NFYB</d>
+        <d>ZNF114</d>
+      </Subcolumn>
+    </RowTitlesColumn>
+    <YColumn Width="240" Decimals="8" Subcolumns="3">
+      <Title>Median and 2.5-97.5 percentiles</Title>
+      <Subcolumn>
+        <d>0.067543028284726303</d>
+        <d>0.038919209235356897</d>
+        <d>0.038655497564277101</d>
+        <d>-0.037290982340270701</d>
+        <d>0.036676313497259</d>
+        <d>0.035725898536104098</d>
+        <d>0.033929539413693303</d>
+        <d>-0.032612041376013201</d>
+        <d>-0.031689797022073501</d>
+        <d>0.031514814363356</d>
+      </Subcolumn>
+      <Subcolumn>
+        <d>0.090086559905678806</d>
+        <d>0.066819274630189496</d>
+        <d>0.058847523100682898</d>
+        <d>-0.0186844834219889</d>
+        <d>0.057671905706587499</d>
+        <d>0.058530520220810699</d>
+        <d>0.066663892912569994</d>
+        <d>-0.015001475755495699</d>
+        <d>-0.0096497172876035004</d>
+        <d>0.0522871032765823</d>
+      </Subcolumn>
+      <Subcolumn>
+        <d>0.041288908688756801</d>
+        <d>0.0180219269337803</d>
+        <d>0.020496464497145098</d>
+        <d>-0.050966248181090898</d>
+        <d>0.014934982011127</d>
+        <d>0.0095592487108044008</d>
+        <d>0.0108318190898011</d>
+        <d>-0.048339417313169</d>
+        <d>-0.053156801663799401</d>
+        <d>0.017880241755817899</d>
+      </Subcolumn>
+    </YColumn>
+  </Table>
+</GraphPadPrismFile>

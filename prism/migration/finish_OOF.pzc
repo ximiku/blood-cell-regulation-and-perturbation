@@ -1,0 +1,29 @@
+// Run with the corresponding native graph project active.
+GoTo G, 1
+SetGraphTitle "B cell"
+SetAxisTitle X, "Observed expression difference"
+SetAxisTitle Y, "Predicted expression difference"
+ExportPDF "/path/to/user/Desktop/CourseData/26_fall/Statistical_analysis_of_genomics_data/HW2/solution/figures/05_Prism_OOF_panel1.pdf"
+ExportTIF "/path/to/user/Desktop/CourseData/26_fall/Statistical_analysis_of_genomics_data/HW2/solution/figures/05_Prism_OOF_panel1.tif", 600, RGBhi, LZW
+GoTo G, 2
+SetGraphTitle "Plasma cell"
+SetAxisTitle X, "Observed expression difference"
+SetAxisTitle Y, "Predicted expression difference"
+ExportPDF "/path/to/user/Desktop/CourseData/26_fall/Statistical_analysis_of_genomics_data/HW2/solution/figures/05_Prism_OOF_panel2.pdf"
+ExportTIF "/path/to/user/Desktop/CourseData/26_fall/Statistical_analysis_of_genomics_data/HW2/solution/figures/05_Prism_OOF_panel2.tif", 600, RGBhi, LZW
+GoTo G, 3
+SetGraphTitle "Monocyte"
+SetAxisTitle X, "Observed expression difference"
+SetAxisTitle Y, "Predicted expression difference"
+ExportPDF "/path/to/user/Desktop/CourseData/26_fall/Statistical_analysis_of_genomics_data/HW2/solution/figures/05_Prism_OOF_panel3.pdf"
+ExportTIF "/path/to/user/Desktop/CourseData/26_fall/Statistical_analysis_of_genomics_data/HW2/solution/figures/05_Prism_OOF_panel3.tif", 600, RGBhi, LZW
+GoTo G, 4
+SetGraphTitle "Erythrocyte"
+SetAxisTitle X, "Observed expression difference"
+SetAxisTitle Y, "Predicted expression difference"
+ExportPDF "/path/to/user/Desktop/CourseData/26_fall/Statistical_analysis_of_genomics_data/HW2/solution/figures/05_Prism_OOF_panel4.pdf"
+ExportTIF "/path/to/user/Desktop/CourseData/26_fall/Statistical_analysis_of_genomics_data/HW2/solution/figures/05_Prism_OOF_panel4.tif", 600, RGBhi, LZW
+Save "/path/to/user/Desktop/CourseData/26_fall/Statistical_analysis_of_genomics_data/HW2/solution/prism/migration/native/05_Prism_OOF.pzfx"
+OpenOutput "/path/to/user/Desktop/CourseData/26_fall/Statistical_analysis_of_genomics_data/HW2/solution/prism/migration/OOF_done.txt"
+WText "done"
+CloseOutput

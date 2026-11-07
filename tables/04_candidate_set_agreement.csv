@@ -1,0 +1,13 @@
+﻿target,comparison,n_active_reference,n_active_alternative,n_intersection,active_Jaccard,sign_agreement_in_intersection,coefficient_Spearman,comparison_status
+B cell,raw_ElasticNet,656,656,655,0.9969558599695586,1,0.99886719761903708,active_alternative
+B cell,landmark_Lasso,656,0,0,0,,,no_active_alternative
+B cell,gene_scaled_Lasso,656,540,300,0.33482142857142855,1,0.52725161907281193,active_alternative
+plasma cell,raw_ElasticNet,784,836,760,0.88372093023255816,1,0.95559402470700816,active_alternative
+plasma cell,landmark_Lasso,784,0,0,0,,,no_active_alternative
+plasma cell,gene_scaled_Lasso,784,613,332,0.31173708920187793,0.99698795180722888,0.49845342941818077,active_alternative
+monocyte,raw_ElasticNet,683,730,663,0.88400000000000001,1,0.9538185778619509,active_alternative
+monocyte,landmark_Lasso,683,0,0,0,,,no_active_alternative
+monocyte,gene_scaled_Lasso,683,629,300,0.29644268774703558,0.98999999999999999,0.46883674491649951,active_alternative
+erythrocyte,raw_ElasticNet,593,700,566,0.77854195323246222,1,0.901926952017721,active_alternative
+erythrocyte,landmark_Lasso,593,0,0,0,,,no_active_alternative
+erythrocyte,gene_scaled_Lasso,593,565,193,0.20000000000000001,0.94300518134715028,0.30474989778838529,active_alternative

@@ -1,0 +1,11 @@
+{
+  "context": "full_inner_03",
+  "device": 3,
+  "solver": "float64_adaptive_restart_FISTA",
+  "seconds": 44.25362031394616,
+  "cupy": "14.1.1",
+  "numpy": "2.2.6",
+  "all_converged": true,
+  "max_iterations": 4875,
+  "completed_utc": "2026-11-07T07:13:12.096861+00:00"
+}

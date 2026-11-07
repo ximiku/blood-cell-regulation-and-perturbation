@@ -1,0 +1,37 @@
+{
+  "04_model_metrics.csv": {
+    "rows": 52,
+    "columns": 9
+  },
+  "04_candidate_evidence_matrix.csv": {
+    "rows": 40,
+    "columns": 13
+  },
+  "04_stable_priority_TFs.csv": {
+    "rows": 178,
+    "columns": 33
+  },
+  "04_size_control_metrics.csv": {
+    "rows": 36,
+    "columns": 9
+  },
+  "analysis_matrices.h5": {
+    "X": [
+      11922,
+      2717
+    ],
+    "Y": [
+      11922,
+      21
+    ],
+    "first_gene": "TSPAN6"
+  },
+  "missing_document_links": [],
+  "documents_opened": [
+    "04_multimodel_robustness_report.md",
+    "04_methods.md",
+    "04_figure_captions.md",
+    "04_independent_review.md"
+  ],
+  "passed": true
+}

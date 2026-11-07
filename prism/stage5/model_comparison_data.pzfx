@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<GraphPadPrismFile PrismXMLVersion="5.00">
+  <Created>
+    <OriginalVersion CreatedByProgram="HW2 data export" CreatedByVersion="1.0" DateTime="2026-11-07T16:00:00+08:00" />
+  </Created>
+  <TableSequence Selected="1">
+    <Ref ID="Table0" Selected="1" />
+  </TableSequence>
+  <Table ID="Table0" XFormat="none" YFormat="replicates" Replicates="1" TableType="TwoWay" EVFormat="AsteriskAfterNumber">
+    <Title>Out-of-fold model performance</Title>
+    <RowTitlesColumn Width="130">
+      <Subcolumn>
+        <d>B cell</d>
+        <d>Plasma cell</d>
+        <d>Monocyte</d>
+        <d>Erythrocyte</d>
+      </Subcolumn>
+    </RowTitlesColumn>
+    <YColumn Width="100" Decimals="4" Subcolumns="1">
+      <Title>Lasso</Title>
+      <Subcolumn>
+        <d>0.42709634271481944</d>
+        <d>0.42892492704202079</d>
+        <d>0.48349760822117571</d>
+        <d>0.60927642731098874</d>
+      </Subcolumn>
+    </YColumn>
+    <YColumn Width="100" Decimals="4" Subcolumns="1">
+      <Title>Ridge</Title>
+      <Subcolumn>
+        <d>0.43502078866597538</d>
+        <d>0.44286580976083612</d>
+        <d>0.49581677075721675</d>
+        <d>0.61480577937340997</d>
+      </Subcolumn>
+    </YColumn>
+  </Table>
+</GraphPadPrismFile>

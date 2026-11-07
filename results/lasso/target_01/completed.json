@@ -1,0 +1,37 @@
+{
+  "target_index": 1,
+  "target": "erythrocyte",
+  "completed_utc": "2026-11-07T07:17:10.311550+00:00",
+  "seconds": 3.465907781966962,
+  "timing_scope": "assembly_after_shared_GPU_paths",
+  "metrics": [
+    {
+      "target": "erythrocyte",
+      "model": "Lasso_min",
+      "R2": 0.6092764273109887,
+      "RMSE": 0.24130264307822658,
+      "Pearson": 0.7809119620965804,
+      "Spearman": 0.6952974207300185
+    },
+    {
+      "target": "erythrocyte",
+      "model": "Lasso_1se",
+      "R2": 0.5684917012454883,
+      "RMSE": 0.25358400023942795,
+      "Pearson": 0.7544798865229299,
+      "Spearman": 0.6745451557918218
+    },
+    {
+      "target": "erythrocyte",
+      "model": "Mean_baseline",
+      "R2": -0.0001054567035141396,
+      "RMSE": 0.386055879201422,
+      "Pearson": -0.013693718649374543,
+      "Spearman": -7.677355759601247e-05
+    }
+  ],
+  "n_fits": 960,
+  "n_retried": 0,
+  "all_converged": true,
+  "input_sha256": "37afe6e27bcb80676f6ae2e92bd0ec77d1acd4480f1eabc1100f8cbee18175be"
+}

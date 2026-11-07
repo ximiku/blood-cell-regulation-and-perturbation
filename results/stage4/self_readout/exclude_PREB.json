@@ -1,0 +1,18 @@
+{
+  "id": "self_readout/exclude_PREB",
+  "name": "exclude_PREB",
+  "kind": "self_readout",
+  "dataset": "raw",
+  "tolerance": 1e-06,
+  "n_train": 11921,
+  "n_validation": 0,
+  "parameters": {},
+  "initialization": "zero",
+  "seconds": 1.394403408979997,
+  "model_path_seconds_excluding_shared_preprocessing": {
+    "Lasso": 1.289983337977901
+  },
+  "device": 0,
+  "all_converged": true,
+  "completed_utc": "2026-11-07T08:16:51.405442+00:00"
+}

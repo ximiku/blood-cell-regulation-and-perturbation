@@ -1,0 +1,1 @@
+{'repeat': 6, 'seed': 20268112, 'targets': 4, 'inner_folds': 3, 'all_converged': True, 'initialization': 'zero per inner path and per full selected fit', 'seconds': 129.0182900428772, 'device': 3}

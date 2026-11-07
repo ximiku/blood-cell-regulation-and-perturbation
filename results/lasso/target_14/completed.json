@@ -1,0 +1,37 @@
+{
+  "target_index": 14,
+  "target": "mature NK T cell",
+  "completed_utc": "2026-11-07T07:17:19.559290+00:00",
+  "seconds": 3.111460912041366,
+  "timing_scope": "assembly_after_shared_GPU_paths",
+  "metrics": [
+    {
+      "target": "mature NK T cell",
+      "model": "Lasso_min",
+      "R2": 0.40901496003648186,
+      "RMSE": 0.16566778768773802,
+      "Pearson": 0.6402844022641508,
+      "Spearman": 0.5568971837375947
+    },
+    {
+      "target": "mature NK T cell",
+      "model": "Lasso_1se",
+      "R2": 0.39109204464063474,
+      "RMSE": 0.16816114396898696,
+      "Pearson": 0.6256124512026017,
+      "Spearman": 0.5455806501867648
+    },
+    {
+      "target": "mature NK T cell",
+      "model": "Mean_baseline",
+      "R2": -0.00020785925203381517,
+      "RMSE": 0.21552366339482762,
+      "Pearson": -0.01922428551417187,
+      "Spearman": -0.015993440149667512
+    }
+  ],
+  "n_fits": 960,
+  "n_retried": 0,
+  "all_converged": true,
+  "input_sha256": "37afe6e27bcb80676f6ae2e92bd0ec77d1acd4480f1eabc1100f8cbee18175be"
+}

@@ -1,0 +1,52 @@
+{
+  "source_shape": [
+    84986,
+    19264
+  ],
+  "retained_shape": [
+    84143,
+    19264
+  ],
+  "conditions": 225,
+  "controls": 7275,
+  "perturbation_genes": 100,
+  "missing_GO_genes": [
+    "IER5L"
+  ],
+  "excluded_cells": 843,
+  "common_output_genes": 18977,
+  "foundation_exact_gene_order": true,
+  "expression_scale": "publisher log1p normalized expression; no second normalization",
+  "total_counts": "publisher obs.total_count, preserved separately; appended only for scFoundation adapter",
+  "training_HVG_per_seed": 1000,
+  "splits": [
+    {
+      "seed": 1,
+      "train": 98,
+      "val": 18,
+      "test": 109
+    },
+    {
+      "seed": 2,
+      "train": 104,
+      "val": 28,
+      "test": 93
+    },
+    {
+      "seed": 3,
+      "train": 104,
+      "val": 24,
+      "test": 97
+    }
+  ],
+  "pilot_pairs": 22,
+  "graph_cells": 36985,
+  "coexpression_edges": 17803,
+  "go_edges": 1297,
+  "coexpression_precision": "float64 GPU; top21 absolute Pearson >0.4; train controls+single only",
+  "GO_scope": "custom graph on all declared target genes; shared across GEARS and scFoundation",
+  "official_split_code_sha256": "8091713aa91a8d3a6e07d7cb82535ace0b0e7d98ca1626c7e769d00ef77b8a88",
+  "upstream_all_data_DE_annotations_used": false,
+  "elapsed_seconds": 172.15200281143188,
+  "passed": true
+}

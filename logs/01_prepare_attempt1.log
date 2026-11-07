@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/path/to/user/Desktop/CourseData/26_fall/Statistical_analysis_of_genomics_data/HW2/solution/scripts/prepare_data.py", line 381, in <module>
+    main()
+  File "/path/to/user/Desktop/CourseData/26_fall/Statistical_analysis_of_genomics_data/HW2/solution/scripts/prepare_data.py", line 213, in main
+    assert (model_gene_ann.is_landmark >= 0).all(), "Resolve landmark mapping before freezing inputs"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Resolve landmark mapping before freezing inputs

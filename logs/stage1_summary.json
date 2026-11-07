@@ -1,0 +1,55 @@
+{
+  "blood_raw_shape": [
+    20001,
+    22
+  ],
+  "blood_unique_shape": [
+    19994,
+    22
+  ],
+  "l1000_raw_shape": [
+    12328,
+    2717
+  ],
+  "l1000_unique_shape": [
+    12327,
+    2717
+  ],
+  "shared_gene_count": 11940,
+  "excluded_all_blood_zero_count": 18,
+  "model_X_shape": [
+    11922,
+    2717
+  ],
+  "model_Y_shape": [
+    11922,
+    21
+  ],
+  "landmark_model_gene_count": 965,
+  "gene_reference_mapping_counts": {
+    "exact_original_symbol": 11693,
+    "HGNC_Entrez_ID": 247
+  },
+  "reference_landmark_count": 978,
+  "BING_model_gene_count": 9921,
+  "TF_perturbation_count": 291,
+  "primary_TF_eligible_count": 291,
+  "unique_TF_catalog_coverage": 290,
+  "mutation_label_count": 12,
+  "unresolved_perturbation_count": 320,
+  "supplementary_target_zero_fraction": 0.9400320096028809,
+  "model_matrix_file": "data/processed/analysis_matrices.h5",
+  "model_matrix_bytes": 126357028,
+  "model_matrix_sha256": "37afe6e27bcb80676f6ae2e92bd0ec77d1acd4480f1eabc1100f8cbee18175be",
+  "model_training_started": false,
+  "next_stage": "02_EDA_requires_user_review",
+  "checks": {
+    "finite_values": true,
+    "unique_gene_and_feature_labels": true,
+    "deterministic_alignment": true,
+    "response_equals_target_minus_HSC": true,
+    "TF_mask_matches_predictor_order": true,
+    "landmark_mapping_resolved": true,
+    "HDF5_roundtrip_values_and_labels": true
+  }
+}

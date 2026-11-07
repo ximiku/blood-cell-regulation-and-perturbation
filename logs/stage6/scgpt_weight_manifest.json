@@ -1,0 +1,26 @@
+[
+  {
+    "file": "args.json",
+    "source_url": "https://drive.usercontent.google.com/download?id=1y4UJVflGl-b2qm-fvpxIoQ3XcC2umjj0&export=download&confirm=t",
+    "official_folder": "https://drive.google.com/drive/folders/1kkug5C7NjvXIwQGGaGoqXTk_Lb_pDrBU",
+    "bytes": 902,
+    "sha256": "8db3c600fec669fcba2619dad82810267d1f1490f64b1d2375ca0c814586a936",
+    "download_seconds": 1.3941757678985596
+  },
+  {
+    "file": "vocab.json",
+    "source_url": "https://drive.usercontent.google.com/download?id=127FdcUyY1EM7rQfAS0YI4ms6LwjmnT9J&export=download&confirm=t",
+    "official_folder": "https://drive.google.com/drive/folders/1kkug5C7NjvXIwQGGaGoqXTk_Lb_pDrBU",
+    "bytes": 761427,
+    "sha256": "9b8df99caf1da1d58f0b7c7f871c64b75f2c5fba256d1f18fe14b29c4529e64c",
+    "download_seconds": 2.085855007171631
+  },
+  {
+    "file": "best_model.pt",
+    "source_url": "https://drive.usercontent.google.com/download?id=1MJaavaG0ZZkC_yPO4giGRnuCe3F1zt30&export=download&confirm=t",
+    "official_folder": "https://drive.google.com/drive/folders/1kkug5C7NjvXIwQGGaGoqXTk_Lb_pDrBU",
+    "bytes": 155981354,
+    "sha256": "56e68896b1b4e8c708b695f1a60bb7560e08952ea76842f695109737beaeeb41",
+    "download_seconds": 14.632950067520142
+  }
+]

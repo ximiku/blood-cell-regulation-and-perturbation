@@ -1,0 +1,37 @@
+{
+  "target_index": 8,
+  "target": "CD8-positive, alpha-beta T cell",
+  "completed_utc": "2026-11-07T07:17:16.087826+00:00",
+  "seconds": 3.0488149729790166,
+  "timing_scope": "assembly_after_shared_GPU_paths",
+  "metrics": [
+    {
+      "target": "CD8-positive, alpha-beta T cell",
+      "model": "Lasso_min",
+      "R2": 0.48610758369598395,
+      "RMSE": 0.16301985440332026,
+      "Pearson": 0.6979276751241947,
+      "Spearman": 0.6062000850131536
+    },
+    {
+      "target": "CD8-positive, alpha-beta T cell",
+      "model": "Lasso_1se",
+      "R2": 0.4628084390581265,
+      "RMSE": 0.16667443334920978,
+      "Pearson": 0.6806182780160019,
+      "Spearman": 0.5896947689333912
+    },
+    {
+      "target": "CD8-positive, alpha-beta T cell",
+      "model": "Mean_baseline",
+      "R2": -9.63316041602269e-05,
+      "RMSE": 0.22741825022546042,
+      "Pearson": -0.013087142956836996,
+      "Spearman": -0.010404164869932222
+    }
+  ],
+  "n_fits": 960,
+  "n_retried": 0,
+  "all_converged": true,
+  "input_sha256": "37afe6e27bcb80676f6ae2e92bd0ec77d1acd4480f1eabc1100f8cbee18175be"
+}

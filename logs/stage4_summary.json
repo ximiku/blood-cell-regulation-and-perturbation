@@ -1,0 +1,65 @@
+{
+  "stable_TF_entries": {
+    "B cell": 41,
+    "erythrocyte": 42,
+    "monocyte": 52,
+    "plasma cell": 43
+  },
+  "top10_candidates": {
+    "B cell": [
+      "ZNF22",
+      "DLX3",
+      "RORC",
+      "ZNF174",
+      "STAT4",
+      "ZNF296",
+      "KLF3",
+      "HOXB5",
+      "NFYB",
+      "ZNF114"
+    ],
+    "plasma cell": [
+      "OVOL2",
+      "NCOA3",
+      "ZNF653",
+      "(DDIT3)",
+      "LHX8",
+      "ERF",
+      "CLOCK",
+      "ZNF558",
+      "TFAP2A",
+      "TP53"
+    ],
+    "monocyte": [
+      "PAX8",
+      "KLF6",
+      "TCF7L2",
+      "TFAP2A",
+      "OVOL2",
+      "IRF3",
+      "HIF1A",
+      "PRDM1",
+      "SIM2",
+      "SATB2"
+    ],
+    "erythrocyte": [
+      "MYB",
+      "IRF3",
+      "NFYB",
+      "PREB",
+      "ELK3",
+      "NCOA3",
+      "CREB3",
+      "RARA",
+      "OVOL2",
+      "KLF6"
+    ]
+  },
+  "self_readout_completed": 34,
+  "self_readout_absent": 6,
+  "correlation_group_counts": {
+    "0.7": 2628,
+    "0.8": 2711,
+    "0.9": 2717
+  }
+}
