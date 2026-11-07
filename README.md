@@ -28,7 +28,7 @@
 
 统计分析及 GPU 实验按阶段配置运行；环境版本见 `environment/`，完整流程见下方原始项目说明与 `WORK_LOG.md`。历史脚本中的个人目录和 GPU 接入地址已替换为占位符，需要按自己的环境设置。报告编译不需要 GPU。
 
-普通 Git 仓库提供可浏览成果；`.gitignore` 列出的数据、检查点与缓存均保存在 Release 完整归档中。完整归档按 1 GiB 分卷，下载同一 Release 的所有 `solution.tar.gz.part*`、`SHA256SUMS` 和 `file_manifest.json` 后，在新目录执行：
+普通 Git 仓库提供可浏览成果；`.gitignore` 列出的数据、检查点与缓存均保存在 Release 完整归档中。完整归档按 64 MiB 分卷（初次 1 GiB 上传遇到 HTTP 408 后调整），下载同一 Release 的所有 `solution.tar.gz.part*`、`SHA256SUMS` 和 `file_manifest.json` 后，在新目录执行：
 
 ```bash
 shasum -a 256 -c SHA256SUMS
